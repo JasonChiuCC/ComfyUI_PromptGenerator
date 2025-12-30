@@ -1,0 +1,86 @@
+{
+    "gothic_art": {
+        "composition_types": [
+            "cathedral interior",
+            "pointed arch frame",
+            "stained glass window",
+            "illuminated manuscript",
+            "altarpiece triptych",
+            "devotional panel",
+            "architectural detail",
+            "religious narrative",
+            "courtly scene",
+            "book of hours page",
+            "sculptural relief",
+            "heraldic design",
+            "tapestry composition",
+            "tomb effigy",
+            "rose window centered"
+        ],
+        "subjects": [
+            "religious figure",
+            "cathedral architecture",
+            "stained glass scene",
+            "illuminated text",
+            "devotional image",
+            "courtly romance",
+            "biblical narrative",
+            "martyrdom scene",
+            "royal portrait",
+            "angelic beings"
+        ],
+        "elements": [
+            "pointed arches",
+            "ribbed vaults",
+            "flying buttresses",
+            "rose windows",
+            "trefoil patterns",
+            "gold leaf",
+            "rich ultramarine",
+            "elongated figures",
+            "decorative borders",
+            "intricate tracery"
+        ],
+        "color_palettes": [
+            "deep ultramarine blue",
+            "rich vermillion red",
+            "burnished gold leaf",
+            "royal purple",
+            "emerald green",
+            "ivory and gold",
+            "jewel tones",
+            "stained glass colors",
+            "manuscript pigments",
+            "sacred colors"
+        ],
+        "styles": [
+            "early gothic",
+            "high gothic",
+            "rayonnant style",
+            "flamboyant gothic",
+            "international gothic",
+            "manuscript illumination",
+            "panel painting",
+            "gothic sculpture",
+            "stained glass art",
+            "gothic tapestry"
+        ],
+        "moods": [
+            "spiritual devotion",
+            "divine transcendence",
+            "courtly elegance",
+            "sacred mystery",
+            "heavenly aspiration",
+            "medieval piety",
+            "otherworldly beauty",
+            "symbolic depth",
+            "crafted perfection",
+            "eternal glory"
+        ]
+    }
+}
+
+
+
+
+

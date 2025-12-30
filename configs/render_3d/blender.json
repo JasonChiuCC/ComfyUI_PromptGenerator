@@ -1,0 +1,55 @@
+{
+  "name": "Blender Style",
+  "description": "Blender 3D artistic render style",
+  "subjects": [
+    "stylized character",
+    "nature scene",
+    "cozy interior",
+    "abstract art piece",
+    "creature design",
+    "mechanical object",
+    "fantasy environment",
+    "portrait bust",
+    "game asset",
+    "concept visualization"
+  ],
+  "styles": [
+    "Blender Cycles render",
+    "Blender Eevee style",
+    "artistic 3D render",
+    "stylized Blender",
+    "procedural materials",
+    "geometry nodes style",
+    "NPR Blender render",
+    "Blender grease pencil 3D"
+  ],
+  "environments": [
+    "procedural environment",
+    "stylized background",
+    "simple studio setup",
+    "nature HDRI",
+    "abstract void"
+  ],
+  "lighting": [
+    "Cycles path tracing",
+    "Eevee real-time lighting",
+    "soft natural light",
+    "dramatic contrast",
+    "colorful artistic lighting"
+  ],
+  "composition_types": [
+    "artistic camera angle",
+    "character focus",
+    "environment establishing",
+    "detail close-up",
+    "dynamic perspective"
+  ],
+  "details": [
+    "procedural textures",
+    "sculpted details",
+    "particle hair/fur",
+    "cloth simulation",
+    "modular assets"
+  ]
+}
+

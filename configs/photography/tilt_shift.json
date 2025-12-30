@@ -1,0 +1,53 @@
+{
+  "name": "Tilt Shift",
+  "description": "Tilt-shift miniature effect photography",
+  "subjects": [
+    "city street from above",
+    "train station",
+    "construction site",
+    "beach scene",
+    "sports stadium",
+    "traffic intersection",
+    "harbor boats",
+    "amusement park",
+    "suburban houses",
+    "market square"
+  ],
+  "styles": [
+    "tilt-shift photography",
+    "miniature effect",
+    "fake miniature",
+    "diorama look",
+    "toy town effect",
+    "selective focus blur",
+    "Lensbaby style"
+  ],
+  "lighting": [
+    "bright daylight",
+    "sunny clear day",
+    "overcast soft",
+    "golden hour warm",
+    "artificial night lights"
+  ],
+  "environments": [
+    "urban cityscape",
+    "suburban neighborhood",
+    "industrial area",
+    "transportation hub",
+    "recreational area",
+    "coastal town"
+  ],
+  "composition_types": [
+    "elevated viewpoint",
+    "high angle down",
+    "straight down aerial",
+    "distant overview",
+    "centered focus band",
+    "diagonal focus plane"
+  ]
+}
+
+
+
+
+

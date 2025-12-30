@@ -1,0 +1,86 @@
+{
+    "pencil_sketch": {
+        "composition_types": [
+            "portrait study",
+            "figure drawing",
+            "still life arrangement",
+            "landscape sketch",
+            "architectural study",
+            "gesture capture",
+            "detail close-up",
+            "full scene composition",
+            "character concept",
+            "nature study",
+            "urban sketch",
+            "anatomical study",
+            "perspective exercise",
+            "tonal study",
+            "quick thumbnail"
+        ],
+        "subjects": [
+            "human portrait",
+            "figure pose",
+            "still life objects",
+            "natural landscape",
+            "architectural structure",
+            "animal study",
+            "botanical illustration",
+            "everyday objects",
+            "urban scene",
+            "fantasy character"
+        ],
+        "techniques": [
+            "light hatching",
+            "cross-hatching",
+            "blending with stump",
+            "contour lines",
+            "gesture strokes",
+            "tonal gradation",
+            "negative space drawing",
+            "loose sketching",
+            "precise linework",
+            "smudge shading"
+        ],
+        "pencil_types": [
+            "2B soft pencil",
+            "HB standard pencil",
+            "6B dark pencil",
+            "mechanical pencil",
+            "graphite stick",
+            "colored pencil",
+            "watercolor pencil",
+            "carbon pencil",
+            "ebony pencil",
+            "woodless graphite"
+        ],
+        "paper_textures": [
+            "smooth bristol",
+            "textured watercolor paper",
+            "toned gray paper",
+            "kraft paper",
+            "newsprint",
+            "sketchbook paper",
+            "vellum surface",
+            "cold press paper",
+            "hot press paper",
+            "recycled paper"
+        ],
+        "moods": [
+            "academic study",
+            "spontaneous sketch",
+            "refined detail",
+            "loose expression",
+            "classical approach",
+            "modern interpretation",
+            "observational focus",
+            "imaginative concept",
+            "technical precision",
+            "artistic freedom"
+        ]
+    }
+}
+
+
+
+
+

@@ -1,0 +1,56 @@
+{
+  "name": "Studio Photo",
+  "description": "Professional studio photography",
+  "subjects": [
+    "portrait model",
+    "product on pedestal",
+    "fashion look",
+    "beauty close-up",
+    "corporate headshot",
+    "artistic nude",
+    "jewelry piece",
+    "cosmetic product",
+    "food styling",
+    "still life arrangement"
+  ],
+  "styles": [
+    "studio photography",
+    "professional lighting",
+    "commercial quality",
+    "high-end production",
+    "editorial look",
+    "catalog style",
+    "clean and polished"
+  ],
+  "lighting": [
+    "three-point lighting",
+    "softbox diffusion",
+    "beauty dish",
+    "rim light accent",
+    "butterfly lighting",
+    "Rembrandt lighting",
+    "high key white",
+    "low key dramatic"
+  ],
+  "backgrounds": [
+    "seamless white",
+    "seamless grey",
+    "seamless black",
+    "gradient backdrop",
+    "colored gel background",
+    "textured backdrop"
+  ],
+  "shot_types": [
+    "full body shot",
+    "three-quarter shot",
+    "headshot",
+    "close-up detail",
+    "product hero shot",
+    "lifestyle context"
+  ]
+}
+
+
+
+
+

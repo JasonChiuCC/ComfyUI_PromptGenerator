@@ -1,0 +1,111 @@
+{
+    "stop_motion": {
+        "shot_types": [
+            "full puppet body shot",
+            "miniature set wide shot",
+            "character in environment shot",
+            "detailed close-up shot",
+            "handcrafted world shot",
+            "stop motion action shot",
+            "puppet interaction shot",
+            "atmospheric set piece",
+            "whimsical scene composition",
+            "practical effects shot",
+            "frame-by-frame action",
+            "claymation full shot",
+            "felt character shot",
+            "miniature landscape shot",
+            "behind the scenes angle"
+        ],
+        "characters": [
+            "clay animated character",
+            "puppet figure",
+            "felt creature",
+            "wire armature character",
+            "plasticine figure",
+            "miniature person",
+            "animated toy",
+            "fabric character",
+            "wooden puppet",
+            "handcrafted creature",
+            "articulated figure",
+            "miniature animal",
+            "quirky character",
+            "fantastical being",
+            "whimsical figure"
+        ],
+        "materials": [
+            "clay and plasticine",
+            "felt and fabric",
+            "wire and foam",
+            "paper and cardboard",
+            "wood and metal",
+            "silicone puppet",
+            "mixed media",
+            "polymer clay",
+            "wool and yarn",
+            "recycled materials"
+        ],
+        "textures": [
+            "fingerprint textures in clay",
+            "handmade imperfections",
+            "fabric stitching visible",
+            "craft materials texture",
+            "natural material grain",
+            "puppet joint details",
+            "miniature set textures",
+            "tactile surface quality",
+            "artisanal finish",
+            "hand-sculpted details"
+        ],
+        "sets": [
+            "miniature house set",
+            "handcrafted forest",
+            "tiny city diorama",
+            "tabletop landscape",
+            "paper craft background",
+            "felt world",
+            "wooden village",
+            "craft supply world",
+            "miniature room",
+            "fantastical set piece"
+        ],
+        "lighting": [
+            "practical miniature lighting",
+            "dramatic shadows",
+            "warm puppet show light",
+            "theatrical lighting",
+            "soft diffused light",
+            "colored gel lighting",
+            "natural window light",
+            "moody atmosphere",
+            "spotlight effect",
+            "cozy warm glow"
+        ],
+        "styles": [
+            "Laika Studios style",
+            "Aardman style",
+            "Tim Burton style",
+            "Wes Anderson style",
+            "classic stop motion",
+            "modern stop motion",
+            "claymation",
+            "puppet animation",
+            "mixed media animation",
+            "experimental stop motion"
+        ],
+        "moods": [
+            "whimsical charm",
+            "dark fairy tale",
+            "cozy warmth",
+            "quirky humor",
+            "magical wonder",
+            "nostalgic feeling",
+            "handcrafted beauty",
+            "eerie atmosphere",
+            "playful energy",
+            "artistic expression"
+        ]
+    }
+}
+

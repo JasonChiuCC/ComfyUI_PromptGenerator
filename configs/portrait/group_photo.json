@@ -1,0 +1,69 @@
+{
+  "name": "Group Photo",
+  "description": "Group portrait and team photography",
+  "subjects": [
+    "friend group",
+    "family portrait",
+    "corporate team",
+    "wedding party",
+    "sports team",
+    "celebration group"
+  ],
+  "expressions": [
+    "unified happiness",
+    "genuine smiles",
+    "professional presence",
+    "celebratory joy",
+    "team spirit",
+    "natural interaction"
+  ],
+  "poses": [
+    "tiered arrangement",
+    "casual grouping",
+    "formal lineup",
+    "candid interaction",
+    "creative formation",
+    "dynamic positions"
+  ],
+  "arrangements": [
+    "triangle composition",
+    "staggered heights",
+    "front and back rows",
+    "circular grouping",
+    "natural scatter",
+    "formal alignment"
+  ],
+  "shot_types": [
+    "full group wide",
+    "medium group",
+    "environmental group",
+    "formal portrait",
+    "candid gathering"
+  ],
+  "lighting": [
+    "even group lighting",
+    "outdoor natural",
+    "studio multiple lights",
+    "available ambient",
+    "flash fill outdoor"
+  ],
+  "backgrounds": [
+    "meaningful location",
+    "studio backdrop",
+    "outdoor scenic",
+    "office environment",
+    "event venue"
+  ],
+  "styles": [
+    "group photography",
+    "team portrait",
+    "family photography",
+    "event group shot",
+    "corporate team photo"
+  ]
+}
+
+
+
+
+

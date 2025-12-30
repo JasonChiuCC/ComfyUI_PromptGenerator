@@ -1,0 +1,75 @@
+{
+  "name": "Mythical Beasts",
+  "description": "Legendary creatures from mythology",
+  "subjects": [
+    "griffin",
+    "chimera",
+    "hydra",
+    "cerberus",
+    "basilisk",
+    "manticore",
+    "thunderbird",
+    "kirin qilin",
+    "pegasus",
+    "sphinx",
+    "kraken",
+    "behemoth"
+  ],
+  "poses": [
+    "guarding treasure",
+    "in flight majestic",
+    "battle ready",
+    "resting noble",
+    "attacking fiercely",
+    "emerging dramatically",
+    "standing proud",
+    "hunting prey"
+  ],
+  "expressions": [
+    "fierce guardian",
+    "ancient wisdom",
+    "terrifying presence",
+    "noble majesty",
+    "mysterious power",
+    "primal strength"
+  ],
+  "environments": [
+    "ancient temple",
+    "mythical realm",
+    "mountain peak",
+    "sacred grove",
+    "underworld gates",
+    "stormy sky",
+    "golden palace",
+    "mysterious forest"
+  ],
+  "lighting": [
+    "mystical glow",
+    "dramatic thunder",
+    "golden divine",
+    "eerie supernatural",
+    "ancient torchlight",
+    "celestial light"
+  ],
+  "styles": [
+    "mythological art",
+    "fantasy illustration",
+    "classical style",
+    "epic fantasy",
+    "ancient art inspired",
+    "legendary"
+  ],
+  "shot_types": [
+    "majestic portrait",
+    "full creature",
+    "action battle",
+    "dramatic scene",
+    "mythological tableau",
+    "close-up detail"
+  ]
+}
+
+
+
+
+

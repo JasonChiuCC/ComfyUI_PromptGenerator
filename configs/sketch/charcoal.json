@@ -1,0 +1,86 @@
+{
+    "charcoal": {
+        "composition_types": [
+            "dramatic portrait",
+            "figure study",
+            "expressive landscape",
+            "still life with contrast",
+            "architectural drama",
+            "nude study",
+            "emotional portrait",
+            "tonal composition",
+            "large scale drawing",
+            "intimate close-up",
+            "dynamic pose",
+            "atmospheric scene",
+            "chiaroscuro study",
+            "gestural expression",
+            "abstract forms"
+        ],
+        "subjects": [
+            "expressive portrait",
+            "human figure",
+            "dramatic landscape",
+            "still life arrangement",
+            "architectural detail",
+            "animal form",
+            "abstract shapes",
+            "emotional scene",
+            "classical subject",
+            "contemporary figure"
+        ],
+        "techniques": [
+            "broad strokes",
+            "fine detail",
+            "eraser highlights",
+            "blending",
+            "layered tones",
+            "subtractive drawing",
+            "compressed charcoal",
+            "vine charcoal",
+            "powder application",
+            "fixative layers"
+        ],
+        "charcoal_types": [
+            "vine charcoal",
+            "compressed charcoal",
+            "charcoal pencil",
+            "willow charcoal",
+            "charcoal powder",
+            "white charcoal",
+            "tinted charcoal",
+            "natural charcoal",
+            "synthetic charcoal",
+            "charcoal sticks"
+        ],
+        "effects": [
+            "deep blacks",
+            "rich mid-tones",
+            "soft gradients",
+            "dramatic contrast",
+            "velvety texture",
+            "atmospheric depth",
+            "expressive marks",
+            "smudged edges",
+            "crisp highlights",
+            "dusty finish"
+        ],
+        "moods": [
+            "dramatic intensity",
+            "moody atmosphere",
+            "classical elegance",
+            "raw emotion",
+            "contemplative depth",
+            "bold expression",
+            "subtle nuance",
+            "powerful presence",
+            "intimate study",
+            "artistic gravitas"
+        ]
+    }
+}
+
+
+
+
+

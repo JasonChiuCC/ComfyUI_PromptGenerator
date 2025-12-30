@@ -1,0 +1,86 @@
+{
+    "graphite": {
+        "composition_types": [
+            "photorealistic portrait",
+            "smooth still life",
+            "detailed nature study",
+            "reflective surface",
+            "texture study",
+            "high contrast scene",
+            "subtle gradation",
+            "hyperrealistic object",
+            "portrait close-up",
+            "landscape panorama",
+            "mechanical detail",
+            "organic forms",
+            "fabric folds",
+            "glass transparency",
+            "metal reflection"
+        ],
+        "subjects": [
+            "realistic portrait",
+            "reflective objects",
+            "natural textures",
+            "everyday items",
+            "human eye detail",
+            "animal fur",
+            "water droplets",
+            "glass objects",
+            "metal surfaces",
+            "fabric textures"
+        ],
+        "techniques": [
+            "smooth blending",
+            "burnishing",
+            "layered values",
+            "pressure control",
+            "circular strokes",
+            "directional shading",
+            "eraser techniques",
+            "gradual building",
+            "highlight preservation",
+            "edge control"
+        ],
+        "graphite_grades": [
+            "9H extra hard",
+            "HB medium",
+            "2B soft",
+            "6B very soft",
+            "9B extra soft",
+            "F fine point",
+            "graphite powder",
+            "graphite stick",
+            "mechanical lead",
+            "woodless graphite"
+        ],
+        "finishes": [
+            "matte smooth",
+            "silvery sheen",
+            "velvety dark",
+            "subtle texture",
+            "glass-like polish",
+            "natural grain",
+            "soft blur",
+            "sharp detail",
+            "atmospheric haze",
+            "crisp clarity"
+        ],
+        "moods": [
+            "photorealistic precision",
+            "subtle elegance",
+            "silvery beauty",
+            "patient craftsmanship",
+            "quiet contemplation",
+            "technical mastery",
+            "refined detail",
+            "smooth sophistication",
+            "timeless quality",
+            "meditative focus"
+        ]
+    }
+}
+
+
+
+
+

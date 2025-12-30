@@ -1,0 +1,73 @@
+{
+  "name": "Pets",
+  "description": "Adorable pet photography of various animals",
+  "subjects": [
+    "fluffy bunny rabbit",
+    "cute hamster",
+    "guinea pig",
+    "parakeet bird",
+    "goldfish in bowl",
+    "ferret",
+    "chinchilla",
+    "turtle",
+    "parrot on shoulder",
+    "hedgehog",
+    "sugar glider",
+    "pet mouse"
+  ],
+  "poses": [
+    "being held lovingly",
+    "playing with toy",
+    "eating treats",
+    "exploring curious",
+    "sleeping cozy",
+    "running on wheel",
+    "sitting in cage",
+    "outdoor adventure"
+  ],
+  "expressions": [
+    "cute and adorable",
+    "curious explorer",
+    "happy and content",
+    "sleepy peaceful",
+    "alert and interested",
+    "playful energy"
+  ],
+  "environments": [
+    "cozy home setting",
+    "pet cage setup",
+    "garden outdoor",
+    "studio backdrop",
+    "living room",
+    "natural habitat recreation"
+  ],
+  "lighting": [
+    "soft natural light",
+    "warm indoor",
+    "studio professional",
+    "window light",
+    "gentle diffused",
+    "warm golden"
+  ],
+  "styles": [
+    "pet photography",
+    "cute portrait",
+    "lifestyle",
+    "professional studio",
+    "candid moment",
+    "artistic"
+  ],
+  "shot_types": [
+    "adorable close-up",
+    "full body cute",
+    "interaction moment",
+    "environmental",
+    "macro detail",
+    "candid play"
+  ]
+}
+
+
+
+
+

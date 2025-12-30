@@ -1,0 +1,86 @@
+{
+    "pastel": {
+        "composition_types": [
+            "soft portrait",
+            "landscape scene",
+            "still life",
+            "figure study",
+            "floral arrangement",
+            "atmospheric sky",
+            "impressionist scene",
+            "animal portrait",
+            "seascape",
+            "garden view",
+            "interior scene",
+            "nude study",
+            "urban scene",
+            "abstract color",
+            "romantic scene"
+        ],
+        "subjects": [
+            "gentle portrait",
+            "soft landscape",
+            "flower bouquet",
+            "peaceful scene",
+            "dreamy figure",
+            "animal study",
+            "coastal view",
+            "garden path",
+            "atmospheric sky",
+            "intimate moment"
+        ],
+        "techniques": [
+            "soft blending",
+            "layered strokes",
+            "hatching",
+            "scumbling",
+            "feathering",
+            "burnishing",
+            "underpainting",
+            "fixative layers",
+            "edge softening",
+            "color vibration"
+        ],
+        "pastel_types": [
+            "soft pastels",
+            "hard pastels",
+            "pastel pencils",
+            "oil pastels",
+            "pan pastels",
+            "pastel sticks",
+            "handmade pastels",
+            "artist grade",
+            "student quality",
+            "specialty colors"
+        ],
+        "paper_surfaces": [
+            "sanded paper",
+            "velour paper",
+            "pastel card",
+            "toned paper",
+            "textured surface",
+            "smooth finish",
+            "pumice surface",
+            "watercolor paper",
+            "museum board",
+            "prepared canvas"
+        ],
+        "moods": [
+            "soft romance",
+            "dreamy atmosphere",
+            "gentle beauty",
+            "luminous glow",
+            "intimate warmth",
+            "delicate charm",
+            "impressionistic light",
+            "velvety richness",
+            "subtle elegance",
+            "artistic refinement"
+        ]
+    }
+}
+
+
+
+
+

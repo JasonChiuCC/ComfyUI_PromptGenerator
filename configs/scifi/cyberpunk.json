@@ -1,0 +1,61 @@
+{
+  "name": "Cyberpunk",
+  "description": "High-tech low-life dystopian future",
+  "subjects": [
+    "cyberpunk street samurai",
+    "netrunner hacker",
+    "corporate mercenary",
+    "augmented human",
+    "android assassin",
+    "street kid with implants",
+    "cyborg bounty hunter",
+    "neon-lit motorcycle rider"
+  ],
+  "environments": [
+    "neon-lit megacity streets",
+    "rain-soaked alleyway",
+    "holographic advertisement district",
+    "underground hacker den",
+    "corporate tower rooftop",
+    "cyberpunk nightclub",
+    "black market bazaar",
+    "dystopian slums"
+  ],
+  "lighting": [
+    "neon pink and blue",
+    "rain-reflected neon",
+    "holographic glow",
+    "harsh fluorescent",
+    "dramatic noir lighting",
+    "LED ambient"
+  ],
+  "styles": [
+    "cyberpunk aesthetic",
+    "Blade Runner inspired",
+    "Ghost in the Shell style",
+    "neo-noir",
+    "high tech dystopia",
+    "cyber noir"
+  ],
+  "effects": [
+    "rain and neon reflections",
+    "holographic displays",
+    "digital glitches",
+    "lens flares",
+    "smoke and haze",
+    "chromatic aberration"
+  ],
+  "composition_types": [
+    "street level perspective",
+    "rooftop cityscape",
+    "close-up with city backdrop",
+    "action shot",
+    "moody portrait",
+    "wide establishing shot"
+  ]
+}
+
+
+
+
+

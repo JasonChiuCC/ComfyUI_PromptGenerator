@@ -1,0 +1,86 @@
+{
+    "blueprint": {
+        "composition_types": [
+            "architectural floor plan",
+            "mechanical schematic",
+            "engineering diagram",
+            "cross-section view",
+            "elevation drawing",
+            "isometric projection",
+            "exploded view",
+            "assembly diagram",
+            "circuit layout",
+            "site plan",
+            "detail callout",
+            "perspective overlay",
+            "structural diagram",
+            "system schematic",
+            "technical specification"
+        ],
+        "subjects": [
+            "building floor plan",
+            "machine component",
+            "vehicle design",
+            "electronic circuit",
+            "architectural facade",
+            "mechanical system",
+            "furniture design",
+            "ship blueprint",
+            "aircraft schematic",
+            "robot design"
+        ],
+        "elements": [
+            "dimension lines",
+            "annotation text",
+            "section markers",
+            "scale indicators",
+            "grid lines",
+            "center lines",
+            "hidden lines",
+            "break lines",
+            "leader arrows",
+            "revision clouds"
+        ],
+        "styles": [
+            "traditional cyanotype",
+            "modern CAD style",
+            "vintage engineering",
+            "clean technical",
+            "detailed specification",
+            "simplified diagram",
+            "presentation quality",
+            "working drawing",
+            "concept sketch",
+            "final production"
+        ],
+        "color_schemes": [
+            "classic blue on white",
+            "white on blue",
+            "black line drawing",
+            "sepia technical",
+            "modern grayscale",
+            "colored highlights",
+            "cyan blueprint",
+            "inverted negative",
+            "faded vintage",
+            "crisp digital"
+        ],
+        "moods": [
+            "technical precision",
+            "engineering excellence",
+            "industrial beauty",
+            "systematic order",
+            "professional clarity",
+            "vintage nostalgia",
+            "futuristic design",
+            "mechanical poetry",
+            "functional elegance",
+            "scientific accuracy"
+        ]
+    }
+}
+
+
+
+
+

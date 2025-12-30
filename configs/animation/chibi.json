@@ -1,0 +1,116 @@
+{
+    "chibi": {
+        "shot_types": [
+            "full chibi body shot",
+            "cute character lineup",
+            "chibi action pose",
+            "adorable group shot",
+            "kawaii scene composition",
+            "sticker-style shot",
+            "emoji reaction shot",
+            "chibi adventure shot",
+            "cute mascot shot",
+            "super deformed full body",
+            "chibi duo interaction",
+            "merchandise-style shot",
+            "gacha character shot",
+            "icon-style composition",
+            "cute pattern arrangement"
+        ],
+        "characters": [
+            "chibi girl",
+            "chibi boy",
+            "chibi warrior",
+            "chibi mascot",
+            "chibi animal",
+            "chibi magical girl",
+            "chibi hero",
+            "chibi villain",
+            "chibi couple",
+            "chibi idol",
+            "chibi ninja",
+            "chibi maid",
+            "chibi knight",
+            "chibi witch",
+            "chibi angel"
+        ],
+        "proportions": [
+            "2 head tall",
+            "3 head tall",
+            "super deformed",
+            "nendoroid style",
+            "funko pop style",
+            "big head small body",
+            "cute proportions",
+            "baby-like features",
+            "round body shape",
+            "simplified anatomy"
+        ],
+        "expressions": [
+            "kawaii smile",
+            "sparkly eyes",
+            "happy blush",
+            "cute pout",
+            "excited expression",
+            "sleepy face",
+            "surprised look",
+            "determined chibi face",
+            "crying chibi",
+            "angry puff cheeks",
+            "heart eyes",
+            "star eyes",
+            "teary eyes",
+            "mischievous grin",
+            "peaceful smile"
+        ],
+        "poses": [
+            "peace sign pose",
+            "cute sitting",
+            "jumping happily",
+            "waving hello",
+            "hugging pose",
+            "running cutely",
+            "sleeping curled",
+            "dancing pose",
+            "action chibi pose",
+            "shy hiding pose"
+        ],
+        "accessories": [
+            "oversized weapon",
+            "cute pet companion",
+            "magical staff",
+            "tiny wings",
+            "big ribbon",
+            "plushie friend",
+            "food item",
+            "heart symbols",
+            "star decorations",
+            "flower crown"
+        ],
+        "backgrounds": [
+            "pastel gradient",
+            "heart pattern",
+            "star pattern",
+            "simple color block",
+            "cute doodles",
+            "sparkle background",
+            "rainbow colors",
+            "cloud pattern",
+            "polka dots",
+            "transparent background"
+        ],
+        "color_palettes": [
+            "pastel colors",
+            "bright kawaii colors",
+            "soft pink theme",
+            "blue and white",
+            "rainbow palette",
+            "warm cute colors",
+            "cool cute colors",
+            "monochrome cute",
+            "candy colors",
+            "dreamy colors"
+        ]
+    }
+}
+

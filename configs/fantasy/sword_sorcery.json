@@ -1,0 +1,61 @@
+{
+  "name": "Sword and Sorcery",
+  "description": "Action-focused fantasy with warriors and magic",
+  "subjects": [
+    "barbarian warrior",
+    "sorcerer supreme",
+    "amazon warrior",
+    "battle mage",
+    "gladiator champion",
+    "wandering swordsman",
+    "evil sorcerer",
+    "beast master"
+  ],
+  "environments": [
+    "ancient ruins",
+    "jungle temple",
+    "desert pyramid",
+    "frozen wasteland",
+    "volcanic fortress",
+    "tribal village",
+    "monster lair",
+    "arena combat"
+  ],
+  "lighting": [
+    "dramatic action",
+    "magical fire",
+    "torch-lit adventure",
+    "sunset battle",
+    "mystical glow",
+    "intense combat"
+  ],
+  "styles": [
+    "sword and sorcery art",
+    "Conan inspired",
+    "pulp fantasy",
+    "action fantasy",
+    "adventure illustration",
+    "heroic barbarian"
+  ],
+  "effects": [
+    "magical sword glow",
+    "spell blasts",
+    "monster blood",
+    "battle fury",
+    "ancient magic",
+    "primal power"
+  ],
+  "shot_types": [
+    "action pose",
+    "combat scene",
+    "heroic portrait",
+    "dynamic angle",
+    "monster confrontation",
+    "victory moment"
+  ]
+}
+
+
+
+
+

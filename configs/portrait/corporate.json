@@ -1,0 +1,69 @@
+{
+  "name": "Corporate Headshot",
+  "description": "Professional business portrait photography",
+  "subjects": [
+    "business professional",
+    "corporate executive",
+    "entrepreneur",
+    "team member",
+    "CEO portrait",
+    "professional leader"
+  ],
+  "expressions": [
+    "confident smile",
+    "approachable warmth",
+    "professional demeanor",
+    "trustworthy look",
+    "friendly competence",
+    "executive presence"
+  ],
+  "poses": [
+    "professional stance",
+    "arms crossed confident",
+    "hands clasped professional",
+    "slight angle",
+    "straight on approachable",
+    "relaxed professional"
+  ],
+  "outfits": [
+    "business suit",
+    "professional attire",
+    "smart casual",
+    "executive wear",
+    "corporate dress code",
+    "polished business look"
+  ],
+  "shot_types": [
+    "professional headshot",
+    "LinkedIn profile",
+    "website about photo",
+    "team page portrait",
+    "business card image"
+  ],
+  "lighting": [
+    "clean professional lighting",
+    "soft flattering light",
+    "even illumination",
+    "subtle shadows",
+    "corporate studio light"
+  ],
+  "backgrounds": [
+    "neutral grey",
+    "white seamless",
+    "office environment",
+    "professional backdrop",
+    "corporate blue"
+  ],
+  "styles": [
+    "corporate photography",
+    "professional headshot",
+    "business portrait",
+    "executive photography",
+    "LinkedIn professional"
+  ]
+}
+
+
+
+
+

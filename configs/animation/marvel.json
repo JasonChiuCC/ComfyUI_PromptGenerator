@@ -1,0 +1,111 @@
+{
+    "marvel": {
+        "shot_types": [
+            "full body hero pose",
+            "epic action splash page",
+            "dramatic cover art shot",
+            "team assembly shot",
+            "mid-battle action shot",
+            "heroic low angle shot",
+            "villain confrontation",
+            "power demonstration shot",
+            "city skyline patrol shot",
+            "dramatic silhouette shot",
+            "comic panel composition",
+            "flying hero shot",
+            "battle damage shot",
+            "origin story moment",
+            "triumphant victory pose"
+        ],
+        "hero_types": [
+            "armored avenger",
+            "super soldier",
+            "web-slinging hero",
+            "thunder god",
+            "incredible monster",
+            "mutant hero",
+            "cosmic guardian",
+            "sorcerer supreme",
+            "king of the seas",
+            "shield agent",
+            "street level hero",
+            "powered individual",
+            "gamma hero",
+            "tech genius hero",
+            "mystic warrior"
+        ],
+        "powers": [
+            "super strength",
+            "energy projection",
+            "flight ability",
+            "enhanced reflexes",
+            "elemental control",
+            "psychic powers",
+            "tech-based abilities",
+            "magical powers",
+            "cosmic energy",
+            "adamantium claws"
+        ],
+        "poses": [
+            "iconic hero pose",
+            "team assembly",
+            "action attack",
+            "dramatic landing",
+            "power activation",
+            "battle stance",
+            "flying pose",
+            "shield throw",
+            "web swing",
+            "hammer raise"
+        ],
+        "locations": [
+            "New York City",
+            "Avengers Tower",
+            "S.H.I.E.L.D. Helicarrier",
+            "Xavier's School",
+            "Wakanda",
+            "Asgard",
+            "space battlefield",
+            "Hell's Kitchen",
+            "Sanctum Sanctorum",
+            "destroyed city"
+        ],
+        "effects": [
+            "energy blast",
+            "shield effects",
+            "lightning strike",
+            "web effects",
+            "cosmic energy",
+            "explosion",
+            "portal magic",
+            "power aura",
+            "impact effects",
+            "transformation"
+        ],
+        "art_styles": [
+            "classic Marvel style",
+            "modern Marvel",
+            "Ultimate style",
+            "MCU inspired",
+            "Jim Lee style",
+            "Jack Kirby inspired",
+            "Alex Ross painted",
+            "animated style",
+            "gritty realistic",
+            "dynamic action style"
+        ],
+        "moods": [
+            "epic heroic",
+            "dramatic action",
+            "team assembly",
+            "final battle",
+            "origin story",
+            "street level grit",
+            "cosmic adventure",
+            "dark and serious",
+            "heroic triumph",
+            "intense confrontation"
+        ]
+    }
+}
+

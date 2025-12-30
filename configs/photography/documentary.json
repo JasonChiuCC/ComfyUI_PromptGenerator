@@ -1,0 +1,55 @@
+{
+  "name": "Documentary",
+  "description": "Documentary and photojournalistic style",
+  "subjects": [
+    "working hands",
+    "elderly portrait",
+    "community gathering",
+    "craftsman at work",
+    "rural life scene",
+    "protest march",
+    "refugee moment",
+    "cultural ceremony",
+    "daily routine",
+    "environmental portrait"
+  ],
+  "styles": [
+    "documentary photography",
+    "photojournalism",
+    "social documentary",
+    "raw authenticity",
+    "unposed moment",
+    "Sebastião Salgado style",
+    "Steve McCurry aesthetic"
+  ],
+  "lighting": [
+    "natural available light",
+    "harsh reality lighting",
+    "window light",
+    "mixed ambient",
+    "low light conditions",
+    "dramatic natural"
+  ],
+  "environments": [
+    "rural village",
+    "urban poverty",
+    "workplace",
+    "home interior",
+    "street scene",
+    "public gathering"
+  ],
+  "shot_types": [
+    "environmental portrait",
+    "candid moment",
+    "wide establishing",
+    "intimate close-up",
+    "action sequence",
+    "detail shot",
+    "storytelling series"
+  ]
+}
+
+
+
+
+

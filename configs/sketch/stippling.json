@@ -1,0 +1,86 @@
+{
+    "stippling": {
+        "composition_types": [
+            "detailed portrait",
+            "botanical illustration",
+            "scientific diagram",
+            "pointillist landscape",
+            "texture study",
+            "animal illustration",
+            "abstract pattern",
+            "medical illustration",
+            "nature detail",
+            "architectural rendering",
+            "fantasy creature",
+            "decorative design",
+            "editorial illustration",
+            "book illustration",
+            "tattoo design"
+        ],
+        "subjects": [
+            "realistic portrait",
+            "natural specimen",
+            "organic texture",
+            "animal detail",
+            "botanical study",
+            "insect illustration",
+            "landscape element",
+            "abstract form",
+            "decorative pattern",
+            "fantasy design"
+        ],
+        "techniques": [
+            "uniform dots",
+            "varied density",
+            "size gradation",
+            "clustered dots",
+            "scattered pattern",
+            "gradient shading",
+            "contour following",
+            "random placement",
+            "systematic grid",
+            "organic distribution"
+        ],
+        "density_levels": [
+            "sparse highlight",
+            "light mid-tone",
+            "medium density",
+            "heavy shadow",
+            "solid dark",
+            "gradient transition",
+            "textured variation",
+            "smooth blend",
+            "sharp contrast",
+            "subtle nuance"
+        ],
+        "tools": [
+            "fine point pen",
+            "technical pen",
+            "micron pen",
+            "rapidograph",
+            "felt tip fine",
+            "brush pen tip",
+            "digital stylus",
+            "rotring pen",
+            "disposable fine liner",
+            "archival ink pen"
+        ],
+        "moods": [
+            "meditative patience",
+            "precise dedication",
+            "scientific accuracy",
+            "artistic meditation",
+            "detailed obsession",
+            "quiet contemplation",
+            "systematic beauty",
+            "organic complexity",
+            "textural richness",
+            "pointillist poetry"
+        ]
+    }
+}
+
+
+
+
+

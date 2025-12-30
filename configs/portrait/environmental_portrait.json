@@ -1,0 +1,64 @@
+{
+  "name": "Environmental Portrait",
+  "description": "Portrait photography that incorporates meaningful surroundings",
+  "subjects": [
+    "craftsman in workshop",
+    "artist in studio",
+    "chef in kitchen",
+    "musician with instrument",
+    "farmer in field",
+    "writer at desk",
+    "scientist in lab"
+  ],
+  "expressions": [
+    "focused concentration",
+    "pride in work",
+    "natural candid",
+    "genuine warmth",
+    "professional confidence",
+    "passionate engagement"
+  ],
+  "poses": [
+    "natural working pose",
+    "engaged with environment",
+    "relaxed in space",
+    "interacting with objects",
+    "contextual position",
+    "authentic stance"
+  ],
+  "environments": [
+    "personal workspace",
+    "professional setting",
+    "meaningful location",
+    "home environment",
+    "outdoor context",
+    "cultural space"
+  ],
+  "shot_types": [
+    "wide environmental",
+    "medium shot with context",
+    "three-quarter with background",
+    "full body in space",
+    "layered composition"
+  ],
+  "lighting": [
+    "natural ambient",
+    "available light",
+    "mixed light sources",
+    "window light",
+    "practical lighting",
+    "environmental lighting"
+  ],
+  "styles": [
+    "environmental portrait",
+    "contextual photography",
+    "documentary portrait",
+    "narrative portrait",
+    "storytelling image"
+  ]
+}
+
+
+
+
+

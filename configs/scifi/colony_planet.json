@@ -1,0 +1,61 @@
+{
+  "name": "Colony Planet",
+  "description": "Human settlements on other worlds",
+  "subjects": [
+    "pioneer colonist",
+    "terraforming engineer",
+    "dome city",
+    "frontier settlement",
+    "colonial marine",
+    "first generation native",
+    "mining colony worker",
+    "agricultural dome"
+  ],
+  "environments": [
+    "Mars colony",
+    "biodome habitat",
+    "terraformed landscape",
+    "underground city",
+    "frontier outpost",
+    "mining settlement",
+    "agricultural zone",
+    "spaceport town"
+  ],
+  "lighting": [
+    "dome-filtered light",
+    "artificial sun",
+    "Martian sunset",
+    "habitat lighting",
+    "terraformed sky",
+    "alien star light"
+  ],
+  "styles": [
+    "colonization sci-fi",
+    "frontier future",
+    "terraforming concept",
+    "space western",
+    "pioneer aesthetic",
+    "survival sci-fi"
+  ],
+  "effects": [
+    "atmospheric processors",
+    "dust storms",
+    "dome reflections",
+    "terraforming progress",
+    "life support systems",
+    "communication arrays"
+  ],
+  "composition_types": [
+    "colony overview",
+    "daily life scene",
+    "construction progress",
+    "frontier landscape",
+    "interior habitat",
+    "first contact"
+  ]
+}
+
+
+
+
+

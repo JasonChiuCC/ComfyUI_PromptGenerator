@@ -1,0 +1,59 @@
+{
+  "name": "Cinematic",
+  "description": "Cinematic film-like photography style",
+  "subjects": [
+    "dramatic portrait",
+    "urban landscape",
+    "silhouetted figure",
+    "moody interior",
+    "car on highway",
+    "person in rain",
+    "mysterious stranger",
+    "abandoned location",
+    "cityscape at night",
+    "lone traveler"
+  ],
+  "styles": [
+    "cinematic photography",
+    "movie still",
+    "film screenshot",
+    "anamorphic lens",
+    "widescreen composition",
+    "Hollywood cinematography",
+    "Deakins lighting",
+    "Villeneuve aesthetic"
+  ],
+  "lighting": [
+    "dramatic chiaroscuro",
+    "volumetric light rays",
+    "neon lighting",
+    "practical lights",
+    "backlit silhouette",
+    "moody low-key",
+    "atmospheric haze",
+    "rim lighting"
+  ],
+  "color_grades": [
+    "teal and orange",
+    "desaturated cold",
+    "warm vintage",
+    "high contrast",
+    "bleach bypass",
+    "noir shadows"
+  ],
+  "shot_types": [
+    "wide establishing shot",
+    "medium shot",
+    "close-up",
+    "extreme close-up",
+    "over-the-shoulder",
+    "low angle hero shot",
+    "Dutch angle",
+    "tracking shot perspective"
+  ]
+}
+
+
+
+
+

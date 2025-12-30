@@ -1,0 +1,67 @@
+{
+  "name": "Beauty",
+  "description": "Beauty and cosmetic focused portrait photography",
+  "subjects": [
+    "beauty model",
+    "cosmetic model",
+    "skincare subject",
+    "makeup model",
+    "flawless beauty",
+    "radiant subject"
+  ],
+  "expressions": [
+    "serene beauty",
+    "soft gaze",
+    "confident smile",
+    "pouty lips",
+    "eyes closed peaceful",
+    "glamorous look"
+  ],
+  "poses": [
+    "face tilted slightly",
+    "hand near face",
+    "chin up graceful",
+    "profile beauty",
+    "symmetrical front",
+    "gentle head tilt"
+  ],
+  "makeup_styles": [
+    "natural glam",
+    "bold editorial makeup",
+    "soft romantic makeup",
+    "high fashion makeup",
+    "avant-garde cosmetics",
+    "clean beauty look"
+  ],
+  "shot_types": [
+    "beauty close-up",
+    "face detail",
+    "lips close-up",
+    "eyes beauty shot",
+    "skin texture detail",
+    "three-quarter beauty"
+  ],
+  "lighting": [
+    "beauty dish lighting",
+    "ring light frontal",
+    "soft butterfly light",
+    "clamshell lighting",
+    "high key beauty",
+    "soft diffused wrap"
+  ],
+  "backgrounds": [
+    "clean white",
+    "soft gradient",
+    "beauty pink",
+    "neutral grey",
+    "complementary color"
+  ],
+  "styles": [
+    "beauty photography",
+    "cosmetic advertising",
+    "skincare editorial",
+    "makeup artistry",
+    "luxury beauty"
+  ]
+}
+

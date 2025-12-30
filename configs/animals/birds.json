@@ -1,0 +1,75 @@
+{
+  "name": "Birds",
+  "description": "Beautiful bird photography and art",
+  "subjects": [
+    "majestic eagle",
+    "colorful parrot",
+    "elegant swan",
+    "wise owl",
+    "hummingbird",
+    "peacock displaying",
+    "flamingo",
+    "cardinal",
+    "blue jay",
+    "hawk in flight",
+    "kingfisher",
+    "toucan"
+  ],
+  "poses": [
+    "soaring in flight",
+    "perched on branch",
+    "spreading wings",
+    "diving for prey",
+    "feeding young",
+    "displaying feathers",
+    "landing gracefully",
+    "singing beautifully"
+  ],
+  "expressions": [
+    "fierce predator eyes",
+    "gentle songbird",
+    "majestic and proud",
+    "curious head tilt",
+    "alert and watchful",
+    "peaceful resting"
+  ],
+  "environments": [
+    "blue sky flight",
+    "forest canopy",
+    "wetland marsh",
+    "flower garden",
+    "rocky cliff",
+    "tropical jungle",
+    "mountain peak",
+    "lake shore"
+  ],
+  "lighting": [
+    "bright daylight",
+    "golden sunrise",
+    "soft overcast",
+    "backlit wings",
+    "dramatic sunset",
+    "studio lighting"
+  ],
+  "styles": [
+    "bird photography",
+    "wildlife art",
+    "nature documentary",
+    "artistic portrait",
+    "action photography",
+    "fine art"
+  ],
+  "shot_types": [
+    "flight action",
+    "perched portrait",
+    "close-up detail",
+    "environmental scene",
+    "wing spread",
+    "behavioral moment"
+  ]
+}
+
+
+
+
+

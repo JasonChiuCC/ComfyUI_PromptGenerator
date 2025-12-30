@@ -1,0 +1,71 @@
+{
+  "name": "Fox",
+  "description": "Beautiful fox artwork and photography",
+  "subjects": [
+    "red fox",
+    "arctic fox",
+    "fennec fox",
+    "silver fox",
+    "marble fox",
+    "kit fox",
+    "fox kit playing",
+    "fox with fluffy tail"
+  ],
+  "poses": [
+    "pouncing in snow",
+    "curled up sleeping",
+    "sitting elegantly",
+    "hunting leap",
+    "trotting through field",
+    "playing with prey",
+    "alert and listening",
+    "stretching"
+  ],
+  "expressions": [
+    "clever cunning look",
+    "curious and alert",
+    "playful mischief",
+    "gentle and soft",
+    "wise ancient eyes",
+    "happy and content"
+  ],
+  "environments": [
+    "snowy winter field",
+    "autumn forest floor",
+    "flower meadow",
+    "rocky hillside",
+    "misty morning",
+    "golden wheat field",
+    "forest edge",
+    "arctic tundra"
+  ],
+  "lighting": [
+    "soft golden hour",
+    "winter sunlight",
+    "misty morning light",
+    "dramatic sunset",
+    "soft overcast",
+    "backlit glow"
+  ],
+  "styles": [
+    "wildlife photography",
+    "nature art",
+    "whimsical",
+    "realistic",
+    "fantasy",
+    "fine art"
+  ],
+  "shot_types": [
+    "portrait close-up",
+    "full body",
+    "action pounce",
+    "environmental",
+    "artistic portrait",
+    "candid wildlife"
+  ]
+}
+
+
+
+
+

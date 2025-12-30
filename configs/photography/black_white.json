@@ -1,0 +1,54 @@
+{
+  "name": "Black White",
+  "description": "Classic black and white photography",
+  "subjects": [
+    "portrait with strong features",
+    "urban architecture",
+    "street scene",
+    "nude figure study",
+    "landscape with clouds",
+    "elderly face",
+    "industrial structure",
+    "tree silhouette",
+    "geometric patterns",
+    "emotional moment"
+  ],
+  "styles": [
+    "black and white photography",
+    "monochrome",
+    "fine art B&W",
+    "high contrast B&W",
+    "film noir style",
+    "Ansel Adams style",
+    "classic silver gelatin"
+  ],
+  "lighting": [
+    "dramatic side light",
+    "high contrast",
+    "soft diffused",
+    "rim light",
+    "harsh shadows",
+    "window light portrait"
+  ],
+  "tones": [
+    "deep blacks",
+    "pure whites",
+    "rich midtones",
+    "silver tones",
+    "warm sepia tint",
+    "cool selenium tone"
+  ],
+  "composition_types": [
+    "high contrast portrait",
+    "silhouette",
+    "geometric patterns",
+    "texture emphasis",
+    "negative space",
+    "dramatic shadows"
+  ]
+}
+
+
+
+
+

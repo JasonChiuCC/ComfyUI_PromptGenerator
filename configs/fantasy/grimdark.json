@@ -1,0 +1,61 @@
+{
+  "name": "Grimdark",
+  "description": "Extremely dark and brutal fantasy",
+  "subjects": [
+    "brutal warlord",
+    "tortured anti-hero",
+    "blood-soaked warrior",
+    "mad king",
+    "vengeful survivor",
+    "corrupted champion",
+    "ruthless mercenary",
+    "broken knight"
+  ],
+  "environments": [
+    "corpse-strewn battlefield",
+    "torture dungeon",
+    "burning village",
+    "blood-soaked throne room",
+    "apocalyptic wasteland",
+    "plague city",
+    "mass grave",
+    "brutal arena"
+  ],
+  "lighting": [
+    "blood red",
+    "sickly pale",
+    "fire and ash",
+    "hopeless grey",
+    "harsh brutal",
+    "death's cold light"
+  ],
+  "styles": [
+    "grimdark art",
+    "Berserk inspired",
+    "brutal fantasy",
+    "nihilistic horror",
+    "extreme dark fantasy",
+    "savage illustration"
+  ],
+  "effects": [
+    "blood splatter",
+    "gore and viscera",
+    "brutal wounds",
+    "hopeless atmosphere",
+    "savage violence",
+    "death and decay"
+  ],
+  "shot_types": [
+    "brutal action",
+    "intense portrait",
+    "wide carnage",
+    "close-up intensity",
+    "dramatic violence",
+    "survivor moment"
+  ]
+}
+
+
+
+
+

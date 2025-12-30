@@ -1,0 +1,75 @@
+{
+  "name": "Dinosaur",
+  "description": "Prehistoric dinosaur art and illustrations",
+  "subjects": [
+    "tyrannosaurus rex",
+    "velociraptor pack",
+    "triceratops",
+    "brachiosaurus",
+    "pterodactyl flying",
+    "stegosaurus",
+    "spinosaurus",
+    "ankylosaurus",
+    "parasaurolophus",
+    "dilophosaurus",
+    "mosasaurus",
+    "diplodocus"
+  ],
+  "poses": [
+    "roaring powerfully",
+    "hunting prey",
+    "grazing peacefully",
+    "battle fighting",
+    "walking majestically",
+    "protecting young",
+    "running fast",
+    "resting in ferns"
+  ],
+  "expressions": [
+    "fierce predator",
+    "gentle giant",
+    "alert and watchful",
+    "aggressive attack",
+    "curious exploration",
+    "powerful dominance"
+  ],
+  "environments": [
+    "prehistoric jungle",
+    "volcanic landscape",
+    "ancient fern forest",
+    "river delta",
+    "open plains",
+    "coastal waters",
+    "misty swamp",
+    "asteroid impact sky"
+  ],
+  "lighting": [
+    "prehistoric sun",
+    "dramatic storm",
+    "jungle filtered",
+    "volcanic glow",
+    "golden ancient light",
+    "misty atmospheric"
+  ],
+  "styles": [
+    "paleoart",
+    "scientific illustration",
+    "realistic dinosaur",
+    "jurassic style",
+    "documentary",
+    "concept art"
+  ],
+  "shot_types": [
+    "dramatic portrait",
+    "full body action",
+    "battle scene",
+    "environmental wide",
+    "close-up detail",
+    "herd scene"
+  ]
+}
+
+
+
+
+

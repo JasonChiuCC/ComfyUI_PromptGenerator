@@ -1,0 +1,73 @@
+{
+  "name": "Horse",
+  "description": "Majestic horse photography and art",
+  "subjects": [
+    "white arabian horse",
+    "black friesian horse",
+    "wild mustang",
+    "palomino horse",
+    "appaloosa",
+    "thoroughbred racer",
+    "draft horse",
+    "mare with foal",
+    "stallion",
+    "unicorn-like white horse"
+  ],
+  "poses": [
+    "galloping free",
+    "rearing dramatically",
+    "running through water",
+    "standing majestically",
+    "grazing peacefully",
+    "mane flowing in wind",
+    "jumping obstacle",
+    "trotting elegantly"
+  ],
+  "expressions": [
+    "noble and proud",
+    "gentle kind eyes",
+    "wild and free spirit",
+    "calm and peaceful",
+    "powerful and strong",
+    "intelligent gaze"
+  ],
+  "environments": [
+    "open prairie",
+    "beach at sunset",
+    "misty mountain",
+    "green pasture",
+    "desert landscape",
+    "snowy field",
+    "forest clearing",
+    "rolling hills"
+  ],
+  "lighting": [
+    "golden hour magic",
+    "dramatic sunset",
+    "soft morning mist",
+    "backlit silhouette",
+    "studio dramatic",
+    "natural daylight"
+  ],
+  "styles": [
+    "equine photography",
+    "fine art",
+    "action photography",
+    "portrait",
+    "romantic",
+    "dramatic"
+  ],
+  "shot_types": [
+    "majestic portrait",
+    "full body action",
+    "running gallop",
+    "close-up face",
+    "silhouette",
+    "environmental wide"
+  ]
+}
+
+
+
+
+

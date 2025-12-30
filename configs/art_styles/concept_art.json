@@ -1,0 +1,86 @@
+{
+    "concept_art": {
+        "composition_types": [
+            "full character design sheet",
+            "environment establishing shot",
+            "wide cinematic shot",
+            "dramatic low angle",
+            "atmospheric perspective",
+            "key frame composition",
+            "prop design layout",
+            "creature turnaround",
+            "vehicle orthographic view",
+            "mood painting",
+            "action pose sheet",
+            "silhouette study",
+            "color key frame",
+            "architectural callout",
+            "scene breakdown"
+        ],
+        "subjects": [
+            "fantasy character",
+            "sci-fi vehicle",
+            "creature design",
+            "environment landscape",
+            "weapon prop",
+            "armor design",
+            "alien species",
+            "robot mech",
+            "magical artifact",
+            "architectural structure"
+        ],
+        "styles": [
+            "painterly concept",
+            "clean line art",
+            "rough sketch style",
+            "polished render",
+            "quick thumbnail",
+            "detailed callout",
+            "atmospheric painting",
+            "graphic design approach",
+            "realistic rendering",
+            "stylized cartoon"
+        ],
+        "purposes": [
+            "game development",
+            "film production",
+            "animation pre-production",
+            "book illustration",
+            "tabletop RPG",
+            "trading card game",
+            "theme park design",
+            "toy design",
+            "advertising campaign",
+            "personal project"
+        ],
+        "techniques": [
+            "digital painting",
+            "photo bashing",
+            "3D overpainting",
+            "traditional sketch",
+            "mixed media",
+            "matte painting",
+            "speed painting",
+            "detailed rendering",
+            "loose brushwork",
+            "clean vector style"
+        ],
+        "moods": [
+            "epic adventure",
+            "dark mysterious",
+            "bright heroic",
+            "gritty realistic",
+            "whimsical fantasy",
+            "horror atmosphere",
+            "serene peaceful",
+            "action packed",
+            "melancholic beauty",
+            "futuristic wonder"
+        ]
+    }
+}
+
+
+
+
+

@@ -1,0 +1,61 @@
+{
+  "name": "Wuxia",
+  "description": "Chinese martial arts fantasy",
+  "subjects": [
+    "swordsman master",
+    "martial arts hero",
+    "female warrior",
+    "wandering knight errant",
+    "kung fu master",
+    "sect leader",
+    "young disciple",
+    "vengeance seeker"
+  ],
+  "environments": [
+    "bamboo forest",
+    "misty mountain peak",
+    "ancient temple",
+    "martial arts school",
+    "teahouse inn",
+    "rooftop chase",
+    "waterfall training",
+    "imperial palace"
+  ],
+  "lighting": [
+    "misty atmospheric",
+    "golden sunrise",
+    "moonlit combat",
+    "dramatic shadows",
+    "ethereal glow",
+    "ink wash style"
+  ],
+  "styles": [
+    "wuxia art",
+    "Chinese martial arts",
+    "jianghu aesthetic",
+    "Crouching Tiger inspired",
+    "wu xia pian style",
+    "martial fantasy"
+  ],
+  "effects": [
+    "qi energy flow",
+    "flying leap",
+    "sword slash trails",
+    "cherry blossoms",
+    "bamboo leaves",
+    "water splash combat"
+  ],
+  "shot_types": [
+    "martial pose",
+    "flying combat",
+    "dramatic standoff",
+    "training moment",
+    "rooftop action",
+    "serene master"
+  ]
+}
+
+
+
+
+

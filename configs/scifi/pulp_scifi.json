@@ -1,0 +1,61 @@
+{
+  "name": "Pulp Sci-Fi",
+  "description": "Classic pulp magazine science fiction",
+  "subjects": [
+    "space hero",
+    "ray gun wielding adventurer",
+    "alien queen",
+    "mad scientist villain",
+    "damsel in space suit",
+    "square-jawed captain",
+    "tentacled alien",
+    "robot menace"
+  ],
+  "environments": [
+    "alien planet surface",
+    "rocket ship interior",
+    "mad scientist lab",
+    "alien city",
+    "space battle",
+    "jungle planet",
+    "crystal cavern",
+    "floating city"
+  ],
+  "lighting": [
+    "dramatic pulp lighting",
+    "ray gun glow",
+    "alien sky colors",
+    "laboratory sparks",
+    "rocket flame",
+    "mysterious shadows"
+  ],
+  "styles": [
+    "pulp magazine cover",
+    "Amazing Stories style",
+    "vintage sci-fi illustration",
+    "Golden Age sci-fi",
+    "retro adventure",
+    "classic space opera"
+  ],
+  "effects": [
+    "ray gun beams",
+    "rocket exhaust",
+    "alien glow",
+    "dramatic action lines",
+    "explosion effects",
+    "energy shields"
+  ],
+  "composition_types": [
+    "magazine cover composition",
+    "action scene",
+    "peril moment",
+    "heroic pose",
+    "alien encounter",
+    "dramatic rescue"
+  ]
+}
+
+
+
+
+

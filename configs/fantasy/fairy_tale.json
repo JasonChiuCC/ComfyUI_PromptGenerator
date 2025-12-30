@@ -1,0 +1,61 @@
+{
+  "name": "Fairy Tale",
+  "description": "Classic storybook fantasy",
+  "subjects": [
+    "beautiful princess",
+    "brave prince",
+    "wicked witch",
+    "fairy godmother",
+    "enchanted beast",
+    "little mermaid",
+    "sleeping beauty",
+    "brave little tailor"
+  ],
+  "environments": [
+    "enchanted castle",
+    "dark forest",
+    "magical cottage",
+    "crystal lake",
+    "tower prison",
+    "enchanted garden",
+    "gingerbread house",
+    "fairy ring"
+  ],
+  "lighting": [
+    "storybook golden",
+    "magical sparkle",
+    "moonlit romance",
+    "warm cottage glow",
+    "ethereal fairy light",
+    "dramatic tale moment"
+  ],
+  "styles": [
+    "fairy tale illustration",
+    "Disney classic inspired",
+    "storybook art",
+    "romantic fantasy",
+    "children's book style",
+    "magical realism"
+  ],
+  "effects": [
+    "sparkle dust",
+    "magical transformation",
+    "enchanted objects",
+    "fairy wings glow",
+    "spell effects",
+    "true love's magic"
+  ],
+  "shot_types": [
+    "romantic portrait",
+    "storybook scene",
+    "dramatic moment",
+    "wide establishing",
+    "magical transformation",
+    "happy ending"
+  ]
+}
+
+
+
+
+

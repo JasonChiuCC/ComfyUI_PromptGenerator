@@ -1,0 +1,54 @@
+{
+  "name": "HDR",
+  "description": "High Dynamic Range photography",
+  "subjects": [
+    "interior with windows",
+    "sunset landscape",
+    "urban architecture",
+    "stormy sky",
+    "abandoned building",
+    "church interior",
+    "car in dramatic light",
+    "cityscape twilight",
+    "mountain vista",
+    "industrial scene"
+  ],
+  "styles": [
+    "HDR photography",
+    "high dynamic range",
+    "tone mapped",
+    "dramatic HDR",
+    "natural HDR",
+    "surreal HDR",
+    "architectural HDR"
+  ],
+  "lighting": [
+    "high contrast scene",
+    "bright highlights dark shadows",
+    "mixed interior exterior",
+    "dramatic sky",
+    "backlit subject",
+    "complex lighting"
+  ],
+  "effects": [
+    "enhanced details",
+    "dramatic shadows",
+    "vivid colors",
+    "glow highlights",
+    "local contrast",
+    "texture emphasis"
+  ],
+  "composition_types": [
+    "wide landscape",
+    "architectural interior",
+    "dramatic sky focus",
+    "balanced exposure",
+    "detail emphasis",
+    "panoramic view"
+  ]
+}
+
+
+
+
+

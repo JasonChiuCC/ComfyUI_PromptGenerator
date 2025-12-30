@@ -1,0 +1,61 @@
+{
+  "name": "Wizard",
+  "description": "Magical practitioners and spellcasters",
+  "subjects": [
+    "grand wizard",
+    "young apprentice",
+    "battle mage",
+    "elemental master",
+    "court magician",
+    "hermit sage",
+    "war wizard",
+    "enchanter"
+  ],
+  "environments": [
+    "wizard tower study",
+    "magical laboratory",
+    "ancient library",
+    "crystal cave",
+    "observatory",
+    "enchanting workshop",
+    "spell circle",
+    "arcane sanctum"
+  ],
+  "lighting": [
+    "magical glow",
+    "spell illumination",
+    "candlelit study",
+    "arcane energy",
+    "mystical radiance",
+    "element colors"
+  ],
+  "styles": [
+    "wizard art",
+    "magical portrait",
+    "arcane illustration",
+    "fantasy mage",
+    "spellcaster design",
+    "mystical character"
+  ],
+  "effects": [
+    "spell casting",
+    "magical runes",
+    "floating objects",
+    "elemental magic",
+    "energy orbs",
+    "staff glowing"
+  ],
+  "shot_types": [
+    "casting pose",
+    "study portrait",
+    "action spell",
+    "dramatic power",
+    "wise sage portrait",
+    "battle magic"
+  ]
+}
+
+
+
+
+

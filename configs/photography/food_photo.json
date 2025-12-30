@@ -1,0 +1,54 @@
+{
+  "name": "Food Photography",
+  "description": "Professional food and culinary photography",
+  "subjects": [
+    "gourmet dish",
+    "fresh ingredients",
+    "coffee art latte",
+    "chocolate dessert",
+    "sushi platter",
+    "burger stack",
+    "pasta dish",
+    "cocktail drink",
+    "breakfast spread",
+    "bakery pastries"
+  ],
+  "styles": [
+    "food photography",
+    "culinary art",
+    "restaurant menu style",
+    "editorial food",
+    "rustic food styling",
+    "modern minimalist food",
+    "dark and moody food"
+  ],
+  "lighting": [
+    "soft natural window",
+    "backlit steam",
+    "side light texture",
+    "bright and airy",
+    "dark moody dramatic",
+    "warm golden light"
+  ],
+  "props": [
+    "rustic wooden board",
+    "marble surface",
+    "linen napkin",
+    "vintage cutlery",
+    "fresh herbs garnish",
+    "scattered ingredients"
+  ],
+  "composition_types": [
+    "overhead flat lay",
+    "45-degree angle",
+    "hero shot straight on",
+    "close-up detail",
+    "environmental context",
+    "ingredient scatter"
+  ]
+}
+
+
+
+
+

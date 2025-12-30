@@ -1,0 +1,86 @@
+{
+    "technical_drawing": {
+        "composition_types": [
+            "orthographic projection",
+            "isometric view",
+            "exploded assembly",
+            "sectional view",
+            "detail enlargement",
+            "multiview drawing",
+            "auxiliary view",
+            "pictorial representation",
+            "development drawing",
+            "assembly sequence",
+            "tolerance diagram",
+            "thread specification",
+            "welding symbol sheet",
+            "surface finish chart",
+            "geometric dimension"
+        ],
+        "subjects": [
+            "mechanical part",
+            "assembly component",
+            "architectural detail",
+            "electronic component",
+            "precision instrument",
+            "machine element",
+            "structural connection",
+            "hydraulic system",
+            "gear mechanism",
+            "fastener detail"
+        ],
+        "elements": [
+            "precise dimensions",
+            "geometric tolerances",
+            "surface symbols",
+            "material callouts",
+            "bill of materials",
+            "revision history",
+            "approval blocks",
+            "scale notation",
+            "projection symbols",
+            "thread notations"
+        ],
+        "standards": [
+            "ISO standard",
+            "ANSI format",
+            "DIN specification",
+            "JIS convention",
+            "BS standard",
+            "ASME guidelines",
+            "military specification",
+            "automotive standard",
+            "aerospace requirement",
+            "custom specification"
+        ],
+        "line_types": [
+            "continuous thick",
+            "continuous thin",
+            "dashed hidden",
+            "chain center line",
+            "phantom line",
+            "break line",
+            "cutting plane",
+            "dimension line",
+            "extension line",
+            "leader line"
+        ],
+        "moods": [
+            "engineering precision",
+            "manufacturing clarity",
+            "professional standard",
+            "technical excellence",
+            "industrial accuracy",
+            "systematic documentation",
+            "quality assurance",
+            "production ready",
+            "design intent",
+            "functional specification"
+        ]
+    }
+}
+
+
+
+
+

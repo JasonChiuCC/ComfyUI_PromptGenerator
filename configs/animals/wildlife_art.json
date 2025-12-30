@@ -1,0 +1,75 @@
+{
+  "name": "Wildlife Art",
+  "description": "Artistic wildlife photography and illustrations",
+  "subjects": [
+    "majestic lion",
+    "powerful tiger",
+    "gentle elephant",
+    "graceful deer",
+    "mighty bear",
+    "leopard in tree",
+    "zebra herd",
+    "giraffe",
+    "rhinoceros",
+    "cheetah running",
+    "gorilla",
+    "panda bear"
+  ],
+  "poses": [
+    "in natural habitat",
+    "hunting action",
+    "family group",
+    "drinking at waterhole",
+    "resting peacefully",
+    "walking majestically",
+    "playing young",
+    "alert and watching"
+  ],
+  "expressions": [
+    "powerful and wild",
+    "gentle giant",
+    "fierce predator",
+    "curious observer",
+    "calm dignity",
+    "playful youth"
+  ],
+  "environments": [
+    "african savanna",
+    "dense jungle",
+    "arctic ice",
+    "mountain range",
+    "river crossing",
+    "grassland plain",
+    "rainforest canopy",
+    "desert oasis"
+  ],
+  "lighting": [
+    "golden african light",
+    "dramatic sunrise",
+    "soft jungle filtered",
+    "harsh midday",
+    "sunset silhouette",
+    "misty morning"
+  ],
+  "styles": [
+    "national geographic style",
+    "wildlife documentary",
+    "fine art wildlife",
+    "conservation photography",
+    "artistic portrait",
+    "nature photography"
+  ],
+  "shot_types": [
+    "portrait close-up",
+    "environmental wide",
+    "action sequence",
+    "behavioral moment",
+    "artistic composition",
+    "documentary style"
+  ]
+}
+
+
+
+
+

@@ -1,0 +1,75 @@
+{
+  "name": "Classic Portrait",
+  "description": "Traditional portrait photography with classic lighting and composition",
+  "subjects": [
+    "elegant woman",
+    "distinguished gentleman",
+    "young professional",
+    "mature woman",
+    "handsome man",
+    "graceful lady",
+    "sophisticated person"
+  ],
+  "expressions": [
+    "gentle smile",
+    "confident gaze",
+    "serene expression",
+    "thoughtful look",
+    "warm smile",
+    "dignified expression",
+    "subtle smile"
+  ],
+  "poses": [
+    "three-quarter pose",
+    "slight head tilt",
+    "chin slightly raised",
+    "relaxed shoulders",
+    "hands gently clasped",
+    "profile view",
+    "looking over shoulder"
+  ],
+  "outfits": [
+    "elegant attire",
+    "classic dress",
+    "tailored suit",
+    "timeless fashion",
+    "refined clothing",
+    "sophisticated outfit"
+  ],
+  "shot_types": [
+    "head and shoulders",
+    "upper body portrait",
+    "close-up face",
+    "three-quarter body",
+    "classic headshot",
+    "bust portrait"
+  ],
+  "lighting": [
+    "Rembrandt lighting",
+    "butterfly lighting",
+    "loop lighting",
+    "split lighting",
+    "broad lighting",
+    "short lighting",
+    "classic three-point"
+  ],
+  "backgrounds": [
+    "studio grey seamless",
+    "dark neutral backdrop",
+    "painterly background",
+    "subtle gradient",
+    "classic portrait backdrop"
+  ],
+  "styles": [
+    "classic portrait photography",
+    "timeless portrait",
+    "traditional portrait style",
+    "fine art portrait",
+    "professional portrait"
+  ]
+}
+
+
+
+
+

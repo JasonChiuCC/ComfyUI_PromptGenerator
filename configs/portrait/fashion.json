@@ -1,0 +1,66 @@
+{
+  "name": "Fashion",
+  "description": "High fashion and editorial style portrait photography",
+  "subjects": [
+    "fashion model",
+    "runway model",
+    "editorial model",
+    "high fashion subject",
+    "avant-garde model",
+    "couture figure"
+  ],
+  "expressions": [
+    "fierce model look",
+    "editorial stare",
+    "confident pose",
+    "aloof elegance",
+    "intense fashion gaze",
+    "powerful presence"
+  ],
+  "poses": [
+    "dynamic fashion pose",
+    "editorial stance",
+    "runway position",
+    "avant-garde gesture",
+    "angular pose",
+    "dramatic movement"
+  ],
+  "outfits": [
+    "haute couture",
+    "designer fashion",
+    "avant-garde clothing",
+    "editorial styling",
+    "runway look",
+    "high fashion ensemble"
+  ],
+  "shot_types": [
+    "full body fashion",
+    "three-quarter editorial",
+    "detail close-up",
+    "movement shot",
+    "dramatic angle"
+  ],
+  "lighting": [
+    "fashion studio lighting",
+    "beauty dish key",
+    "dramatic rim lights",
+    "colored gel effects",
+    "high key clean",
+    "mixed creative lighting"
+  ],
+  "backgrounds": [
+    "studio seamless",
+    "urban location",
+    "abstract set design",
+    "minimalist backdrop",
+    "dramatic environment"
+  ],
+  "styles": [
+    "high fashion photography",
+    "editorial fashion",
+    "Vogue style",
+    "avant-garde fashion",
+    "luxury fashion"
+  ]
+}
+

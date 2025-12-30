@@ -1,0 +1,54 @@
+{
+  "name": "Sports Photography",
+  "description": "Dynamic sports and action photography",
+  "subjects": [
+    "basketball dunk",
+    "soccer goal kick",
+    "swimmer diving",
+    "runner crossing finish",
+    "tennis serve",
+    "skateboarder trick",
+    "surfer on wave",
+    "cyclist race",
+    "gymnast mid-air",
+    "boxer punch"
+  ],
+  "styles": [
+    "sports photography",
+    "action shot",
+    "peak moment",
+    "freeze frame",
+    "motion capture",
+    "editorial sports",
+    "dynamic action"
+  ],
+  "lighting": [
+    "stadium lights",
+    "outdoor daylight",
+    "dramatic spotlight",
+    "mixed arena lighting",
+    "flash freeze",
+    "golden hour outdoor"
+  ],
+  "effects": [
+    "frozen motion",
+    "motion blur background",
+    "panning blur",
+    "water splash freeze",
+    "dust particles",
+    "sweat droplets"
+  ],
+  "shot_types": [
+    "peak action moment",
+    "wide stadium context",
+    "tight action crop",
+    "celebration emotion",
+    "panning motion",
+    "silhouette dramatic"
+  ]
+}
+
+
+
+
+

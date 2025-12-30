@@ -1,0 +1,54 @@
+{
+  "name": "Bokeh",
+  "description": "Photography emphasizing beautiful bokeh blur",
+  "subjects": [
+    "portrait with city lights",
+    "flower close-up",
+    "cat eyes",
+    "christmas lights background",
+    "street scene portrait",
+    "candle dinner",
+    "autumn leaves",
+    "coffee cup",
+    "rain drops on window",
+    "fairy lights"
+  ],
+  "styles": [
+    "bokeh photography",
+    "shallow depth of field",
+    "f/1.4 wide open",
+    "creamy bokeh",
+    "swirly bokeh",
+    "85mm portrait lens",
+    "dreamy blur"
+  ],
+  "lighting": [
+    "point light sources",
+    "city lights background",
+    "christmas lights",
+    "candle light",
+    "sunset backlight",
+    "neon signs blur",
+    "street lamps"
+  ],
+  "bokeh_types": [
+    "circular bokeh balls",
+    "hexagonal bokeh",
+    "soap bubble bokeh",
+    "swirly vintage bokeh",
+    "smooth creamy blur",
+    "cat eye bokeh"
+  ],
+  "shot_types": [
+    "portrait close-up",
+    "detail shot",
+    "environmental portrait",
+    "over-shoulder foreground",
+    "layered depth"
+  ]
+}
+
+
+
+
+

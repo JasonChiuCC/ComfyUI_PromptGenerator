@@ -1,0 +1,55 @@
+{
+  "name": "Film Grain",
+  "description": "Analog film photography aesthetic",
+  "subjects": [
+    "casual portrait",
+    "travel moment",
+    "everyday life",
+    "vintage car",
+    "cafe scene",
+    "beach day",
+    "concert crowd",
+    "city exploration",
+    "friends gathering",
+    "nostalgic scene"
+  ],
+  "styles": [
+    "film photography",
+    "35mm film",
+    "analog aesthetic",
+    "Kodak Portra",
+    "Fuji Superia",
+    "Cinestill 800T",
+    "disposable camera look",
+    "expired film"
+  ],
+  "film_stocks": [
+    "Kodak Portra 400",
+    "Kodak Gold 200",
+    "Fuji Pro 400H",
+    "Ilford HP5",
+    "Cinestill 800T",
+    "Kodak Ektar 100"
+  ],
+  "characteristics": [
+    "visible grain",
+    "soft color rendering",
+    "light leaks",
+    "halation glow",
+    "subtle color shift",
+    "organic texture"
+  ],
+  "shot_types": [
+    "candid moment",
+    "environmental portrait",
+    "snapshot aesthetic",
+    "travel documentary",
+    "lifestyle scene",
+    "artistic portrait"
+  ]
+}
+
+
+
+
+

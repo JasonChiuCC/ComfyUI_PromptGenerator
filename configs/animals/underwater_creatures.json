@@ -1,0 +1,75 @@
+{
+  "name": "Underwater Creatures",
+  "description": "Deep sea and mysterious ocean creatures",
+  "subjects": [
+    "giant squid",
+    "anglerfish",
+    "bioluminescent jellyfish",
+    "deep sea dragonfish",
+    "dumbo octopus",
+    "giant isopod",
+    "viperfish",
+    "nautilus",
+    "cuttlefish",
+    "sea dragon",
+    "goblin shark",
+    "oarfish"
+  ],
+  "poses": [
+    "floating in darkness",
+    "hunting with light",
+    "swimming gracefully",
+    "camouflaged hiding",
+    "displaying colors",
+    "emerging from depths",
+    "glowing eerily",
+    "drifting mysterious"
+  ],
+  "expressions": [
+    "alien and mysterious",
+    "ancient wisdom",
+    "otherworldly presence",
+    "eerie beauty",
+    "fascinating strangeness",
+    "deep sea wonder"
+  ],
+  "environments": [
+    "abyssal depths",
+    "hydrothermal vent",
+    "midnight zone",
+    "underwater canyon",
+    "deep trench",
+    "bioluminescent waters",
+    "sunless depths",
+    "pressure darkness"
+  ],
+  "lighting": [
+    "bioluminescence",
+    "eerie deep glow",
+    "spotlight in darkness",
+    "ethereal blue",
+    "mysterious ambient",
+    "submarine lights"
+  ],
+  "styles": [
+    "deep sea photography",
+    "scientific illustration",
+    "mysterious art",
+    "documentary style",
+    "fantasy underwater",
+    "surreal ocean"
+  ],
+  "shot_types": [
+    "creature portrait",
+    "wide environment",
+    "dramatic emergence",
+    "bioluminescent display",
+    "mysterious silhouette",
+    "scientific detail"
+  ]
+}
+
+
+
+
+

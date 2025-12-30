@@ -1,0 +1,86 @@
+{
+    "ballpoint_pen": {
+        "composition_types": [
+            "hyperrealistic portrait",
+            "detailed scene",
+            "notebook sketch",
+            "doodle art",
+            "portrait study",
+            "object rendering",
+            "landscape detail",
+            "figure drawing",
+            "abstract pattern",
+            "character illustration",
+            "urban scene",
+            "nature study",
+            "mechanical detail",
+            "fantasy creation",
+            "everyday moment"
+        ],
+        "subjects": [
+            "realistic portrait",
+            "everyday object",
+            "landscape view",
+            "human figure",
+            "animal detail",
+            "architectural scene",
+            "abstract design",
+            "character sketch",
+            "nature element",
+            "mechanical object"
+        ],
+        "techniques": [
+            "fine hatching",
+            "circular scribbling",
+            "layered strokes",
+            "pressure variation",
+            "stippling",
+            "continuous line",
+            "cross hatching",
+            "smooth blending",
+            "bold outlines",
+            "delicate details"
+        ],
+        "pen_colors": [
+            "classic blue",
+            "black ink",
+            "red accent",
+            "multicolor blend",
+            "sepia brown",
+            "green tint",
+            "purple shade",
+            "orange highlight",
+            "monochrome blue",
+            "mixed palette"
+        ],
+        "styles": [
+            "photorealistic",
+            "casual doodle",
+            "detailed illustration",
+            "quick sketch",
+            "intricate pattern",
+            "loose gesture",
+            "tight rendering",
+            "expressive lines",
+            "notebook art",
+            "gallery quality"
+        ],
+        "moods": [
+            "accessible art",
+            "everyday creativity",
+            "impressive skill",
+            "casual charm",
+            "dedicated craft",
+            "spontaneous expression",
+            "patient detail",
+            "humble medium",
+            "surprising beauty",
+            "democratic art"
+        ]
+    }
+}
+
+
+
+
+

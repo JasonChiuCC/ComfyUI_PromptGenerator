@@ -1,0 +1,81 @@
+{
+  "name": "Unicorn",
+  "description": "Magical unicorn fantasy art",
+  "subjects": [
+    "pure white unicorn",
+    "rainbow mane unicorn",
+    "golden unicorn",
+    "black unicorn",
+    "baby unicorn foal",
+    "winged unicorn alicorn",
+    "crystal horn unicorn",
+    "starlight unicorn",
+    "forest unicorn",
+    "celestial unicorn"
+  ],
+  "poses": [
+    "rearing majestically",
+    "galloping through meadow",
+    "drinking from stream",
+    "standing in moonlight",
+    "flying through clouds",
+    "resting in flowers",
+    "prancing gracefully",
+    "horn glowing with magic"
+  ],
+  "expressions": [
+    "pure and innocent",
+    "magical and wise",
+    "gentle and kind",
+    "majestic and proud",
+    "mystical presence",
+    "ethereal beauty"
+  ],
+  "environments": [
+    "enchanted forest",
+    "moonlit glade",
+    "rainbow waterfall",
+    "flower meadow",
+    "starlit sky",
+    "crystal cave",
+    "magical kingdom",
+    "sunrise meadow"
+  ],
+  "lighting": [
+    "magical glow",
+    "soft moonlight",
+    "rainbow light",
+    "golden sunrise",
+    "ethereal sparkle",
+    "starlight shimmer"
+  ],
+  "styles": [
+    "fantasy art",
+    "magical realism",
+    "fairytale illustration",
+    "ethereal art",
+    "children's book style",
+    "romantic fantasy"
+  ],
+  "effects": [
+    "sparkles and stars",
+    "rainbow trail",
+    "magical particles",
+    "soft glow aura",
+    "flower petals floating",
+    "stardust shimmer"
+  ],
+  "shot_types": [
+    "majestic portrait",
+    "full body magical",
+    "action running",
+    "dreamy scene",
+    "close-up face",
+    "silhouette moonlight"
+  ]
+}
+
+
+
+
+

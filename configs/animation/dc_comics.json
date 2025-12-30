@@ -1,0 +1,111 @@
+{
+    "dc_comics": {
+        "shot_types": [
+            "full body hero shot",
+            "iconic cover art pose",
+            "Gotham cityscape shot",
+            "Metropolis skyline shot",
+            "Justice League group shot",
+            "dramatic rooftop shot",
+            "flying in clouds shot",
+            "batcave interior shot",
+            "villain showdown shot",
+            "heroic rescue shot",
+            "comic splash page",
+            "dark knight silhouette",
+            "paradise island shot",
+            "speed force action shot",
+            "legendary hero pose"
+        ],
+        "hero_types": [
+            "caped crusader",
+            "man of steel",
+            "amazonian warrior",
+            "fastest speedster",
+            "emerald knight",
+            "king of atlantis",
+            "dark knight",
+            "boy wonder",
+            "cyborg hero",
+            "magical hero",
+            "martian hero",
+            "arrow vigilante",
+            "canary fighter",
+            "hawk warrior",
+            "cosmic hero"
+        ],
+        "powers": [
+            "superhuman strength",
+            "flight",
+            "super speed",
+            "power ring constructs",
+            "heat vision",
+            "martial arts mastery",
+            "detective skills",
+            "aquatic powers",
+            "magic abilities",
+            "tech gadgets"
+        ],
+        "poses": [
+            "iconic flying pose",
+            "dark brooding stance",
+            "warrior battle pose",
+            "speed running",
+            "ring construct creation",
+            "grappling hook swing",
+            "defensive stance",
+            "dramatic cape pose",
+            "power punch",
+            "heroic landing"
+        ],
+        "locations": [
+            "Gotham City",
+            "Metropolis",
+            "Themyscira",
+            "Central City",
+            "Atlantis",
+            "Wayne Manor",
+            "Fortress of Solitude",
+            "Watchtower",
+            "Arkham Asylum",
+            "Hall of Justice"
+        ],
+        "effects": [
+            "heat vision beams",
+            "speed force lightning",
+            "green lantern constructs",
+            "batarang trail",
+            "lasso of truth glow",
+            "explosion",
+            "electricity",
+            "water effects",
+            "magical energy",
+            "cape flow"
+        ],
+        "art_styles": [
+            "classic DC style",
+            "modern DC",
+            "Dark Knight style",
+            "Jim Lee DC",
+            "Alex Ross painted",
+            "animated series style",
+            "New 52 style",
+            "Rebirth style",
+            "noir Batman",
+            "Silver Age style"
+        ],
+        "moods": [
+            "dark and gritty",
+            "hopeful heroic",
+            "mythological epic",
+            "detective noir",
+            "cosmic adventure",
+            "justice league assembly",
+            "street level crime",
+            "gothic atmosphere",
+            "bright heroism",
+            "intense action"
+        ]
+    }
+}
+

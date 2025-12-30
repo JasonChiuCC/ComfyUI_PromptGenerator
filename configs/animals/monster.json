@@ -1,0 +1,83 @@
+{
+  "name": "Monster",
+  "description": "Creature and monster designs",
+  "subjects": [
+    "forest creature",
+    "swamp monster",
+    "cave dweller",
+    "shadow beast",
+    "elemental creature",
+    "corrupted beast",
+    "ancient horror",
+    "wild monster",
+    "mutant creature",
+    "nightmare beast",
+    "guardian monster",
+    "feral creature"
+  ],
+  "poses": [
+    "lurking in shadows",
+    "attacking ferociously",
+    "stalking prey",
+    "emerging from darkness",
+    "defensive stance",
+    "prowling territory",
+    "resting watchful",
+    "hunting mode"
+  ],
+  "expressions": [
+    "terrifying fierce",
+    "cunning predator",
+    "mindless rage",
+    "intelligent malice",
+    "primal hunger",
+    "ancient evil"
+  ],
+  "environments": [
+    "dark forest",
+    "abandoned ruins",
+    "murky swamp",
+    "underground cave",
+    "corrupted wasteland",
+    "nightmare realm",
+    "foggy moor",
+    "haunted location"
+  ],
+  "lighting": [
+    "dim eerie",
+    "dramatic shadows",
+    "moonlit horror",
+    "bioluminescent",
+    "fire glow",
+    "lightning flash"
+  ],
+  "styles": [
+    "creature design",
+    "concept art",
+    "horror art",
+    "dark fantasy",
+    "game art",
+    "monster illustration"
+  ],
+  "features": [
+    "sharp claws",
+    "glowing eyes",
+    "armored hide",
+    "multiple limbs",
+    "tentacles",
+    "organic horror"
+  ],
+  "shot_types": [
+    "full creature design",
+    "dramatic portrait",
+    "action attack",
+    "lurking scene",
+    "silhouette horror",
+    "detail close-up"
+  ]
+}
+
+
+
+
+

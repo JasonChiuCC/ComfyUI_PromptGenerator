@@ -1,0 +1,86 @@
+{
+    "ink_drawing": {
+        "composition_types": [
+            "detailed illustration",
+            "loose sketch",
+            "comic panel",
+            "botanical study",
+            "architectural rendering",
+            "portrait linework",
+            "landscape scene",
+            "pattern design",
+            "character design",
+            "decorative border",
+            "narrative scene",
+            "technical diagram",
+            "fantasy illustration",
+            "urban sketch",
+            "nature study"
+        ],
+        "subjects": [
+            "detailed portrait",
+            "natural scene",
+            "architectural view",
+            "botanical specimen",
+            "fantasy creature",
+            "urban landscape",
+            "character illustration",
+            "decorative pattern",
+            "animal study",
+            "abstract design"
+        ],
+        "techniques": [
+            "fine line work",
+            "bold strokes",
+            "cross hatching",
+            "stippling dots",
+            "wash effects",
+            "dry brush",
+            "splatter texture",
+            "continuous line",
+            "broken line",
+            "varied line weight"
+        ],
+        "ink_types": [
+            "India ink",
+            "Chinese ink",
+            "sumi ink",
+            "sepia ink",
+            "colored ink",
+            "waterproof ink",
+            "fountain pen ink",
+            "brush ink",
+            "dip pen ink",
+            "marker ink"
+        ],
+        "tools": [
+            "dip pen nib",
+            "brush pen",
+            "technical pen",
+            "fountain pen",
+            "bamboo pen",
+            "reed pen",
+            "quill pen",
+            "fine liner",
+            "calligraphy brush",
+            "sable brush"
+        ],
+        "moods": [
+            "precise detail",
+            "flowing elegance",
+            "bold contrast",
+            "delicate refinement",
+            "expressive freedom",
+            "classical beauty",
+            "modern edge",
+            "natural organic",
+            "geometric precision",
+            "artistic mastery"
+        ]
+    }
+}
+
+
+
+
+

@@ -1,0 +1,54 @@
+{
+  "name": "Wildlife Photography",
+  "description": "Professional wildlife and nature photography",
+  "subjects": [
+    "lion portrait",
+    "eagle in flight",
+    "bear catching fish",
+    "elephant herd",
+    "owl eyes close-up",
+    "wolf pack",
+    "hummingbird hovering",
+    "whale breaching",
+    "leopard in tree",
+    "fox in snow"
+  ],
+  "styles": [
+    "wildlife photography",
+    "nature documentary",
+    "National Geographic style",
+    "animal portrait",
+    "action wildlife",
+    "intimate animal moment",
+    "environmental wildlife"
+  ],
+  "lighting": [
+    "golden hour safari",
+    "dramatic backlight",
+    "soft overcast",
+    "dappled forest light",
+    "rim light silhouette",
+    "early morning mist"
+  ],
+  "environments": [
+    "African savanna",
+    "dense jungle",
+    "arctic tundra",
+    "mountain terrain",
+    "ocean underwater",
+    "forest clearing"
+  ],
+  "shot_types": [
+    "intimate portrait",
+    "action freeze",
+    "environmental context",
+    "behavior moment",
+    "eyes close-up",
+    "herd wide shot"
+  ]
+}
+
+
+
+
+

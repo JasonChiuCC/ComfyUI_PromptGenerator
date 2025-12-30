@@ -1,0 +1,116 @@
+{
+    "pixar": {
+        "shot_types": [
+            "full body character shot",
+            "cinematic wide shot",
+            "emotional close-up",
+            "adventure establishing shot",
+            "family group shot",
+            "action sequence shot",
+            "heartwarming moment composition",
+            "comedic timing shot",
+            "world-building wide shot",
+            "character duo shot",
+            "dramatic reveal shot",
+            "journey montage shot",
+            "climactic battle shot",
+            "touching farewell shot",
+            "triumphant ending shot"
+        ],
+        "characters": [
+            "lovable animated character",
+            "quirky robot",
+            "adventurous toy",
+            "brave child",
+            "friendly monster",
+            "determined fish",
+            "superhero family member",
+            "wise elderly character",
+            "curious creature",
+            "unlikely hero",
+            "animated animal",
+            "emotional character",
+            "adventurous rat",
+            "talking car",
+            "imaginative child"
+        ],
+        "character_traits": [
+            "expressive personality",
+            "heartwarming charm",
+            "comedic timing",
+            "emotional depth",
+            "quirky behavior",
+            "brave determination",
+            "innocent wonder",
+            "loyal friendship",
+            "creative spirit",
+            "hidden talent"
+        ],
+        "expressions": [
+            "wide-eyed wonder",
+            "heartfelt emotion",
+            "comedic expression",
+            "determined look",
+            "joyful excitement",
+            "thoughtful gaze",
+            "surprised reaction",
+            "warm smile",
+            "worried expression",
+            "triumphant joy"
+        ],
+        "locations": [
+            "colorful toy room",
+            "underwater world",
+            "monster city",
+            "superhero cityscape",
+            "Paris kitchen",
+            "adventure landscape",
+            "emotional mindscape",
+            "futuristic city",
+            "magical world",
+            "cozy home interior",
+            "adventure wilderness",
+            "fantasy realm",
+            "racing track",
+            "ancient temple",
+            "outer space"
+        ],
+        "lighting": [
+            "warm Pixar lighting",
+            "dramatic rim light",
+            "soft ambient glow",
+            "colorful atmosphere",
+            "cinematic lighting",
+            "golden hour warmth",
+            "magical glow",
+            "underwater caustics",
+            "cozy interior light",
+            "dramatic shadows"
+        ],
+        "render_styles": [
+            "Pixar 3D render",
+            "subsurface scattering skin",
+            "detailed textures",
+            "realistic materials",
+            "stylized 3D",
+            "cinematic quality",
+            "ray traced lighting",
+            "detailed fur rendering",
+            "realistic eyes",
+            "expressive 3D animation"
+        ],
+        "moods": [
+            "heartwarming emotion",
+            "adventure excitement",
+            "comedic joy",
+            "touching moment",
+            "thrilling action",
+            "nostalgic feeling",
+            "family warmth",
+            "triumphant success",
+            "quiet reflection",
+            "magical wonder"
+        ]
+    }
+}
+

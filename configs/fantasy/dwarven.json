@@ -1,0 +1,61 @@
+{
+  "name": "Dwarven",
+  "description": "Dwarven culture and mountain kingdoms",
+  "subjects": [
+    "dwarven king",
+    "master smith",
+    "dwarven warrior",
+    "runesmith",
+    "dwarven miner",
+    "battle commander",
+    "ale master",
+    "dwarven engineer"
+  ],
+  "environments": [
+    "dwarven mountain hall",
+    "underground forge",
+    "gem-studded cavern",
+    "dwarven throne room",
+    "mining tunnels",
+    "great vault",
+    "ale hall feast",
+    "defensive gates"
+  ],
+  "lighting": [
+    "forge fire glow",
+    "gem reflections",
+    "torch-lit stone",
+    "molten metal",
+    "underground warm",
+    "crystalline glow"
+  ],
+  "styles": [
+    "dwarven fantasy art",
+    "mountain kingdom",
+    "sturdy craftsmanship",
+    "Norse-inspired dwarf",
+    "underground realm",
+    "dwarven aesthetic"
+  ],
+  "effects": [
+    "forge sparks",
+    "runic glow",
+    "gem sparkle",
+    "steam and smoke",
+    "metal gleam",
+    "stone texture"
+  ],
+  "shot_types": [
+    "proud portrait",
+    "forge scene",
+    "battle stance",
+    "crafting detail",
+    "throne composition",
+    "fellowship group"
+  ]
+}
+
+
+
+
+

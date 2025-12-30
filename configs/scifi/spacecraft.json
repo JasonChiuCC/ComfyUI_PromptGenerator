@@ -1,0 +1,61 @@
+{
+  "name": "Spacecraft",
+  "description": "Spaceship and starship design",
+  "subjects": [
+    "sleek starfighter",
+    "massive battleship",
+    "cargo freighter",
+    "exploration vessel",
+    "alien spacecraft",
+    "space shuttle",
+    "colony ship",
+    "stealth cruiser"
+  ],
+  "environments": [
+    "deep space",
+    "orbital dock",
+    "asteroid field",
+    "planetary approach",
+    "hyperspace tunnel",
+    "nebula crossing",
+    "space battle",
+    "hangar bay"
+  ],
+  "lighting": [
+    "starlight on hull",
+    "engine glow",
+    "sun reflecting",
+    "dramatic space lighting",
+    "weapon fire",
+    "atmospheric entry"
+  ],
+  "styles": [
+    "hard sci-fi design",
+    "sleek futuristic",
+    "industrial spacecraft",
+    "alien organic ship",
+    "military vessel",
+    "exploration craft"
+  ],
+  "effects": [
+    "engine trails",
+    "shield shimmer",
+    "weapon fire",
+    "hull details",
+    "atmospheric wake",
+    "FTL jump"
+  ],
+  "composition_types": [
+    "beauty shot",
+    "action scene",
+    "scale comparison",
+    "interior view",
+    "fleet formation",
+    "dramatic angle"
+  ]
+}
+
+
+
+
+

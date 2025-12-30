@@ -1,0 +1,61 @@
+{
+  "name": "Post Apocalyptic",
+  "description": "World after civilization collapse",
+  "subjects": [
+    "wasteland survivor",
+    "scavenger warrior",
+    "mutant creature",
+    "tribal leader",
+    "vault dweller",
+    "road warrior",
+    "radiation survivor",
+    "wanderer"
+  ],
+  "environments": [
+    "ruined city",
+    "desert wasteland",
+    "overgrown ruins",
+    "nuclear crater",
+    "survivor settlement",
+    "abandoned highway",
+    "flooded metropolis",
+    "toxic wasteland"
+  ],
+  "lighting": [
+    "harsh wasteland sun",
+    "toxic atmosphere",
+    "sunset on ruins",
+    "fire light",
+    "dusty haze",
+    "nuclear glow"
+  ],
+  "styles": [
+    "Mad Max inspired",
+    "Fallout aesthetic",
+    "nuclear wasteland",
+    "survival horror",
+    "post-nuclear",
+    "collapse aftermath"
+  ],
+  "effects": [
+    "dust storms",
+    "radiation effects",
+    "rust and decay",
+    "makeshift repairs",
+    "scavenged gear",
+    "survival wear"
+  ],
+  "composition_types": [
+    "wasteland panorama",
+    "survivor portrait",
+    "ruined landmark",
+    "settlement scene",
+    "journey shot",
+    "confrontation"
+  ]
+}
+
+
+
+
+

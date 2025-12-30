@@ -1,0 +1,72 @@
+{
+  "name": "Wolf",
+  "description": "Majestic wolf artwork and photography",
+  "subjects": [
+    "grey wolf",
+    "arctic white wolf",
+    "black wolf",
+    "timber wolf",
+    "lone wolf",
+    "wolf pack alpha",
+    "wolf pup",
+    "red wolf",
+    "wolf with piercing eyes"
+  ],
+  "poses": [
+    "howling at moon",
+    "stalking prey",
+    "running through snow",
+    "standing on rock",
+    "resting in pack",
+    "hunting stance",
+    "walking through forest",
+    "drinking from stream"
+  ],
+  "expressions": [
+    "fierce intense gaze",
+    "noble and proud",
+    "alert and watchful",
+    "calm wisdom",
+    "aggressive snarl",
+    "gentle curiosity"
+  ],
+  "environments": [
+    "snowy mountain",
+    "dark forest",
+    "moonlit clearing",
+    "rocky terrain",
+    "frozen tundra",
+    "misty woods",
+    "autumn forest",
+    "wilderness landscape"
+  ],
+  "lighting": [
+    "moonlight",
+    "dramatic side light",
+    "misty atmospheric",
+    "cold winter light",
+    "golden sunset",
+    "blue hour"
+  ],
+  "styles": [
+    "wildlife photography",
+    "nature documentary",
+    "fantasy art",
+    "realistic portrait",
+    "dramatic",
+    "artistic"
+  ],
+  "shot_types": [
+    "majestic portrait",
+    "full body stance",
+    "pack scene",
+    "action hunting",
+    "close-up face",
+    "environmental wide"
+  ]
+}
+
+
+
+
+

@@ -1,0 +1,61 @@
+{
+  "name": "Low Fantasy",
+  "description": "Gritty realistic fantasy with limited magic",
+  "subjects": [
+    "sellsword mercenary",
+    "political schemer",
+    "common soldier",
+    "rogue thief",
+    "hedge knight",
+    "traveling merchant",
+    "peasant rebel",
+    "disgraced noble"
+  ],
+  "environments": [
+    "muddy battlefield",
+    "medieval tavern",
+    "castle politics",
+    "war-torn village",
+    "merchant road",
+    "thieves' guild",
+    "peasant farm",
+    "siege warfare"
+  ],
+  "lighting": [
+    "overcast gloomy",
+    "candlelit interior",
+    "harsh daylight",
+    "fire and smoke",
+    "cold winter light",
+    "dramatic shadows"
+  ],
+  "styles": [
+    "low fantasy art",
+    "Game of Thrones inspired",
+    "gritty realism",
+    "historical fantasy",
+    "grounded fantasy",
+    "realistic medieval"
+  ],
+  "effects": [
+    "blood and mud",
+    "weathered equipment",
+    "battle damage",
+    "realistic textures",
+    "worn clothing",
+    "practical armor"
+  ],
+  "shot_types": [
+    "gritty portrait",
+    "battlefield scene",
+    "dramatic moment",
+    "action combat",
+    "environmental portrait",
+    "close-up weathered"
+  ]
+}
+
+
+
+
+

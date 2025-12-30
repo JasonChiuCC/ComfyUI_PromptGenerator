@@ -1,0 +1,55 @@
+{
+  "name": "Wireframe",
+  "description": "Technical wireframe 3D visualization style",
+  "subjects": [
+    "human head model",
+    "sports car",
+    "architectural structure",
+    "mechanical parts",
+    "character mesh",
+    "organic creature",
+    "product design",
+    "abstract geometric form",
+    "robotic arm",
+    "aircraft"
+  ],
+  "styles": [
+    "wireframe render",
+    "polygon mesh visible",
+    "edge lines only",
+    "topology showcase",
+    "technical wireframe",
+    "glowing wireframe",
+    "blueprint wireframe",
+    "X-ray wireframe"
+  ],
+  "environments": [
+    "dark background",
+    "grid floor",
+    "void space",
+    "blueprint paper",
+    "holographic space"
+  ],
+  "lighting": [
+    "edge glow lighting",
+    "neon line effect",
+    "subtle ambient",
+    "backlit silhouette",
+    "technical lighting"
+  ],
+  "composition_types": [
+    "three-quarter view",
+    "front orthographic",
+    "side profile",
+    "exploded view",
+    "rotating turntable"
+  ],
+  "line_styles": [
+    "thin white lines",
+    "cyan wireframe",
+    "green matrix style",
+    "orange technical lines",
+    "gradient colored edges"
+  ]
+}
+

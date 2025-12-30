@@ -1,0 +1,86 @@
+{
+    "oil_painting": {
+        "composition_types": [
+            "classical portrait",
+            "landscape panorama",
+            "still life arrangement",
+            "historical scene",
+            "nude study",
+            "genre scene",
+            "religious painting",
+            "mythological tableau",
+            "interior scene",
+            "seascape",
+            "cityscape",
+            "allegory",
+            "self-portrait",
+            "group portrait",
+            "animal painting"
+        ],
+        "subjects": [
+            "noble portrait",
+            "pastoral landscape",
+            "fruit still life",
+            "flower arrangement",
+            "historical figure",
+            "biblical scene",
+            "domestic interior",
+            "maritime view",
+            "rural life",
+            "aristocratic scene"
+        ],
+        "techniques": [
+            "glazing layers",
+            "impasto texture",
+            "wet-on-wet",
+            "underpainting",
+            "scumbling",
+            "sfumato",
+            "alla prima",
+            "fat over lean",
+            "grisaille base",
+            "velatura"
+        ],
+        "brushwork": [
+            "visible brushstrokes",
+            "smooth blending",
+            "expressive marks",
+            "delicate detail",
+            "bold strokes",
+            "feathered edges",
+            "stippled texture",
+            "sweeping gestures",
+            "refined finish",
+            "loose handling"
+        ],
+        "color_palettes": [
+            "rich earth tones",
+            "jewel colors",
+            "muted palette",
+            "warm harmonies",
+            "cool shadows",
+            "limited palette",
+            "full spectrum",
+            "chiaroscuro",
+            "verdaccio greens",
+            "Venetian colors"
+        ],
+        "moods": [
+            "classical grandeur",
+            "intimate warmth",
+            "dramatic intensity",
+            "serene beauty",
+            "rich opulence",
+            "timeless elegance",
+            "emotional depth",
+            "masterful refinement",
+            "historical gravitas",
+            "artistic excellence"
+        ]
+    }
+}
+
+
+
+
+

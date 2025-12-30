@@ -1,0 +1,77 @@
+{
+  "name": "Cat",
+  "description": "Cat photography and art in various styles",
+  "subjects": [
+    "fluffy persian cat",
+    "sleek siamese cat",
+    "orange tabby cat",
+    "black cat with green eyes",
+    "white kitten",
+    "maine coon cat",
+    "british shorthair",
+    "scottish fold",
+    "bengal cat",
+    "ragdoll cat",
+    "calico cat",
+    "tuxedo cat"
+  ],
+  "poses": [
+    "curled up sleeping",
+    "stretching lazily",
+    "sitting elegantly",
+    "playing with toy",
+    "grooming itself",
+    "hunting stance",
+    "lounging in sunbeam",
+    "perched on windowsill",
+    "walking gracefully",
+    "jumping mid-air"
+  ],
+  "expressions": [
+    "curious wide eyes",
+    "sleepy half-closed eyes",
+    "alert and attentive",
+    "playful expression",
+    "regal dignified look",
+    "content and relaxed"
+  ],
+  "environments": [
+    "cozy living room",
+    "sunny windowsill",
+    "garden flowers",
+    "bookshelf background",
+    "soft blanket",
+    "cat tree",
+    "kitchen counter",
+    "outdoor patio"
+  ],
+  "lighting": [
+    "soft natural light",
+    "golden hour warmth",
+    "studio lighting",
+    "dramatic side light",
+    "backlit silhouette",
+    "warm indoor lighting"
+  ],
+  "styles": [
+    "pet photography",
+    "artistic portrait",
+    "lifestyle photography",
+    "fine art",
+    "realistic",
+    "whimsical"
+  ],
+  "shot_types": [
+    "close-up face portrait",
+    "full body shot",
+    "action shot",
+    "environmental portrait",
+    "macro detail shot",
+    "candid moment"
+  ]
+}
+
+
+
+
+

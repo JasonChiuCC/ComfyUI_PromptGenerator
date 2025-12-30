@@ -1,0 +1,77 @@
+{
+  "name": "Dog",
+  "description": "Dog photography and art in various styles",
+  "subjects": [
+    "golden retriever",
+    "german shepherd",
+    "labrador puppy",
+    "husky with blue eyes",
+    "corgi",
+    "french bulldog",
+    "border collie",
+    "shiba inu",
+    "poodle",
+    "beagle",
+    "dalmatian",
+    "australian shepherd"
+  ],
+  "poses": [
+    "sitting obediently",
+    "running joyfully",
+    "playing fetch",
+    "sleeping peacefully",
+    "tilting head curiously",
+    "standing alert",
+    "rolling on grass",
+    "swimming in water",
+    "jumping to catch",
+    "walking on leash"
+  ],
+  "expressions": [
+    "happy tongue out",
+    "loyal devoted eyes",
+    "excited and playful",
+    "calm and peaceful",
+    "alert and focused",
+    "goofy smile"
+  ],
+  "environments": [
+    "grassy park",
+    "beach shoreline",
+    "mountain trail",
+    "living room couch",
+    "backyard garden",
+    "snowy field",
+    "forest path",
+    "urban street"
+  ],
+  "lighting": [
+    "bright sunny day",
+    "golden hour",
+    "soft overcast",
+    "studio lighting",
+    "dramatic sunset",
+    "natural daylight"
+  ],
+  "styles": [
+    "pet photography",
+    "action photography",
+    "portrait photography",
+    "lifestyle",
+    "fine art",
+    "documentary"
+  ],
+  "shot_types": [
+    "close-up portrait",
+    "full body action",
+    "environmental wide",
+    "candid moment",
+    "artistic portrait",
+    "playful action shot"
+  ]
+}
+
+
+
+
+

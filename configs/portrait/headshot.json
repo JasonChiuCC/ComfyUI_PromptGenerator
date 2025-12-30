@@ -1,0 +1,68 @@
+{
+  "name": "Headshot",
+  "description": "Professional headshot and actor portrait photography",
+  "subjects": [
+    "actor headshot",
+    "professional talent",
+    "model comp card",
+    "speaker portrait",
+    "author photo",
+    "professional headshot"
+  ],
+  "expressions": [
+    "approachable smile",
+    "serious dramatic",
+    "friendly warmth",
+    "confident neutral",
+    "casting-ready range",
+    "engaging eyes"
+  ],
+  "poses": [
+    "straight on shoulders",
+    "slight angle",
+    "head tilt subtle",
+    "shoulders turned",
+    "chin forward",
+    "natural position"
+  ],
+  "outfits": [
+    "solid color top",
+    "professional attire",
+    "casting appropriate",
+    "neutral clothing",
+    "character wardrobe"
+  ],
+  "shot_types": [
+    "tight headshot",
+    "head and shoulders",
+    "commercial headshot",
+    "theatrical headshot",
+    "three-quarter crop"
+  ],
+  "lighting": [
+    "clean even lighting",
+    "soft flattering",
+    "subtle shadows",
+    "catch light in eyes",
+    "professional studio"
+  ],
+  "backgrounds": [
+    "neutral grey",
+    "white seamless",
+    "subtle gradient",
+    "environmental blur",
+    "solid color"
+  ],
+  "styles": [
+    "professional headshot",
+    "actor headshot",
+    "commercial photography",
+    "casting portfolio",
+    "personal branding"
+  ]
+}
+
+
+
+
+

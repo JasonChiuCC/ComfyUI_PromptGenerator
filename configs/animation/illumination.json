@@ -1,0 +1,128 @@
+{
+    "illumination": {
+        "shot_types": [
+            "full body character shot",
+            "group minion shot",
+            "comedic action shot",
+            "cute character portrait",
+            "chaotic scene wide shot",
+            "pet adventure shot",
+            "villain lair shot",
+            "musical performance shot",
+            "slapstick moment",
+            "adorable reaction shot",
+            "city scene establishing shot",
+            "secret life moment",
+            "sing competition shot",
+            "family interaction shot",
+            "funny chase sequence"
+        ],
+        "characters": [
+            "yellow minion",
+            "fluffy unicorn lover",
+            "mischievous creature",
+            "adorable pet",
+            "quirky villain",
+            "lovable animal",
+            "funny sidekick",
+            "cute monster",
+            "goofy character",
+            "singing animal",
+            "energetic bunny",
+            "clumsy hero",
+            "wacky inventor",
+            "cheerful protagonist",
+            "tiny troublemaker"
+        ],
+        "character_traits": [
+            "comically expressive",
+            "adorably clumsy",
+            "mischievous personality",
+            "over-the-top reactions",
+            "slapstick humor",
+            "cute and cuddly",
+            "energetic movement",
+            "silly behavior",
+            "lovable chaos",
+            "innocent troublemaker"
+        ],
+        "expressions": [
+            "big googly eyes",
+            "goofy smile",
+            "shocked expression",
+            "evil grin",
+            "innocent look",
+            "excited face",
+            "confused expression",
+            "mischievous smirk",
+            "happy dance face",
+            "silly reaction"
+        ],
+        "locations": [
+            "colorful city",
+            "secret villain lair",
+            "suburban neighborhood",
+            "theme park",
+            "tropical island",
+            "modern home",
+            "busy street",
+            "underground base",
+            "pet shop",
+            "concert stage",
+            "apartment building",
+            "factory setting",
+            "party scene",
+            "shopping mall",
+            "school setting"
+        ],
+        "styles": [
+            "Illumination 3D style",
+            "smooth round shapes",
+            "vibrant saturated colors",
+            "clean simple design",
+            "exaggerated proportions",
+            "bouncy animation",
+            "comedic timing",
+            "family friendly",
+            "modern cartoon 3D",
+            "appealing character design"
+        ],
+        "effects": [
+            "bright lighting",
+            "colorful explosions",
+            "sparkle effects",
+            "motion blur comedy",
+            "exaggerated physics",
+            "cartoon physics",
+            "slapstick effects",
+            "pop of color",
+            "dynamic movement",
+            "comedic timing"
+        ],
+        "lighting": [
+            "bright cheerful lighting",
+            "colorful ambient light",
+            "warm family lighting",
+            "comedic spotlight",
+            "vibrant colors",
+            "clean studio lighting",
+            "saturated hues",
+            "playful atmosphere",
+            "cartoon brightness",
+            "happy mood lighting"
+        ],
+        "moods": [
+            "hilarious comedy",
+            "family fun",
+            "chaotic energy",
+            "heartwarming moment",
+            "silly adventure",
+            "mischievous fun",
+            "cute overload",
+            "slapstick humor",
+            "feel-good vibes",
+            "comedic chaos"
+        ]
+    }
+}
+

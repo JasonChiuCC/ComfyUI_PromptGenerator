@@ -1,0 +1,55 @@
+{
+  "name": "Octane Render",
+  "description": "High-end Octane GPU render style",
+  "subjects": [
+    "abstract sculpture",
+    "product design",
+    "character portrait",
+    "architectural interior",
+    "futuristic object",
+    "organic form",
+    "jewelry piece",
+    "surreal scene",
+    "sci-fi concept",
+    "luxury item"
+  ],
+  "styles": [
+    "Octane render",
+    "photorealistic 3D",
+    "ultra high detail",
+    "physically based materials",
+    "hyperrealistic render",
+    "studio quality 3D",
+    "commercial render quality",
+    "8K Octane"
+  ],
+  "environments": [
+    "studio HDRI",
+    "outdoor HDRI lighting",
+    "abstract void",
+    "gradient backdrop",
+    "reflective floor"
+  ],
+  "lighting": [
+    "HDRI environment lighting",
+    "three-point studio setup",
+    "dramatic rim lighting",
+    "soft diffused light",
+    "caustic light effects"
+  ],
+  "composition_types": [
+    "product hero shot",
+    "artistic angle",
+    "macro detail shot",
+    "dramatic perspective",
+    "floating presentation"
+  ],
+  "materials": [
+    "subsurface scattering skin",
+    "glossy metal",
+    "translucent glass",
+    "iridescent surface",
+    "rough concrete"
+  ]
+}
+

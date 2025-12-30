@@ -1,0 +1,75 @@
+{
+  "name": "Marine Life",
+  "description": "Ocean creatures and marine photography",
+  "subjects": [
+    "majestic whale",
+    "playful dolphins",
+    "colorful tropical fish",
+    "sea turtle",
+    "manta ray",
+    "octopus",
+    "shark",
+    "jellyfish",
+    "seahorse",
+    "coral reef scene",
+    "orca whale",
+    "clownfish"
+  ],
+  "poses": [
+    "swimming gracefully",
+    "breaching surface",
+    "hunting prey",
+    "resting on reef",
+    "school formation",
+    "floating peacefully",
+    "playing together",
+    "exploring ocean"
+  ],
+  "expressions": [
+    "curious and friendly",
+    "majestic presence",
+    "playful energy",
+    "serene peaceful",
+    "mysterious depth",
+    "graceful movement"
+  ],
+  "environments": [
+    "coral reef",
+    "deep blue ocean",
+    "kelp forest",
+    "tropical lagoon",
+    "arctic waters",
+    "open ocean",
+    "underwater cave",
+    "sunlit shallows"
+  ],
+  "lighting": [
+    "sunbeams through water",
+    "deep blue ambient",
+    "golden surface light",
+    "bioluminescent glow",
+    "crystal clear tropical",
+    "dramatic underwater"
+  ],
+  "styles": [
+    "underwater photography",
+    "marine documentary",
+    "ocean art",
+    "wildlife photography",
+    "artistic underwater",
+    "nature photography"
+  ],
+  "shot_types": [
+    "wide ocean scene",
+    "close-up portrait",
+    "action swimming",
+    "silhouette against light",
+    "macro detail",
+    "environmental scene"
+  ]
+}
+
+
+
+
+

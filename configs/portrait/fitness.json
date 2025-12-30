@@ -1,0 +1,65 @@
+{
+  "name": "Fitness",
+  "description": "Athletic and fitness focused portrait photography",
+  "subjects": [
+    "athletic model",
+    "fitness enthusiast",
+    "bodybuilder",
+    "yoga practitioner",
+    "sports athlete",
+    "CrossFit athlete"
+  ],
+  "expressions": [
+    "determined focus",
+    "powerful intensity",
+    "confident strength",
+    "athletic concentration",
+    "victorious pride",
+    "workout intensity"
+  ],
+  "poses": [
+    "flexing muscles",
+    "athletic stance",
+    "action pose",
+    "yoga position",
+    "power pose",
+    "dynamic movement"
+  ],
+  "outfits": [
+    "athletic wear",
+    "sports bra and leggings",
+    "minimal workout attire",
+    "competition bodybuilding",
+    "yoga clothing",
+    "gym outfit"
+  ],
+  "shot_types": [
+    "full body athletic",
+    "muscle detail",
+    "action movement",
+    "power portrait",
+    "physique showcase"
+  ],
+  "lighting": [
+    "hard light for definition",
+    "dramatic side lighting",
+    "rim light muscles",
+    "gym ambient",
+    "contrast lighting"
+  ],
+  "backgrounds": [
+    "gym environment",
+    "industrial setting",
+    "outdoor athletic",
+    "dark dramatic",
+    "sports facility"
+  ],
+  "styles": [
+    "fitness photography",
+    "athletic portrait",
+    "bodybuilding style",
+    "sports imagery",
+    "health and wellness"
+  ]
+}
+

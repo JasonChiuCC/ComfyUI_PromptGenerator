@@ -1,0 +1,61 @@
+{
+  "name": "Space Station",
+  "description": "Orbital habitats and space installations",
+  "subjects": [
+    "rotating space station",
+    "orbital habitat ring",
+    "military space base",
+    "research outpost",
+    "space dock complex",
+    "asteroid mining station",
+    "luxury orbital hotel",
+    "deep space relay"
+  ],
+  "environments": [
+    "Earth orbit",
+    "lunar orbit",
+    "asteroid belt",
+    "gas giant rings",
+    "deep space",
+    "binary star system",
+    "nebula interior",
+    "alien system"
+  ],
+  "lighting": [
+    "Earth light",
+    "sunlight and shadow",
+    "interior glow",
+    "station lights",
+    "dramatic space lighting",
+    "starfield backdrop"
+  ],
+  "styles": [
+    "realistic sci-fi",
+    "industrial space",
+    "luxury futuristic",
+    "military installation",
+    "research facility",
+    "colony architecture"
+  ],
+  "effects": [
+    "rotation motion",
+    "docking ships",
+    "atmospheric windows",
+    "solar panels",
+    "communication arrays",
+    "debris field"
+  ],
+  "composition_types": [
+    "exterior overview",
+    "interior habitat",
+    "docking scene",
+    "construction progress",
+    "Earth backdrop",
+    "detail section"
+  ]
+}
+
+
+
+
+

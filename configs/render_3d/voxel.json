@@ -1,0 +1,55 @@
+{
+  "name": "Voxel",
+  "description": "Voxel-based 3D art with cubic building blocks",
+  "subjects": [
+    "fantasy castle",
+    "spaceship",
+    "forest scene",
+    "character portrait",
+    "city block",
+    "underwater coral reef",
+    "mountain landscape",
+    "robot mech",
+    "cozy house interior",
+    "battle scene"
+  ],
+  "styles": [
+    "voxel art",
+    "cubic blocks",
+    "Minecraft style",
+    "MagicaVoxel render",
+    "chunky pixels 3D",
+    "blocky aesthetic",
+    "8-bit 3D",
+    "retro voxel"
+  ],
+  "environments": [
+    "voxel terrain",
+    "floating voxel island",
+    "simple background",
+    "gradient sky",
+    "void space"
+  ],
+  "lighting": [
+    "soft ambient occlusion",
+    "warm sunset lighting",
+    "cool blue atmosphere",
+    "dramatic shadows",
+    "flat cartoon lighting"
+  ],
+  "composition_types": [
+    "isometric voxel view",
+    "top-down angle",
+    "hero shot",
+    "panoramic scene",
+    "close-up blocks"
+  ],
+  "details": [
+    "detailed small voxels",
+    "large chunky blocks",
+    "mixed voxel sizes",
+    "smooth voxel edges",
+    "sharp cubic edges"
+  ]
+}
+

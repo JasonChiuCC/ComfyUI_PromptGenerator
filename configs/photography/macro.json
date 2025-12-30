@@ -1,0 +1,53 @@
+{
+  "name": "Macro",
+  "description": "Extreme close-up macro photography",
+  "subjects": [
+    "insect eye detail",
+    "water droplet",
+    "flower stamen",
+    "butterfly wing",
+    "spider web dew",
+    "snowflake crystal",
+    "bee on flower",
+    "leaf texture",
+    "circuit board",
+    "jewelry detail"
+  ],
+  "styles": [
+    "macro photography",
+    "extreme close-up",
+    "1:1 magnification",
+    "super macro",
+    "focus stacking",
+    "scientific detail",
+    "nature macro"
+  ],
+  "lighting": [
+    "ring flash",
+    "soft diffused",
+    "backlit translucent",
+    "side lighting texture",
+    "natural sunlight",
+    "LED macro light"
+  ],
+  "backgrounds": [
+    "smooth bokeh blur",
+    "dark contrast",
+    "natural environment blur",
+    "studio black",
+    "complementary color"
+  ],
+  "composition_types": [
+    "centered subject",
+    "rule of thirds",
+    "diagonal composition",
+    "symmetrical pattern",
+    "negative space",
+    "filling the frame"
+  ]
+}
+
+
+
+
+

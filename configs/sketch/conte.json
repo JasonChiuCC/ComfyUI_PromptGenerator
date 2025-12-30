@@ -1,0 +1,86 @@
+{
+    "conte": {
+        "composition_types": [
+            "classical figure study",
+            "portrait on toned paper",
+            "nude academic study",
+            "three-value composition",
+            "dynamic gesture",
+            "still life arrangement",
+            "landscape atmosphere",
+            "anatomical study",
+            "draped figure",
+            "expressive portrait",
+            "tonal gradation",
+            "highlight study",
+            "shadow mapping",
+            "form exploration",
+            "life drawing"
+        ],
+        "subjects": [
+            "human figure",
+            "classical portrait",
+            "anatomical detail",
+            "draped fabric",
+            "still life objects",
+            "natural forms",
+            "nude study",
+            "expressive face",
+            "hands and feet",
+            "full body pose"
+        ],
+        "techniques": [
+            "side stroke shading",
+            "point detail",
+            "blending",
+            "layering",
+            "highlight lifting",
+            "cross-hatching",
+            "tonal building",
+            "edge softening",
+            "accent marks",
+            "gesture lines"
+        ],
+        "conte_colors": [
+            "sanguine red",
+            "sepia brown",
+            "bistre dark",
+            "black conte",
+            "white conte",
+            "trois crayons",
+            "warm earth",
+            "cool gray",
+            "terracotta",
+            "natural sienna"
+        ],
+        "paper_tones": [
+            "warm gray paper",
+            "cool gray paper",
+            "tan toned",
+            "cream colored",
+            "blue-gray",
+            "green-gray",
+            "ochre toned",
+            "neutral mid-tone",
+            "warm buff",
+            "cool slate"
+        ],
+        "moods": [
+            "classical elegance",
+            "academic tradition",
+            "warm intimacy",
+            "sculptural form",
+            "Renaissance spirit",
+            "French atelier",
+            "timeless beauty",
+            "subtle refinement",
+            "masterful technique",
+            "artistic heritage"
+        ]
+    }
+}
+
+
+
+
+

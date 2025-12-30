@@ -1,0 +1,116 @@
+{
+    "dreamworks": {
+        "shot_types": [
+            "full body action shot",
+            "epic wide adventure shot",
+            "comedic reaction shot",
+            "dramatic hero pose",
+            "chase sequence shot",
+            "battle scene wide shot",
+            "buddy duo shot",
+            "villain confrontation",
+            "training montage shot",
+            "flying dragon shot",
+            "kung fu action pose",
+            "swamp scene composition",
+            "crowd reaction shot",
+            "dramatic silhouette shot",
+            "victory celebration shot"
+        ],
+        "characters": [
+            "sassy animated character",
+            "unlikely hero",
+            "comedic sidekick",
+            "fierce warrior",
+            "clever protagonist",
+            "lovable ogre",
+            "brave dragon rider",
+            "kung fu master",
+            "mischievous animal",
+            "reluctant hero",
+            "quirky villain",
+            "adventurous explorer",
+            "determined dreamer",
+            "talking animal star",
+            "action hero"
+        ],
+        "character_styles": [
+            "exaggerated features",
+            "dynamic expressions",
+            "comedic design",
+            "action-ready pose",
+            "stylized proportions",
+            "expressive face",
+            "unique silhouette",
+            "memorable design",
+            "bold character",
+            "appealing style"
+        ],
+        "expressions": [
+            "sassy smirk",
+            "comedic reaction",
+            "determined glare",
+            "mischievous grin",
+            "heroic expression",
+            "shocked face",
+            "confident look",
+            "emotional moment",
+            "action face",
+            "witty expression"
+        ],
+        "locations": [
+            "fantasy swamp",
+            "ancient China",
+            "Viking village",
+            "Madagascar jungle",
+            "fairy tale kingdom",
+            "prehistoric world",
+            "secret hideout",
+            "adventure landscape",
+            "action set piece",
+            "comedic setting",
+            "exotic location",
+            "magical realm",
+            "urban jungle",
+            "mythical world",
+            "epic battlefield"
+        ],
+        "action_elements": [
+            "dynamic action",
+            "comedic timing",
+            "epic battle",
+            "chase sequence",
+            "dramatic moment",
+            "slapstick humor",
+            "heroic stance",
+            "adventure scene",
+            "emotional climax",
+            "triumphant victory"
+        ],
+        "lighting": [
+            "dramatic lighting",
+            "action scene lighting",
+            "comedic bright light",
+            "epic sunset",
+            "mysterious shadows",
+            "warm golden light",
+            "dynamic highlights",
+            "cinematic atmosphere",
+            "colorful lighting",
+            "mood lighting"
+        ],
+        "moods": [
+            "action comedy",
+            "epic adventure",
+            "heartfelt humor",
+            "exciting action",
+            "witty comedy",
+            "emotional journey",
+            "thrilling adventure",
+            "family fun",
+            "underdog triumph",
+            "comedic chaos"
+        ]
+    }
+}
+

@@ -1,0 +1,55 @@
+{
+  "name": "Unreal Engine",
+  "description": "Photorealistic game engine render style",
+  "subjects": [
+    "fantasy warrior character",
+    "sci-fi environment",
+    "realistic landscape",
+    "cinematic scene",
+    "action hero",
+    "futuristic city",
+    "horror creature",
+    "racing game scene",
+    "military scene",
+    "mystical temple"
+  ],
+  "styles": [
+    "Unreal Engine 5 render",
+    "photorealistic game graphics",
+    "cinematic game quality",
+    "AAA game visuals",
+    "next-gen graphics",
+    "ray traced render",
+    "nanite detail",
+    "lumen global illumination"
+  ],
+  "environments": [
+    "detailed open world",
+    "atmospheric environment",
+    "volumetric fog scene",
+    "dynamic weather",
+    "destructible environment"
+  ],
+  "lighting": [
+    "ray traced global illumination",
+    "volumetric lighting",
+    "HDR cinematic lighting",
+    "dynamic time of day",
+    "dramatic god rays"
+  ],
+  "composition_types": [
+    "cinematic wide shot",
+    "over-the-shoulder view",
+    "first person perspective",
+    "dramatic hero shot",
+    "environmental storytelling"
+  ],
+  "effects": [
+    "motion blur",
+    "depth of field",
+    "lens flare",
+    "particle effects",
+    "screen space reflections"
+  ]
+}
+
