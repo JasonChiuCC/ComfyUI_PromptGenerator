@@ -1,0 +1,82 @@
+{
+    "waterfall": {
+        "view_types": [
+            "full cascade panorama",
+            "base pool mist",
+            "behind waterfall view",
+            "aerial top down",
+            "close-up water detail",
+            "long exposure silky",
+            "rainbow in mist",
+            "multi-tier cascade",
+            "frozen waterfall ice",
+            "tropical jungle setting",
+            "person for scale",
+            "moonlit falls",
+            "dramatic cliff drop",
+            "hidden forest falls",
+            "wide river falls"
+        ],
+        "subjects": [
+            "majestic waterfall",
+            "cascading falls",
+            "tropical waterfall",
+            "mountain waterfall",
+            "hidden jungle falls",
+            "ice-covered falls",
+            "multi-tiered cascade",
+            "wide river falls",
+            "narrow tall plunge",
+            "spring waterfall"
+        ],
+        "famous_waterfalls": [
+            "Niagara Falls",
+            "Victoria Falls",
+            "Iguazu Falls",
+            "Angel Falls Venezuela",
+            "Yosemite Falls",
+            "Plitvice Lakes Croatia",
+            "Gullfoss Iceland",
+            "Havasu Falls Arizona",
+            "Seljalandsfoss Iceland",
+            "Ban Gioc Vietnam"
+        ],
+        "waterfall_types": [
+            "plunge waterfall",
+            "horsetail falls",
+            "tiered cascade",
+            "block waterfall",
+            "segmented falls",
+            "frozen ice falls",
+            "spring melt rush",
+            "gentle cascade",
+            "powerful torrent",
+            "ribbon falls"
+        ],
+        "lighting": [
+            "rainbow in mist",
+            "golden hour glow",
+            "overcast soft light",
+            "harsh midday sun",
+            "moonlit silver",
+            "backlit mist spray",
+            "morning light rays",
+            "sunset warm tones",
+            "blue hour cool",
+            "storm dramatic"
+        ],
+        "moods": [
+            "powerful majesty",
+            "natural wonder",
+            "peaceful cascade",
+            "refreshing mist",
+            "dramatic plunge",
+            "pristine wilderness",
+            "romantic setting",
+            "adventure destination",
+            "eternal flow",
+            "nature's power"
+        ]
+    }
+}
+

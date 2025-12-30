@@ -1,0 +1,82 @@
+{
+    "canyon": {
+        "view_types": [
+            "rim overlook panorama",
+            "looking up from bottom",
+            "slot canyon interior",
+            "river cutting through",
+            "layered rock strata",
+            "aerial canyon view",
+            "hiking trail perspective",
+            "canyon wall detail",
+            "sunrise light beams",
+            "shadow play on walls",
+            "narrow passage squeeze",
+            "waterfall in canyon",
+            "desert canyon wide",
+            "bridge spanning canyon",
+            "sunset rim glow"
+        ],
+        "subjects": [
+            "grand canyon vista",
+            "slot canyon passage",
+            "river canyon",
+            "red rock canyon",
+            "ice canyon glacier",
+            "sea cliff canyon",
+            "volcanic canyon",
+            "sandstone formations",
+            "layered sedimentary walls",
+            "ancient riverbed canyon"
+        ],
+        "famous_canyons": [
+            "Grand Canyon Arizona",
+            "Antelope Canyon",
+            "Bryce Canyon",
+            "Zion Narrows",
+            "Horseshoe Bend",
+            "Petra Jordan",
+            "Fish River Canyon",
+            "Colca Canyon Peru",
+            "Verdon Gorge France",
+            "Waimea Canyon Hawaii"
+        ],
+        "lighting": [
+            "light beam through slot",
+            "golden hour rim light",
+            "harsh midday shadows",
+            "reflected warm glow",
+            "blue hour cool tones",
+            "dramatic storm light",
+            "sunrise first rays",
+            "moonlit canyon",
+            "overcast soft light",
+            "sunset fire on walls"
+        ],
+        "elements": [
+            "colorful rock layers",
+            "flowing river below",
+            "desert plants on rim",
+            "ancient petroglyphs",
+            "waterfall cascade",
+            "hanging gardens",
+            "wildlife on ledges",
+            "hiking trails",
+            "dramatic clouds above",
+            "mist rising"
+        ],
+        "moods": [
+            "geological wonder",
+            "ancient history",
+            "dramatic scale",
+            "natural cathedral",
+            "adventure spirit",
+            "timeless erosion",
+            "spiritual depth",
+            "raw earth power",
+            "colorful majesty",
+            "pristine wilderness"
+        ]
+    }
+}
+

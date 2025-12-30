@@ -1,0 +1,82 @@
+{
+    "coastal": {
+        "view_types": [
+            "dramatic cliff panorama",
+            "beach and waves",
+            "tide pool close-up",
+            "lighthouse on cliff",
+            "rocky shoreline",
+            "aerial coastline",
+            "sunset beach silhouette",
+            "storm waves crashing",
+            "calm bay morning",
+            "sea cave entrance",
+            "driftwood beach",
+            "coastal village",
+            "fishing boats harbor",
+            "seabird on rocks",
+            "fog rolling in"
+        ],
+        "subjects": [
+            "dramatic sea cliffs",
+            "sandy beach shore",
+            "rocky coastline",
+            "hidden cove",
+            "coastal lighthouse",
+            "fishing village harbor",
+            "tide pools ecosystem",
+            "sea stacks rocks",
+            "beach dunes",
+            "coral beach tropical"
+        ],
+        "coastal_types": [
+            "Mediterranean coast",
+            "rugged Atlantic shore",
+            "tropical paradise beach",
+            "volcanic black sand",
+            "white sand Caribbean",
+            "Norwegian fjord coast",
+            "Australian coastline",
+            "Hawaiian shores",
+            "Scottish sea cliffs",
+            "Japanese coastal views"
+        ],
+        "famous_coasts": [
+            "Amalfi Coast Italy",
+            "Big Sur California",
+            "Great Ocean Road Australia",
+            "Cliffs of Moher Ireland",
+            "Cinque Terre Italy",
+            "Na Pali Coast Hawaii",
+            "Algarve Portugal",
+            "Cornwall England",
+            "Santorini Greece",
+            "Phi Phi Islands Thailand"
+        ],
+        "lighting": [
+            "golden hour beach",
+            "sunrise over sea",
+            "sunset silhouette",
+            "overcast moody",
+            "bright tropical sun",
+            "fog diffused",
+            "storm dramatic",
+            "moonlit shore",
+            "blue hour calm",
+            "reflected sky colors"
+        ],
+        "moods": [
+            "coastal serenity",
+            "wild ocean power",
+            "beach paradise",
+            "rugged beauty",
+            "maritime heritage",
+            "peaceful escape",
+            "dramatic landscape",
+            "seaside romance",
+            "natural wonder",
+            "endless horizon"
+        ]
+    }
+}
+

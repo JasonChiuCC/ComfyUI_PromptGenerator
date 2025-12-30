@@ -1,0 +1,78 @@
+{
+    "mountains": {
+        "view_types": [
+            "dramatic peak panorama",
+            "valley overlook",
+            "alpine meadow foreground",
+            "ridge line silhouette",
+            "glacier close-up",
+            "mountain lake reflection",
+            "climbing perspective",
+            "aerial summit view",
+            "foggy mountain layers",
+            "snow-capped peaks",
+            "rocky outcrop detail",
+            "base camp scene",
+            "sunrise summit",
+            "moonlit peaks",
+            "storm approaching"
+        ],
+        "subjects": [
+            "towering mountain peak",
+            "mountain range panorama",
+            "alpine valley",
+            "snow-covered summit",
+            "rocky mountain face",
+            "volcanic mountain",
+            "rolling hills",
+            "dramatic cliff face",
+            "mountain pass",
+            "highland plateau"
+        ],
+        "locations": [
+            "Swiss Alps",
+            "Himalayas",
+            "Rocky Mountains",
+            "Andes Mountains",
+            "Mount Fuji",
+            "Dolomites Italy",
+            "Scottish Highlands",
+            "Patagonia",
+            "Norwegian fjords",
+            "New Zealand Alps"
+        ],
+        "weather": [
+            "clear blue sky",
+            "dramatic clouds",
+            "morning mist",
+            "snow storm",
+            "golden hour light",
+            "alpenglow",
+            "fog in valleys",
+            "rainbow after rain",
+            "starry night",
+            "northern lights"
+        ],
+        "seasons": [
+            "spring thaw",
+            "summer alpine flowers",
+            "autumn colors",
+            "winter snow",
+            "early morning frost",
+            "late evening glow"
+        ],
+        "moods": [
+            "majestic grandeur",
+            "peaceful solitude",
+            "adventurous spirit",
+            "raw wilderness",
+            "serene beauty",
+            "dramatic power",
+            "timeless presence",
+            "spiritual elevation",
+            "pristine nature",
+            "awe-inspiring scale"
+        ]
+    }
+}
+

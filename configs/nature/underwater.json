@@ -1,0 +1,82 @@
+{
+    "underwater": {
+        "view_types": [
+            "coral reef panorama",
+            "diver perspective",
+            "fish school swirling",
+            "whale encounter",
+            "shark silhouette",
+            "kelp forest interior",
+            "cave diving",
+            "surface light above",
+            "deep ocean abyss",
+            "shipwreck exploration",
+            "macro sea creature",
+            "jellyfish floating",
+            "octopus close-up",
+            "sea turtle swimming",
+            "bioluminescent depths"
+        ],
+        "subjects": [
+            "vibrant coral reef",
+            "tropical fish school",
+            "kelp forest",
+            "underwater cave",
+            "deep sea creatures",
+            "shipwreck ruins",
+            "whale majestic",
+            "shark patrol",
+            "sea turtle journey",
+            "jellyfish garden"
+        ],
+        "marine_life": [
+            "colorful tropical fish",
+            "manta ray gliding",
+            "sea turtle swimming",
+            "octopus camouflage",
+            "whale shark giant",
+            "dolphins playing",
+            "jellyfish drifting",
+            "seahorse hiding",
+            "clownfish anemone",
+            "moray eel"
+        ],
+        "environments": [
+            "coral reef ecosystem",
+            "deep ocean trench",
+            "kelp forest cathedral",
+            "underwater cave system",
+            "sandy bottom",
+            "rocky reef",
+            "open blue water",
+            "sunken ship",
+            "volcanic vent",
+            "ice shelf underneath"
+        ],
+        "lighting": [
+            "surface light rays",
+            "bioluminescent glow",
+            "dive light beam",
+            "natural caustics",
+            "deep blue ambient",
+            "green water filter",
+            "crystal clear tropical",
+            "murky mysterious",
+            "silhouette backlight",
+            "dappled surface light"
+        ],
+        "moods": [
+            "alien world wonder",
+            "peaceful weightlessness",
+            "vibrant life",
+            "mysterious depths",
+            "exploration adventure",
+            "serene floating",
+            "colorful paradise",
+            "deep unknown",
+            "marine sanctuary",
+            "underwater magic"
+        ]
+    }
+}
+

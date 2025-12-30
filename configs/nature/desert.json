@@ -1,0 +1,82 @@
+{
+    "desert": {
+        "view_types": [
+            "endless dune panorama",
+            "oasis scene",
+            "canyon overlook",
+            "sand ripple detail",
+            "desert sunset silhouette",
+            "star trails night sky",
+            "mirage heat shimmer",
+            "caravan crossing",
+            "rock formation close-up",
+            "aerial dune patterns",
+            "desert storm approaching",
+            "moonlit dunes",
+            "cracked earth detail",
+            "desert flower bloom",
+            "abandoned ruins"
+        ],
+        "subjects": [
+            "rolling sand dunes",
+            "rocky desert canyon",
+            "desert oasis",
+            "salt flat expanse",
+            "mesa and butte",
+            "desert wildlife",
+            "ancient desert ruins",
+            "nomad camp",
+            "desert highway",
+            "joshua tree landscape"
+        ],
+        "desert_types": [
+            "Sahara sand dunes",
+            "Mojave desert",
+            "Arabian desert",
+            "Atacama desert",
+            "Gobi desert",
+            "Australian outback",
+            "Sonoran desert",
+            "Death Valley",
+            "Namib desert",
+            "Wadi Rum Jordan"
+        ],
+        "lighting": [
+            "harsh midday sun",
+            "golden hour warmth",
+            "sunset fire sky",
+            "blue hour cool",
+            "starry night",
+            "milky way visible",
+            "heat haze shimmer",
+            "sandstorm diffused",
+            "moonlit silver",
+            "sunrise first light"
+        ],
+        "elements": [
+            "wind-sculpted dunes",
+            "desert plants cacti",
+            "rock arches",
+            "dried riverbed",
+            "sand patterns",
+            "desert animals",
+            "distant mountains",
+            "dramatic clouds",
+            "dust devils",
+            "mirage effects"
+        ],
+        "moods": [
+            "vast emptiness",
+            "harsh beauty",
+            "serene isolation",
+            "ancient timelessness",
+            "survival extremes",
+            "peaceful solitude",
+            "mysterious vastness",
+            "spiritual journey",
+            "raw natural power",
+            "endless horizon"
+        ]
+    }
+}
+

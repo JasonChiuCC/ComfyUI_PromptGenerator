@@ -1,0 +1,82 @@
+{
+    "rainbow": {
+        "view_types": [
+            "full arc rainbow",
+            "double rainbow complete",
+            "rainbow over waterfall",
+            "rainbow in mist",
+            "rainbow over landscape",
+            "rainbow end pot of gold",
+            "rainbow over ocean",
+            "partial rainbow arc",
+            "rainbow through clouds",
+            "rainbow and storm",
+            "rainbow over mountains",
+            "supernumerary rainbow",
+            "fogbow white rainbow",
+            "moonbow lunar rainbow",
+            "rainbow reflection water"
+        ],
+        "subjects": [
+            "complete rainbow arc",
+            "double rainbow miracle",
+            "rainbow after storm",
+            "waterfall rainbow mist",
+            "spray rainbow fountain",
+            "rainbow over valley",
+            "rainbow and sunlight",
+            "partial fading rainbow",
+            "intense vivid rainbow",
+            "rainbow with lightning"
+        ],
+        "rainbow_types": [
+            "primary rainbow bright",
+            "secondary rainbow double",
+            "supernumerary bands",
+            "fogbow white",
+            "moonbow lunar",
+            "twinned rainbow",
+            "reflection rainbow",
+            "red rainbow sunset",
+            "circumhorizontal arc",
+            "glory halo"
+        ],
+        "backgrounds": [
+            "dark storm clouds",
+            "clearing sky",
+            "mountain backdrop",
+            "ocean horizon",
+            "green countryside",
+            "waterfall mist",
+            "forest edge",
+            "prairie expanse",
+            "urban skyline",
+            "desert landscape"
+        ],
+        "lighting": [
+            "sun breaking through",
+            "post-storm light",
+            "golden hour rainbow",
+            "dramatic contrast",
+            "soft diffused",
+            "bright vivid colors",
+            "sunset red enhanced",
+            "misty softened",
+            "intense saturation",
+            "backlit scene"
+        ],
+        "moods": [
+            "magical wonder",
+            "hope and promise",
+            "nature's miracle",
+            "joyful surprise",
+            "peaceful beauty",
+            "lucky moment",
+            "colorful celebration",
+            "post-storm renewal",
+            "fleeting perfection",
+            "childhood wonder"
+        ]
+    }
+}
+

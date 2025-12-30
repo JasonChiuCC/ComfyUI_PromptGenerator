@@ -1,0 +1,82 @@
+{
+    "storm": {
+        "view_types": [
+            "supercell thunderstorm",
+            "lightning strike dramatic",
+            "tornado formation",
+            "storm front approaching",
+            "hurricane eye wall",
+            "shelf cloud ominous",
+            "lightning over city",
+            "storm at sea",
+            "hail storm",
+            "dust storm wall",
+            "monsoon rain",
+            "blizzard whiteout",
+            "mammatus clouds",
+            "double rainbow after",
+            "storm chaser POV"
+        ],
+        "subjects": [
+            "supercell thunderstorm",
+            "lightning bolt strike",
+            "tornado funnel",
+            "hurricane spiral",
+            "dramatic storm clouds",
+            "wall cloud rotating",
+            "shelf cloud edge",
+            "rain curtain",
+            "waterspout ocean",
+            "dust devil"
+        ],
+        "storm_types": [
+            "thunderstorm electric",
+            "tornado violent",
+            "hurricane massive",
+            "blizzard snow",
+            "dust storm haboob",
+            "monsoon seasonal",
+            "hailstorm ice",
+            "typhoon pacific",
+            "cyclone spinning",
+            "microburst wind"
+        ],
+        "lightning_types": [
+            "cloud to ground bolt",
+            "sheet lightning",
+            "forked lightning",
+            "spider lightning",
+            "ball lightning rare",
+            "lightning at sunset",
+            "multiple strikes",
+            "lightning over water",
+            "city lightning",
+            "volcano lightning"
+        ],
+        "lighting": [
+            "lightning flash bright",
+            "dark ominous clouds",
+            "green sky tornado",
+            "storm light dramatic",
+            "sunset storm edge",
+            "midnight lightning",
+            "rain filtered light",
+            "blue moment calm",
+            "fire sky before storm",
+            "rainbow after storm"
+        ],
+        "moods": [
+            "nature's fury",
+            "dramatic power",
+            "ominous approach",
+            "raw energy",
+            "dangerous beauty",
+            "electrical excitement",
+            "primal fear",
+            "storm chaser thrill",
+            "atmospheric drama",
+            "force of nature"
+        ]
+    }
+}
+

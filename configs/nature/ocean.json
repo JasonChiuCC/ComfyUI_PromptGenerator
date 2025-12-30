@@ -1,0 +1,82 @@
+{
+    "ocean": {
+        "view_types": [
+            "endless horizon seascape",
+            "dramatic wave crashing",
+            "calm sea surface",
+            "aerial ocean view",
+            "storm at sea",
+            "sunset over ocean",
+            "moonlit sea",
+            "ship on horizon",
+            "whale breaching",
+            "seabird over waves",
+            "underwater surface view",
+            "tropical blue waters",
+            "rough seas dramatic",
+            "foggy mysterious sea",
+            "lighthouse and waves"
+        ],
+        "subjects": [
+            "open ocean expanse",
+            "rolling ocean waves",
+            "stormy seas",
+            "tropical turquoise water",
+            "arctic ocean ice",
+            "Pacific vastness",
+            "Atlantic swells",
+            "calm Mediterranean",
+            "Southern Ocean wild",
+            "reef and ocean"
+        ],
+        "wave_types": [
+            "gentle rolling waves",
+            "massive storm waves",
+            "breaking surf",
+            "tsunami wall",
+            "rippling surface",
+            "whitecap chop",
+            "glassy calm",
+            "swell lines",
+            "shore break",
+            "rogue wave"
+        ],
+        "weather": [
+            "clear sunny day",
+            "dramatic storm clouds",
+            "fog and mist",
+            "golden hour light",
+            "overcast grey",
+            "rainbow over sea",
+            "lightning at sea",
+            "snow over ocean",
+            "tropical heat",
+            "windy conditions"
+        ],
+        "lighting": [
+            "sunrise golden",
+            "sunset fire sky",
+            "blue hour serenity",
+            "midday bright",
+            "storm dramatic",
+            "moonlight silver",
+            "bioluminescent glow",
+            "overcast soft",
+            "reflected clouds",
+            "underwater light"
+        ],
+        "moods": [
+            "vast infinity",
+            "powerful nature",
+            "serene peace",
+            "wild adventure",
+            "mysterious depths",
+            "romantic horizon",
+            "stormy drama",
+            "tranquil blue",
+            "primal force",
+            "endless freedom"
+        ]
+    }
+}
+

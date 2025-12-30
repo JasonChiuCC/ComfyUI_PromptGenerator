@@ -1,0 +1,82 @@
+{
+    "meadow": {
+        "view_types": [
+            "wildflower field panorama",
+            "rolling hills vista",
+            "close-up flower detail",
+            "path through meadow",
+            "morning dew on grass",
+            "butterfly on flowers",
+            "picnic scene pastoral",
+            "golden wheat field",
+            "lavender field rows",
+            "sunflower field",
+            "mountain meadow alpine",
+            "meadow at sunset",
+            "fog over grassland",
+            "wildlife in meadow",
+            "stream through meadow"
+        ],
+        "subjects": [
+            "wildflower meadow",
+            "alpine flower field",
+            "lavender field",
+            "sunflower field",
+            "wheat field golden",
+            "rolling green hills",
+            "prairie grassland",
+            "tulip field",
+            "poppy field red",
+            "daisy meadow"
+        ],
+        "flowers": [
+            "colorful wildflowers",
+            "lavender purple",
+            "sunflowers yellow",
+            "poppies red",
+            "daisies white",
+            "tulips rainbow",
+            "bluebonnets",
+            "lupines purple",
+            "buttercups golden",
+            "cornflowers blue"
+        ],
+        "locations": [
+            "Provence lavender fields",
+            "Tuscany rolling hills",
+            "Swiss alpine meadows",
+            "Dutch tulip fields",
+            "English countryside",
+            "American prairies",
+            "Japanese flower parks",
+            "Scottish highlands",
+            "Austrian Alps meadows",
+            "Mongolian steppes"
+        ],
+        "lighting": [
+            "golden hour warmth",
+            "soft morning light",
+            "dappled sunshine",
+            "overcast diffused",
+            "sunset golden glow",
+            "backlit flowers",
+            "misty morning",
+            "bright midday",
+            "blue hour twilight",
+            "rainbow after rain"
+        ],
+        "moods": [
+            "pastoral peace",
+            "romantic beauty",
+            "natural abundance",
+            "carefree joy",
+            "serene tranquility",
+            "vibrant life",
+            "countryside charm",
+            "seasonal bloom",
+            "idyllic paradise",
+            "gentle nature"
+        ]
+    }
+}
+

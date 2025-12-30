@@ -1,0 +1,82 @@
+{
+    "volcano": {
+        "view_types": [
+            "eruption dramatic shot",
+            "lava flow river",
+            "volcanic crater rim",
+            "ash cloud plume",
+            "lava meeting ocean",
+            "caldera lake view",
+            "dormant volcano landscape",
+            "aerial volcanic cone",
+            "night eruption glow",
+            "lava tube interior",
+            "volcanic lightning",
+            "smoking fumaroles",
+            "hardened lava field",
+            "volcano silhouette sunset",
+            "geothermal pools"
+        ],
+        "subjects": [
+            "active erupting volcano",
+            "lava flow river",
+            "volcanic crater",
+            "shield volcano",
+            "stratovolcano peak",
+            "cinder cone",
+            "lava lake",
+            "volcanic island",
+            "dormant volcano",
+            "volcanic hotspring"
+        ],
+        "famous_volcanoes": [
+            "Mount Fuji Japan",
+            "Kilauea Hawaii",
+            "Mount Etna Italy",
+            "Eyjafjallajökull Iceland",
+            "Mount Vesuvius",
+            "Yellowstone caldera",
+            "Mount St. Helens",
+            "Krakatoa Indonesia",
+            "Stromboli Italy",
+            "Arenal Costa Rica"
+        ],
+        "volcanic_features": [
+            "flowing lava streams",
+            "pyroclastic clouds",
+            "volcanic bombs",
+            "obsidian formations",
+            "sulfur deposits",
+            "steam vents",
+            "volcanic glass",
+            "basalt columns",
+            "geysers nearby",
+            "hot springs"
+        ],
+        "lighting": [
+            "lava glow orange red",
+            "night eruption fire",
+            "ash-filtered sun",
+            "dramatic storm light",
+            "sunset behind volcano",
+            "lightning in ash cloud",
+            "moonlit smoke plume",
+            "geothermal steam glow",
+            "sunrise silhouette",
+            "fire reflection"
+        ],
+        "moods": [
+            "raw earth power",
+            "primal creation",
+            "destructive beauty",
+            "geological drama",
+            "nature's fury",
+            "fire and earth",
+            "ancient forces",
+            "dangerous beauty",
+            "transformative energy",
+            "apocalyptic grandeur"
+        ]
+    }
+}
+

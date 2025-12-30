@@ -55,7 +55,8 @@ class ConfigManager:
                     try:
                         with open(filepath, 'r', encoding='utf-8') as f:
                             config_data = json.load(f)
-                            self.configs[config_name] = config_data
+                            # Merge config data directly (JSON already has theme_name as key)
+                            self.configs.update(config_data)
                     except Exception:
                         pass  # Silently skip failed configs
     
@@ -138,24 +139,34 @@ class ThemeRegistry:
             print(f"[DEBUG] ThemeRegistry - {message}")
     
     def _init_handlers(self):
-        """Initialize all theme handlers."""
+        """Initialize all theme handlers.
+        
+        Uses the new auto-discovery system:
+        1. Custom handlers from handlers/ subfolders (for special logic)
+        2. GenericThemeHandler for any config without a custom handler
+        """
         self._debug_print("Initializing theme handlers...")
         self.handlers = {}
         
         try:
-            from .handlers import HANDLER_CLASSES
+            from .handlers import get_all_handlers
             
-            for theme_name, handler_class in HANDLER_CLASSES.items():
-                try:
-                    self.handlers[theme_name] = handler_class(self.config_manager)
-                    self._debug_print(f"Initialized handler: {theme_name}")
-                except Exception:
-                    pass  # Silently skip failed handlers
+            # Get all handlers (custom + generic fallback)
+            self.handlers = get_all_handlers(self.config_manager)
+            self._debug_print(f"Loaded {len(self.handlers)} handlers (custom + generic)")
             
-            self._debug_print(f"Loaded {len(self.handlers)} handlers")
-            
-        except ImportError:
-            pass  # Silently handle import errors
+        except ImportError as e:
+            # Fallback: try legacy method
+            self._debug_print(f"Falling back to legacy handler loading: {e}")
+            try:
+                from .handlers import HANDLER_CLASSES
+                for theme_name, handler_class in HANDLER_CLASSES.items():
+                    try:
+                        self.handlers[theme_name] = handler_class(self.config_manager)
+                    except Exception:
+                        pass
+            except ImportError:
+                pass
     
     def reload_handlers(self):
         """Hot reload all handlers (reimport Python modules)."""
@@ -435,6 +446,7 @@ class CategoryPromptBase:
                     "max": 100,
                     "step": 1,
                 }),
+                "random_seed": (["no", "yes"], {"default": "no"}),
             },
             "optional": {
                 **theme_widgets,
@@ -448,14 +460,26 @@ class CategoryPromptBase:
     FUNCTION = "generate"
     CATEGORY = "JC/PromptGenerator"
     
+    @classmethod
+    def IS_CHANGED(cls, **kwargs):
+        """Force regeneration by returning a unique value each time."""
+        import time
+        return time.time()
+    
     def generate(
         self,
         seed: int = 0,
         batch_count: int = 1,
+        random_seed: str = "no",
         reload_config: str = "no",
         **kwargs
     ) -> Tuple[List[str], List[str]]:
         """Generate prompts for all enabled themes."""
+        
+        # Use random seed if enabled
+        if random_seed == "yes":
+            import time
+            seed = int(time.time() * 1000) % 0xffffffffffffffff
         
         # Handle hot reload
         if reload_config == "yes":
@@ -1496,6 +1520,99 @@ class ArchitecturePromptZH(CategoryPromptBase):
 
 
 # =============================================================================
+# Nature & Landscape Category Nodes
+# =============================================================================
+
+class NaturePromptEN(CategoryPromptBase):
+    """English Nature & Landscape prompt generator."""
+    
+    SELECT_ALL_LABEL = "✅ Select All Nature"
+    
+    AVAILABLE_THEMES = [
+        # Terrain
+        ("      Mountains", "mountains"),
+        ("      Forest", "forest"),
+        ("      Desert", "desert"),
+        ("      Canyon", "canyon"),
+        ("      Cave", "cave"),
+        ("      Arctic", "arctic"),
+        ("      Volcano", "volcano"),
+        ("      Meadow", "meadow"),
+        # Water
+        ("      Ocean", "ocean"),
+        ("      Underwater", "underwater"),
+        ("      Waterfall", "waterfall"),
+        ("      Lake", "lake"),
+        ("      Coastal", "coastal"),
+        # Sky & Atmosphere
+        ("      Sunset", "sunset"),
+        ("      Sunrise", "sunrise"),
+        ("      Night Sky", "night_sky"),
+        ("      Aurora", "aurora"),
+        ("      Storm", "storm"),
+        ("      Fog", "fog"),
+        ("      Rainbow", "rainbow"),
+        # Seasonal
+        ("      Cherry Blossom", "cherry_blossom"),
+        ("      Autumn Foliage", "autumn_foliage"),
+    ]
+    
+    ALL_THEMES = [
+        "mountains", "forest", "desert", "canyon", "cave", "arctic", "volcano", "meadow",
+        "ocean", "underwater", "waterfall", "lake", "coastal",
+        "sunset", "sunrise", "night_sky", "aurora", "storm", "fog", "rainbow",
+        "cherry_blossom", "autumn_foliage"
+    ]
+    
+    CATEGORY = "JC Prompt Generator/Nature 自然"
+
+
+class NaturePromptZH(CategoryPromptBase):
+    """Chinese Nature & Landscape prompt generator."""
+    
+    SELECT_ALL_LABEL = "✅ 全選自然"
+    
+    AVAILABLE_THEMES = [
+        # 地形地貌
+        ("      山景", "mountains"),
+        ("      森林", "forest"),
+        ("      沙漠", "desert"),
+        ("      峽谷", "canyon"),
+        ("      洞穴", "cave"),
+        ("      極地冰原", "arctic"),
+        ("      火山", "volcano"),
+        ("      草原花田", "meadow"),
+        # 水域場景
+        ("      海洋", "ocean"),
+        ("      水下", "underwater"),
+        ("      瀑布", "waterfall"),
+        ("      湖泊", "lake"),
+        ("      海岸線", "coastal"),
+        # 天象景觀
+        ("      日落", "sunset"),
+        ("      日出", "sunrise"),
+        ("      星空", "night_sky"),
+        ("      極光", "aurora"),
+        ("      風暴", "storm"),
+        ("      霧景", "fog"),
+        ("      彩虹", "rainbow"),
+        # 季節風情
+        ("      櫻花", "cherry_blossom"),
+        ("      秋楓", "autumn_foliage"),
+    ]
+    
+    ALL_THEMES = [
+        "mountains", "forest", "desert", "canyon", "cave", "arctic", "volcano", "meadow",
+        "ocean", "underwater", "waterfall", "lake", "coastal",
+        "sunset", "sunrise", "night_sky", "aurora", "storm", "fog", "rainbow",
+        "cherry_blossom", "autumn_foliage"
+    ]
+    
+    CATEGORY = "JC Prompt Generator/Nature 自然"
+
+
+
+# =============================================================================
 # Node Registration
 # =============================================================================
 
@@ -1536,6 +1653,9 @@ NODE_CLASS_MAPPINGS = {
     # Architecture
     "JC_Architecture_EN": ArchitecturePromptEN,
     "JC_Architecture_ZH": ArchitecturePromptZH,
+    # Nature
+    "JC_Nature_EN": NaturePromptEN,
+    "JC_Nature_ZH": NaturePromptZH,
 }
 
 NODE_DISPLAY_NAME_MAPPINGS = {
@@ -1575,5 +1695,8 @@ NODE_DISPLAY_NAME_MAPPINGS = {
     # Architecture
     "JC_Architecture_EN": "🏛️ JC Prompt - Architecture",
     "JC_Architecture_ZH": "🏛️ JC 提示詞 - 建築",
+    # Nature
+    "JC_Nature_EN": "🌿 JC Prompt - Nature",
+    "JC_Nature_ZH": "🌿 JC 提示詞 - 自然",
 }
 

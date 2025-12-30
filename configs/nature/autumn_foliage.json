@@ -1,0 +1,82 @@
+{
+    "autumn_foliage": {
+        "view_types": [
+            "forest canopy colors",
+            "fallen leaves carpet",
+            "single tree portrait",
+            "mountain autumn panorama",
+            "reflection in lake",
+            "path through autumn woods",
+            "close-up leaf detail",
+            "golden light through leaves",
+            "misty autumn morning",
+            "aerial autumn forest",
+            "park bench scene",
+            "covered bridge fall",
+            "vineyard autumn",
+            "Japanese maple garden",
+            "sunset through trees"
+        ],
+        "subjects": [
+            "autumn forest panorama",
+            "golden maple trees",
+            "red oak leaves",
+            "yellow aspen grove",
+            "mixed color woodland",
+            "Japanese garden fall",
+            "vineyard autumn colors",
+            "mountain fall foliage",
+            "lakeside autumn trees",
+            "country road fall"
+        ],
+        "tree_types": [
+            "maple tree red orange",
+            "oak tree russet brown",
+            "aspen golden yellow",
+            "beech copper bronze",
+            "birch yellow bright",
+            "ginkgo golden fan",
+            "Japanese maple crimson",
+            "sweetgum purple red",
+            "larch golden needles",
+            "dogwood burgundy"
+        ],
+        "locations": [
+            "New England states",
+            "Vermont countryside",
+            "Kyoto temples",
+            "Canadian wilderness",
+            "Bavarian forests",
+            "Scottish Highlands",
+            "Colorado aspen groves",
+            "Korean mountains",
+            "Japanese gardens",
+            "Blue Ridge Parkway"
+        ],
+        "lighting": [
+            "golden hour warm",
+            "backlit leaves glowing",
+            "overcast saturated",
+            "misty morning soft",
+            "sunset fire colors",
+            "dappled forest light",
+            "blue hour contrast",
+            "bright sunny day",
+            "rainy reflections",
+            "frost morning sparkle"
+        ],
+        "moods": [
+            "nostalgic beauty",
+            "seasonal change",
+            "warm melancholy",
+            "cozy comfort",
+            "nature's finale",
+            "peaceful transition",
+            "vibrant celebration",
+            "reflective calm",
+            "harvest season",
+            "ephemeral splendor"
+        ]
+    }
+}
+

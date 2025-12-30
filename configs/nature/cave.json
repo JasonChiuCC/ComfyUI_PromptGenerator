@@ -1,0 +1,82 @@
+{
+    "cave": {
+        "view_types": [
+            "entrance light silhouette",
+            "vast cavern interior",
+            "stalactite ceiling detail",
+            "underground lake reflection",
+            "narrow passage exploration",
+            "cathedral chamber",
+            "bioluminescent glow",
+            "crystal formation close-up",
+            "light shaft from above",
+            "spelunker perspective",
+            "underwater cave diving",
+            "ice cave interior",
+            "lava tube tunnel",
+            "cave painting wall",
+            "exit looking out"
+        ],
+        "subjects": [
+            "limestone cavern",
+            "crystal cave",
+            "ice cave glacier",
+            "lava tube cave",
+            "sea cave coastal",
+            "underground river",
+            "cave with waterfall",
+            "glowworm cave",
+            "marble cave",
+            "volcanic cave"
+        ],
+        "formations": [
+            "stalactites hanging",
+            "stalagmites rising",
+            "flowstone formations",
+            "cave columns",
+            "crystal clusters",
+            "cave pearls",
+            "rimstone pools",
+            "soda straws",
+            "helictites twisted",
+            "cave bacon layers"
+        ],
+        "famous_caves": [
+            "Waitomo Glowworm",
+            "Carlsbad Caverns",
+            "Mammoth Cave",
+            "Postojna Slovenia",
+            "Marble Caves Chile",
+            "Son Doong Vietnam",
+            "Ice Caves Iceland",
+            "Lechuguilla Cave",
+            "Reed Flute Cave China",
+            "Škocjan Caves"
+        ],
+        "lighting": [
+            "entrance backlight",
+            "flashlight exploration",
+            "bioluminescent blue",
+            "crystal refraction",
+            "underwater glow",
+            "artificial colored lights",
+            "natural light shaft",
+            "torch fire light",
+            "moonlight at entrance",
+            "mysterious darkness"
+        ],
+        "moods": [
+            "mysterious depths",
+            "ancient wonder",
+            "hidden world",
+            "crystal palace",
+            "primal darkness",
+            "geological time",
+            "exploration adventure",
+            "underground cathedral",
+            "otherworldly beauty",
+            "silent sanctuary"
+        ]
+    }
+}
+

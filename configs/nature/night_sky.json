@@ -1,0 +1,82 @@
+{
+    "night_sky": {
+        "view_types": [
+            "milky way panorama",
+            "star trails circular",
+            "meteor shower",
+            "full moon rising",
+            "starry sky landscape",
+            "astrophotography wide",
+            "constellation focus",
+            "planetary alignment",
+            "eclipse dramatic",
+            "light pollution free",
+            "desert night sky",
+            "mountain peak stars",
+            "reflection in water",
+            "tent under stars",
+            "observatory dome"
+        ],
+        "subjects": [
+            "milky way galaxy",
+            "star field dense",
+            "full moon luminous",
+            "meteor streak",
+            "planetary conjunction",
+            "lunar eclipse",
+            "solar eclipse",
+            "comet tail",
+            "constellation pattern",
+            "zodiacal light"
+        ],
+        "celestial_objects": [
+            "Milky Way core",
+            "Orion constellation",
+            "Big Dipper",
+            "Andromeda galaxy",
+            "Venus bright",
+            "Jupiter and moons",
+            "Saturn rings",
+            "shooting stars",
+            "crescent moon",
+            "supermoon"
+        ],
+        "locations": [
+            "dark sky preserve",
+            "desert night",
+            "mountain summit",
+            "ocean horizon",
+            "ancient monument",
+            "remote wilderness",
+            "lake reflection",
+            "camping site",
+            "observatory",
+            "arctic region"
+        ],
+        "techniques": [
+            "long exposure stars",
+            "star trail circles",
+            "tracked milky way",
+            "moon detail sharp",
+            "meteor capture",
+            "time lapse",
+            "panorama stitched",
+            "foreground silhouette",
+            "light painting",
+            "composite image"
+        ],
+        "moods": [
+            "cosmic wonder",
+            "infinite vastness",
+            "peaceful contemplation",
+            "astronomical awe",
+            "universal connection",
+            "night magic",
+            "stargazer's dream",
+            "celestial beauty",
+            "dark sky sanctuary",
+            "stellar magnificence"
+        ]
+    }
+}
+

@@ -1,0 +1,82 @@
+{
+    "sunset": {
+        "view_types": [
+            "panoramic sky ablaze",
+            "silhouette foreground",
+            "reflection on water",
+            "sun touching horizon",
+            "clouds on fire",
+            "mountain sunset",
+            "desert sunset colors",
+            "beach sunset romantic",
+            "city skyline sunset",
+            "tree silhouette",
+            "couple watching sunset",
+            "birds flying across",
+            "sunset through clouds",
+            "time lapse moment",
+            "wide angle dramatic"
+        ],
+        "subjects": [
+            "brilliant sunset sky",
+            "sun disk on horizon",
+            "silhouetted landscape",
+            "reflected sunset water",
+            "sunset behind mountains",
+            "ocean sunset",
+            "desert sunset",
+            "tropical sunset palm",
+            "prairie sunset wide",
+            "urban sunset skyline"
+        ],
+        "sky_colors": [
+            "fiery orange red",
+            "pink and purple",
+            "golden yellow",
+            "magenta explosion",
+            "gradient pastel",
+            "deep crimson",
+            "coral and peach",
+            "violet and indigo",
+            "gold and amber",
+            "multicolor spectrum"
+        ],
+        "cloud_types": [
+            "dramatic cumulonimbus",
+            "wispy cirrus streaks",
+            "puffy cumulus lit",
+            "altocumulus layers",
+            "lenticular clouds",
+            "scattered cotton",
+            "mammatus dramatic",
+            "clear gradient sky",
+            "storm edge glow",
+            "broken clouds"
+        ],
+        "locations": [
+            "ocean horizon",
+            "mountain silhouette",
+            "desert landscape",
+            "tropical beach",
+            "city skyline",
+            "rolling hills",
+            "lake reflection",
+            "prairie expanse",
+            "forest edge",
+            "island paradise"
+        ],
+        "moods": [
+            "romantic warmth",
+            "dramatic finale",
+            "peaceful closure",
+            "nature's painting",
+            "golden hour magic",
+            "fiery passion",
+            "serene beauty",
+            "contemplative moment",
+            "daily wonder",
+            "fleeting perfection"
+        ]
+    }
+}
+

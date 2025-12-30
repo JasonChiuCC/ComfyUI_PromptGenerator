@@ -1,0 +1,82 @@
+{
+    "sunrise": {
+        "view_types": [
+            "first light horizon",
+            "sun breaking clouds",
+            "golden rays spreading",
+            "mountain sunrise",
+            "ocean sunrise",
+            "misty morning light",
+            "silhouette awakening",
+            "reflection on water",
+            "fog lifting scene",
+            "desert sunrise",
+            "forest sunrise rays",
+            "rooftop sunrise view",
+            "balloon at sunrise",
+            "birds morning flight",
+            "dew on grass"
+        ],
+        "subjects": [
+            "breaking dawn sky",
+            "sun rising horizon",
+            "morning light rays",
+            "sunrise through mist",
+            "mountain peak sunrise",
+            "beach sunrise calm",
+            "lake mirror sunrise",
+            "prairie first light",
+            "city awakening",
+            "nature awakening"
+        ],
+        "sky_colors": [
+            "soft pink blush",
+            "orange awakening",
+            "golden promise",
+            "peach and lavender",
+            "coral glow",
+            "warm amber",
+            "rose and gold",
+            "gentle pastels",
+            "bright yellows",
+            "gradient dawn"
+        ],
+        "atmospheres": [
+            "morning mist rising",
+            "clear crisp air",
+            "fog burning off",
+            "dewy freshness",
+            "frost sparkle",
+            "calm stillness",
+            "birds awakening",
+            "world stirring",
+            "peaceful quiet",
+            "new day energy"
+        ],
+        "locations": [
+            "mountain peak",
+            "ocean shore",
+            "lake surface",
+            "misty valley",
+            "desert dunes",
+            "forest edge",
+            "hilltop view",
+            "riverside",
+            "rooftop urban",
+            "hot air balloon"
+        ],
+        "moods": [
+            "new beginning",
+            "hope and promise",
+            "peaceful awakening",
+            "fresh start",
+            "gentle beauty",
+            "quiet meditation",
+            "nature's renewal",
+            "optimistic energy",
+            "serene dawn",
+            "magical moment"
+        ]
+    }
+}
+

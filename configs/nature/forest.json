@@ -1,0 +1,78 @@
+{
+    "forest": {
+        "view_types": [
+            "forest canopy overhead",
+            "path through trees",
+            "sunbeams through leaves",
+            "dense undergrowth",
+            "ancient tree portrait",
+            "misty forest morning",
+            "forest floor detail",
+            "clearing in woods",
+            "stream through forest",
+            "aerial forest view",
+            "tree trunk close-up",
+            "fallen log scene",
+            "mushroom forest floor",
+            "forest edge transition",
+            "deep woods interior"
+        ],
+        "subjects": [
+            "ancient old-growth forest",
+            "enchanted woodland",
+            "bamboo forest",
+            "redwood grove",
+            "birch forest",
+            "pine forest",
+            "deciduous forest",
+            "moss-covered trees",
+            "fairy tale forest",
+            "dark mysterious woods"
+        ],
+        "forest_types": [
+            "temperate rainforest",
+            "boreal taiga",
+            "tropical jungle",
+            "Mediterranean forest",
+            "cloud forest",
+            "mangrove forest",
+            "eucalyptus forest",
+            "mixed woodland",
+            "bamboo grove",
+            "autumn forest"
+        ],
+        "lighting": [
+            "dappled sunlight",
+            "god rays through canopy",
+            "golden hour filtering",
+            "misty diffused light",
+            "overcast soft light",
+            "twilight blue hour",
+            "moonlight shadows",
+            "bioluminescent glow",
+            "foggy atmosphere",
+            "sunrise through trees"
+        ],
+        "seasons": [
+            "spring new growth",
+            "summer lush green",
+            "autumn fall colors",
+            "winter bare branches",
+            "spring blossoms",
+            "autumn leaf fall"
+        ],
+        "moods": [
+            "mystical enchantment",
+            "peaceful serenity",
+            "wild untamed nature",
+            "fairy tale magic",
+            "ancient wisdom",
+            "mysterious depth",
+            "tranquil sanctuary",
+            "primal wilderness",
+            "spiritual connection",
+            "natural cathedral"
+        ]
+    }
+}
+

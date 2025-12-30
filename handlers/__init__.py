@@ -1,552 +1,217 @@
 """Theme handlers package.
 
-This module exports all available theme handlers for the prompt generator.
-Handlers are organized by category in subfolders.
+This module provides handlers for all theme types.
+
+Architecture:
+1. Custom handlers (in subfolders) take priority - for themes needing special logic
+2. GenericThemeHandler auto-handles any theme with a config file
+3. auto_discover_all_handlers() combines both sources
+
+This means:
+- To add a new theme: just add a JSON config file, no Python needed!
+- To customize a theme: write a custom handler class, it will override generic
 """
 
-# ============================================
-# Animation Handlers
-# ============================================
-from .animation import (
-    AnimeHandler,
-    GhibliHandler,
-    MangaHandler,
-    WebtoonHandler,
-    MechaHandler,
-    ShonenHandler,
-    RetroAnimeHandler,
-    DisneyHandler,
-    PixarHandler,
-    DreamworksHandler,
-    IlluminationHandler,
-    LooneyTunesHandler,
-    SouthParkHandler,
-    MarvelHandler,
-    DCComicsHandler,
-    StopMotionHandler,
-    ChibiHandler,
-    ANIMATION_HANDLERS,
-)
+import os
+import importlib
+from typing import Dict, Type, Any
 
-# ============================================
-# Art Styles Handlers
-# ============================================
-from .art_styles import (
-    AbstractHandler,
-    ConceptArtHandler,
-    MinimalistHandler,
-    SurrealismHandler,
-    PopArtHandler,
-    ArtNouveauHandler,
-    ArtDecoHandler,
-    CubismHandler,
-    ExpressionismHandler,
-    ImpressionismHandler,
-    BaroqueHandler,
-    RenaissanceHandler,
-    PsychedelicHandler,
-    GlitchArtHandler,
-    GraffitiHandler,
-    FlatDesignHandler,
-    PointillismHandler,
-    FauvismHandler,
-    RomanticismHandler,
-    BauhausHandler,
-    GothicArtHandler,
-    StreetArtHandler,
-    ART_STYLES_HANDLERS,
-)
-
-# ============================================
-# Sketch & Drawing Handlers
-# ============================================
-from .sketch import (
-    PencilSketchHandler,
-    CharcoalHandler,
-    InkDrawingHandler,
-    BallpointPenHandler,
-    BlueprintHandler,
-    TechnicalDrawingHandler,
-    ConteHandler,
-    GraphiteHandler,
-    GestureHandler,
-    StipplingHandler,
-    CalligraphyHandler,
-    SKETCH_HANDLERS,
-)
-
-# ============================================
-# Painting Handlers
-# ============================================
-from .painting import (
-    OilPaintingHandler,
-    WatercolorHandler,
-    AcrylicHandler,
-    GouacheHandler,
-    InkWashHandler,
-    PastelHandler,
-    ColoredPencilHandler,
-    SprayPaintHandler,
-    CrayonHandler,
-    FrescoHandler,
-    TemperaHandler,
-    EncausticHandler,
-    DigitalPaintingHandler,
-    MixedMediaHandler,
-    ImpastoHandler,
-    PAINTING_HANDLERS,
-)
-
-# ============================================
-# 3D & Render Handlers
-# ============================================
-from .render_3d import (
-    IsometricHandler,
-    LowPolyHandler,
-    ClayRenderHandler,
-    WireframeHandler,
-    VoxelHandler,
-    UnrealEngineHandler,
-    Stylized3DHandler,
-    OctaneHandler,
-    Cinema4DHandler,
-    BlenderHandler,
-    ProductRenderHandler,
-    ArchVizHandler,
-    Glass3DHandler,
-    HolographicHandler,
-    RENDER3D_HANDLERS,
-)
-
-# ============================================
-# Photography Handlers
-# ============================================
-from .photography import (
-    CinematicHandler,
-    StudioPhotoHandler,
-    StreetPhotoHandler,
-    DocumentaryHandler,
-    MacroHandler,
-    LongExposureHandler,
-    AerialDroneHandler,
-    TiltShiftHandler,
-    BokehHandler,
-    DoubleExposureHandler,
-    HDRHandler,
-    BlackWhiteHandler,
-    FilmGrainHandler,
-    FoodPhotoHandler,
-    SportsPhotoHandler,
-    WildlifePhotoHandler,
-    GoldenHourHandler,
-    BlueHourHandler,
-    SilhouetteHandler,
-    PHOTOGRAPHY_HANDLERS,
-)
-
-# ============================================
-# Portrait & People Handlers
-# ============================================
-from .portrait import (
-    ClassicPortraitHandler,
-    FineArtPortraitHandler,
-    EnvironmentalPortraitHandler,
-    MoodyPortraitHandler,
-    DramaticPortraitHandler,
-    EtherealHandler,
-    FashionHandler,
-    BeautyHandler,
-    EditorialHandler,
-    CorporateHandler,
-    GlamourHandler,
-    LifestyleHandler,
-    FitnessHandler,
-    BoudoirHandler,
-    CosplayHandler,
-    MaternityHandler,
-    HeadshotHandler,
-    CoupleHandler,
-    GroupPhotoHandler,
-    StreetStyleHandler,
-    VintagePortraitHandler,
-    CandidPortraitHandler,
-    CharacterPortraitHandler,
-    FilmPortraitHandler,
-    PORTRAIT_HANDLERS,
-)
-
-# ============================================
-# Animals & Creatures Handlers
-# ============================================
-from .animals import (
-    CatHandler,
-    DogHandler,
-    WolfHandler,
-    FoxHandler,
-    HorseHandler,
-    WildlifeArtHandler,
-    PetsHandler,
-    BirdsHandler,
-    MarineLifeHandler,
-    UnderwaterCreaturesHandler,
-    InsectsHandler,
-    DragonHandler,
-    UnicornHandler,
-    PhoenixHandler,
-    DinosaurHandler,
-    KaijuHandler,
-    MythicalBeastsHandler,
-    MermaidHandler,
-    MonsterHandler,
-    ANIMALS_HANDLERS,
-)
-
-# ============================================
-# Sci-Fi Handlers
-# ============================================
-from .scifi import (
-    CyberpunkHandler,
-    SteampunkHandler,
-    DieselpunkHandler,
-    AtompunkHandler,
-    SolarpunkHandler,
-    BiopunkHandler,
-    RaypunkHandler,
-    SpaceOperaHandler,
-    SpacecraftHandler,
-    SpaceStationHandler,
-    AlienWorldHandler,
-    ColonyPlanetHandler,
-    FuturisticCityHandler,
-    NeonFutureHandler,
-    AIDystopiaHandler,
-    PostApocalypticHandler,
-    RobotHandler,
-    RetrofuturismHandler,
-    HardSciFiHandler,
-    PulpSciFiHandler,
-    SCIFI_HANDLERS,
-)
-
-# ============================================
-# Fantasy Handlers
-# ============================================
-from .fantasy import (
-    EpicFantasyHandler,
-    DarkFantasyHandler,
-    HighFantasyHandler,
-    LowFantasyHandler,
-    UrbanFantasyHandler,
-    GrimdarkHandler,
-    FairyTaleHandler,
-    SwordSorceryHandler,
-    PortalFantasyHandler,
-    WizardHandler,
-    ElvenHandler,
-    DwarvenHandler,
-    GreekMythologyHandler,
-    NorseMythologyHandler,
-    CelticFantasyHandler,
-    ArabianFantasyHandler,
-    ArthurianHandler,
-    WuxiaHandler,
-    XianxiaHandler,
-    IsekaiHandler,
-    FANTASY_HANDLERS,
-)
-
-# ============================================
-# Horror & Dark Handlers
-# ============================================
-from .horror import (
-    VampireHandler,
-    WerewolfHandler,
-    ZombieHandler,
-    WitchHandler,
-    SlasherHandler,
-    JHorrorHandler,
-    PsychologicalHandler,
-    BodyHorrorHandler,
-    FolkHorrorHandler,
-    SurvivalHorrorHandler,
-    VictorianGothicHandler,
-    SouthernGothicHandler,
-    HauntedHandler,
-    NightmareHandler,
-    LovecraftianHandler,
-    DemonicHandler,
-    OccultHandler,
-    CreepypastaHandler,
-    HORROR_HANDLERS,
-)
-
-# ============================================
-# Architecture Handlers
-# ============================================
-from .architecture import (
-    ModernArchitectureHandler,
-    BrutalistHandler,
-    ArtDecoArchHandler,
-    GothicCathedralHandler,
-    JapaneseArchHandler,
-    MediterraneanArchHandler,
-    SkyscraperHandler,
-    CastleHandler,
-    TempleHandler,
-    BridgeHandler,
-    VictorianHouseHandler,
-    IndustrialArchHandler,
-    InteriorHandler,
-    CityscapeHandler,
-    VillageHandler,
-    AbandonedHandler,
-    ARCHITECTURE_HANDLERS,
-)
+from ..base_handler import BaseThemeHandler, GenericThemeHandler, auto_discover_handlers
 
 
-# Export all handlers
+# =============================================================================
+# Auto-import existing custom handlers from subfolders
+# =============================================================================
+
+def _import_category_handlers(category_name: str) -> Dict[str, Type[BaseThemeHandler]]:
+    """Import handlers from a category subfolder.
+    
+    Args:
+        category_name: Name of the subfolder (e.g., 'animation', 'horror')
+        
+    Returns:
+        Dict mapping theme_name to handler class
+    """
+    handlers = {}
+    
+    try:
+        # Import the category's __init__.py
+        module = importlib.import_module(f".{category_name}", package=__name__)
+        
+        # Look for a HANDLERS dict (e.g., ANIMATION_HANDLERS)
+        handler_dict_names = [
+            f"{category_name.upper()}_HANDLERS",
+            f"{category_name.upper().replace('_', '')}_HANDLERS",
+            "HANDLERS",
+        ]
+        
+        for dict_name in handler_dict_names:
+            if hasattr(module, dict_name):
+                category_handlers = getattr(module, dict_name)
+                if isinstance(category_handlers, dict):
+                    handlers.update(category_handlers)
+                break
+                
+    except ImportError as e:
+        # Category doesn't have an __init__.py or has import errors
+        pass
+    except Exception as e:
+        pass
+    
+    return handlers
+
+
+def _discover_categories() -> list:
+    """Discover all category subfolders in handlers/."""
+    handlers_dir = os.path.dirname(__file__)
+    categories = []
+    
+    for item in os.listdir(handlers_dir):
+        item_path = os.path.join(handlers_dir, item)
+        if os.path.isdir(item_path) and not item.startswith('_'):
+            # Check if it has an __init__.py
+            if os.path.exists(os.path.join(item_path, '__init__.py')):
+                categories.append(item)
+    
+    return categories
+
+
+# =============================================================================
+# Load all custom handlers from subfolders
+# =============================================================================
+
+CUSTOM_HANDLERS: Dict[str, Type[BaseThemeHandler]] = {}
+
+# Discover and import all category handlers
+_categories = _discover_categories()
+for _category in _categories:
+    _category_handlers = _import_category_handlers(_category)
+    CUSTOM_HANDLERS.update(_category_handlers)
+
+
+# =============================================================================
+# Main function to get all handlers (custom + generic fallback)
+# =============================================================================
+
+def get_all_handlers(config_manager) -> Dict[str, BaseThemeHandler]:
+    """Get all handlers: custom handlers + generic handlers for remaining themes.
+    
+    Priority:
+    1. Custom handlers (from category subfolders) - for special logic
+    2. GenericThemeHandler - auto-generated for any config without custom handler
+    
+    Args:
+        config_manager: ConfigManager instance with loaded configs
+        
+    Returns:
+        Dict mapping theme_name to handler instance
+    """
+    handlers = {}
+    
+    # First, instantiate all custom handlers
+    for theme_name, handler_class in CUSTOM_HANDLERS.items():
+        try:
+            handlers[theme_name] = handler_class(config_manager)
+        except Exception as e:
+            print(f"[WARNING] Failed to init custom handler {theme_name}: {e}")
+    
+    # Then, create generic handlers for any theme without a custom handler
+    available_themes = config_manager.get_available_themes()
+    
+    for theme_name in available_themes:
+        if theme_name not in handlers:
+            try:
+                handlers[theme_name] = GenericThemeHandler(config_manager, theme_name)
+            except Exception as e:
+                print(f"[WARNING] Failed to create generic handler for {theme_name}: {e}")
+    
+    return handlers
+
+
+# =============================================================================
+# Legacy support: HANDLER_CLASSES dict (for backwards compatibility)
+# =============================================================================
+
+# This is used by ThemeRegistry in prompt_generator.py
+# It maps theme_name to handler CLASS (not instance)
+HANDLER_CLASSES = CUSTOM_HANDLERS.copy()
+
+
+# =============================================================================
+# Export all custom handler classes for backwards compatibility
+# =============================================================================
+
+# Import all custom handlers for direct access
+try:
+    from .animation import *
+except ImportError:
+    pass
+
+try:
+    from .art_styles import *
+except ImportError:
+    pass
+
+try:
+    from .sketch import *
+except ImportError:
+    pass
+
+try:
+    from .painting import *
+except ImportError:
+    pass
+
+try:
+    from .render_3d import *
+except ImportError:
+    pass
+
+try:
+    from .photography import *
+except ImportError:
+    pass
+
+try:
+    from .portrait import *
+except ImportError:
+    pass
+
+try:
+    from .animals import *
+except ImportError:
+    pass
+
+try:
+    from .scifi import *
+except ImportError:
+    pass
+
+try:
+    from .fantasy import *
+except ImportError:
+    pass
+
+try:
+    from .horror import *
+except ImportError:
+    pass
+
+try:
+    from .architecture import *
+except ImportError:
+    pass
+
+try:
+    from .nature import *
+except ImportError:
+    pass
+
+
 __all__ = [
-    # Animation
-    'AnimeHandler',
-    'GhibliHandler',
-    'MangaHandler',
-    'WebtoonHandler',
-    'MechaHandler',
-    'ShonenHandler',
-    'RetroAnimeHandler',
-    'DisneyHandler',
-    'PixarHandler',
-    'DreamworksHandler',
-    'IlluminationHandler',
-    'LooneyTunesHandler',
-    'SouthParkHandler',
-    'MarvelHandler',
-    'DCComicsHandler',
-    'StopMotionHandler',
-    'ChibiHandler',
-    # Art Styles
-    'AbstractHandler',
-    'ConceptArtHandler',
-    'MinimalistHandler',
-    'SurrealismHandler',
-    'PopArtHandler',
-    'ArtNouveauHandler',
-    'ArtDecoHandler',
-    'CubismHandler',
-    'ExpressionismHandler',
-    'ImpressionismHandler',
-    'BaroqueHandler',
-    'RenaissanceHandler',
-    'PsychedelicHandler',
-    'GlitchArtHandler',
-    'GraffitiHandler',
-    'FlatDesignHandler',
-    'PointillismHandler',
-    'FauvismHandler',
-    'RomanticismHandler',
-    'BauhausHandler',
-    'GothicArtHandler',
-    'StreetArtHandler',
-    # Sketch & Drawing
-    'PencilSketchHandler',
-    'CharcoalHandler',
-    'InkDrawingHandler',
-    'BallpointPenHandler',
-    'BlueprintHandler',
-    'TechnicalDrawingHandler',
-    'ConteHandler',
-    'GraphiteHandler',
-    'GestureHandler',
-    'StipplingHandler',
-    'CalligraphyHandler',
-    # Painting
-    'OilPaintingHandler',
-    'WatercolorHandler',
-    'AcrylicHandler',
-    'GouacheHandler',
-    'InkWashHandler',
-    'PastelHandler',
-    'ColoredPencilHandler',
-    'SprayPaintHandler',
-    'CrayonHandler',
-    'FrescoHandler',
-    'TemperaHandler',
-    'EncausticHandler',
-    'DigitalPaintingHandler',
-    'MixedMediaHandler',
-    'ImpastoHandler',
-    # 3D & Render
-    'IsometricHandler',
-    'LowPolyHandler',
-    'ClayRenderHandler',
-    'WireframeHandler',
-    'VoxelHandler',
-    'UnrealEngineHandler',
-    'Stylized3DHandler',
-    'OctaneHandler',
-    'Cinema4DHandler',
-    'BlenderHandler',
-    'ProductRenderHandler',
-    'ArchVizHandler',
-    'Glass3DHandler',
-    'HolographicHandler',
-    # Photography
-    'CinematicHandler',
-    'StudioPhotoHandler',
-    'StreetPhotoHandler',
-    'DocumentaryHandler',
-    'MacroHandler',
-    'LongExposureHandler',
-    'AerialDroneHandler',
-    'TiltShiftHandler',
-    'BokehHandler',
-    'DoubleExposureHandler',
-    'HDRHandler',
-    'BlackWhiteHandler',
-    'FilmGrainHandler',
-    'FoodPhotoHandler',
-    'SportsPhotoHandler',
-    'WildlifePhotoHandler',
-    'GoldenHourHandler',
-    'BlueHourHandler',
-    'SilhouetteHandler',
-    # Portrait & People
-    'ClassicPortraitHandler',
-    'FineArtPortraitHandler',
-    'EnvironmentalPortraitHandler',
-    'MoodyPortraitHandler',
-    'DramaticPortraitHandler',
-    'EtherealHandler',
-    'FashionHandler',
-    'BeautyHandler',
-    'EditorialHandler',
-    'CorporateHandler',
-    'GlamourHandler',
-    'LifestyleHandler',
-    'FitnessHandler',
-    'BoudoirHandler',
-    'CosplayHandler',
-    'MaternityHandler',
-    'HeadshotHandler',
-    'CoupleHandler',
-    'GroupPhotoHandler',
-    'StreetStyleHandler',
-    'VintagePortraitHandler',
-    'CandidPortraitHandler',
-    'CharacterPortraitHandler',
-    'FilmPortraitHandler',
-    # Animals & Creatures
-    'CatHandler',
-    'DogHandler',
-    'WolfHandler',
-    'FoxHandler',
-    'HorseHandler',
-    'WildlifeArtHandler',
-    'PetsHandler',
-    'BirdsHandler',
-    'MarineLifeHandler',
-    'UnderwaterCreaturesHandler',
-    'InsectsHandler',
-    'DragonHandler',
-    'UnicornHandler',
-    'PhoenixHandler',
-    'DinosaurHandler',
-    'KaijuHandler',
-    'MythicalBeastsHandler',
-    'MermaidHandler',
-    'MonsterHandler',
-    # Sci-Fi
-    'CyberpunkHandler',
-    'SteampunkHandler',
-    'DieselpunkHandler',
-    'AtompunkHandler',
-    'SolarpunkHandler',
-    'BiopunkHandler',
-    'RaypunkHandler',
-    'SpaceOperaHandler',
-    'SpacecraftHandler',
-    'SpaceStationHandler',
-    'AlienWorldHandler',
-    'ColonyPlanetHandler',
-    'FuturisticCityHandler',
-    'NeonFutureHandler',
-    'AIDystopiaHandler',
-    'PostApocalypticHandler',
-    'RobotHandler',
-    'RetrofuturismHandler',
-    'HardSciFiHandler',
-    'PulpSciFiHandler',
-    # Fantasy
-    'EpicFantasyHandler',
-    'DarkFantasyHandler',
-    'HighFantasyHandler',
-    'LowFantasyHandler',
-    'UrbanFantasyHandler',
-    'GrimdarkHandler',
-    'FairyTaleHandler',
-    'SwordSorceryHandler',
-    'PortalFantasyHandler',
-    'WizardHandler',
-    'ElvenHandler',
-    'DwarvenHandler',
-    'GreekMythologyHandler',
-    'NorseMythologyHandler',
-    'CelticFantasyHandler',
-    'ArabianFantasyHandler',
-    'ArthurianHandler',
-    'WuxiaHandler',
-    'XianxiaHandler',
-    'IsekaiHandler',
-    # Horror & Dark
-    'VampireHandler',
-    'WerewolfHandler',
-    'ZombieHandler',
-    'WitchHandler',
-    'SlasherHandler',
-    'JHorrorHandler',
-    'PsychologicalHandler',
-    'BodyHorrorHandler',
-    'FolkHorrorHandler',
-    'SurvivalHorrorHandler',
-    'VictorianGothicHandler',
-    'SouthernGothicHandler',
-    'HauntedHandler',
-    'NightmareHandler',
-    'LovecraftianHandler',
-    'DemonicHandler',
-    'OccultHandler',
-    'CreepypastaHandler',
-    # Architecture
-    'ModernArchitectureHandler',
-    'BrutalistHandler',
-    'ArtDecoArchHandler',
-    'GothicCathedralHandler',
-    'JapaneseArchHandler',
-    'MediterraneanArchHandler',
-    'SkyscraperHandler',
-    'CastleHandler',
-    'TempleHandler',
-    'BridgeHandler',
-    'VictorianHouseHandler',
-    'IndustrialArchHandler',
-    'InteriorHandler',
-    'CityscapeHandler',
-    'VillageHandler',
-    'AbandonedHandler',
+    'BaseThemeHandler',
+    'GenericThemeHandler',
+    'HANDLER_CLASSES',
+    'CUSTOM_HANDLERS',
+    'get_all_handlers',
 ]
-
-# Combined handler class mapping for ThemeRegistry
-HANDLER_CLASSES = {
-    **ANIMATION_HANDLERS,
-    **ART_STYLES_HANDLERS,
-    **SKETCH_HANDLERS,
-    **PAINTING_HANDLERS,
-    **RENDER3D_HANDLERS,
-    **PHOTOGRAPHY_HANDLERS,
-    **PORTRAIT_HANDLERS,
-    **ANIMALS_HANDLERS,
-    **SCIFI_HANDLERS,
-    **FANTASY_HANDLERS,
-    **HORROR_HANDLERS,
-    **ARCHITECTURE_HANDLERS,
-}

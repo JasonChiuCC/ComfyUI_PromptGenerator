@@ -1,0 +1,82 @@
+{
+    "arctic": {
+        "view_types": [
+            "vast ice sheet panorama",
+            "iceberg floating",
+            "polar bear on ice",
+            "aurora over snow",
+            "glacier calving",
+            "frozen tundra expanse",
+            "ice cave interior",
+            "midnight sun horizon",
+            "penguin colony",
+            "seal on ice floe",
+            "ice crystal detail",
+            "frozen waterfall",
+            "snow-covered mountains",
+            "research station",
+            "icebreaker ship"
+        ],
+        "subjects": [
+            "massive iceberg",
+            "polar ice cap",
+            "frozen tundra",
+            "glacier front",
+            "Arctic wildlife",
+            "Antarctic landscape",
+            "ice sheet expanse",
+            "frozen ocean",
+            "snow desert",
+            "polar research base"
+        ],
+        "locations": [
+            "Arctic Circle",
+            "Antarctica",
+            "Greenland ice sheet",
+            "Svalbard Norway",
+            "Iceland glaciers",
+            "Canadian Arctic",
+            "Siberian tundra",
+            "Alaska wilderness",
+            "South Pole",
+            "North Pole region"
+        ],
+        "wildlife": [
+            "polar bear hunting",
+            "emperor penguins",
+            "arctic fox",
+            "snowy owl",
+            "walrus colony",
+            "arctic hare",
+            "beluga whale",
+            "narwhal pod",
+            "seal on ice",
+            "reindeer herd"
+        ],
+        "lighting": [
+            "midnight sun golden",
+            "polar night blue",
+            "aurora borealis green",
+            "reflected ice light",
+            "sunrise pink glow",
+            "white-out conditions",
+            "clear polar sky",
+            "storm approaching",
+            "ice crystal sparkle",
+            "twilight purple"
+        ],
+        "moods": [
+            "pristine wilderness",
+            "frozen majesty",
+            "extreme isolation",
+            "raw nature power",
+            "ethereal beauty",
+            "survival challenge",
+            "climate fragility",
+            "polar silence",
+            "ancient ice",
+            "pure white world"
+        ]
+    }
+}
+

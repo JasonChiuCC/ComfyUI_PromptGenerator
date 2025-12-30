@@ -1,0 +1,82 @@
+{
+    "lake": {
+        "view_types": [
+            "mirror reflection panorama",
+            "misty morning calm",
+            "sunset over lake",
+            "mountain lake alpine",
+            "aerial lake shape",
+            "dock and boat",
+            "forest lake shore",
+            "swimmer in lake",
+            "frozen winter lake",
+            "lily pad surface",
+            "cabin by lake",
+            "kayak perspective",
+            "underwater from surface",
+            "moonlit reflection",
+            "fog lifting"
+        ],
+        "subjects": [
+            "crystal clear alpine lake",
+            "peaceful forest lake",
+            "volcanic crater lake",
+            "glacial blue lake",
+            "mirror calm reflection",
+            "tropical lagoon",
+            "frozen winter lake",
+            "lily pond",
+            "mountain reservoir",
+            "ancient sacred lake"
+        ],
+        "famous_lakes": [
+            "Lake Como Italy",
+            "Lake Louise Canada",
+            "Crater Lake Oregon",
+            "Lake Bled Slovenia",
+            "Plitvice Lakes Croatia",
+            "Lake Tahoe",
+            "Lake Baikal Russia",
+            "Moraine Lake Canada",
+            "Lake Wakatipu NZ",
+            "Jiuzhaigou China"
+        ],
+        "surroundings": [
+            "mountain backdrop",
+            "forest shore",
+            "meadow edge",
+            "village by lake",
+            "rocky shoreline",
+            "sandy beach",
+            "willow trees",
+            "dock and boats",
+            "cabin retreat",
+            "castle reflection"
+        ],
+        "lighting": [
+            "mirror reflection perfect",
+            "golden hour warmth",
+            "misty morning soft",
+            "sunset colors reflected",
+            "blue hour calm",
+            "moonlight silver",
+            "overcast moody",
+            "bright sunny day",
+            "fog rolling",
+            "stormy dramatic"
+        ],
+        "moods": [
+            "peaceful serenity",
+            "perfect reflection",
+            "tranquil retreat",
+            "alpine majesty",
+            "mirror stillness",
+            "romantic escape",
+            "pristine nature",
+            "morning meditation",
+            "vacation paradise",
+            "natural sanctuary"
+        ]
+    }
+}
+

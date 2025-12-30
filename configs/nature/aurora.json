@@ -1,0 +1,82 @@
+{
+    "aurora": {
+        "view_types": [
+            "full sky aurora panorama",
+            "aurora over mountains",
+            "reflection on water",
+            "aurora corona overhead",
+            "green curtains dancing",
+            "red aurora rare",
+            "aurora and milky way",
+            "aurora over ice",
+            "cabin under aurora",
+            "silhouette foreground",
+            "aurora time lapse",
+            "aurora over ocean",
+            "purple and pink aurora",
+            "intense solar storm",
+            "aurora arch"
+        ],
+        "subjects": [
+            "aurora borealis green",
+            "northern lights dance",
+            "aurora australis south",
+            "solar storm display",
+            "curtain aurora",
+            "corona aurora overhead",
+            "diffuse aurora glow",
+            "pulsating aurora",
+            "proton aurora",
+            "double aurora"
+        ],
+        "colors": [
+            "green curtains classic",
+            "pink and purple edges",
+            "red aurora rare",
+            "blue glow base",
+            "yellow highlights",
+            "white intense",
+            "multicolor spectacular",
+            "pale green subtle",
+            "vibrant neon",
+            "pastel soft"
+        ],
+        "locations": [
+            "Norway Arctic",
+            "Iceland wilderness",
+            "Alaska night",
+            "Finland Lapland",
+            "Canada Yukon",
+            "Sweden north",
+            "Greenland ice",
+            "New Zealand south",
+            "Tasmania Australia",
+            "Scottish Highlands"
+        ],
+        "foregrounds": [
+            "snow-covered landscape",
+            "frozen lake reflection",
+            "mountain silhouette",
+            "pine forest",
+            "wooden cabin",
+            "Viking church",
+            "ice formations",
+            "person silhouette",
+            "northern village",
+            "glacier edge"
+        ],
+        "moods": [
+            "magical wonder",
+            "celestial dance",
+            "nature's light show",
+            "ethereal beauty",
+            "cosmic connection",
+            "arctic magic",
+            "once in lifetime",
+            "bucket list moment",
+            "spiritual experience",
+            "photographic dream"
+        ]
+    }
+}
+

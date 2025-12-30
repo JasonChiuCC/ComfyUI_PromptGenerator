@@ -1,0 +1,82 @@
+{
+    "fog": {
+        "view_types": [
+            "foggy forest path",
+            "misty mountain layers",
+            "fog rolling over hills",
+            "bridge in fog",
+            "lake morning mist",
+            "city fog skyline",
+            "lighthouse in fog",
+            "tree silhouettes mist",
+            "fog lifting sunrise",
+            "dense fog road",
+            "valley filled with fog",
+            "cemetery fog mood",
+            "ocean fog coast",
+            "forest floor mist",
+            "person in fog"
+        ],
+        "subjects": [
+            "misty forest morning",
+            "fog covered valley",
+            "coastal fog bank",
+            "mountain fog layers",
+            "urban fog cityscape",
+            "lake morning mist",
+            "foggy countryside",
+            "mysterious fog path",
+            "fog over water",
+            "mist rising from ground"
+        ],
+        "fog_types": [
+            "ground fog low",
+            "advection fog coastal",
+            "radiation fog morning",
+            "upslope fog mountain",
+            "steam fog water",
+            "freezing fog ice",
+            "sea fog marine",
+            "valley fog inversion",
+            "mist light fog",
+            "haze distant"
+        ],
+        "settings": [
+            "mysterious forest",
+            "peaceful lake",
+            "rolling hills",
+            "coastal cliffs",
+            "mountain valleys",
+            "old bridge",
+            "ancient ruins",
+            "countryside farm",
+            "city streets",
+            "graveyard gothic"
+        ],
+        "lighting": [
+            "diffused soft light",
+            "golden fog sunrise",
+            "grey overcast",
+            "silhouette backlit",
+            "warm breakthrough sun",
+            "cool blue morning",
+            "streetlight glow",
+            "filtered sunbeams",
+            "mysterious darkness",
+            "fog lifting reveal"
+        ],
+        "moods": [
+            "mysterious atmosphere",
+            "peaceful serenity",
+            "ethereal beauty",
+            "haunting mood",
+            "dreamlike quality",
+            "quiet solitude",
+            "soft romance",
+            "moody drama",
+            "contemplative calm",
+            "otherworldly"
+        ]
+    }
+}
+
