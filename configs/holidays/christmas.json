@@ -1,0 +1,67 @@
+{
+  "christmas": {
+    "subjects": [
+      "decorated Christmas tree with ornaments and lights",
+      "Santa Claus with gift sack",
+      "cozy fireplace with stockings",
+      "gingerbread house with candy decorations",
+      "reindeer pulling sleigh",
+      "snowman with carrot nose and scarf",
+      "wrapped presents under the tree",
+      "Christmas wreath on wooden door",
+      "nutcracker soldier figure",
+      "angel tree topper",
+      "elves in Santa's workshop",
+      "Christmas carolers in winter clothes",
+      "nativity scene",
+      "candy canes and holiday treats",
+      "Christmas dinner table setting"
+    ],
+    "environments": [
+      "snow-covered village at night",
+      "cozy living room with fireplace",
+      "winter wonderland forest",
+      "North Pole workshop",
+      "frozen lake with ice skaters",
+      "Victorian Christmas market",
+      "cabin in snowy mountains",
+      "Christmas Eve street scene",
+      "decorated storefront windows"
+    ],
+    "lighting": [
+      "warm golden Christmas lights",
+      "soft candlelight glow",
+      "twinkling fairy lights",
+      "fireplace warm light",
+      "starry winter night",
+      "cozy ambient lighting",
+      "magical sparkling illumination"
+    ],
+    "colors": [
+      "red and green traditional",
+      "gold and silver accents",
+      "white and blue winter palette",
+      "warm burgundy and cream",
+      "festive red and gold"
+    ],
+    "elements": [
+      "falling snowflakes",
+      "holly and mistletoe",
+      "pine branches and pinecones",
+      "ribbons and bows",
+      "ornament baubles",
+      "tinsel and garland",
+      "icicles",
+      "Christmas bells",
+      "poinsettia flowers"
+    ],
+    "moods": [
+      "magical and festive",
+      "warm and cozy",
+      "nostalgic and heartwarming",
+      "joyful celebration",
+      "peaceful winter serenity"
+    ]
+  }
+}
+

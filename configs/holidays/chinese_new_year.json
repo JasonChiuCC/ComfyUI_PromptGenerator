@@ -1,0 +1,62 @@
+{
+  "chinese_new_year": {
+    "subjects": [
+      "dragon dance performance",
+      "lion dance with drums",
+      "red envelope exchange",
+      "family reunion dinner",
+      "lantern decorations",
+      "fireworks celebration",
+      "zodiac animal of the year",
+      "temple incense offerings",
+      "traditional lion costume",
+      "dumpling making",
+      "children receiving red envelopes",
+      "New Year parade float"
+    ],
+    "environments": [
+      "decorated Chinatown street",
+      "traditional Chinese home",
+      "temple courtyard",
+      "festive market",
+      "lantern-lit street",
+      "Chinese garden pavilion",
+      "family dining room",
+      "village celebration"
+    ],
+    "lighting": [
+      "red lantern glow",
+      "warm festive lights",
+      "firework illumination",
+      "golden prosperity light",
+      "candlelit temple",
+      "neon Chinatown signs"
+    ],
+    "colors": [
+      "lucky red and gold",
+      "traditional Chinese red",
+      "prosperity gold accents",
+      "festive crimson and yellow",
+      "imperial red and gold"
+    ],
+    "elements": [
+      "red lanterns",
+      "firecrackers",
+      "spring couplets calligraphy",
+      "dragon and lion heads",
+      "red envelopes hongbao",
+      "plum blossoms",
+      "mandarin oranges",
+      "paper decorations",
+      "Chinese knots"
+    ],
+    "moods": [
+      "prosperous and joyful",
+      "festive family celebration",
+      "traditional and ceremonial",
+      "lucky and auspicious",
+      "vibrant cultural pride"
+    ]
+  }
+}
+

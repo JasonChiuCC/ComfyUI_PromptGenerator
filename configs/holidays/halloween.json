@@ -1,0 +1,67 @@
+{
+  "halloween": {
+    "subjects": [
+      "carved jack-o-lantern with glowing face",
+      "witch with pointed hat and broomstick",
+      "haunted house on hilltop",
+      "skeleton emerging from grave",
+      "black cat with arched back",
+      "vampire in gothic attire",
+      "ghost floating through mist",
+      "werewolf under full moon",
+      "creepy scarecrow in cornfield",
+      "mummy wrapped in bandages",
+      "zombie horde",
+      "Frankenstein monster",
+      "cauldron with bubbling potion",
+      "trick-or-treaters in costumes",
+      "grim reaper with scythe"
+    ],
+    "environments": [
+      "misty graveyard at midnight",
+      "abandoned haunted mansion",
+      "dark forest with twisted trees",
+      "foggy village street",
+      "witch's cottage",
+      "creepy carnival",
+      "pumpkin patch at dusk",
+      "gothic castle",
+      "cobweb-filled attic"
+    ],
+    "lighting": [
+      "eerie orange jack-o-lantern glow",
+      "pale moonlight through clouds",
+      "flickering candlelight",
+      "ghostly green phosphorescence",
+      "lightning flash",
+      "dim lantern light",
+      "ominous purple haze"
+    ],
+    "colors": [
+      "orange and black classic",
+      "purple and green witch colors",
+      "blood red accents",
+      "ghostly white and gray",
+      "midnight blue and silver"
+    ],
+    "elements": [
+      "spider webs with spiders",
+      "bats flying in moonlight",
+      "bare twisted tree branches",
+      "tombstones and crypts",
+      "scattered autumn leaves",
+      "fog and mist",
+      "ravens and crows",
+      "chains and locks",
+      "bones and skulls"
+    ],
+    "moods": [
+      "spooky and mysterious",
+      "creepy and unsettling",
+      "fun and festive horror",
+      "gothic and atmospheric",
+      "macabre and thrilling"
+    ]
+  }
+}
+

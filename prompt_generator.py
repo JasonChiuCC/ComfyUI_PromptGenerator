@@ -1611,6 +1611,107 @@ class NaturePromptZH(CategoryPromptBase):
     CATEGORY = "JC Prompt Generator/Nature 自然"
 
 
+# =============================================================================
+# Holidays Category Nodes
+# =============================================================================
+
+class HolidaysPromptEN(CategoryPromptBase):
+    """English Holidays prompt generator."""
+    
+    SELECT_ALL_LABEL = "✅ Select All Holidays"
+    
+    AVAILABLE_THEMES = [
+        # Western
+        ("      Christmas", "christmas"),
+        ("      Halloween", "halloween"),
+        ("      Valentine", "valentine"),
+        ("      New Year", "new_year"),
+        ("      Easter", "easter"),
+        ("      Thanksgiving", "thanksgiving"),
+        ("      St. Patrick's", "st_patricks"),
+        ("      Mardi Gras", "mardi_gras"),
+        ("      Independence Day", "independence_day"),
+        ("      Oktoberfest", "oktoberfest"),
+        # East Asian
+        ("      Chinese New Year", "chinese_new_year"),
+        ("      Mid Autumn", "mid_autumn"),
+        ("      Dragon Boat", "dragon_boat"),
+        ("      Lantern Festival", "lantern_festival"),
+        ("      Qixi", "qixi"),
+        ("      Sky Lantern", "sky_lantern"),
+        # South Asian
+        ("      Diwali", "diwali"),
+        ("      Holi", "holi"),
+        ("      Songkran", "songkran"),
+        ("      Obon", "obon"),
+        # Other
+        ("      Eid", "eid"),
+        ("      Hanukkah", "hanukkah"),
+        ("      Day of Dead", "day_of_dead"),
+        ("      Carnival", "carnival"),
+        ("      Venetian Carnival", "venetian_carnival"),
+        ("      Ice Festival", "ice_festival"),
+    ]
+    
+    ALL_THEMES = [
+        "christmas", "halloween", "valentine", "new_year", "easter",
+        "thanksgiving", "st_patricks", "mardi_gras", "independence_day", "oktoberfest",
+        "chinese_new_year", "mid_autumn", "dragon_boat", "lantern_festival", "qixi", "sky_lantern",
+        "diwali", "holi", "songkran", "obon",
+        "eid", "hanukkah", "day_of_dead", "carnival", "venetian_carnival", "ice_festival"
+    ]
+    
+    CATEGORY = "JC Prompt Generator/Holidays 節日"
+
+
+class HolidaysPromptZH(CategoryPromptBase):
+    """Chinese Holidays prompt generator."""
+    
+    SELECT_ALL_LABEL = "✅ 全選節日"
+    
+    AVAILABLE_THEMES = [
+        # 西方節日
+        ("      聖誕節", "christmas"),
+        ("      萬聖節", "halloween"),
+        ("      情人節", "valentine"),
+        ("      新年", "new_year"),
+        ("      復活節", "easter"),
+        ("      感恩節", "thanksgiving"),
+        ("      聖派翠克節", "st_patricks"),
+        ("      狂歡節", "mardi_gras"),
+        ("      獨立日", "independence_day"),
+        ("      啤酒節", "oktoberfest"),
+        # 東亞節日
+        ("      農曆新年", "chinese_new_year"),
+        ("      中秋節", "mid_autumn"),
+        ("      端午節", "dragon_boat"),
+        ("      元宵節", "lantern_festival"),
+        ("      七夕", "qixi"),
+        ("      天燈節", "sky_lantern"),
+        # 南亞節日
+        ("      排燈節", "diwali"),
+        ("      灑紅節", "holi"),
+        ("      潑水節", "songkran"),
+        ("      盂蘭盆節", "obon"),
+        # 其他
+        ("      開齋節", "eid"),
+        ("      光明節", "hanukkah"),
+        ("      亡靈節", "day_of_dead"),
+        ("      嘉年華", "carnival"),
+        ("      威尼斯面具節", "venetian_carnival"),
+        ("      冰雪節", "ice_festival"),
+    ]
+    
+    ALL_THEMES = [
+        "christmas", "halloween", "valentine", "new_year", "easter",
+        "thanksgiving", "st_patricks", "mardi_gras", "independence_day", "oktoberfest",
+        "chinese_new_year", "mid_autumn", "dragon_boat", "lantern_festival", "qixi", "sky_lantern",
+        "diwali", "holi", "songkran", "obon",
+        "eid", "hanukkah", "day_of_dead", "carnival", "venetian_carnival", "ice_festival"
+    ]
+    
+    CATEGORY = "JC Prompt Generator/Holidays 節日"
+
 
 # =============================================================================
 # Node Registration
@@ -1656,6 +1757,9 @@ NODE_CLASS_MAPPINGS = {
     # Nature
     "JC_Nature_EN": NaturePromptEN,
     "JC_Nature_ZH": NaturePromptZH,
+    # Holidays
+    "JC_Holidays_EN": HolidaysPromptEN,
+    "JC_Holidays_ZH": HolidaysPromptZH,
 }
 
 NODE_DISPLAY_NAME_MAPPINGS = {
@@ -1698,5 +1802,8 @@ NODE_DISPLAY_NAME_MAPPINGS = {
     # Nature
     "JC_Nature_EN": "🌿 JC Prompt - Nature",
     "JC_Nature_ZH": "🌿 JC 提示詞 - 自然",
+    # Holidays
+    "JC_Holidays_EN": "🎄 JC Prompt - Holidays",
+    "JC_Holidays_ZH": "🎄 JC 提示詞 - 節日",
 }
 
