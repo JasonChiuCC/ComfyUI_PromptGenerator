@@ -1,0 +1,94 @@
+{
+    "victorian_house": {
+        "view_types": [
+            "full facade portrait",
+            "corner turret detail",
+            "porch and entrance",
+            "gingerbread trim close-up",
+            "bay window detail",
+            "garden approach",
+            "street row context",
+            "interior parlor",
+            "staircase and foyer",
+            "stained glass window",
+            "roofline silhouette",
+            "painted lady colors",
+            "winter snow scene",
+            "autumn leaves frame",
+            "night warm glow"
+        ],
+        "subjects": [
+            "Queen Anne Victorian",
+            "Painted Lady house",
+            "Gothic Revival home",
+            "Italianate mansion",
+            "Second Empire house",
+            "Stick-Eastlake style",
+            "Romanesque Revival",
+            "Folk Victorian cottage",
+            "Victorian row house",
+            "grand Victorian mansion"
+        ],
+        "elements": [
+            "ornate gingerbread trim",
+            "wrap-around porch",
+            "turret and tower",
+            "bay windows",
+            "decorative shingles",
+            "spindle work",
+            "stained glass panels",
+            "carved brackets",
+            "fish scale siding",
+            "iron cresting"
+        ],
+        "colors": [
+            "Painted Lady multicolor",
+            "deep burgundy",
+            "forest green",
+            "cream and gold",
+            "slate blue",
+            "mauve and purple",
+            "terracotta",
+            "mustard yellow",
+            "charcoal grey",
+            "pristine white"
+        ],
+        "locations": [
+            "San Francisco Painted Ladies",
+            "Cape May New Jersey",
+            "Savannah Georgia",
+            "New Orleans Garden District",
+            "London townhouse",
+            "Melbourne Australia",
+            "Toronto Annex",
+            "Boston Back Bay",
+            "Portland Oregon",
+            "Galveston Texas"
+        ],
+        "lighting": [
+            "golden afternoon",
+            "warm interior glow",
+            "overcast softness",
+            "blue hour charm",
+            "morning dappled",
+            "sunset golden",
+            "autumn warm",
+            "spring fresh",
+            "night streetlamp",
+            "foggy mystery"
+        ],
+        "moods": [
+            "romantic elegance",
+            "ornate beauty",
+            "nostalgic charm",
+            "craftsmanship pride",
+            "historic grandeur",
+            "colorful whimsy",
+            "architectural detail",
+            "period authenticity",
+            "preserved heritage",
+            "storybook fantasy"
+        ]
+    }
+}
+

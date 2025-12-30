@@ -1,0 +1,82 @@
+{
+    "skyscraper": {
+        "view_types": [
+            "dramatic upward angle",
+            "street canyon perspective",
+            "aerial skyline",
+            "reflection in glass",
+            "night lights panorama",
+            "fog piercing top",
+            "entrance lobby",
+            "observation deck view",
+            "construction progress",
+            "sunset silhouette",
+            "helicopter aerial",
+            "between buildings shot",
+            "crown detail",
+            "base to top vertical",
+            "urban context wide"
+        ],
+        "subjects": [
+            "glass curtain wall tower",
+            "Art Deco skyscraper",
+            "supertall building",
+            "twisted tower design",
+            "corporate headquarters",
+            "mixed-use highrise",
+            "residential tower",
+            "iconic landmark tower",
+            "sustainable green tower",
+            "observation tower"
+        ],
+        "landmarks": [
+            "Empire State style",
+            "Burj Khalifa inspired",
+            "Shanghai Tower form",
+            "One World Trade aesthetic",
+            "Taipei 101 design",
+            "Petronas Towers twin",
+            "Chrysler Building deco",
+            "Shard London angular",
+            "Marina Bay Singapore",
+            "CN Tower observation"
+        ],
+        "features": [
+            "glass curtain wall",
+            "setback terraces",
+            "spire and antenna",
+            "sky lobby",
+            "observation deck",
+            "helipad rooftop",
+            "podium base",
+            "crown lighting",
+            "structural exoskeleton",
+            "green terraces"
+        ],
+        "lighting": [
+            "night LED facade",
+            "golden hour reflection",
+            "blue hour skyline",
+            "dramatic storm clouds",
+            "sunrise first light",
+            "city lights below",
+            "spotlight crown",
+            "fog diffused",
+            "clear blue sky",
+            "overcast moody"
+        ],
+        "moods": [
+            "urban power",
+            "reaching skyward",
+            "corporate ambition",
+            "engineering marvel",
+            "city icon",
+            "modern metropolis",
+            "vertical city",
+            "architectural achievement",
+            "skyline dominance",
+            "future vision"
+        ]
+    }
+}
+

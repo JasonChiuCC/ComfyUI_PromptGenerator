@@ -1,0 +1,82 @@
+{
+    "brutalist": {
+        "view_types": [
+            "monumental low angle",
+            "geometric facade shot",
+            "dramatic shadow play",
+            "wide establishing shot",
+            "detail texture close-up",
+            "symmetrical composition",
+            "interior atrium",
+            "stairwell perspective",
+            "corner mass view",
+            "skyline silhouette",
+            "overcast moody shot",
+            "abstract geometric",
+            "human scale contrast",
+            "repetitive pattern",
+            "weathered surface detail"
+        ],
+        "subjects": [
+            "concrete residential block",
+            "government building",
+            "university campus",
+            "cultural center",
+            "library complex",
+            "church or chapel",
+            "parking structure",
+            "housing estate",
+            "civic center",
+            "memorial monument"
+        ],
+        "features": [
+            "raw exposed concrete",
+            "béton brut finish",
+            "massive geometric forms",
+            "cantilevered volumes",
+            "repetitive window grid",
+            "sculptural staircase",
+            "board-marked concrete",
+            "brutalist balconies",
+            "monolithic presence",
+            "angular projections"
+        ],
+        "architects": [
+            "Le Corbusier inspired",
+            "Louis Kahn style",
+            "Paul Rudolph aesthetic",
+            "Tadao Ando concrete",
+            "Ernő Goldfinger design",
+            "Marcel Breuer form",
+            "Alison and Peter Smithson",
+            "Moshe Safdie approach",
+            "Soviet brutalism",
+            "Yugoslav monuments"
+        ],
+        "lighting": [
+            "overcast dramatic",
+            "harsh shadow contrast",
+            "moody blue hour",
+            "fog and mist",
+            "stark sunlight",
+            "cloudy diffused",
+            "golden hour warmth",
+            "night spotlight",
+            "rainy atmosphere",
+            "winter light"
+        ],
+        "moods": [
+            "monumental power",
+            "raw honesty",
+            "imposing presence",
+            "utopian vision",
+            "socialist idealism",
+            "brutal beauty",
+            "geometric purity",
+            "weathered dignity",
+            "urban fortress",
+            "concrete poetry"
+        ]
+    }
+}
+

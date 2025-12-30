@@ -1,0 +1,82 @@
+{
+    "japanese_arch": {
+        "view_types": [
+            "zen garden perspective",
+            "torii gate framing",
+            "tatami room interior",
+            "engawa veranda view",
+            "pagoda full height",
+            "temple entrance",
+            "shoji screen detail",
+            "rock garden composition",
+            "tea house intimate",
+            "castle tower dramatic",
+            "shrine pathway",
+            "autumn foliage context",
+            "cherry blossom framing",
+            "snow covered roof",
+            "night lantern glow"
+        ],
+        "subjects": [
+            "Shinto shrine",
+            "Buddhist temple",
+            "Japanese castle",
+            "traditional machiya",
+            "ryokan inn",
+            "tea ceremony house",
+            "zen monastery",
+            "five-story pagoda",
+            "samurai residence",
+            "modern Japanese house"
+        ],
+        "elements": [
+            "curved roof tiles",
+            "wooden post and beam",
+            "shoji paper screens",
+            "fusuma sliding doors",
+            "tatami mat floors",
+            "engawa wooden deck",
+            "tokonoma alcove",
+            "stone lanterns",
+            "bamboo fencing",
+            "zen rock garden"
+        ],
+        "styles": [
+            "Shinden-zukuri",
+            "Shoin-zukuri",
+            "Sukiya-zukuri",
+            "Wabi-sabi aesthetic",
+            "Zen Buddhist",
+            "Edo period",
+            "Meiji restoration",
+            "contemporary Japanese",
+            "Tadao Ando modern",
+            "Kengo Kuma design"
+        ],
+        "seasons": [
+            "cherry blossom spring",
+            "fresh green summer",
+            "red maple autumn",
+            "snow covered winter",
+            "rainy season mist",
+            "golden hour light",
+            "blue hour twilight",
+            "full moon night",
+            "morning fog",
+            "sunset glow"
+        ],
+        "moods": [
+            "zen tranquility",
+            "wabi-sabi beauty",
+            "harmonious balance",
+            "nature integration",
+            "refined simplicity",
+            "spiritual serenity",
+            "timeless tradition",
+            "seasonal poetry",
+            "meditative peace",
+            "elegant restraint"
+        ]
+    }
+}
+

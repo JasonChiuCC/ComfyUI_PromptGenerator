@@ -1,0 +1,82 @@
+{
+    "castle": {
+        "view_types": [
+            "dramatic hilltop silhouette",
+            "aerial overhead",
+            "approaching drawbridge",
+            "tower close-up",
+            "courtyard interior",
+            "great hall inside",
+            "battlement walkway",
+            "moat reflection",
+            "fog shrouded mystery",
+            "sunset backdrop",
+            "winter snow covered",
+            "autumn forest context",
+            "night torchlit",
+            "ruins overgrown",
+            "restoration detail"
+        ],
+        "subjects": [
+            "medieval fortress",
+            "fairy tale castle",
+            "Scottish highland castle",
+            "French chateau",
+            "German schloss",
+            "English manor castle",
+            "Spanish alcazar",
+            "Japanese castle",
+            "crusader fortress",
+            "renaissance palace"
+        ],
+        "elements": [
+            "stone battlements",
+            "round towers",
+            "drawbridge and moat",
+            "arrow slits",
+            "portcullis gate",
+            "great keep",
+            "curtain walls",
+            "murder holes",
+            "spiral staircase",
+            "coat of arms"
+        ],
+        "famous_castles": [
+            "Neuschwanstein inspired",
+            "Edinburgh Castle style",
+            "Windsor Castle grandeur",
+            "Château de Chambord",
+            "Alcázar of Segovia",
+            "Himeji Castle elegance",
+            "Bodiam Castle moated",
+            "Carcassonne fortified",
+            "Prague Castle complex",
+            "Bran Castle dramatic"
+        ],
+        "lighting": [
+            "golden hour warmth",
+            "misty morning",
+            "dramatic storm",
+            "moonlit night",
+            "torchlight glow",
+            "sunset silhouette",
+            "overcast moody",
+            "snow reflection",
+            "autumn golden",
+            "blue hour mystery"
+        ],
+        "moods": [
+            "medieval grandeur",
+            "fairy tale magic",
+            "fortress strength",
+            "romantic history",
+            "noble heritage",
+            "mysterious legend",
+            "timeless majesty",
+            "chivalric honor",
+            "haunting beauty",
+            "royal splendor"
+        ]
+    }
+}
+

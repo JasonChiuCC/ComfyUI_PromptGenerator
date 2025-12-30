@@ -1,0 +1,82 @@
+{
+    "gothic_cathedral": {
+        "view_types": [
+            "soaring interior nave",
+            "dramatic west facade",
+            "flying buttress detail",
+            "rose window close-up",
+            "vaulted ceiling upward",
+            "cloister walkway",
+            "tower spire silhouette",
+            "altar and apse",
+            "stained glass light rays",
+            "gargoyle detail",
+            "aerial overhead",
+            "night illumination",
+            "fog shrouded exterior",
+            "portal entrance",
+            "organ loft view"
+        ],
+        "subjects": [
+            "Gothic cathedral",
+            "medieval abbey",
+            "Notre-Dame style",
+            "English Gothic church",
+            "German Dom",
+            "Spanish Gothic cathedral",
+            "Italian Duomo",
+            "Gothic chapel",
+            "monastery church",
+            "collegiate church"
+        ],
+        "elements": [
+            "pointed arches",
+            "ribbed vaults",
+            "flying buttresses",
+            "rose windows",
+            "stained glass",
+            "stone tracery",
+            "gargoyles and grotesques",
+            "carved tympanum",
+            "pinnacles and finials",
+            "clustered columns"
+        ],
+        "periods": [
+            "Early Gothic",
+            "High Gothic",
+            "Rayonnant style",
+            "Flamboyant Gothic",
+            "English Perpendicular",
+            "Gothic Revival",
+            "French Gothic",
+            "Venetian Gothic",
+            "Brick Gothic",
+            "Spanish Gothic"
+        ],
+        "lighting": [
+            "divine light rays",
+            "stained glass glow",
+            "candlelit interior",
+            "golden hour facade",
+            "mysterious shadows",
+            "overcast atmosphere",
+            "morning light through windows",
+            "twilight silhouette",
+            "dramatic spotlight",
+            "heavenly illumination"
+        ],
+        "moods": [
+            "spiritual transcendence",
+            "medieval grandeur",
+            "divine aspiration",
+            "sacred mystery",
+            "architectural wonder",
+            "timeless devotion",
+            "soaring verticality",
+            "stone poetry",
+            "heavenly light",
+            "eternal beauty"
+        ]
+    }
+}
+

@@ -1,0 +1,82 @@
+{
+    "bridge": {
+        "view_types": [
+            "dramatic side profile",
+            "underneath perspective",
+            "aerial overhead",
+            "fog shrouded mystery",
+            "night lights reflection",
+            "sunset silhouette",
+            "cable detail close-up",
+            "traffic crossing",
+            "distant landscape context",
+            "symmetrical composition",
+            "water reflection",
+            "construction detail",
+            "pedestrian walkway",
+            "tower close-up",
+            "panoramic wide shot"
+        ],
+        "subjects": [
+            "suspension bridge",
+            "cable-stayed bridge",
+            "arch bridge",
+            "covered wooden bridge",
+            "stone arch bridge",
+            "railway viaduct",
+            "modern footbridge",
+            "drawbridge",
+            "ancient Roman bridge",
+            "cantilever bridge"
+        ],
+        "famous_bridges": [
+            "Golden Gate inspired",
+            "Tower Bridge London",
+            "Brooklyn Bridge classic",
+            "Sydney Harbour",
+            "Millau Viaduct modern",
+            "Ponte Vecchio medieval",
+            "Rialto Bridge Venice",
+            "Charles Bridge Prague",
+            "Akashi Kaikyō",
+            "Forth Bridge steel"
+        ],
+        "materials": [
+            "steel suspension cables",
+            "concrete pylons",
+            "stone masonry",
+            "wooden timbers",
+            "iron lattice",
+            "glass walkway",
+            "weathering steel",
+            "white painted steel",
+            "natural rope",
+            "reinforced concrete"
+        ],
+        "lighting": [
+            "golden hour glow",
+            "blue hour twilight",
+            "night illumination",
+            "fog diffused",
+            "storm dramatic",
+            "sunrise first light",
+            "reflected city lights",
+            "moonlit silhouette",
+            "overcast moody",
+            "sunset fire sky"
+        ],
+        "moods": [
+            "engineering marvel",
+            "connection and crossing",
+            "iconic landmark",
+            "urban gateway",
+            "suspension grace",
+            "industrial beauty",
+            "historic passage",
+            "modern achievement",
+            "romantic crossing",
+            "architectural elegance"
+        ]
+    }
+}
+

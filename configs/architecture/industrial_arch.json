@@ -1,0 +1,82 @@
+{
+    "industrial_arch": {
+        "view_types": [
+            "dramatic factory exterior",
+            "interior machinery space",
+            "smokestack silhouette",
+            "aerial industrial complex",
+            "abandoned decay detail",
+            "working facility",
+            "converted loft interior",
+            "rail yard context",
+            "water tower close-up",
+            "loading dock",
+            "night shift lighting",
+            "steam and smoke",
+            "symmetrical repetition",
+            "rust texture detail",
+            "historic preservation"
+        ],
+        "subjects": [
+            "brick factory building",
+            "steel mill",
+            "grain elevator",
+            "power plant",
+            "warehouse complex",
+            "water tower",
+            "railroad roundhouse",
+            "textile mill",
+            "brewery building",
+            "converted industrial loft"
+        ],
+        "elements": [
+            "exposed brick walls",
+            "steel truss structure",
+            "large industrial windows",
+            "smokestacks",
+            "loading bay doors",
+            "overhead cranes",
+            "conveyor systems",
+            "metal catwalks",
+            "sawtooth roof",
+            "water towers"
+        ],
+        "materials": [
+            "red brick masonry",
+            "corrugated metal",
+            "cast iron columns",
+            "timber beams",
+            "steel I-beams",
+            "concrete floors",
+            "riveted steel",
+            "glass block windows",
+            "weathered patina",
+            "rusted metal"
+        ],
+        "lighting": [
+            "harsh industrial",
+            "golden hour warmth",
+            "blue hour moody",
+            "interior work light",
+            "dramatic shadows",
+            "overcast gritty",
+            "night security lights",
+            "steam atmosphere",
+            "fire glow",
+            "abandoned natural light"
+        ],
+        "moods": [
+            "working heritage",
+            "industrial power",
+            "urban grit",
+            "adaptive reuse",
+            "rust and patina",
+            "manufacturing history",
+            "raw authenticity",
+            "functional beauty",
+            "labor legacy",
+            "transformed space"
+        ]
+    }
+}
+

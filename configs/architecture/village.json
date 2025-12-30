@@ -1,0 +1,82 @@
+{
+    "village": {
+        "view_types": [
+            "hilltop overview",
+            "main street perspective",
+            "church square",
+            "cottage close-up",
+            "farm approach",
+            "bridge crossing",
+            "market day scene",
+            "garden gate",
+            "pathway winding",
+            "rooftop mosaic",
+            "river reflection",
+            "misty morning",
+            "golden hour warmth",
+            "snow blanketed",
+            "harvest season"
+        ],
+        "subjects": [
+            "European village",
+            "English countryside",
+            "French provincial",
+            "Tuscan hilltop",
+            "Alpine hamlet",
+            "Asian rice village",
+            "fishing village",
+            "mountain settlement",
+            "vineyard village",
+            "coastal community"
+        ],
+        "elements": [
+            "stone cottages",
+            "thatched roofs",
+            "cobblestone streets",
+            "village church",
+            "market square",
+            "water well fountain",
+            "wooden fences",
+            "flower boxes",
+            "farm animals",
+            "windmill"
+        ],
+        "regions": [
+            "Cotswolds England",
+            "Provence France",
+            "Tuscany Italy",
+            "Bavaria Germany",
+            "Santorini Greece",
+            "Cinque Terre",
+            "Swiss Alps",
+            "Bali Indonesia",
+            "Shirakawa-go Japan",
+            "Hallstatt Austria"
+        ],
+        "seasons": [
+            "spring bloom",
+            "summer lush",
+            "autumn harvest",
+            "winter snow",
+            "morning mist",
+            "golden hour",
+            "blue twilight",
+            "rainy day",
+            "clear sky",
+            "overcast soft"
+        ],
+        "moods": [
+            "rustic charm",
+            "peaceful simplicity",
+            "timeless tradition",
+            "pastoral beauty",
+            "community warmth",
+            "countryside escape",
+            "agricultural rhythm",
+            "historic preservation",
+            "idyllic tranquility",
+            "slow life"
+        ]
+    }
+}
+

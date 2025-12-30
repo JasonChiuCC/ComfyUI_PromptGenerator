@@ -1,0 +1,82 @@
+{
+    "cityscape": {
+        "view_types": [
+            "skyline panorama",
+            "street level canyon",
+            "aerial drone overview",
+            "rooftop vantage",
+            "bridge crossing view",
+            "waterfront reflection",
+            "elevated train perspective",
+            "intersection life",
+            "alleyway atmosphere",
+            "plaza gathering",
+            "night lights panorama",
+            "fog rolling in",
+            "rain soaked streets",
+            "golden hour glow",
+            "blue hour magic"
+        ],
+        "subjects": [
+            "modern city skyline",
+            "historic downtown",
+            "bustling intersection",
+            "quiet neighborhood",
+            "waterfront promenade",
+            "urban park",
+            "commercial district",
+            "mixed-use development",
+            "transit hub",
+            "pedestrian plaza"
+        ],
+        "cities": [
+            "New York Manhattan",
+            "Tokyo Shibuya",
+            "Hong Kong Victoria",
+            "London City",
+            "Paris Haussmann",
+            "Dubai Marina",
+            "Singapore downtown",
+            "Sydney Harbour",
+            "Shanghai Pudong",
+            "San Francisco hills"
+        ],
+        "elements": [
+            "glass towers",
+            "historic facades",
+            "street vendors",
+            "public transit",
+            "pedestrian crowds",
+            "traffic flow",
+            "neon signage",
+            "street art",
+            "urban greenery",
+            "cafe terraces"
+        ],
+        "weather": [
+            "clear sunny",
+            "dramatic clouds",
+            "rain reflections",
+            "fog and mist",
+            "snow covered",
+            "golden hour",
+            "blue hour",
+            "overcast moody",
+            "storm approaching",
+            "rainbow after rain"
+        ],
+        "moods": [
+            "urban energy",
+            "metropolitan life",
+            "never sleeping city",
+            "human density",
+            "architectural variety",
+            "street culture",
+            "commercial buzz",
+            "historical layers",
+            "modern progress",
+            "city romance"
+        ]
+    }
+}
+

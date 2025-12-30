@@ -1,0 +1,82 @@
+{
+    "interior": {
+        "view_types": [
+            "wide room overview",
+            "cozy corner vignette",
+            "symmetrical composition",
+            "window light portrait",
+            "detail styling shot",
+            "straight-on wall view",
+            "elevated overview",
+            "doorway framing",
+            "reflection in mirror",
+            "staircase perspective",
+            "ceiling detail upward",
+            "floor level low angle",
+            "through doorway peek",
+            "furniture arrangement",
+            "lifestyle moment"
+        ],
+        "rooms": [
+            "living room",
+            "bedroom suite",
+            "modern kitchen",
+            "dining room",
+            "home office",
+            "bathroom spa",
+            "library study",
+            "entryway foyer",
+            "sunroom conservatory",
+            "loft apartment"
+        ],
+        "styles": [
+            "minimalist modern",
+            "Scandinavian hygge",
+            "mid-century modern",
+            "industrial loft",
+            "bohemian eclectic",
+            "Japanese zen",
+            "Art Deco glamour",
+            "coastal beach house",
+            "rustic farmhouse",
+            "contemporary luxury"
+        ],
+        "elements": [
+            "statement lighting",
+            "plush textiles",
+            "indoor plants",
+            "artwork display",
+            "natural materials",
+            "geometric patterns",
+            "vintage furniture",
+            "built-in shelving",
+            "fireplace focal",
+            "area rugs"
+        ],
+        "lighting": [
+            "natural window light",
+            "golden hour glow",
+            "soft lamp ambiance",
+            "dramatic pendant",
+            "candlelit evening",
+            "bright airy",
+            "moody shadows",
+            "blue hour twilight",
+            "studio flash",
+            "mixed natural artificial"
+        ],
+        "moods": [
+            "cozy comfort",
+            "elegant sophistication",
+            "serene calm",
+            "creative inspiration",
+            "warm invitation",
+            "clean minimalism",
+            "luxurious retreat",
+            "lived-in character",
+            "aspirational living",
+            "personal sanctuary"
+        ]
+    }
+}
+

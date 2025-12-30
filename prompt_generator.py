@@ -1412,6 +1412,90 @@ class HorrorPromptZH(CategoryPromptBase):
 
 
 # =============================================================================
+# Architecture Category Nodes
+# =============================================================================
+
+class ArchitecturePromptEN(CategoryPromptBase):
+    """English Architecture prompt generator."""
+    
+    SELECT_ALL_LABEL = "✅ Select All Architecture"
+    
+    AVAILABLE_THEMES = [
+        # Modern & Contemporary
+        ("      Modern Architecture", "modern_architecture"),
+        ("      Brutalist", "brutalist"),
+        ("      Art Deco Architecture", "art_deco_arch"),
+        ("      Skyscraper", "skyscraper"),
+        # Historic & Religious
+        ("      Gothic Cathedral", "gothic_cathedral"),
+        ("      Castle", "castle"),
+        ("      Temple", "temple"),
+        ("      Victorian House", "victorian_house"),
+        # Regional Styles
+        ("      Japanese Architecture", "japanese_arch"),
+        ("      Mediterranean", "mediterranean_arch"),
+        # Infrastructure & Urban
+        ("      Bridge", "bridge"),
+        ("      Industrial", "industrial_arch"),
+        ("      Cityscape", "cityscape"),
+        ("      Village", "village"),
+        # Interior & Special
+        ("      Interior Design", "interior"),
+        ("      Abandoned", "abandoned"),
+    ]
+    
+    ALL_THEMES = [
+        "modern_architecture", "brutalist", "art_deco_arch", "skyscraper",
+        "gothic_cathedral", "castle", "temple", "victorian_house",
+        "japanese_arch", "mediterranean_arch",
+        "bridge", "industrial_arch", "cityscape", "village",
+        "interior", "abandoned"
+    ]
+    
+    CATEGORY = "JC Prompt Generator/Architecture 建築"
+
+
+class ArchitecturePromptZH(CategoryPromptBase):
+    """Chinese Architecture prompt generator."""
+    
+    SELECT_ALL_LABEL = "✅ 全選建築"
+    
+    AVAILABLE_THEMES = [
+        # 現代與當代
+        ("      現代建築", "modern_architecture"),
+        ("      粗獷主義", "brutalist"),
+        ("      裝飾藝術建築", "art_deco_arch"),
+        ("      摩天大樓", "skyscraper"),
+        # 歷史與宗教
+        ("      哥德大教堂", "gothic_cathedral"),
+        ("      城堡", "castle"),
+        ("      神廟", "temple"),
+        ("      維多利亞建築", "victorian_house"),
+        # 地域風格
+        ("      日式建築", "japanese_arch"),
+        ("      地中海建築", "mediterranean_arch"),
+        # 基礎設施與城市
+        ("      橋樑", "bridge"),
+        ("      工業建築", "industrial_arch"),
+        ("      城市景觀", "cityscape"),
+        ("      鄉村", "village"),
+        # 室內與特殊
+        ("      室內設計", "interior"),
+        ("      廢棄建築", "abandoned"),
+    ]
+    
+    ALL_THEMES = [
+        "modern_architecture", "brutalist", "art_deco_arch", "skyscraper",
+        "gothic_cathedral", "castle", "temple", "victorian_house",
+        "japanese_arch", "mediterranean_arch",
+        "bridge", "industrial_arch", "cityscape", "village",
+        "interior", "abandoned"
+    ]
+    
+    CATEGORY = "JC Prompt Generator/Architecture 建築"
+
+
+# =============================================================================
 # Node Registration
 # =============================================================================
 
@@ -1449,6 +1533,9 @@ NODE_CLASS_MAPPINGS = {
     # Horror
     "JC_Horror_EN": HorrorPromptEN,
     "JC_Horror_ZH": HorrorPromptZH,
+    # Architecture
+    "JC_Architecture_EN": ArchitecturePromptEN,
+    "JC_Architecture_ZH": ArchitecturePromptZH,
 }
 
 NODE_DISPLAY_NAME_MAPPINGS = {
@@ -1485,5 +1572,8 @@ NODE_DISPLAY_NAME_MAPPINGS = {
     # Horror
     "JC_Horror_EN": "👻 JC Prompt - Horror",
     "JC_Horror_ZH": "👻 JC 提示詞 - 恐怖",
+    # Architecture
+    "JC_Architecture_EN": "🏛️ JC Prompt - Architecture",
+    "JC_Architecture_ZH": "🏛️ JC 提示詞 - 建築",
 }
 

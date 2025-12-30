@@ -1,0 +1,82 @@
+{
+    "temple": {
+        "view_types": [
+            "grand entrance approach",
+            "interior sanctum",
+            "aerial temple complex",
+            "carved detail close-up",
+            "column perspective",
+            "sunrise alignment",
+            "devotee perspective",
+            "tower gopuram",
+            "reflection in pool",
+            "incense smoke atmosphere",
+            "festival decoration",
+            "ancient ruins",
+            "restoration detail",
+            "pilgrimage path",
+            "mountain setting"
+        ],
+        "subjects": [
+            "Hindu temple",
+            "Buddhist temple",
+            "Greek temple ruins",
+            "Egyptian temple",
+            "Mayan pyramid temple",
+            "Angkor Wat style",
+            "Balinese temple",
+            "Thai wat",
+            "Tibetan monastery",
+            "Roman temple"
+        ],
+        "elements": [
+            "carved stone pillars",
+            "ornate sculptures",
+            "sacred altar",
+            "lotus motifs",
+            "golden spires",
+            "prayer flags",
+            "incense burners",
+            "ritual pools",
+            "meditation halls",
+            "sacred geometry"
+        ],
+        "famous_temples": [
+            "Angkor Wat inspired",
+            "Parthenon Greek",
+            "Karnak Egyptian",
+            "Borobudur Buddhist",
+            "Golden Temple Sikh",
+            "Prambanan Hindu",
+            "Wat Pho Thai",
+            "Meenakshi colorful",
+            "Potala Palace",
+            "Chichen Itza Mayan"
+        ],
+        "lighting": [
+            "divine sunrise",
+            "golden hour sacred",
+            "incense smoke rays",
+            "candlelit interior",
+            "moonlit ceremony",
+            "festival lights",
+            "harsh tropical sun",
+            "misty mountain",
+            "underwater caustics",
+            "spiritual glow"
+        ],
+        "moods": [
+            "sacred devotion",
+            "ancient wisdom",
+            "spiritual peace",
+            "divine presence",
+            "timeless worship",
+            "mystical power",
+            "pilgrimage journey",
+            "cosmic connection",
+            "eternal faith",
+            "transcendent beauty"
+        ]
+    }
+}
+

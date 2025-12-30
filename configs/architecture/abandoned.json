@@ -1,0 +1,82 @@
+{
+    "abandoned": {
+        "view_types": [
+            "dramatic decay overview",
+            "peeling paint detail",
+            "nature reclaiming",
+            "empty hallway perspective",
+            "broken window light",
+            "collapsed roof opening",
+            "graffiti covered walls",
+            "staircase to nowhere",
+            "doorway framing",
+            "equipment left behind",
+            "overgrown exterior",
+            "dust mote atmosphere",
+            "symmetrical decay",
+            "single object focus",
+            "urban exploration POV"
+        ],
+        "subjects": [
+            "abandoned factory",
+            "derelict hospital",
+            "empty school",
+            "closed mall",
+            "forgotten church",
+            "deserted hotel",
+            "vacant mansion",
+            "shutdown power plant",
+            "abandoned amusement park",
+            "ghost town building"
+        ],
+        "elements": [
+            "peeling wallpaper",
+            "broken windows",
+            "collapsed ceiling",
+            "rusted equipment",
+            "overgrown vegetation",
+            "graffiti art",
+            "scattered debris",
+            "faded signage",
+            "dusty furniture",
+            "nature intrusion"
+        ],
+        "decay_levels": [
+            "recently closed",
+            "years of neglect",
+            "advanced decay",
+            "nature reclaiming",
+            "structural collapse",
+            "preserved time capsule",
+            "vandalized interior",
+            "fire damaged",
+            "flooded basement",
+            "roof open to sky"
+        ],
+        "lighting": [
+            "shaft of light through hole",
+            "broken window glow",
+            "overcast diffused",
+            "flashlight exploration",
+            "golden hour through decay",
+            "blue hour mystery",
+            "fog atmosphere",
+            "harsh abandoned",
+            "dappled through leaves",
+            "moonlight intrusion"
+        ],
+        "moods": [
+            "haunting beauty",
+            "melancholic decay",
+            "time stopped",
+            "urban exploration",
+            "forgotten history",
+            "nature victory",
+            "post-industrial",
+            "eerie silence",
+            "photogenic ruin",
+            "beauty in decay"
+        ]
+    }
+}
+

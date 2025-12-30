@@ -1,0 +1,94 @@
+{
+    "modern_architecture": {
+        "view_types": [
+            "exterior wide shot",
+            "dramatic low angle",
+            "bird's eye aerial view",
+            "street level perspective",
+            "corner perspective",
+            "facade detail shot",
+            "rooftop view",
+            "entrance approach",
+            "interior courtyard",
+            "reflection in glass",
+            "night illumination shot",
+            "golden hour exterior",
+            "minimalist composition",
+            "geometric abstraction",
+            "environmental context"
+        ],
+        "subjects": [
+            "contemporary museum",
+            "glass office tower",
+            "minimalist residence",
+            "cultural center",
+            "modern library",
+            "concert hall",
+            "university building",
+            "sustainable architecture",
+            "mixed-use complex",
+            "pavilion structure"
+        ],
+        "styles": [
+            "minimalist modern",
+            "high-tech architecture",
+            "deconstructivist",
+            "parametric design",
+            "sustainable green",
+            "neo-futurist",
+            "organic modern",
+            "geometric contemporary",
+            "glass and steel",
+            "concrete modernism"
+        ],
+        "architects": [
+            "Zaha Hadid inspired",
+            "Tadao Ando style",
+            "Frank Gehry aesthetic",
+            "Norman Foster design",
+            "Bjarke Ingels approach",
+            "Renzo Piano quality",
+            "Santiago Calatrava form",
+            "Herzog & de Meuron",
+            "SANAA minimalism",
+            "Jean Nouvel vision"
+        ],
+        "materials": [
+            "glass curtain wall",
+            "exposed concrete",
+            "weathering steel",
+            "white plaster",
+            "natural wood cladding",
+            "perforated metal",
+            "stone facade",
+            "green living wall",
+            "solar panels integrated",
+            "reflective surfaces"
+        ],
+        "lighting": [
+            "golden hour warmth",
+            "blue hour twilight",
+            "dramatic shadows",
+            "overcast diffused",
+            "night LED illumination",
+            "interior glow",
+            "reflected sky",
+            "harsh midday sun",
+            "cloudy soft light",
+            "sunset silhouette"
+        ],
+        "moods": [
+            "clean precision",
+            "bold innovation",
+            "serene minimalism",
+            "dynamic energy",
+            "timeless elegance",
+            "sustainable future",
+            "urban sophistication",
+            "artistic expression",
+            "functional beauty",
+            "geometric harmony"
+        ]
+    }
+}
+

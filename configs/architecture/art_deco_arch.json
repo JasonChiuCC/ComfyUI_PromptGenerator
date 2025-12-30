@@ -1,0 +1,94 @@
+{
+    "art_deco_arch": {
+        "view_types": [
+            "dramatic upward angle",
+            "symmetrical facade",
+            "ornamental detail close-up",
+            "entrance portal shot",
+            "rooftop crown detail",
+            "lobby interior",
+            "geometric pattern focus",
+            "night illumination",
+            "street level context",
+            "skyline silhouette",
+            "golden sunlight facade",
+            "corner perspective",
+            "elevator door detail",
+            "ceiling ornament",
+            "full building portrait"
+        ],
+        "subjects": [
+            "Art Deco skyscraper",
+            "movie palace theater",
+            "grand hotel",
+            "department store",
+            "train station",
+            "office building",
+            "apartment tower",
+            "civic building",
+            "bank headquarters",
+            "radio city style"
+        ],
+        "elements": [
+            "geometric ornamentation",
+            "sunburst patterns",
+            "chevron motifs",
+            "stepped crown",
+            "ziggurat setbacks",
+            "brass and chrome details",
+            "terrazzo floors",
+            "stylized eagles",
+            "fountain sculptures",
+            "neon signage"
+        ],
+        "materials": [
+            "polished granite",
+            "bronze metalwork",
+            "terracotta tiles",
+            "marble lobby",
+            "chrome accents",
+            "colored glass",
+            "gilded details",
+            "limestone facade",
+            "decorative ironwork",
+            "mosaic murals"
+        ],
+        "locations": [
+            "Manhattan New York",
+            "Miami Beach",
+            "Los Angeles",
+            "Shanghai Bund",
+            "Mumbai India",
+            "Napier New Zealand",
+            "Havana Cuba",
+            "London West End",
+            "Chicago Loop",
+            "Paris France"
+        ],
+        "lighting": [
+            "golden hour glow",
+            "dramatic uplighting",
+            "neon night glow",
+            "afternoon shadows",
+            "blue hour elegance",
+            "interior warm light",
+            "spotlight drama",
+            "sunset reflection",
+            "overcast softness",
+            "theatrical lighting"
+        ],
+        "moods": [
+            "glamorous elegance",
+            "Jazz Age opulence",
+            "geometric sophistication",
+            "machine age beauty",
+            "Gatsby era luxury",
+            "streamlined modernity",
+            "theatrical grandeur",
+            "optimistic progress",
+            "urban glamour",
+            "roaring twenties"
+        ]
+    }
+}
+

@@ -280,6 +280,29 @@ from .horror import (
     HORROR_HANDLERS,
 )
 
+# ============================================
+# Architecture Handlers
+# ============================================
+from .architecture import (
+    ModernArchitectureHandler,
+    BrutalistHandler,
+    ArtDecoArchHandler,
+    GothicCathedralHandler,
+    JapaneseArchHandler,
+    MediterraneanArchHandler,
+    SkyscraperHandler,
+    CastleHandler,
+    TempleHandler,
+    BridgeHandler,
+    VictorianHouseHandler,
+    IndustrialArchHandler,
+    InteriorHandler,
+    CityscapeHandler,
+    VillageHandler,
+    AbandonedHandler,
+    ARCHITECTURE_HANDLERS,
+)
+
 
 # Export all handlers
 __all__ = [
@@ -493,6 +516,23 @@ __all__ = [
     'DemonicHandler',
     'OccultHandler',
     'CreepypastaHandler',
+    # Architecture
+    'ModernArchitectureHandler',
+    'BrutalistHandler',
+    'ArtDecoArchHandler',
+    'GothicCathedralHandler',
+    'JapaneseArchHandler',
+    'MediterraneanArchHandler',
+    'SkyscraperHandler',
+    'CastleHandler',
+    'TempleHandler',
+    'BridgeHandler',
+    'VictorianHouseHandler',
+    'IndustrialArchHandler',
+    'InteriorHandler',
+    'CityscapeHandler',
+    'VillageHandler',
+    'AbandonedHandler',
 ]
 
 # Combined handler class mapping for ThemeRegistry
@@ -508,4 +548,5 @@ HANDLER_CLASSES = {
     **SCIFI_HANDLERS,
     **FANTASY_HANDLERS,
     **HORROR_HANDLERS,
+    **ARCHITECTURE_HANDLERS,
 }

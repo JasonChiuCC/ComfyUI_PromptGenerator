@@ -1,0 +1,82 @@
+{
+    "mediterranean_arch": {
+        "view_types": [
+            "whitewashed village overview",
+            "blue dome close-up",
+            "narrow street perspective",
+            "courtyard interior",
+            "terrace sea view",
+            "stairway composition",
+            "arched doorway",
+            "balcony detail",
+            "rooftop panorama",
+            "sunset silhouette",
+            "seaside cliff view",
+            "bougainvillea framing",
+            "window with shutters",
+            "church bell tower",
+            "harbor front"
+        ],
+        "subjects": [
+            "Santorini house",
+            "Greek island villa",
+            "Moroccan riad",
+            "Spanish hacienda",
+            "Italian coastal villa",
+            "Amalfi cliff house",
+            "Mykonos windmill",
+            "Andalusian courtyard",
+            "Tunisian medina",
+            "Provençal farmhouse"
+        ],
+        "elements": [
+            "whitewashed walls",
+            "blue painted domes",
+            "terracotta roof tiles",
+            "wrought iron balconies",
+            "arched doorways",
+            "wooden shutters",
+            "cobblestone streets",
+            "bougainvillea vines",
+            "ceramic tile accents",
+            "stone fountains"
+        ],
+        "locations": [
+            "Santorini Greece",
+            "Amalfi Coast Italy",
+            "Moroccan Marrakech",
+            "Spanish Andalusia",
+            "Croatian Dubrovnik",
+            "Turkish Bodrum",
+            "French Provence",
+            "Portuguese Algarve",
+            "Tunisian Sidi Bou Said",
+            "Maltese villages"
+        ],
+        "lighting": [
+            "brilliant Mediterranean sun",
+            "golden hour warmth",
+            "blue hour serenity",
+            "harsh midday shadows",
+            "soft morning light",
+            "sunset golden glow",
+            "twilight blue",
+            "dappled shade",
+            "reflected sea light",
+            "bright white walls"
+        ],
+        "moods": [
+            "sun-drenched bliss",
+            "coastal serenity",
+            "rustic charm",
+            "timeless beauty",
+            "lazy afternoon",
+            "romantic escape",
+            "village simplicity",
+            "azure and white",
+            "seaside paradise",
+            "warm hospitality"
+        ]
+    }
+}
+
