@@ -27,7 +27,11 @@
     "dramatic sunset",
     "magical aurora",
     "divine rays",
-    "torch-lit dramatic"
+    "torch-lit dramatic",
+    "cinematic dramatic lighting",
+    "soft diffused natural",
+    "rim light edge glow",
+    "golden hour warmth"
   ],
   "styles": [
     "epic fantasy art",
@@ -35,7 +39,11 @@
     "high fantasy illustration",
     "heroic fantasy",
     "legendary tale",
-    "fantasy book cover"
+    "fantasy book cover",
+    "highly detailed realistic",
+    "artistic stylized",
+    "cinematic movie quality",
+    "fine art gallery"
   ],
   "effects": [
     "magical particles",
@@ -43,7 +51,11 @@
     "heroic atmosphere",
     "ancient runes glowing",
     "mystical fog",
-    "legendary weapons"
+    "legendary weapons",
+    "volumetric light rays",
+    "atmospheric fog mist",
+    "particle dust sparkle",
+    "motion blur dynamic"
   ],
   "shot_types": [
     "epic wide shot",
@@ -51,12 +63,10 @@
     "action battle scene",
     "dramatic low angle",
     "group composition",
-    "silhouette against sky"
+    "silhouette against sky",
+    "epic wide establishing",
+    "intimate close portrait",
+    "dynamic action frozen",
+    "atmospheric environmental"
   ]
 }
-
-
-
-
-
-

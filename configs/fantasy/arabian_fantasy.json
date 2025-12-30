@@ -27,7 +27,11 @@
     "starlit desert",
     "palace opulence",
     "mystical blue",
-    "warm sunset"
+    "warm sunset",
+    "cinematic dramatic lighting",
+    "soft diffused natural",
+    "rim light edge glow",
+    "golden hour warmth"
   ],
   "styles": [
     "Arabian Nights art",
@@ -35,7 +39,11 @@
     "1001 Nights inspired",
     "Persian miniature style",
     "desert magic",
-    "exotic fantasy"
+    "exotic fantasy",
+    "highly detailed realistic",
+    "artistic stylized",
+    "cinematic movie quality",
+    "fine art gallery"
   ],
   "effects": [
     "genie smoke",
@@ -43,7 +51,11 @@
     "flying carpet trail",
     "wish magic",
     "jewel sparkle",
-    "desert mirages"
+    "desert mirages",
+    "volumetric light rays",
+    "atmospheric fog mist",
+    "particle dust sparkle",
+    "motion blur dynamic"
   ],
   "shot_types": [
     "dramatic genie",
@@ -51,12 +63,10 @@
     "adventure moment",
     "treasure discovery",
     "flying scene",
-    "exotic portrait"
+    "exotic portrait",
+    "epic wide establishing",
+    "intimate close portrait",
+    "dynamic action frozen",
+    "dramatic low angle"
   ]
 }
-
-
-
-
-
-

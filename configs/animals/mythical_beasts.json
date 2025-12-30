@@ -31,7 +31,11 @@
     "terrifying presence",
     "noble majesty",
     "mysterious power",
-    "primal strength"
+    "primal strength",
+    "intense focused gaze",
+    "peaceful serene calm",
+    "mysterious enigmatic look",
+    "joyful happy expression"
   ],
   "environments": [
     "ancient temple",
@@ -49,7 +53,11 @@
     "golden divine",
     "eerie supernatural",
     "ancient torchlight",
-    "celestial light"
+    "celestial light",
+    "cinematic dramatic lighting",
+    "soft diffused natural",
+    "rim light edge glow",
+    "golden hour warmth"
   ],
   "styles": [
     "mythological art",
@@ -57,7 +65,11 @@
     "classical style",
     "epic fantasy",
     "ancient art inspired",
-    "legendary"
+    "legendary",
+    "highly detailed realistic",
+    "artistic stylized",
+    "cinematic movie quality",
+    "fine art gallery"
   ],
   "shot_types": [
     "majestic portrait",
@@ -65,12 +77,10 @@
     "action battle",
     "dramatic scene",
     "mythological tableau",
-    "close-up detail"
+    "close-up detail",
+    "epic wide establishing",
+    "intimate close portrait",
+    "dynamic action frozen",
+    "dramatic low angle"
   ]
 }
-
-
-
-
-
-

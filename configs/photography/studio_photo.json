@@ -20,7 +20,10 @@
     "high-end production",
     "editorial look",
     "catalog style",
-    "clean and polished"
+    "clean and polished",
+    "highly detailed realistic",
+    "artistic stylized",
+    "cinematic movie quality"
   ],
   "lighting": [
     "three-point lighting",
@@ -46,12 +49,10 @@
     "headshot",
     "close-up detail",
     "product hero shot",
-    "lifestyle context"
+    "lifestyle context",
+    "epic wide establishing",
+    "intimate close portrait",
+    "dynamic action frozen",
+    "dramatic low angle"
   ]
 }
-
-
-
-
-
-

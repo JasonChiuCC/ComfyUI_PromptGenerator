@@ -27,7 +27,11 @@
     "Martian sunset",
     "habitat lighting",
     "terraformed sky",
-    "alien star light"
+    "alien star light",
+    "cinematic dramatic lighting",
+    "soft diffused natural",
+    "rim light edge glow",
+    "golden hour warmth"
   ],
   "styles": [
     "colonization sci-fi",
@@ -35,7 +39,11 @@
     "terraforming concept",
     "space western",
     "pioneer aesthetic",
-    "survival sci-fi"
+    "survival sci-fi",
+    "highly detailed realistic",
+    "artistic stylized",
+    "cinematic movie quality",
+    "fine art gallery"
   ],
   "effects": [
     "atmospheric processors",
@@ -43,7 +51,11 @@
     "dome reflections",
     "terraforming progress",
     "life support systems",
-    "communication arrays"
+    "communication arrays",
+    "volumetric light rays",
+    "atmospheric fog mist",
+    "particle dust sparkle",
+    "motion blur dynamic"
   ],
   "composition_types": [
     "colony overview",
@@ -51,12 +63,10 @@
     "construction progress",
     "frontier landscape",
     "interior habitat",
-    "first contact"
+    "first contact",
+    "rule of thirds balanced",
+    "centered symmetrical",
+    "diagonal dynamic lines",
+    "framing natural elements"
   ]
 }
-
-
-
-
-
-

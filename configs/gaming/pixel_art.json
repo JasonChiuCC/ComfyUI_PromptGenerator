@@ -1,0 +1,79 @@
+{
+  "pixel_art": {
+    "subjects": [
+      "pixel art character sprite hero",
+      "retro video game protagonist",
+      "8-bit monster enemy creature",
+      "pixel art scenic landscape",
+      "retro game collectible item",
+      "pixel art character portrait",
+      "platformer game character",
+      "pixel art cute animal pet",
+      "retro space shooter ship",
+      "pixel art food item power-up",
+      "dungeon tileset environment",
+      "pixel art legendary weapon",
+      "pixel art NPC townsperson",
+      "boss monster giant sprite",
+      "pixel art vehicle car"
+    ],
+    "styles": [
+      "8-bit classic NES retro",
+      "16-bit SNES era detailed",
+      "Game Boy green monochrome",
+      "NES limited palette classic",
+      "modern HD pixel art",
+      "isometric 2.5D pixel art",
+      "dithering shading technique",
+      "clean minimal pixel style",
+      "detailed high-res pixel",
+      "anime influenced pixel"
+    ],
+    "palettes": [
+      "limited strict 16 colors",
+      "NES official color palette",
+      "Game Boy 4 green shades",
+      "CGA 4 color retro",
+      "modern expanded 256 colors",
+      "pastel soft pixel colors",
+      "dark moody limited palette",
+      "vibrant saturated retro",
+      "earthy natural tones",
+      "neon synthwave colors"
+    ],
+    "elements": [
+      "visible pixel grid edges",
+      "clean anti-alias optional",
+      "sprite animation frames",
+      "tile-based modular design",
+      "CRT scanline effect",
+      "pixel perfect precision",
+      "outline technique style",
+      "sub-pixel animation",
+      "limited color dithering",
+      "selective outlining"
+    ],
+    "resolutions": [
+      "16x16 tiny icon sprite",
+      "32x32 standard sprite",
+      "64x64 detailed character",
+      "128x128 large portrait",
+      "256x256 scene illustration",
+      "sprite sheet animation",
+      "tileset 16x16 grid",
+      "upscaled HD render"
+    ],
+    "themes": [
+      "retro game nostalgia",
+      "indie game aesthetic",
+      "roguelike dungeon crawler",
+      "platformer adventure game",
+      "RPG fantasy world",
+      "space shooter arcade",
+      "farming simulation cozy",
+      "horror pixel creepy",
+      "cute kawaii adorable",
+      "action beat-em-up"
+    ]
+  }
+}

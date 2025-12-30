@@ -29,7 +29,11 @@
     "majestic glory",
     "eternal spirit",
     "burning passion",
-    "triumphant rise"
+    "triumphant rise",
+    "intense focused gaze",
+    "peaceful serene calm",
+    "mysterious enigmatic look",
+    "joyful happy expression"
   ],
   "environments": [
     "burning inferno",
@@ -47,7 +51,11 @@
     "dramatic backlighting",
     "ember particles",
     "sunrise warmth",
-    "mystical fire light"
+    "mystical fire light",
+    "cinematic dramatic lighting",
+    "soft diffused natural",
+    "rim light edge glow",
+    "golden hour warmth"
   ],
   "styles": [
     "fantasy art",
@@ -55,7 +63,11 @@
     "epic illustration",
     "concept art",
     "oriental fantasy",
-    "dramatic art"
+    "dramatic art",
+    "highly detailed realistic",
+    "artistic stylized",
+    "cinematic movie quality",
+    "fine art gallery"
   ],
   "effects": [
     "trailing flames",
@@ -63,7 +75,11 @@
     "fire wings",
     "glowing feathers",
     "smoke and ash",
-    "light rays"
+    "light rays",
+    "volumetric light rays",
+    "atmospheric fog mist",
+    "particle dust sparkle",
+    "motion blur dynamic"
   ],
   "shot_types": [
     "dramatic rising",
@@ -71,12 +87,10 @@
     "action flight",
     "portrait close-up",
     "silhouette flames",
-    "epic wide scene"
+    "epic wide scene",
+    "epic wide establishing",
+    "intimate close portrait",
+    "dynamic action frozen",
+    "dramatic low angle"
   ]
 }
-
-
-
-
-
-

@@ -27,7 +27,11 @@
     "new world sunrise",
     "magical transition",
     "dimension shift",
-    "ethereal radiance"
+    "ethereal radiance",
+    "cinematic dramatic lighting",
+    "soft diffused natural",
+    "rim light edge glow",
+    "golden hour warmth"
   ],
   "styles": [
     "portal fantasy art",
@@ -35,7 +39,11 @@
     "world transition",
     "dimensional travel",
     "fantasy discovery",
-    "new world wonder"
+    "new world wonder",
+    "highly detailed realistic",
+    "artistic stylized",
+    "cinematic movie quality",
+    "fine art gallery"
   ],
   "effects": [
     "portal energy",
@@ -43,7 +51,11 @@
     "reality warping",
     "magical summoning",
     "world merging",
-    "transition effects"
+    "transition effects",
+    "volumetric light rays",
+    "atmospheric fog mist",
+    "particle dust sparkle",
+    "motion blur dynamic"
   ],
   "shot_types": [
     "discovery moment",
@@ -51,12 +63,10 @@
     "wide new world",
     "reaction portrait",
     "journey beginning",
-    "dramatic arrival"
+    "dramatic arrival",
+    "epic wide establishing",
+    "intimate close portrait",
+    "dynamic action frozen",
+    "dramatic low angle"
   ]
 }
-
-
-
-
-
-

@@ -1,70 +1,100 @@
 {
   "name": "Group Photo",
-  "description": "Group portrait and team photography",
+  "description": "Multi-person group portrait photography",
   "subjects": [
-    "friend group",
-    "family portrait",
-    "corporate team",
-    "wedding party",
-    "sports team",
-    "celebration group"
+    "family multi-generation group",
+    "wedding party bridal group",
+    "corporate team professional",
+    "friends casual gathering",
+    "sports team athletes",
+    "school class students",
+    "band music group",
+    "wedding guests formal",
+    "reunion celebration group",
+    "organizational group portrait"
   ],
   "expressions": [
-    "unified happiness",
-    "genuine smiles",
-    "professional presence",
-    "celebratory joy",
-    "team spirit",
-    "natural interaction"
+    "unified happy smiles",
+    "natural candid laughter",
+    "formal composed professional",
+    "playful fun group energy",
+    "proud team achievement",
+    "relaxed casual comfortable",
+    "excited celebration joy",
+    "serious formal dignified",
+    "individual personality mix",
+    "genuine authentic connection"
   ],
   "poses": [
-    "tiered arrangement",
-    "casual grouping",
-    "formal lineup",
-    "candid interaction",
-    "creative formation",
-    "dynamic positions"
+    "formal arranged rows",
+    "casual relaxed grouping",
+    "creative dynamic arrangement",
+    "pyramid staggered levels",
+    "walking together movement",
+    "seated standing mix",
+    "arm around shoulders",
+    "jumping celebration action",
+    "looking at each other interaction",
+    "v-formation arranged"
   ],
   "arrangements": [
-    "triangle composition",
-    "staggered heights",
-    "front and back rows",
-    "circular grouping",
-    "natural scatter",
-    "formal alignment"
+    "symmetrical balanced formal",
+    "asymmetrical dynamic informal",
+    "by height organized",
+    "couples paired together",
+    "generations grouped family",
+    "circular gathered around",
+    "staircase levels elevated",
+    "scattered natural grouping",
+    "close tight together",
+    "spread environmental wide"
   ],
   "shot_types": [
-    "full group wide",
-    "medium group",
-    "environmental group",
-    "formal portrait",
-    "candid gathering"
+    "wide group full bodies",
+    "medium three-quarter crop",
+    "tight faces focused",
+    "environmental location context",
+    "aerial overhead unique",
+    "candid natural moment",
+    "formal posed arranged",
+    "action movement jumping",
+    "portrait individual in group",
+    "detail hands connected"
   ],
   "lighting": [
-    "even group lighting",
-    "outdoor natural",
-    "studio multiple lights",
-    "available ambient",
-    "flash fill outdoor"
+    "outdoor natural even light",
+    "studio controlled multiple",
+    "golden hour outdoor warm",
+    "overcast soft diffused",
+    "indoor window natural",
+    "flash fill balanced",
+    "venue ambient available",
+    "dramatic sunset backlit",
+    "bright high key studio",
+    "evening twilight blue hour"
   ],
   "backgrounds": [
-    "meaningful location",
-    "studio backdrop",
-    "outdoor scenic",
-    "office environment",
-    "event venue"
+    "outdoor nature landscape",
+    "urban city architecture",
+    "studio seamless clean",
+    "venue event location",
+    "home family gathering",
+    "office corporate workplace",
+    "school institution building",
+    "sports field venue",
+    "destination travel scenic",
+    "meaningful location symbolic"
   ],
   "styles": [
-    "group photography",
-    "team portrait",
-    "family photography",
-    "event group shot",
-    "corporate team photo"
+    "formal group portrait classic",
+    "candid group photography",
+    "family portrait professional",
+    "corporate team photography",
+    "wedding party portrait",
+    "event group documentation",
+    "creative artistic group",
+    "sports team portrait",
+    "editorial group style",
+    "documentary group capture"
   ]
 }
-
-
-
-
-
-

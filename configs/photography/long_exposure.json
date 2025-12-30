@@ -20,7 +20,10 @@
     "silky water effect",
     "night photography",
     "time-lapse single frame",
-    "light painting"
+    "light painting",
+    "highly detailed realistic",
+    "artistic stylized",
+    "cinematic movie quality"
   ],
   "lighting": [
     "city lights",
@@ -28,7 +31,11 @@
     "star light",
     "moonlight",
     "neon signs",
-    "twilight ambient"
+    "twilight ambient",
+    "cinematic dramatic lighting",
+    "soft diffused natural",
+    "rim light edge glow",
+    "golden hour warmth"
   ],
   "environments": [
     "highway overpass",
@@ -44,12 +51,10 @@
     "layered exposure",
     "foreground interest",
     "symmetrical reflection",
-    "panoramic wide"
+    "panoramic wide",
+    "rule of thirds balanced",
+    "centered symmetrical",
+    "diagonal dynamic lines",
+    "framing natural elements"
   ]
 }
-
-
-
-
-
-

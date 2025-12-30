@@ -1,0 +1,79 @@
+{
+  "mexican": {
+    "subjects": [
+      "Dia de los Muertos skeleton",
+      "Frida Kahlo style portrait",
+      "mariachi band performance",
+      "Aztec warrior ceremonial",
+      "Mexican folk dancer",
+      "sugar skull calavera",
+      "Mexican street food vendor",
+      "luchador wrestler mask",
+      "Mexican charro horseman",
+      "papel picado hanging banners",
+      "marigold flower altar",
+      "Mexican grandmother cooking",
+      "ancient pyramid temple",
+      "Mexican market tianguis",
+      "quinceañera celebration"
+    ],
+    "environments": [
+      "colorful Mexican village plaza",
+      "Aztec pyramid ruins",
+      "Oaxaca street market",
+      "Guanajuato colorful alley",
+      "Mexican hacienda courtyard",
+      "Day of Dead cemetery",
+      "Cancun beach resort",
+      "Mexican cantina bar",
+      "agave field landscape",
+      "colonial church courtyard"
+    ],
+    "elements": [
+      "sugar skull decorated",
+      "papel picado cut paper",
+      "cempasuchil marigolds orange",
+      "Mexican tile talavera",
+      "embroidered textiles colorful",
+      "piñata celebration",
+      "cactus and agave plants",
+      "sombrero traditional hat",
+      "Mexican silver jewelry",
+      "Aztec calendar stone",
+      "alebrijes folk creatures",
+      "sacred heart milagros"
+    ],
+    "lighting": [
+      "warm fiesta candlelight",
+      "golden hour colonial",
+      "cemetery altar glow",
+      "harsh desert sunlight",
+      "colorful market shadows",
+      "sunset agave field",
+      "neon cantina signs",
+      "firelight ceremony"
+    ],
+    "moods": [
+      "festive celebration alegria",
+      "spiritual ancestor honoring",
+      "vibrant colorful energy",
+      "proud cultural heritage",
+      "mystical ancient power",
+      "warm family gathering",
+      "passionate romantic drama",
+      "playful folk humor"
+    ],
+    "styles": [
+      "traditional Mexican aesthetic",
+      "Mexican folk art colorful",
+      "Dia de los Muertos style",
+      "Aztec ancient revival",
+      "Frida Kahlo influenced",
+      "Mexican muralist tradition",
+      "Huichol beaded art",
+      "Oaxacan craft style",
+      "contemporary Chicano art",
+      "Mexican baroque ornate"
+    ]
+  }
+}

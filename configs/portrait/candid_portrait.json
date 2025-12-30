@@ -1,70 +1,100 @@
 {
   "name": "Candid Portrait",
-  "description": "Unposed and authentic candid portrait photography",
+  "description": "Natural unposed authentic moment photography",
   "subjects": [
-    "natural person",
-    "unposed subject",
-    "authentic moment",
-    "real expression",
-    "genuine person",
-    "unstaged beauty"
+    "person in natural moment",
+    "authentic genuine expression",
+    "unposed real life subject",
+    "spontaneous captured moment",
+    "real person documentary",
+    "street life character",
+    "family natural interaction",
+    "friends genuine laughter",
+    "everyday life moment",
+    "unaware subject capture"
   ],
   "expressions": [
-    "genuine laughter",
-    "natural surprise",
-    "authentic joy",
-    "real emotion",
-    "unguarded moment",
-    "spontaneous expression"
+    "genuine authentic smile",
+    "natural laughter caught",
+    "thoughtful unaware moment",
+    "surprised discovery expression",
+    "emotional real feeling",
+    "concentrated focused task",
+    "relaxed natural state",
+    "joyful spontaneous happiness",
+    "pensive quiet reflection",
+    "animated conversation engaged"
   ],
   "poses": [
-    "unposed natural",
-    "caught in motion",
-    "spontaneous gesture",
-    "authentic action",
-    "real moment",
-    "unstaged position"
+    "completely unposed natural",
+    "caught mid-action moment",
+    "relaxed body language",
+    "natural gesture movement",
+    "interaction with others",
+    "walking movement blur",
+    "working on activity",
+    "eating drinking casual",
+    "playing active fun",
+    "resting quiet moment"
   ],
   "moments": [
-    "mid-laugh",
-    "looking away",
-    "in conversation",
-    "natural activity",
-    "genuine reaction",
-    "everyday moment"
+    "laughter shared together",
+    "quiet contemplation alone",
+    "celebration joyful event",
+    "everyday routine task",
+    "discovery surprise reaction",
+    "connection between people",
+    "transition movement action",
+    "absorption in activity",
+    "emotional release moment",
+    "peaceful rest stillness"
   ],
   "shot_types": [
-    "candid capture",
-    "spontaneous shot",
-    "street portrait candid",
-    "natural moment",
-    "unstaged scene"
+    "documentary candid long lens",
+    "street photography style",
+    "reportage journalism approach",
+    "fly on wall unobtrusive",
+    "environmental wide context",
+    "intimate close moment",
+    "action motion freeze",
+    "quiet portrait natural",
+    "group interaction dynamic",
+    "solo contemplative moment"
   ],
   "lighting": [
-    "available light only",
-    "natural ambient",
-    "street light",
-    "window light natural",
-    "outdoor daylight"
+    "available natural light only",
+    "window light soft natural",
+    "outdoor daylight varied",
+    "golden hour warm glow",
+    "overcast soft diffused",
+    "harsh midday contrast",
+    "indoor ambient mixed",
+    "evening low light mood",
+    "street light night urban",
+    "backlit rim silhouette"
   ],
   "backgrounds": [
-    "real environment",
-    "natural setting",
-    "everyday location",
-    "authentic backdrop",
-    "unstaged scene"
+    "real life environment cluttered",
+    "street urban authentic",
+    "home domestic natural",
+    "workplace office real",
+    "outdoor park nature",
+    "cafe restaurant public",
+    "event venue crowded",
+    "travel destination location",
+    "beach seaside coastal",
+    "city life bustling"
   ],
   "styles": [
-    "candid photography",
-    "unposed portrait",
-    "authentic capture",
-    "real moment imagery",
-    "documentary style portrait"
+    "candid documentary photography",
+    "street photography portrait",
+    "photojournalistic approach",
+    "lifestyle authentic capture",
+    "slice of life natural",
+    "reportage style portrait",
+    "unposed real moment",
+    "family documentary style",
+    "travel candid portrait",
+    "event photography natural"
   ]
 }
-
-
-
-
-
-

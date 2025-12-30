@@ -20,14 +20,22 @@
     "diorama look",
     "toy town effect",
     "selective focus blur",
-    "Lensbaby style"
+    "Lensbaby style",
+    "highly detailed realistic",
+    "artistic stylized",
+    "cinematic movie quality"
   ],
   "lighting": [
     "bright daylight",
     "sunny clear day",
     "overcast soft",
     "golden hour warm",
-    "artificial night lights"
+    "artificial night lights",
+    "cinematic dramatic lighting",
+    "soft diffused natural",
+    "rim light edge glow",
+    "golden hour warmth",
+    "blue hour cool mood"
   ],
   "environments": [
     "urban cityscape",
@@ -43,12 +51,10 @@
     "straight down aerial",
     "distant overview",
     "centered focus band",
-    "diagonal focus plane"
+    "diagonal focus plane",
+    "rule of thirds balanced",
+    "centered symmetrical",
+    "diagonal dynamic lines",
+    "framing natural elements"
   ]
 }
-
-
-
-
-
-

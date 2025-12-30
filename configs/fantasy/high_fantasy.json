@@ -27,7 +27,11 @@
     "prismatic light",
     "starlight",
     "crystal reflections",
-    "arcane energy"
+    "arcane energy",
+    "cinematic dramatic lighting",
+    "soft diffused natural",
+    "rim light edge glow",
+    "golden hour warmth"
   ],
   "styles": [
     "high fantasy art",
@@ -35,7 +39,11 @@
     "ethereal fantasy",
     "enchanting style",
     "magical realism",
-    "fantastical beauty"
+    "fantastical beauty",
+    "highly detailed realistic",
+    "artistic stylized",
+    "cinematic movie quality",
+    "fine art gallery"
   ],
   "effects": [
     "floating magic orbs",
@@ -43,7 +51,11 @@
     "runic circles",
     "magical creatures",
     "enchanted objects",
-    "fairy dust"
+    "fairy dust",
+    "volumetric light rays",
+    "atmospheric fog mist",
+    "particle dust sparkle",
+    "motion blur dynamic"
   ],
   "shot_types": [
     "elegant portrait",
@@ -51,12 +63,10 @@
     "wide establishing",
     "action spell casting",
     "group composition",
-    "medium shot"
+    "medium shot",
+    "epic wide establishing",
+    "intimate close portrait",
+    "dynamic action frozen",
+    "dramatic low angle"
   ]
 }
-
-
-
-
-
-

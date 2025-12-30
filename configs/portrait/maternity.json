@@ -1,69 +1,100 @@
 {
   "name": "Maternity",
-  "description": "Beautiful maternity and pregnancy portrait photography",
+  "description": "Pregnancy and expecting mother portrait photography",
   "subjects": [
-    "expectant mother",
-    "pregnant woman",
-    "mother to be",
-    "glowing mom",
-    "couple expecting",
-    "family pregnancy"
+    "glowing expecting mother",
+    "couple pregnancy portrait",
+    "family with pregnant mother",
+    "sibling touching belly",
+    "artistic maternity silhouette",
+    "bohemian free spirit mother",
+    "elegant glamorous maternity",
+    "natural organic maternity",
+    "studio dramatic maternity",
+    "intimate home maternity"
   ],
   "expressions": [
-    "loving gaze at belly",
-    "peaceful anticipation",
-    "joyful excitement",
-    "serene contentment",
-    "maternal love",
-    "gentle happiness"
+    "glowing radiant joy",
+    "serene peaceful anticipation",
+    "loving tender emotion",
+    "excited happy expectation",
+    "contemplative quiet reflection",
+    "proud strong confidence",
+    "gentle soft feminine",
+    "playful fun personality",
+    "dramatic powerful presence",
+    "vulnerable authentic emotion"
   ],
   "poses": [
-    "cradling belly",
-    "profile silhouette",
-    "partner holding belly",
-    "flowing dress movement",
-    "seated elegant",
-    "standing graceful"
+    "hands cradling belly",
+    "profile silhouette elegant",
+    "partner embrace behind",
+    "sitting supported comfortable",
+    "standing graceful full body",
+    "lying down relaxed",
+    "walking movement gentle",
+    "fabric flow dramatic",
+    "looking down at belly",
+    "intimate couple connection"
   ],
   "outfits": [
-    "flowing maternity gown",
-    "sheer fabric draping",
-    "elegant dress",
-    "intimate wrap",
-    "beautiful maternity wear"
+    "flowing maxi dress",
+    "elegant fitted gown",
+    "sheer fabric draped",
+    "lingerie intimate boudoir",
+    "casual comfortable homey",
+    "nude artistic tasteful",
+    "partner coordinated colors",
+    "bohemian nature goddess",
+    "formal elegant evening",
+    "personal meaningful outfit"
   ],
   "shot_types": [
-    "full body silhouette",
-    "belly close-up",
-    "couple together",
-    "artistic profile",
-    "romantic portrait"
+    "silhouette belly profile",
+    "full body flowing fabric",
+    "close-up belly detail",
+    "couple together intimate",
+    "family including siblings",
+    "artistic abstract body",
+    "environmental meaningful location",
+    "studio clean dramatic",
+    "candid natural moment",
+    "detail hands on belly"
   ],
   "lighting": [
-    "soft backlighting",
-    "window light glow",
-    "golden hour warmth",
-    "studio soft light",
-    "rim light silhouette"
+    "soft flattering window light",
+    "golden hour warm glow",
+    "dramatic rim light silhouette",
+    "studio controlled beauty",
+    "backlit ethereal glow",
+    "natural outdoor golden",
+    "low key dramatic mood",
+    "high key bright clean",
+    "candlelit warm intimate",
+    "overcast soft diffused"
   ],
   "backgrounds": [
-    "nature outdoor",
-    "studio neutral",
-    "dreamy backdrop",
-    "home setting",
-    "beach or field"
+    "home intimate nursery",
+    "studio clean simple",
+    "nature outdoor garden",
+    "beach sunset romantic",
+    "flower field blooming",
+    "bedroom personal space",
+    "partner's embrace context",
+    "elegant draped fabric",
+    "urban meaningful location",
+    "forest nature organic"
   ],
   "styles": [
-    "maternity photography",
-    "pregnancy portrait",
-    "expecting beauty",
-    "maternal elegance",
-    "baby bump celebration"
+    "maternity portrait classic",
+    "artistic maternity fine art",
+    "bohemian nature maternity",
+    "glamorous editorial maternity",
+    "intimate home maternity",
+    "silhouette dramatic maternity",
+    "couple maternity portrait",
+    "family maternity session",
+    "romantic soft maternity",
+    "documentary lifestyle maternity"
   ]
 }
-
-
-
-
-
-

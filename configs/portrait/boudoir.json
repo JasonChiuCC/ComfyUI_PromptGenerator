@@ -1,70 +1,100 @@
 {
   "name": "Boudoir",
-  "description": "Intimate and elegant boudoir portrait photography",
+  "description": "Intimate sensual and empowering portrait photography",
   "subjects": [
-    "elegant woman",
-    "confident beauty",
-    "intimate subject",
-    "sensual figure",
-    "empowered woman",
-    "romantic subject"
+    "confident empowered woman",
+    "romantic bridal boudoir",
+    "self-love celebration portrait",
+    "intimate couple boudoir",
+    "body positive all sizes",
+    "mature empowered beauty",
+    "artistic body portrait",
+    "vintage pinup inspired",
+    "modern sensual portrait",
+    "anniversary gift session"
   ],
   "expressions": [
-    "intimate gaze",
-    "confident vulnerability",
-    "soft sensuality",
-    "empowered look",
-    "romantic mood",
-    "subtle allure"
+    "confident empowered gaze",
+    "soft romantic expression",
+    "playful flirtatious smile",
+    "sultry sensual look",
+    "vulnerable authentic moment",
+    "joyful self-love celebration",
+    "mysterious alluring glance",
+    "relaxed comfortable natural",
+    "powerful fierce confidence",
+    "tender intimate emotion"
   ],
   "poses": [
-    "elegant recline",
-    "intimate position",
-    "soft curves",
-    "vulnerable beauty",
-    "romantic pose",
-    "artistic body language"
+    "reclining elegant relaxed",
+    "standing confident powerful",
+    "seated graceful curve",
+    "lying natural comfortable",
+    "over shoulder coy",
+    "arched back dramatic",
+    "reaching stretching extension",
+    "wrapped in sheets cozy",
+    "mirror reflection creative",
+    "silhouette shape emphasis"
   ],
   "outfits": [
-    "elegant lingerie",
-    "silk robe",
-    "lace details",
-    "romantic sleepwear",
-    "sheer fabrics",
-    "tasteful intimates"
+    "elegant lace lingerie",
+    "silk robe flowing",
+    "bodysuit sculpting",
+    "vintage inspired set",
+    "sheer romantic fabric",
+    "bridal white delicate",
+    "bold black statement",
+    "cozy sweater intimate",
+    "artistic body jewelry",
+    "personal meaningful item"
   ],
   "shot_types": [
-    "intimate portrait",
-    "curves silhouette",
-    "artistic body",
-    "romantic close-up",
-    "elegant full body"
+    "intimate close-up detail",
+    "full body shape",
+    "three-quarter flattering",
+    "silhouette artistic shape",
+    "detail texture fabric",
+    "environmental bedroom context",
+    "mirror reflection creative",
+    "motion sheet movement",
+    "artistic abstract body",
+    "portrait emotion focus"
   ],
   "lighting": [
-    "soft window light",
-    "romantic glow",
-    "intimate shadows",
-    "warm ambient",
-    "flattering natural light"
+    "soft window natural light",
+    "warm golden hour glow",
+    "dramatic shadow sculpting",
+    "backlit silhouette rim",
+    "candlelit warm intimate",
+    "high key bright clean",
+    "low key moody dramatic",
+    "fairy string lights bokeh",
+    "studio controlled flattering",
+    "mixed ambient creative"
   ],
   "backgrounds": [
-    "luxury bedroom",
-    "soft bedding",
-    "romantic setting",
-    "elegant interior",
-    "intimate space"
+    "bedroom intimate setting",
+    "hotel luxury suite",
+    "studio elegant backdrop",
+    "bathtub romantic setting",
+    "window light natural",
+    "outdoor private garden",
+    "silk sheets luxurious",
+    "vintage setting styled",
+    "minimalist clean modern",
+    "textured wall interest"
   ],
   "styles": [
-    "boudoir photography",
-    "intimate portrait",
-    "romantic elegance",
-    "empowering imagery",
-    "sensual artistry"
+    "boudoir empowerment photography",
+    "bridal intimate portrait",
+    "vintage pinup boudoir",
+    "modern editorial boudoir",
+    "fine art body portrait",
+    "romantic sensual photography",
+    "body positive celebration",
+    "intimate couple boudoir",
+    "artistic boudoir portrait",
+    "luxury boudoir experience"
   ]
 }
-
-
-
-
-
-

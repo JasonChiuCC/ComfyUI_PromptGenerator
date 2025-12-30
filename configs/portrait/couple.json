@@ -1,70 +1,100 @@
 {
   "name": "Couple",
-  "description": "Romantic couple portrait photography",
+  "description": "Romantic couple and relationship portrait photography",
   "subjects": [
-    "romantic couple",
-    "engaged pair",
-    "newlyweds",
-    "loving partners",
-    "anniversary couple",
-    "young love"
+    "romantic couple embrace",
+    "engagement photo session",
+    "wedding couple portrait",
+    "anniversary celebration couple",
+    "young love first romance",
+    "mature couple lasting love",
+    "same-sex couple love",
+    "multicultural couple diverse",
+    "playful couple fun",
+    "intimate couple moment"
   ],
   "expressions": [
-    "loving gaze",
-    "shared laughter",
-    "intimate moment",
-    "joyful connection",
-    "romantic look",
-    "genuine affection"
+    "loving adoring gaze",
+    "genuine laughter together",
+    "romantic tender moment",
+    "playful teasing fun",
+    "intimate close connection",
+    "joyful celebration happiness",
+    "comfortable relaxed together",
+    "passionate intense chemistry",
+    "gentle sweet affection",
+    "candid natural moment"
   ],
   "poses": [
-    "forehead touching",
-    "embrace hug",
-    "walking together",
-    "dancing close",
-    "looking at each other",
-    "back to chest embrace"
+    "forehead touching intimate",
+    "walking hand in hand",
+    "embrace from behind",
+    "nose to nose close",
+    "laying together relaxed",
+    "dancing together romantic",
+    "kissing sweet moment",
+    "piggyback playful fun",
+    "sitting together close",
+    "looking at each other"
   ],
   "interactions": [
-    "holding hands",
-    "gentle kiss",
-    "whispered secret",
-    "playful moment",
-    "romantic dance",
-    "tender touch"
+    "whispered secret intimate",
+    "shared laughter genuine",
+    "tender kiss sweet",
+    "playful tickle fun",
+    "comforting embrace protective",
+    "dancing spinning movement",
+    "holding hands connected",
+    "feeding each other cute",
+    "adventure together exploring",
+    "quiet moment peaceful"
   ],
   "shot_types": [
-    "romantic wide",
-    "intimate close-up",
-    "silhouette together",
-    "candid moment",
-    "posed portrait"
+    "environmental romantic location",
+    "intimate close portrait",
+    "full body interaction",
+    "silhouette romantic backlit",
+    "candid natural moment",
+    "posed classic portrait",
+    "action movement dynamic",
+    "detail hands rings",
+    "wide landscape epic",
+    "reflection mirror creative"
   ],
   "lighting": [
-    "golden hour romantic",
-    "soft natural light",
-    "backlit silhouette",
-    "warm intimate",
-    "studio elegant"
+    "golden hour romantic warm",
+    "soft natural diffused",
+    "backlit rim glow",
+    "blue hour twilight cool",
+    "sunset silhouette dramatic",
+    "studio soft flattering",
+    "fairy string lights bokeh",
+    "candlelit intimate warm",
+    "window light natural",
+    "overcast soft even"
   ],
   "backgrounds": [
-    "sunset beach",
-    "city rooftop",
-    "forest path",
-    "urban location",
-    "studio romantic"
+    "beach sunset romantic",
+    "city skyline urban",
+    "forest nature walk",
+    "cafe coffee shop cozy",
+    "home comfortable intimate",
+    "travel destination scenic",
+    "garden flowers beautiful",
+    "rooftop city views",
+    "studio classic elegant",
+    "meaningful location personal"
   ],
   "styles": [
-    "couple photography",
-    "romantic portrait",
-    "engagement style",
-    "love story imagery",
-    "intimate couple"
+    "romantic couple photography",
+    "engagement session editorial",
+    "wedding portrait classic",
+    "lifestyle couple documentary",
+    "intimate fine art couple",
+    "playful fun couple shoot",
+    "adventure travel couple",
+    "editorial fashion couple",
+    "candid authentic love story",
+    "cinematic romantic portrait"
   ]
 }
-
-
-
-
-
-

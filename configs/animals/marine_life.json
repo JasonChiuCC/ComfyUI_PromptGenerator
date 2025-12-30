@@ -31,7 +31,11 @@
     "playful energy",
     "serene peaceful",
     "mysterious depth",
-    "graceful movement"
+    "graceful movement",
+    "intense focused gaze",
+    "peaceful serene calm",
+    "mysterious enigmatic look",
+    "joyful happy expression"
   ],
   "environments": [
     "coral reef",
@@ -49,7 +53,11 @@
     "golden surface light",
     "bioluminescent glow",
     "crystal clear tropical",
-    "dramatic underwater"
+    "dramatic underwater",
+    "cinematic dramatic lighting",
+    "soft diffused natural",
+    "rim light edge glow",
+    "golden hour warmth"
   ],
   "styles": [
     "underwater photography",
@@ -57,7 +65,11 @@
     "ocean art",
     "wildlife photography",
     "artistic underwater",
-    "nature photography"
+    "nature photography",
+    "highly detailed realistic",
+    "artistic stylized",
+    "cinematic movie quality",
+    "fine art gallery"
   ],
   "shot_types": [
     "wide ocean scene",
@@ -65,12 +77,10 @@
     "action swimming",
     "silhouette against light",
     "macro detail",
-    "environmental scene"
+    "environmental scene",
+    "epic wide establishing",
+    "intimate close portrait",
+    "dynamic action frozen",
+    "dramatic low angle"
   ]
 }
-
-
-
-
-
-

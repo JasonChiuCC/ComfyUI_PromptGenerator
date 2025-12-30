@@ -27,7 +27,11 @@
     "fire and ash",
     "hopeless grey",
     "harsh brutal",
-    "death's cold light"
+    "death's cold light",
+    "cinematic dramatic lighting",
+    "soft diffused natural",
+    "rim light edge glow",
+    "golden hour warmth"
   ],
   "styles": [
     "grimdark art",
@@ -35,7 +39,11 @@
     "brutal fantasy",
     "nihilistic horror",
     "extreme dark fantasy",
-    "savage illustration"
+    "savage illustration",
+    "highly detailed realistic",
+    "artistic stylized",
+    "cinematic movie quality",
+    "fine art gallery"
   ],
   "effects": [
     "blood splatter",
@@ -43,7 +51,11 @@
     "brutal wounds",
     "hopeless atmosphere",
     "savage violence",
-    "death and decay"
+    "death and decay",
+    "volumetric light rays",
+    "atmospheric fog mist",
+    "particle dust sparkle",
+    "motion blur dynamic"
   ],
   "shot_types": [
     "brutal action",
@@ -51,12 +63,10 @@
     "wide carnage",
     "close-up intensity",
     "dramatic violence",
-    "survivor moment"
+    "survivor moment",
+    "epic wide establishing",
+    "intimate close portrait",
+    "dynamic action frozen",
+    "dramatic low angle"
   ]
 }
-
-
-
-
-
-

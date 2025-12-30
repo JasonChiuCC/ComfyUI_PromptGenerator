@@ -1,65 +1,100 @@
 {
   "name": "Environmental Portrait",
-  "description": "Portrait photography that incorporates meaningful surroundings",
+  "description": "Portrait photography in meaningful contextual environments",
   "subjects": [
-    "craftsman in workshop",
-    "artist in studio",
-    "chef in kitchen",
-    "musician with instrument",
-    "farmer in field",
+    "artist in their studio",
+    "chef in restaurant kitchen",
+    "musician with instruments",
+    "farmer in fields",
+    "craftsperson at workbench",
+    "scientist in laboratory",
+    "athlete in training space",
     "writer at desk",
-    "scientist in lab"
+    "mechanic in garage workshop",
+    "teacher in classroom"
   ],
   "expressions": [
-    "focused concentration",
-    "pride in work",
-    "natural candid",
-    "genuine warmth",
-    "professional confidence",
-    "passionate engagement"
+    "focused on work engaged",
+    "proud of profession",
+    "natural candid moment",
+    "contemplative thoughtful",
+    "passionate about craft",
+    "confident in environment",
+    "relaxed comfortable",
+    "determined dedicated",
+    "warm welcoming",
+    "intense concentration"
   ],
   "poses": [
-    "natural working pose",
-    "engaged with environment",
-    "relaxed in space",
-    "interacting with objects",
-    "contextual position",
-    "authentic stance"
+    "actively working engaged",
+    "leaning on workspace",
+    "holding tools of trade",
+    "seated at workstation",
+    "standing in environment",
+    "interacting with space",
+    "looking at camera aware",
+    "candid unposed moment",
+    "demonstrating skill",
+    "natural body language"
   ],
   "environments": [
-    "personal workspace",
-    "professional setting",
-    "meaningful location",
-    "home environment",
-    "outdoor context",
-    "cultural space"
+    "professional workplace office",
+    "creative artist studio",
+    "industrial factory floor",
+    "home personal space",
+    "outdoor natural setting",
+    "urban street context",
+    "retail store shop",
+    "medical healthcare facility",
+    "academic institution",
+    "entertainment venue stage"
   ],
   "shot_types": [
-    "wide environmental",
-    "medium shot with context",
-    "three-quarter with background",
-    "full body in space",
-    "layered composition"
+    "wide environmental context",
+    "medium subject in space",
+    "tight portrait with hint",
+    "documentary candid style",
+    "layered depth composition",
+    "rule of thirds placement",
+    "leading lines to subject",
+    "framed by environment",
+    "multiple exposure story",
+    "detail and context combo"
   ],
   "lighting": [
-    "natural ambient",
-    "available light",
-    "mixed light sources",
-    "window light",
-    "practical lighting",
-    "environmental lighting"
+    "available ambient natural",
+    "window light practical",
+    "mixed sources authentic",
+    "supplemented fill flash",
+    "dramatic existing light",
+    "golden hour outdoor",
+    "industrial harsh lighting",
+    "soft diffused daylight",
+    "spotlight on subject",
+    "moody low light authentic"
+  ],
+  "backgrounds": [
+    "cluttered authentic workspace",
+    "clean organized professional",
+    "industrial machinery context",
+    "nature outdoor landscape",
+    "urban architecture street",
+    "home interior personal",
+    "studio art supplies",
+    "kitchen professional culinary",
+    "workshop tools equipment",
+    "office desk computer"
   ],
   "styles": [
-    "environmental portrait",
-    "contextual photography",
-    "documentary portrait",
-    "narrative portrait",
-    "storytelling image"
+    "environmental portrait documentary",
+    "lifestyle authentic photography",
+    "editorial environmental portrait",
+    "commercial workplace imagery",
+    "fine art environmental",
+    "journalistic documentary style",
+    "corporate environmental portrait",
+    "artistic environmental portrait",
+    "personal branding photography",
+    "storytelling contextual portrait"
   ]
 }
-
-
-
-
-
-

@@ -27,7 +27,11 @@
     "moonlit urban",
     "magical ambient",
     "club lighting with spells",
-    "mysterious urban night"
+    "mysterious urban night",
+    "cinematic dramatic lighting",
+    "soft diffused natural",
+    "rim light edge glow",
+    "golden hour warmth"
   ],
   "styles": [
     "urban fantasy art",
@@ -35,7 +39,11 @@
     "contemporary supernatural",
     "city magic aesthetic",
     "Dresden Files inspired",
-    "supernatural noir"
+    "supernatural noir",
+    "highly detailed realistic",
+    "artistic stylized",
+    "cinematic movie quality",
+    "fine art gallery"
   ],
   "effects": [
     "magic in modern setting",
@@ -43,7 +51,11 @@
     "supernatural creatures hiding",
     "spell effects",
     "glamour magic",
-    "portal in alley"
+    "portal in alley",
+    "volumetric light rays",
+    "atmospheric fog mist",
+    "particle dust sparkle",
+    "motion blur dynamic"
   ],
   "shot_types": [
     "noir portrait",
@@ -51,12 +63,10 @@
     "city backdrop",
     "mysterious medium shot",
     "dramatic confrontation",
-    "supernatural reveal"
+    "supernatural reveal",
+    "epic wide establishing",
+    "intimate close portrait",
+    "dynamic action frozen",
+    "dramatic low angle"
   ]
 }
-
-
-
-
-
-

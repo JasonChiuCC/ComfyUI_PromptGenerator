@@ -1,0 +1,63 @@
+{
+  "automotive": {
+    "subjects": [
+      "luxury sports car",
+      "classic vintage automobile",
+      "SUV adventure vehicle",
+      "motorcycle cruiser",
+      "electric vehicle modern",
+      "supercar exotic",
+      "pickup truck rugged",
+      "convertible roadster",
+      "racing car",
+      "concept car futuristic",
+      "luxury sedan",
+      "off-road vehicle"
+    ],
+    "environments": [
+      "studio car photography",
+      "mountain road scenic",
+      "urban cityscape",
+      "desert highway",
+      "beach sunset",
+      "industrial warehouse",
+      "showroom floor",
+      "racetrack",
+      "forest road"
+    ],
+    "lighting": [
+      "dramatic studio lighting",
+      "golden hour warmth",
+      "blue hour twilight",
+      "light painting long exposure",
+      "natural daylight",
+      "neon reflections",
+      "spotlight dramatic",
+      "cinematic dramatic lighting",
+      "soft diffused natural",
+      "rim light edge glow"
+    ],
+    "angles": [
+      "three-quarter front view",
+      "side profile",
+      "rear quarter",
+      "low angle dramatic",
+      "interior cockpit",
+      "detail close-up",
+      "aerial overhead",
+      "action motion blur"
+    ],
+    "styles": [
+      "automotive photography",
+      "car advertising",
+      "luxury vehicle commercial",
+      "action car photography",
+      "showroom presentation",
+      "highly detailed realistic",
+      "artistic stylized",
+      "cinematic movie quality",
+      "fine art gallery",
+      "concept art professional"
+    ]
+  }
+}

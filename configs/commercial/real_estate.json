@@ -1,0 +1,61 @@
+{
+  "real_estate": {
+    "subjects": [
+      "modern living room interior",
+      "luxury kitchen design",
+      "master bedroom suite",
+      "outdoor pool and patio",
+      "home exterior curb appeal",
+      "bathroom spa design",
+      "dining room elegant",
+      "home office space",
+      "penthouse view",
+      "garden and landscaping",
+      "apartment balcony",
+      "architectural details"
+    ],
+    "environments": [
+      "luxury home interior",
+      "modern apartment",
+      "suburban house",
+      "urban loft",
+      "beachfront property",
+      "mountain cabin",
+      "city penthouse",
+      "family home"
+    ],
+    "lighting": [
+      "natural window light",
+      "twilight exterior shot",
+      "bright and airy daytime",
+      "warm interior ambiance",
+      "HDR balanced exposure",
+      "blue hour exterior",
+      "cinematic dramatic lighting",
+      "soft diffused natural",
+      "rim light edge glow",
+      "golden hour warmth"
+    ],
+    "features": [
+      "wide angle perspective",
+      "vertical lines corrected",
+      "staging and decor",
+      "clean and decluttered",
+      "inviting atmosphere",
+      "highlight selling points",
+      "room flow visible"
+    ],
+    "styles": [
+      "real estate photography",
+      "architectural interior",
+      "property listing photo",
+      "luxury home showcase",
+      "residential photography",
+      "highly detailed realistic",
+      "artistic stylized",
+      "cinematic movie quality",
+      "fine art gallery",
+      "concept art professional"
+    ]
+  }
+}

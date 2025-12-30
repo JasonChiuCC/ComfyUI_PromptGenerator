@@ -27,7 +27,11 @@
     "castle torch light",
     "lake moonlight",
     "divine radiance",
-    "medieval dramatic"
+    "medieval dramatic",
+    "cinematic dramatic lighting",
+    "soft diffused natural",
+    "rim light edge glow",
+    "golden hour warmth"
   ],
   "styles": [
     "Arthurian legend art",
@@ -35,7 +39,11 @@
     "Camelot fantasy",
     "chivalric tale",
     "Pre-Raphaelite inspired",
-    "noble knight aesthetic"
+    "noble knight aesthetic",
+    "highly detailed realistic",
+    "artistic stylized",
+    "cinematic movie quality",
+    "fine art gallery"
   ],
   "effects": [
     "Excalibur glow",
@@ -43,7 +51,11 @@
     "holy grail light",
     "fairy magic",
     "noble heraldry",
-    "legendary aura"
+    "legendary aura",
+    "volumetric light rays",
+    "atmospheric fog mist",
+    "particle dust sparkle",
+    "motion blur dynamic"
   ],
   "shot_types": [
     "noble portrait",
@@ -51,12 +63,10 @@
     "sword moment",
     "romantic composition",
     "battle glory",
-    "legendary reveal"
+    "legendary reveal",
+    "epic wide establishing",
+    "intimate close portrait",
+    "dynamic action frozen",
+    "dramatic low angle"
   ]
 }
-
-
-
-
-
-

@@ -20,7 +20,10 @@
     "documentary style",
     "urban storytelling",
     "Henri Cartier-Bresson style",
-    "Vivian Maier aesthetic"
+    "Vivian Maier aesthetic",
+    "highly detailed realistic",
+    "artistic stylized",
+    "cinematic movie quality"
   ],
   "lighting": [
     "natural available light",
@@ -29,7 +32,10 @@
     "neon signs",
     "street lamp glow",
     "overcast diffused",
-    "golden hour streets"
+    "golden hour streets",
+    "cinematic dramatic lighting",
+    "soft diffused natural",
+    "rim light edge glow"
   ],
   "environments": [
     "busy intersection",
@@ -46,12 +52,9 @@
     "reflection shot",
     "silhouette",
     "layered composition",
-    "juxtaposition"
+    "juxtaposition",
+    "epic wide establishing",
+    "intimate close portrait",
+    "dynamic action frozen"
   ]
 }
-
-
-
-
-
-

@@ -1,0 +1,77 @@
+{
+  "emote": {
+    "subjects": [
+      "character face reaction emote",
+      "chibi full body sticker",
+      "animal mascot cute emote",
+      "hand gesture sign emote",
+      "food item kawaii sticker",
+      "heart and love reaction",
+      "angry rage face emote",
+      "crying sad tears emote",
+      "laughing LOL KEKW emote",
+      "surprised shocked poggers",
+      "sleeping ZZZ tired emote",
+      "thumbs up approval GG",
+      "facepalm disappointed emote",
+      "thinking pondering emote",
+      "celebration party emote"
+    ],
+    "expressions": [
+      "exaggerated overjoyed happy",
+      "over the top angry rage",
+      "dramatically sobbing sad",
+      "super hyped excited",
+      "extremely confused what",
+      "smugly satisfied knowing",
+      "hilariously derpy silly",
+      "shocked jaw drop",
+      "blushing embarrassed cute",
+      "evil laughing scheming"
+    ],
+    "styles": [
+      "Twitch emote subscriber style",
+      "Discord emoji server icon",
+      "LINE sticker cute style",
+      "chibi anime kawaii style",
+      "meme reaction image style",
+      "cartoon expressive style",
+      "VTuber emote style",
+      "Slack emoji workspace",
+      "Telegram sticker pack",
+      "gaming community emote"
+    ],
+    "requirements": [
+      "readable at 28x28 pixels",
+      "transparent PNG background",
+      "bold thick outlines",
+      "simple clear shapes",
+      "high contrast colors pop",
+      "exaggerated facial features",
+      "instantly recognizable emotion",
+      "brand consistent style",
+      "animation ready frames",
+      "scalable vector quality"
+    ],
+    "formats": [
+      "square 1:1 emote format",
+      "circular avatar crop",
+      "sticker with white border",
+      "animated GIF frames ready",
+      "multiple size exports",
+      "static and animated versions",
+      "dark mode compatible",
+      "transparent and solid BG"
+    ],
+    "colors": [
+      "vibrant saturated palette",
+      "skin tone variety options",
+      "brand color themed",
+      "high contrast readable",
+      "warm happy tones",
+      "cool sad blue tones",
+      "angry red intense",
+      "pastel kawaii soft"
+    ]
+  }
+}

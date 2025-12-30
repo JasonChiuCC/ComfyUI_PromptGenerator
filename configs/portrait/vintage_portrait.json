@@ -1,76 +1,100 @@
 {
   "name": "Vintage Portrait",
-  "description": "Retro and vintage style portrait photography",
+  "description": "Nostalgic retro and vintage inspired portrait photography",
   "subjects": [
-    "vintage beauty",
-    "retro model",
-    "classic era subject",
-    "old Hollywood star",
-    "nostalgic figure",
-    "timeless beauty"
+    "vintage Hollywood starlet",
+    "1920s flapper woman",
+    "1950s pin-up beauty",
+    "Victorian era portrait",
+    "1960s mod style",
+    "1970s disco glamour",
+    "1980s new wave style",
+    "Edwardian elegance portrait",
+    "Old West frontier portrait",
+    "1940s wartime portrait"
   ],
   "expressions": [
-    "classic Hollywood gaze",
-    "vintage elegance",
-    "timeless poise",
-    "retro glamour",
-    "nostalgic mood",
-    "era-appropriate expression"
+    "classic Hollywood glamour",
+    "demure vintage feminine",
+    "bold retro confidence",
+    "mysterious noir allure",
+    "innocent ingenue charm",
+    "sophisticated elegant poise",
+    "playful vintage fun",
+    "serious formal dignified",
+    "romantic soft expression",
+    "dramatic theatrical pose"
   ],
   "poses": [
-    "classic Hollywood pose",
-    "vintage pin-up",
-    "retro elegant",
-    "period-appropriate stance",
-    "timeless position"
+    "classic portrait seated",
+    "standing elegant formal",
+    "over shoulder glamour",
+    "hand near face classic",
+    "period appropriate stance",
+    "vintage pin-up pose",
+    "Hollywood starlet recline",
+    "profile silhouette elegant",
+    "formal stiff Victorian",
+    "casual era appropriate"
   ],
-  "outfits": [
-    "vintage dress",
-    "retro fashion",
-    "period costume",
-    "classic Hollywood attire",
-    "1950s style",
-    "Victorian era dress"
+  "styling": [
+    "period accurate costume",
+    "vintage hairstyle authentic",
+    "retro makeup style",
+    "antique jewelry accessories",
+    "era specific fashion",
+    "vintage undergarments pin-up",
+    "military period uniform",
+    "formal vintage evening",
+    "casual period appropriate",
+    "handmade authentic details"
   ],
   "shot_types": [
-    "classic portrait",
-    "vintage headshot",
-    "full period costume",
-    "nostalgic close-up",
-    "old Hollywood style"
+    "formal studio portrait",
+    "full body period costume",
+    "close-up beauty vintage",
+    "environmental period setting",
+    "sepia toned classic",
+    "black white timeless",
+    "faded vintage color",
+    "tintype daguerreotype effect",
+    "cabinet card style",
+    "glamour Hollywood still"
   ],
   "lighting": [
-    "classic Hollywood lighting",
-    "vintage studio light",
-    "soft retro glow",
-    "period-appropriate lighting",
-    "film noir shadows"
+    "classic Hollywood Rembrandt",
+    "soft flattering period light",
+    "harsh old flash effect",
+    "natural window north light",
+    "dramatic noir contrast",
+    "studio glamour butterfly",
+    "natural outdoor period",
+    "candlelit Victorian mood",
+    "aged light leak effect",
+    "tungsten warm vintage"
   ],
   "backgrounds": [
-    "vintage backdrop",
-    "period setting",
-    "classic studio",
-    "retro environment",
-    "nostalgic scene"
+    "vintage studio backdrop painted",
+    "period interior authentic",
+    "antique furniture props",
+    "nature outdoor period",
+    "simple plain classic",
+    "velvet draped elegant",
+    "historical building architecture",
+    "Victorian parlor setting",
+    "old car vintage vehicle",
+    "aged texture distressed"
   ],
   "styles": [
-    "vintage photography",
-    "retro portrait",
-    "old Hollywood",
-    "period piece",
-    "nostalgic imagery"
-  ],
-  "effects": [
-    "film grain",
-    "sepia tones",
-    "faded colors",
-    "vintage vignette",
-    "aged aesthetic"
+    "vintage portrait photography",
+    "retro Hollywood glamour",
+    "Victorian era portrait",
+    "1950s pin-up style",
+    "old Hollywood cinematic",
+    "sepia antique portrait",
+    "film noir inspired",
+    "period costume portrait",
+    "nostalgic retro style",
+    "timeless classic portrait"
   ]
 }
-
-
-
-
-
-

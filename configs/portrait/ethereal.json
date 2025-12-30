@@ -1,78 +1,100 @@
 {
   "name": "Ethereal",
-  "description": "Dreamlike, soft, and otherworldly portrait style",
+  "description": "Dreamy otherworldly and magical portrait photography",
   "subjects": [
-    "angelic figure",
-    "dreamlike beauty",
-    "fairy-like model",
-    "celestial being",
-    "delicate soul",
-    "mystical presence"
+    "ethereal fairy being",
+    "angelic divine figure",
+    "dreamy romantic subject",
+    "mystical magical character",
+    "otherworldly beauty portrait",
+    "goddess divine feminine",
+    "spirit nature entity",
+    "celestial cosmic being",
+    "enchanted princess fantasy",
+    "muse artistic inspiration"
   ],
   "expressions": [
-    "dreamy gaze",
-    "peaceful serenity",
-    "otherworldly look",
-    "gentle wonder",
-    "soft innocence",
-    "ethereal calm"
+    "dreamy distant gaze",
+    "serene peaceful calm",
+    "otherworldly knowing look",
+    "soft gentle expression",
+    "mysterious magical eyes",
+    "innocent pure wonder",
+    "wise ancient spirit",
+    "blissful transcendent joy",
+    "ethereal subtle emotion",
+    "enchanted spellbound look"
   ],
   "poses": [
-    "floating gesture",
-    "flowing movement",
-    "graceful position",
-    "wind-blown pose",
-    "weightless stance",
-    "delicate hands"
+    "floating weightless movement",
+    "graceful dance flowing",
+    "reaching upward ascending",
+    "curled fetal peaceful",
+    "arms spread wings",
+    "gentle touch delicate",
+    "walking through nature",
+    "lying in flowers field",
+    "underwater floating dreamy",
+    "wind blown dynamic"
   ],
-  "outfits": [
-    "flowing white dress",
-    "sheer fabrics",
-    "delicate lace",
-    "ethereal gown",
-    "gossamer layers",
-    "romantic attire"
+  "elements": [
+    "flowing sheer fabric",
+    "flower crown natural",
+    "sparkle and glitter dust",
+    "soft feathers angelic",
+    "nature leaves petals",
+    "water droplets dew",
+    "butterflies magical",
+    "fairy lights bokeh",
+    "mist and fog atmosphere",
+    "golden dust particles"
   ],
   "shot_types": [
-    "soft focus portrait",
-    "backlit silhouette",
-    "dreamy full body",
-    "hazy close-up",
-    "environmental ethereal"
+    "soft focus dreamy blur",
+    "backlit glowing halo",
+    "double exposure magical",
+    "underwater floating dreamy",
+    "through prism rainbow",
+    "high key bright ethereal",
+    "motion blur movement",
+    "macro detail delicate",
+    "wide environment fantasy",
+    "intimate soft portrait"
   ],
   "lighting": [
-    "soft backlighting",
-    "golden hour glow",
-    "hazy diffused light",
-    "lens flare accents",
-    "window light haze",
-    "glowing rim light"
+    "golden hour magical warm",
+    "backlit rim glow halo",
+    "soft diffused dreamy",
+    "dappled forest light",
+    "overcast soft flattering",
+    "twilight blue hour mystical",
+    "sunrise warm golden pink",
+    "fairy lights bokeh sparkle",
+    "reflected water shimmer",
+    "soft window natural"
   ],
   "backgrounds": [
-    "soft bokeh nature",
-    "misty forest",
-    "cloudy sky",
-    "flower field blur",
-    "water reflection"
+    "flower field blooming",
+    "misty forest enchanted",
+    "underwater blue dreamy",
+    "cloudy sky heaven",
+    "soft studio dreamy",
+    "nature garden magical",
+    "sunset golden warm",
+    "snow winter wonderland",
+    "abstract soft blur",
+    "fairy tale setting"
   ],
   "styles": [
-    "ethereal photography",
-    "dreamlike portrait",
-    "soft romantic",
-    "fairytale aesthetic",
-    "angelic imagery"
-  ],
-  "effects": [
-    "soft glow",
-    "light leak",
-    "hazy atmosphere",
-    "pastel tones",
-    "dreamy blur"
+    "ethereal fine art portrait",
+    "dreamy romantic photography",
+    "fantasy fairy tale style",
+    "soft focus art portrait",
+    "magical realism photography",
+    "whimsical fantasy portrait",
+    "angelic divine aesthetic",
+    "nature goddess photography",
+    "romantic pre-Raphaelite inspired",
+    "otherworldly art portrait"
   ]
 }
-
-
-
-
-
-

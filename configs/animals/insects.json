@@ -31,7 +31,11 @@
     "delicate elegance",
     "fierce predator",
     "peaceful resting",
-    "busy working"
+    "busy working",
+    "intense focused gaze",
+    "peaceful serene calm",
+    "mysterious enigmatic look",
+    "joyful happy expression"
   ],
   "environments": [
     "flower garden",
@@ -49,7 +53,11 @@
     "morning dew sparkle",
     "diffused natural",
     "dramatic side light",
-    "ring flash detail"
+    "ring flash detail",
+    "cinematic dramatic lighting",
+    "soft diffused natural",
+    "rim light edge glow",
+    "golden hour warmth"
   ],
   "styles": [
     "macro photography",
@@ -57,7 +65,11 @@
     "scientific detail",
     "artistic macro",
     "fine art nature",
-    "documentary"
+    "documentary",
+    "highly detailed realistic",
+    "artistic stylized",
+    "cinematic movie quality",
+    "fine art gallery"
   ],
   "shot_types": [
     "extreme macro",
@@ -65,12 +77,10 @@
     "flight freeze",
     "wing detail",
     "behavioral moment",
-    "artistic bokeh"
+    "artistic bokeh",
+    "epic wide establishing",
+    "intimate close portrait",
+    "dynamic action frozen",
+    "dramatic low angle"
   ]
 }
-
-
-
-
-
-

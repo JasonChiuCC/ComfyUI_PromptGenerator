@@ -27,7 +27,11 @@
     "pastel glow",
     "space age white",
     "vintage color palette",
-    "neon signage"
+    "neon signage",
+    "cinematic dramatic lighting",
+    "soft diffused natural",
+    "rim light edge glow",
+    "golden hour warmth"
   ],
   "styles": [
     "1950s future vision",
@@ -35,7 +39,11 @@
     "World's Fair aesthetic",
     "Jetsons style",
     "vintage sci-fi illustration",
-    "retro optimism"
+    "retro optimism",
+    "highly detailed realistic",
+    "artistic stylized",
+    "cinematic movie quality",
+    "fine art gallery"
   ],
   "effects": [
     "jet flames",
@@ -43,7 +51,11 @@
     "chrome shine",
     "moving walkways",
     "robot servants",
-    "video phones"
+    "video phones",
+    "volumetric light rays",
+    "atmospheric fog mist",
+    "particle dust sparkle",
+    "motion blur dynamic"
   ],
   "composition_types": [
     "advertisement style",
@@ -51,12 +63,10 @@
     "technology showcase",
     "family future",
     "transportation",
-    "city of tomorrow"
+    "city of tomorrow",
+    "rule of thirds balanced",
+    "centered symmetrical",
+    "diagonal dynamic lines",
+    "framing natural elements"
   ]
 }
-
-
-
-
-
-

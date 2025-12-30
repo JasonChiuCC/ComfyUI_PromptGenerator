@@ -27,7 +27,11 @@
     "candlelit study",
     "arcane energy",
     "mystical radiance",
-    "element colors"
+    "element colors",
+    "cinematic dramatic lighting",
+    "soft diffused natural",
+    "rim light edge glow",
+    "golden hour warmth"
   ],
   "styles": [
     "wizard art",
@@ -35,7 +39,11 @@
     "arcane illustration",
     "fantasy mage",
     "spellcaster design",
-    "mystical character"
+    "mystical character",
+    "highly detailed realistic",
+    "artistic stylized",
+    "cinematic movie quality",
+    "fine art gallery"
   ],
   "effects": [
     "spell casting",
@@ -43,7 +51,11 @@
     "floating objects",
     "elemental magic",
     "energy orbs",
-    "staff glowing"
+    "staff glowing",
+    "volumetric light rays",
+    "atmospheric fog mist",
+    "particle dust sparkle",
+    "motion blur dynamic"
   ],
   "shot_types": [
     "casting pose",
@@ -51,12 +63,10 @@
     "action spell",
     "dramatic power",
     "wise sage portrait",
-    "battle magic"
+    "battle magic",
+    "epic wide establishing",
+    "intimate close portrait",
+    "dynamic action frozen",
+    "dramatic low angle"
   ]
 }
-
-
-
-
-
-

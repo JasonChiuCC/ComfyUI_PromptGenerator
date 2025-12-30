@@ -1,0 +1,61 @@
+{
+  "ecommerce": {
+    "subjects": [
+      "product on white background",
+      "clothing item flat lay",
+      "shoes product shot",
+      "bag and accessories",
+      "electronics device",
+      "home goods item",
+      "beauty product bottle",
+      "kitchenware",
+      "sports equipment",
+      "toy product",
+      "office supplies",
+      "pet products"
+    ],
+    "environments": [
+      "pure white background",
+      "light gray seamless",
+      "simple gradient",
+      "clean infinity curve",
+      "minimal shadow",
+      "ghost mannequin",
+      "flat lay arrangement",
+      "simple lifestyle context"
+    ],
+    "lighting": [
+      "even studio lighting",
+      "soft shadow underneath",
+      "clean bright exposure",
+      "no harsh shadows",
+      "consistent white balance",
+      "product-focused lighting",
+      "cinematic dramatic lighting",
+      "soft diffused natural",
+      "rim light edge glow",
+      "golden hour warmth"
+    ],
+    "requirements": [
+      "white background cutout ready",
+      "multiple angle options",
+      "detail shots",
+      "size reference",
+      "color accurate",
+      "Amazon listing style",
+      "web optimized"
+    ],
+    "styles": [
+      "e-commerce product photography",
+      "Amazon listing style",
+      "online store ready",
+      "clean commercial product",
+      "web shop photography",
+      "highly detailed realistic",
+      "artistic stylized",
+      "cinematic movie quality",
+      "fine art gallery",
+      "concept art professional"
+    ]
+  }
+}

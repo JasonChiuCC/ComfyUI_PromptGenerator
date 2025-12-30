@@ -1,0 +1,79 @@
+{
+  "japanese": {
+    "subjects": [
+      "vermillion torii gate shrine entrance",
+      "geisha in elaborate kimono",
+      "samurai warrior in armor",
+      "zen garden raked sand patterns",
+      "traditional tea ceremony master",
+      "colorful origami paper cranes",
+      "ancient bonsai tree display",
+      "sumo wrestler ritual",
+      "koi pond with arched bridge",
+      "shinto shrine maiden miko",
+      "Himeji castle white heron",
+      "cherry blossom hanami viewing",
+      "ninja in moonlight shadows",
+      "Japanese drums taiko performance",
+      "kabuki theater actor"
+    ],
+    "environments": [
+      "Kyoto temple moss garden",
+      "zen rock karesansui garden",
+      "traditional ryokan tatami room",
+      "Arashiyama bamboo grove path",
+      "Mount Fuji five lakes view",
+      "natural hot spring onsen",
+      "Kyoto machiya townhouse",
+      "shrine forest torii path",
+      "Japanese castle grounds",
+      "Tokyo neon and traditional mix"
+    ],
+    "elements": [
+      "cherry blossoms sakura petals",
+      "paper shoji screen doors",
+      "tatami woven mat floors",
+      "vermillion red torii gates",
+      "wabi-sabi imperfect beauty",
+      "noren fabric curtains",
+      "ikebana flower arrangement",
+      "Japanese red maple momiji",
+      "stone lantern toro",
+      "folding fan sensu",
+      "lucky cat maneki-neko",
+      "daruma wishing doll"
+    ],
+    "lighting": [
+      "soft paper lantern glow",
+      "cherry blossom filtered sunlight",
+      "zen garden morning mist",
+      "golden hour temple light",
+      "moonlight on snow",
+      "neon and traditional contrast",
+      "candlelit izakaya warmth",
+      "autumn maple dappled light"
+    ],
+    "moods": [
+      "zen peaceful tranquility",
+      "wabi-sabi rustic elegance",
+      "mono no aware melancholy beauty",
+      "festive matsuri celebration",
+      "warrior bushido honor",
+      "romantic cherry blossom season",
+      "mysterious shrine spirituality",
+      "autumn contemplative nostalgia"
+    ],
+    "styles": [
+      "traditional Japanese aesthetic",
+      "zen minimalist philosophy",
+      "ukiyo-e woodblock print style",
+      "wabi-sabi weathered beauty",
+      "Edo period Japanese elegance",
+      "shin-hanga modern prints",
+      "Japanese watercolor nihonga",
+      "contemporary Japanese fusion",
+      "anime influenced traditional",
+      "Japanese folk art mingei"
+    ]
+  }
+}

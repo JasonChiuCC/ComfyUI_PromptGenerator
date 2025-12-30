@@ -1,76 +1,100 @@
 {
   "name": "Film Portrait",
-  "description": "Analog film aesthetic portrait photography",
+  "description": "Analog film inspired portrait photography",
   "subjects": [
-    "film aesthetic subject",
-    "analog beauty",
-    "classic film look",
-    "nostalgic portrait",
-    "organic film subject",
-    "authentic moment"
+    "candid street film portrait",
+    "vintage styled model",
+    "documentary real person",
+    "artistic film subject",
+    "natural authentic portrait",
+    "lifestyle film moment",
+    "travel film portrait",
+    "intimate personal portrait",
+    "editorial film subject",
+    "timeless classic portrait"
   ],
   "expressions": [
-    "natural film mood",
-    "candid analog",
-    "authentic expression",
-    "soft emotion",
-    "organic feeling",
-    "genuine look"
+    "natural candid moment",
+    "thoughtful contemplative gaze",
+    "genuine authentic smile",
+    "nostalgic distant look",
+    "relaxed comfortable expression",
+    "pensive quiet emotion",
+    "joyful spontaneous laughter",
+    "serious intense stare",
+    "dreamy romantic look",
+    "curious engaged expression"
   ],
   "poses": [
-    "relaxed natural",
-    "authentic position",
-    "unstaged pose",
-    "organic gesture",
-    "film-era style"
+    "natural unposed candid",
+    "relaxed environmental pose",
+    "classic portrait stance",
+    "movement walking action",
+    "seated casual comfortable",
+    "looking away contemplative",
+    "interacting with environment",
+    "hands in frame gesture",
+    "vintage inspired pose",
+    "documentary caught moment"
   ],
   "film_stocks": [
-    "Kodak Portra 400",
-    "Kodak Portra 800",
-    "Fuji Pro 400H",
-    "Kodak Ektar 100",
-    "Ilford HP5 Plus",
-    "Cinestill 800T"
+    "Kodak Portra 400 warm",
+    "Kodak Portra 800 grain",
+    "Fuji 400H soft color",
+    "Ilford HP5 black white",
+    "Kodak Tri-X contrast",
+    "Cinestill 800T tungsten",
+    "Kodak Ektar 100 saturated",
+    "Fuji Superia 400 cool",
+    "expired film color shift",
+    "instant Polaroid vintage"
   ],
   "shot_types": [
-    "35mm film portrait",
-    "medium format feel",
-    "instant film style",
-    "classic film crop",
-    "analog aesthetic"
+    "35mm full frame classic",
+    "medium format square",
+    "half frame double exposure",
+    "panoramic wide format",
+    "close-up grain visible",
+    "environmental wide context",
+    "natural light candid",
+    "portrait vertical orientation",
+    "landscape horizontal framing",
+    "experimental creative format"
   ],
   "lighting": [
-    "natural film light",
-    "soft available light",
-    "window light classic",
-    "golden hour film",
-    "overcast soft"
+    "natural available light only",
+    "golden hour warm sun",
+    "overcast soft diffused",
+    "harsh direct sunlight contrast",
+    "window light indoor",
+    "tungsten warm interior",
+    "mixed color temperature",
+    "flash fill outdoor",
+    "blue hour cool twilight",
+    "neon urban night"
   ],
   "backgrounds": [
-    "natural environment",
-    "everyday setting",
-    "organic backdrop",
-    "simple background",
-    "authentic location"
+    "urban street authentic",
+    "nature outdoor landscape",
+    "home domestic intimate",
+    "travel destination location",
+    "cafe restaurant public",
+    "studio minimal clean",
+    "industrial urban grit",
+    "beach coastal natural",
+    "forest nature organic",
+    "architectural city context"
   ],
   "styles": [
-    "film photography",
-    "analog portrait",
-    "35mm aesthetic",
-    "organic film look",
-    "classic film portrait"
-  ],
-  "characteristics": [
-    "film grain texture",
-    "soft color rendering",
-    "organic tones",
-    "subtle halation",
-    "natural skin tones"
+    "film photography portrait",
+    "analog aesthetic vintage",
+    "documentary film style",
+    "editorial film portrait",
+    "fine art film portrait",
+    "lifestyle film photography",
+    "nostalgic retro film",
+    "cinematic film portrait",
+    "street film photography",
+    "intimate film portraiture"
   ]
 }
-
-
-
-
-
-

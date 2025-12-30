@@ -276,8 +276,6 @@ class PromptGeneratorNode:
                 "include_environment": (["yes", "no"], {"default": "yes"}),
                 "include_style": (["yes", "no"], {"default": "yes"}),
                 "include_effects": (["yes", "no"], {"default": "yes"}),
-                "reload_config": (["no", "yes"], {"default": "no"}),
-                "debug_mode": (["off", "on"], {"default": "off"}),
             }
         }
     
@@ -294,9 +292,7 @@ class PromptGeneratorNode:
         custom_location: str = "",
         include_environment: str = "yes",
         include_style: str = "yes",
-        include_effects: str = "yes",
-        reload_config: str = "no",
-        debug_mode: str = "off"
+        include_effects: str = "yes"
     ) -> Tuple[str, str, str, str, str, int]:
         """Generate a prompt using the selected theme.
         
@@ -308,19 +304,10 @@ class PromptGeneratorNode:
             include_environment: Whether to include environment
             include_style: Whether to include style
             include_effects: Whether to include effects
-            reload_config: Whether to reload configurations
-            debug_mode: Enable debug output
             
         Returns:
             Tuple of (prompt, selected_theme, subject, environment, style, seed)
         """
-        is_debug = debug_mode == "on"
-        
-        # Handle hot reload
-        if reload_config == "yes":
-            self.config_manager.reload()
-            self.theme_registry.reload_handlers()
-        
         # Set seed for reproducibility
         self.config_manager.set_seed(seed)
         
@@ -446,11 +433,9 @@ class CategoryPromptBase:
                     "max": 100,
                     "step": 1,
                 }),
-                "random_seed": (["no", "yes"], {"default": "no"}),
             },
             "optional": {
                 **theme_widgets,
-                "reload_config": (["no", "yes"], {"default": "no"}),
             }
         }
     
@@ -470,21 +455,9 @@ class CategoryPromptBase:
         self,
         seed: int = 0,
         batch_count: int = 1,
-        random_seed: str = "no",
-        reload_config: str = "no",
         **kwargs
     ) -> Tuple[List[str], List[str]]:
         """Generate prompts for all enabled themes."""
-        
-        # Use random seed if enabled
-        if random_seed == "yes":
-            import time
-            seed = int(time.time() * 1000) % 0xffffffffffffffff
-        
-        # Handle hot reload
-        if reload_config == "yes":
-            self.config_manager.reload()
-            self.theme_registry.reload_handlers()
         
         # Check if "Select All" is enabled
         select_all = kwargs.get(self.SELECT_ALL_LABEL, False)
@@ -500,9 +473,9 @@ class CategoryPromptBase:
             if select_all or kwargs.get(display_name, False):
                 enabled_themes.append((display_name, internal_name))
         
-        # If no themes enabled, return message
+        # If no themes enabled, raise error
         if not enabled_themes:
-            return (["No themes enabled"], ["None"])
+            raise ValueError("⚠️ 請至少選擇一個主題！\n\nPlease select at least one theme!")
         
         # Generate prompts for each enabled theme
         prompts = []
@@ -851,72 +824,6 @@ class PaintingPromptZH(CategoryPromptBase):
     ]
     
     CATEGORY = "JC Prompt Generator/Painting 繪畫媒材"
-
-
-# =============================================================================
-# 3D & Render Category Nodes
-# =============================================================================
-
-class Render3DPromptEN(CategoryPromptBase):
-    """English 3D & Render prompt generator."""
-    
-    SELECT_ALL_LABEL = "✅ Select All"
-    
-    AVAILABLE_THEMES = [
-        ("      Isometric", "isometric"),
-        ("      Low Poly", "low_poly"),
-        ("      Clay Render", "clay_render"),
-        ("      Wireframe", "wireframe"),
-        ("      Voxel", "voxel"),
-        ("      Unreal Engine", "unreal_engine"),
-        ("      Stylized 3D", "stylized_3d"),
-        ("      Octane Render", "octane"),
-        ("      Cinema 4D", "cinema4d"),
-        ("      Blender Style", "blender"),
-        ("      Product Render", "product_render"),
-        ("      Architectural Viz", "arch_viz"),
-        ("      Glass Material", "glass_3d"),
-        ("      Holographic", "holographic"),
-    ]
-    
-    ALL_THEMES = [
-        "isometric", "low_poly", "clay_render", "wireframe", "voxel",
-        "unreal_engine", "stylized_3d", "octane", "cinema4d", "blender",
-        "product_render", "arch_viz", "glass_3d", "holographic"
-    ]
-    
-    CATEGORY = "JC Prompt Generator/3D Render 3D渲染"
-
-
-class Render3DPromptZH(CategoryPromptBase):
-    """Chinese 3D & Render prompt generator."""
-    
-    SELECT_ALL_LABEL = "✅ 全選"
-    
-    AVAILABLE_THEMES = [
-        ("      等距視角", "isometric"),
-        ("      低多邊形", "low_poly"),
-        ("      黏土渲染", "clay_render"),
-        ("      線框", "wireframe"),
-        ("      體素", "voxel"),
-        ("      UE風格", "unreal_engine"),
-        ("      風格化3D", "stylized_3d"),
-        ("      Octane渲染", "octane"),
-        ("      C4D風格", "cinema4d"),
-        ("      Blender風格", "blender"),
-        ("      產品渲染", "product_render"),
-        ("      建築可視化", "arch_viz"),
-        ("      玻璃材質", "glass_3d"),
-        ("      全息效果", "holographic"),
-    ]
-    
-    ALL_THEMES = [
-        "isometric", "low_poly", "clay_render", "wireframe", "voxel",
-        "unreal_engine", "stylized_3d", "octane", "cinema4d", "blender",
-        "product_render", "arch_viz", "glass_3d", "holographic"
-    ]
-    
-    CATEGORY = "JC Prompt Generator/3D Render 3D渲染"
 
 
 # =============================================================================
@@ -1621,36 +1528,39 @@ class HolidaysPromptEN(CategoryPromptBase):
     SELECT_ALL_LABEL = "✅ Select All Holidays"
     
     AVAILABLE_THEMES = [
-        # Western
-        ("      Christmas", "christmas"),
-        ("      Halloween", "halloween"),
-        ("      Valentine", "valentine"),
-        ("      New Year", "new_year"),
-        ("      Easter", "easter"),
-        ("      Thanksgiving", "thanksgiving"),
-        ("      St. Patrick's", "st_patricks"),
-        ("      Mardi Gras", "mardi_gras"),
-        ("      Independence Day", "independence_day"),
-        ("      Oktoberfest", "oktoberfest"),
-        # East Asian
-        ("      Chinese New Year", "chinese_new_year"),
-        ("      Mid Autumn", "mid_autumn"),
-        ("      Dragon Boat", "dragon_boat"),
-        ("      Lantern Festival", "lantern_festival"),
-        ("      Qixi", "qixi"),
-        ("      Sky Lantern", "sky_lantern"),
-        # South Asian
-        ("      Diwali", "diwali"),
-        ("      Holi", "holi"),
-        ("      Songkran", "songkran"),
-        ("      Obon", "obon"),
-        # Other
-        ("      Eid", "eid"),
-        ("      Hanukkah", "hanukkah"),
-        ("      Day of Dead", "day_of_dead"),
-        ("      Carnival", "carnival"),
-        ("      Venetian Carnival", "venetian_carnival"),
-        ("      Ice Festival", "ice_festival"),
+        # Western (Global)
+        ("      Western - Christmas", "christmas"),
+        ("      Western - Valentine", "valentine"),
+        ("      Western - New Year", "new_year"),
+        ("      Western - Easter", "easter"),
+        # USA
+        ("      USA - Halloween", "halloween"),
+        ("      USA - Thanksgiving", "thanksgiving"),
+        ("      USA - Mardi Gras", "mardi_gras"),
+        ("      USA - Independence Day", "independence_day"),
+        # China
+        ("      China - Chinese New Year", "chinese_new_year"),
+        ("      China - Mid Autumn", "mid_autumn"),
+        ("      China - Dragon Boat", "dragon_boat"),
+        ("      China - Lantern Festival", "lantern_festival"),
+        ("      China - Qixi", "qixi"),
+        ("      China - Ice Festival", "ice_festival"),
+        # Taiwan
+        ("      Taiwan - Sky Lantern", "sky_lantern"),
+        # India
+        ("      India - Diwali", "diwali"),
+        ("      India - Holi", "holi"),
+        # Japan
+        ("      Japan - Obon", "obon"),
+        # Other Countries
+        ("      Ireland - St. Patrick's", "st_patricks"),
+        ("      Germany - Oktoberfest", "oktoberfest"),
+        ("      Thailand - Songkran", "songkran"),
+        ("      Mexico - Day of Dead", "day_of_dead"),
+        ("      Brazil - Carnival", "carnival"),
+        ("      Italy - Venetian Carnival", "venetian_carnival"),
+        ("      Islamic - Eid", "eid"),
+        ("      Jewish - Hanukkah", "hanukkah"),
     ]
     
     ALL_THEMES = [
@@ -1670,36 +1580,39 @@ class HolidaysPromptZH(CategoryPromptBase):
     SELECT_ALL_LABEL = "✅ 全選節日"
     
     AVAILABLE_THEMES = [
-        # 西方節日
-        ("      聖誕節", "christmas"),
-        ("      萬聖節", "halloween"),
-        ("      情人節", "valentine"),
-        ("      新年", "new_year"),
-        ("      復活節", "easter"),
-        ("      感恩節", "thanksgiving"),
-        ("      聖派翠克節", "st_patricks"),
-        ("      狂歡節", "mardi_gras"),
-        ("      獨立日", "independence_day"),
-        ("      啤酒節", "oktoberfest"),
-        # 東亞節日
-        ("      農曆新年", "chinese_new_year"),
-        ("      中秋節", "mid_autumn"),
-        ("      端午節", "dragon_boat"),
-        ("      元宵節", "lantern_festival"),
-        ("      七夕", "qixi"),
-        ("      天燈節", "sky_lantern"),
-        # 南亞節日
-        ("      排燈節", "diwali"),
-        ("      灑紅節", "holi"),
-        ("      潑水節", "songkran"),
-        ("      盂蘭盆節", "obon"),
-        # 其他
-        ("      開齋節", "eid"),
-        ("      光明節", "hanukkah"),
-        ("      亡靈節", "day_of_dead"),
-        ("      嘉年華", "carnival"),
-        ("      威尼斯面具節", "venetian_carnival"),
-        ("      冰雪節", "ice_festival"),
+        # 西方（全球）
+        ("      西方 - 聖誕節", "christmas"),
+        ("      西方 - 情人節", "valentine"),
+        ("      西方 - 新年", "new_year"),
+        ("      西方 - 復活節", "easter"),
+        # 美國
+        ("      美國 - 萬聖節", "halloween"),
+        ("      美國 - 感恩節", "thanksgiving"),
+        ("      美國 - 狂歡節", "mardi_gras"),
+        ("      美國 - 獨立日", "independence_day"),
+        # 中國
+        ("      中國 - 農曆新年", "chinese_new_year"),
+        ("      中國 - 中秋節", "mid_autumn"),
+        ("      中國 - 端午節", "dragon_boat"),
+        ("      中國 - 元宵節", "lantern_festival"),
+        ("      中國 - 七夕", "qixi"),
+        ("      中國 - 冰雪節", "ice_festival"),
+        # 台灣
+        ("      台灣 - 天燈節", "sky_lantern"),
+        # 印度
+        ("      印度 - 排燈節", "diwali"),
+        ("      印度 - 灑紅節", "holi"),
+        # 日本
+        ("      日本 - 盂蘭盆節", "obon"),
+        # 其他國家
+        ("      愛爾蘭 - 聖派翠克節", "st_patricks"),
+        ("      德國 - 啤酒節", "oktoberfest"),
+        ("      泰國 - 潑水節", "songkran"),
+        ("      墨西哥 - 亡靈節", "day_of_dead"),
+        ("      巴西 - 嘉年華", "carnival"),
+        ("      義大利 - 威尼斯面具節", "venetian_carnival"),
+        ("      伊斯蘭 - 開齋節", "eid"),
+        ("      猶太 - 光明節", "hanukkah"),
     ]
     
     ALL_THEMES = [
@@ -1714,10 +1627,445 @@ class HolidaysPromptZH(CategoryPromptBase):
 
 
 # =============================================================================
+# Retro Category Nodes
+# =============================================================================
+
+class RetroPromptEN(CategoryPromptBase):
+    """English Retro prompt generator."""
+    
+    SELECT_ALL_LABEL = "✅ Select All Retro"
+    
+    AVAILABLE_THEMES = [
+        ("      Retro 50s", "retro_50s"),
+        ("      Retro 60s", "retro_60s"),
+        ("      Retro 70s", "retro_70s"),
+        ("      Retro 80s", "retro_80s"),
+        ("      Retro 90s", "retro_90s"),
+        ("      Y2K", "y2k"),
+        ("      Vaporwave", "vaporwave"),
+    ]
+    
+    ALL_THEMES = ["retro_50s", "retro_60s", "retro_70s", "retro_80s", "retro_90s", "y2k", "vaporwave"]
+    
+    CATEGORY = "JC Prompt Generator/Retro 復古"
+
+
+class RetroPromptZH(CategoryPromptBase):
+    """Chinese Retro prompt generator."""
+    
+    SELECT_ALL_LABEL = "✅ 全選復古"
+    
+    AVAILABLE_THEMES = [
+        ("      50年代", "retro_50s"),
+        ("      60年代", "retro_60s"),
+        ("      70年代", "retro_70s"),
+        ("      80年代", "retro_80s"),
+        ("      90年代", "retro_90s"),
+        ("      千禧年", "y2k"),
+        ("      蒸氣波", "vaporwave"),
+    ]
+    
+    ALL_THEMES = ["retro_50s", "retro_60s", "retro_70s", "retro_80s", "retro_90s", "y2k", "vaporwave"]
+    
+    CATEGORY = "JC Prompt Generator/Retro 復古"
+
+
+# =============================================================================
+# Cultural Category Nodes
+# =============================================================================
+
+class CulturalPromptEN(CategoryPromptBase):
+    """English Cultural prompt generator."""
+    
+    SELECT_ALL_LABEL = "✅ Select All Cultural"
+    
+    AVAILABLE_THEMES = [
+        # East Asia
+        ("      Chinese", "chinese"),
+        ("      Japanese", "japanese"),
+        ("      Korean", "korean"),
+        ("      Thai", "thai"),
+        # South Asia & Middle East
+        ("      Indian", "indian"),
+        ("      Arabic", "arabic"),
+        ("      Persian", "persian"),
+        ("      Turkish", "turkish"),
+        # Africa & Mediterranean
+        ("      Egyptian", "egyptian"),
+        ("      Moroccan", "moroccan"),
+        ("      African", "african"),
+        ("      Greek", "greek"),
+        ("      Mediterranean", "mediterranean"),
+        # Europe & Americas
+        ("      Russian", "russian"),
+        ("      Nordic", "nordic"),
+        ("      Celtic", "celtic"),
+        ("      Mexican", "mexican"),
+    ]
+    
+    ALL_THEMES = [
+        "chinese", "japanese", "korean", "thai",
+        "indian", "arabic", "persian", "turkish",
+        "egyptian", "moroccan", "african", "greek", "mediterranean",
+        "russian", "nordic", "celtic", "mexican"
+    ]
+    
+    CATEGORY = "JC Prompt Generator/Cultural 文化"
+
+
+class CulturalPromptZH(CategoryPromptBase):
+    """Chinese Cultural prompt generator."""
+    
+    SELECT_ALL_LABEL = "✅ 全選文化"
+    
+    AVAILABLE_THEMES = [
+        # 東亞
+        ("      中式", "chinese"),
+        ("      日式", "japanese"),
+        ("      韓式", "korean"),
+        ("      泰式", "thai"),
+        # 南亞與中東
+        ("      印度", "indian"),
+        ("      阿拉伯", "arabic"),
+        ("      波斯", "persian"),
+        ("      土耳其", "turkish"),
+        # 非洲與地中海
+        ("      埃及", "egyptian"),
+        ("      摩洛哥", "moroccan"),
+        ("      非洲", "african"),
+        ("      希臘", "greek"),
+        ("      地中海", "mediterranean"),
+        # 歐洲與美洲
+        ("      俄羅斯", "russian"),
+        ("      北歐", "nordic"),
+        ("      凱爾特", "celtic"),
+        ("      墨西哥", "mexican"),
+    ]
+    
+    ALL_THEMES = [
+        "chinese", "japanese", "korean", "thai",
+        "indian", "arabic", "persian", "turkish",
+        "egyptian", "moroccan", "african", "greek", "mediterranean",
+        "russian", "nordic", "celtic", "mexican"
+    ]
+    
+    CATEGORY = "JC Prompt Generator/Cultural 文化"
+
+
+# =============================================================================
+# Commercial Category Nodes
+# =============================================================================
+
+class CommercialPromptEN(CategoryPromptBase):
+    """English Commercial prompt generator."""
+    
+    SELECT_ALL_LABEL = "✅ Select All Commercial"
+    
+    AVAILABLE_THEMES = [
+        # Product & Food
+        ("      Product Photo", "product"),
+        ("      Food Photo", "food"),
+        ("      Beverage", "beverage"),
+        ("      E-commerce", "ecommerce"),
+        # Business
+        ("      Advertising", "advertising"),
+        ("      Real Estate", "real_estate"),
+        ("      Corporate", "corporate"),
+        # Design & Media
+        ("      Book Cover", "book_cover"),
+        ("      Album Cover", "album_cover"),
+        ("      Poster", "poster"),
+        ("      Mockup", "mockup"),
+        ("      Packaging", "packaging"),
+        # Specialty
+        ("      Fashion", "fashion"),
+        ("      Jewelry", "jewelry"),
+        ("      Cosmetics", "cosmetics"),
+        ("      Automotive", "automotive"),
+    ]
+    
+    ALL_THEMES = [
+        "product", "food", "beverage", "ecommerce",
+        "advertising", "real_estate", "corporate",
+        "book_cover", "album_cover", "poster", "mockup", "packaging",
+        "fashion", "jewelry", "cosmetics", "automotive"
+    ]
+    
+    CATEGORY = "JC Prompt Generator/Commercial 商業"
+
+
+class CommercialPromptZH(CategoryPromptBase):
+    """Chinese Commercial prompt generator."""
+    
+    SELECT_ALL_LABEL = "✅ 全選商業"
+    
+    AVAILABLE_THEMES = [
+        # 產品與美食
+        ("      產品攝影", "product"),
+        ("      美食攝影", "food"),
+        ("      飲料攝影", "beverage"),
+        ("      電商", "ecommerce"),
+        # 商務
+        ("      廣告", "advertising"),
+        ("      房產", "real_estate"),
+        ("      企業", "corporate"),
+        # 設計與媒體
+        ("      書籍封面", "book_cover"),
+        ("      專輯封面", "album_cover"),
+        ("      海報", "poster"),
+        ("      模型展示", "mockup"),
+        ("      包裝", "packaging"),
+        # 專業攝影
+        ("      時尚攝影", "fashion"),
+        ("      珠寶攝影", "jewelry"),
+        ("      化妝品攝影", "cosmetics"),
+        ("      汽車攝影", "automotive"),
+    ]
+    
+    ALL_THEMES = [
+        "product", "food", "beverage", "ecommerce",
+        "advertising", "real_estate", "corporate",
+        "book_cover", "album_cover", "poster", "mockup", "packaging",
+        "fashion", "jewelry", "cosmetics", "automotive"
+    ]
+    
+    CATEGORY = "JC Prompt Generator/Commercial 商業"
+
+
+# =============================================================================
+# Gaming & Digital Category Nodes
+# =============================================================================
+
+class GamingPromptEN(CategoryPromptBase):
+    """English Gaming & Digital prompt generator."""
+    
+    SELECT_ALL_LABEL = "✅ Select All Gaming"
+    
+    AVAILABLE_THEMES = [
+        ("      Pixel Art", "pixel_art"),
+        ("      Game UI", "game_ui"),
+        ("      Character Sheet", "character_sheet"),
+        ("      Splash Art", "splash_art"),
+        ("      Game Icon", "game_icon"),
+        ("      Card Art", "card_art"),
+        ("      Emote/Sticker", "emote"),
+        ("      Game Background", "game_bg"),
+    ]
+    
+    ALL_THEMES = [
+        "pixel_art", "game_ui", "character_sheet", "splash_art",
+        "game_icon", "card_art", "emote", "game_bg"
+    ]
+    
+    CATEGORY = "JC Prompt Generator/Gaming 遊戲"
+
+
+class GamingPromptZH(CategoryPromptBase):
+    """Chinese Gaming & Digital prompt generator."""
+    
+    SELECT_ALL_LABEL = "✅ 全選遊戲"
+    
+    AVAILABLE_THEMES = [
+        ("      像素藝術", "pixel_art"),
+        ("      遊戲介面", "game_ui"),
+        ("      角色設定圖", "character_sheet"),
+        ("      遊戲立繪", "splash_art"),
+        ("      遊戲圖標", "game_icon"),
+        ("      卡牌插畫", "card_art"),
+        ("      表情貼圖", "emote"),
+        ("      遊戲背景", "game_bg"),
+    ]
+    
+    ALL_THEMES = [
+        "pixel_art", "game_ui", "character_sheet", "splash_art",
+        "game_icon", "card_art", "emote", "game_bg"
+    ]
+    
+    CATEGORY = "JC Prompt Generator/Gaming 遊戲"
+
+
+# =============================================================================
+# All Categories Combined Node
+# =============================================================================
+
+class AllCategoriesBase:
+    """Base class for all categories combined node."""
+    
+    # Override in subclasses
+    CATEGORY_LABELS = {}  # Widget label -> internal category key
+    CATEGORY = "JC Prompt Generator/All 全部類別"
+    
+    def __init__(self):
+        self.config_manager = ConfigManager()
+        self.theme_registry = ThemeRegistry(self.config_manager)
+    
+    # All category themes mapping
+    CATEGORY_THEMES = {
+        "animation": AnimationPromptEN.ALL_THEMES,
+        "art_style": ArtStylePromptEN.ALL_THEMES,
+        "sketch": SketchPromptEN.ALL_THEMES,
+        "painting": PaintingPromptEN.ALL_THEMES,
+        "photography": PhotographyPromptEN.ALL_THEMES,
+        "portrait": PortraitPromptEN.ALL_THEMES,
+        "animals": AnimalsPromptEN.ALL_THEMES,
+        "scifi": SciFiPromptEN.ALL_THEMES,
+        "fantasy": FantasyPromptEN.ALL_THEMES,
+        "horror": HorrorPromptEN.ALL_THEMES,
+        "architecture": ArchitecturePromptEN.ALL_THEMES,
+        "nature": NaturePromptEN.ALL_THEMES,
+        "holidays": HolidaysPromptEN.ALL_THEMES,
+        "retro": RetroPromptEN.ALL_THEMES,
+        "cultural": CulturalPromptEN.ALL_THEMES,
+        "commercial": CommercialPromptEN.ALL_THEMES,
+        "gaming": GamingPromptEN.ALL_THEMES,
+    }
+    
+    @classmethod
+    def INPUT_TYPES(cls):
+        widgets = {}
+        for label in cls.CATEGORY_LABELS.keys():
+            widgets[label] = ("BOOLEAN", {"default": False})
+        
+        return {
+            "required": {
+                "seed": ("INT", {"default": 0, "min": 0, "max": 0xffffffffffffffff}),
+                "batch_count": ("INT", {"default": 1, "min": 1, "max": 100}),
+            },
+            "optional": widgets
+        }
+    
+    RETURN_TYPES = ("STRING", "STRING")
+    RETURN_NAMES = ("prompts", "theme_names")
+    OUTPUT_IS_LIST = (True, True)
+    FUNCTION = "generate"
+    
+    @classmethod
+    def IS_CHANGED(cls, **kwargs):
+        import time
+        return time.time()
+    
+    def generate(
+        self,
+        seed: int = 0,
+        batch_count: int = 1,
+        **kwargs
+    ) -> Tuple[List[str], List[str]]:
+        """Generate prompts from all selected categories."""
+        
+        # Collect all themes from enabled categories
+        enabled_themes = []
+        for widget_name, category_key in self.CATEGORY_LABELS.items():
+            if kwargs.get(widget_name, False):
+                themes = self.CATEGORY_THEMES.get(category_key, [])
+                enabled_themes.extend(themes)
+        
+        if not enabled_themes:
+            raise ValueError("⚠️ 請至少選擇一個類別！\n\nPlease select at least one category!")
+        
+        # Generate prompts
+        prompts = []
+        theme_names = []
+        prompt_index = 0
+        
+        for theme_name in enabled_themes:
+            handler = self.theme_registry.get_handler(theme_name)
+            if not handler:
+                prompts.append(f"Error: Handler not found for {theme_name}")
+                theme_names.append(theme_name)
+                prompt_index += 1
+                continue
+            
+            for j in range(batch_count):
+                unique_seed = seed + prompt_index * 1000 + j
+                self.config_manager.set_seed(unique_seed)
+                
+                try:
+                    components = handler.generate(
+                        custom_subject="",
+                        custom_location="",
+                        include_environment=True,
+                        include_style=True,
+                        include_effects=True
+                    )
+                    
+                    prompt_parts = []
+                    for key in ["subject", "environment", "style", "effects"]:
+                        if key in components and components[key]:
+                            prompt_parts.append(components[key])
+                    
+                    prompt = ", ".join(prompt_parts)
+                    prompts.append(prompt)
+                    theme_names.append(theme_name)
+                    
+                except Exception as e:
+                    prompts.append(f"Error generating {theme_name}: {str(e)}")
+                    theme_names.append(theme_name)
+            
+            prompt_index += 1
+        
+        return (prompts, theme_names)
+
+
+class AllCategoriesPromptEN(AllCategoriesBase):
+    """English version - All categories combined."""
+    
+    CATEGORY_LABELS = {
+        "[17] ✅ All Animation": "animation",
+        "[22] ✅ All Art Styles": "art_style",
+        "[11] ✅ All Sketch": "sketch",
+        "[15] ✅ All Painting": "painting",
+        "[19] ✅ All Photography": "photography",
+        "[24] ✅ All Portrait": "portrait",
+        "[19] ✅ All Animals": "animals",
+        "[20] ✅ All Sci-Fi": "scifi",
+        "[20] ✅ All Fantasy": "fantasy",
+        "[18] ✅ All Horror": "horror",
+        "[16] ✅ All Architecture": "architecture",
+        "[22] ✅ All Nature": "nature",
+        "[26] ✅ All Holidays": "holidays",
+        "[07] ✅ All Retro": "retro",
+        "[17] ✅ All Cultural": "cultural",
+        "[16] ✅ All Commercial": "commercial",
+        "[08] ✅ All Gaming": "gaming",
+    }
+    
+    CATEGORY = "JC Prompt Generator/All 全部類別"
+
+
+class AllCategoriesPromptZH(AllCategoriesBase):
+    """Chinese version - All categories combined."""
+    
+    CATEGORY_LABELS = {
+        "[17] ✅ 全選動畫": "animation",
+        "[22] ✅ 全選藝術風格": "art_style",
+        "[11] ✅ 全選素描線稿": "sketch",
+        "[15] ✅ 全選繪畫媒材": "painting",
+        "[19] ✅ 全選攝影類型": "photography",
+        "[24] ✅ 全選人像人物": "portrait",
+        "[19] ✅ 全選動物生物": "animals",
+        "[20] ✅ 全選科幻未來": "scifi",
+        "[20] ✅ 全選奇幻魔法": "fantasy",
+        "[18] ✅ 全選恐怖黑暗": "horror",
+        "[16] ✅ 全選建築空間": "architecture",
+        "[22] ✅ 全選自然風景": "nature",
+        "[26] ✅ 全選節日主題": "holidays",
+        "[07] ✅ 全選復古年代": "retro",
+        "[17] ✅ 全選文化地區": "cultural",
+        "[16] ✅ 全選商業用途": "commercial",
+        "[08] ✅ 全選遊戲數位": "gaming",
+    }
+    
+    CATEGORY = "JC Prompt Generator/All 全部類別"
+
+
+# =============================================================================
 # Node Registration
 # =============================================================================
 
 NODE_CLASS_MAPPINGS = {
+    # All Categories Combined
+    "JC_AllCategories_EN": AllCategoriesPromptEN,
+    "JC_AllCategories_ZH": AllCategoriesPromptZH,
     # Animation
     "JC_Animation_EN": AnimationPromptEN,
     "JC_Animation_ZH": AnimationPromptZH,
@@ -1730,9 +2078,6 @@ NODE_CLASS_MAPPINGS = {
     # Painting
     "JC_Painting_EN": PaintingPromptEN,
     "JC_Painting_ZH": PaintingPromptZH,
-    # 3D Render
-    "JC_Render3D_EN": Render3DPromptEN,
-    "JC_Render3D_ZH": Render3DPromptZH,
     # Photography
     "JC_Photography_EN": PhotographyPromptEN,
     "JC_Photography_ZH": PhotographyPromptZH,
@@ -1760,9 +2105,24 @@ NODE_CLASS_MAPPINGS = {
     # Holidays
     "JC_Holidays_EN": HolidaysPromptEN,
     "JC_Holidays_ZH": HolidaysPromptZH,
+    # Retro
+    "JC_Retro_EN": RetroPromptEN,
+    "JC_Retro_ZH": RetroPromptZH,
+    # Cultural
+    "JC_Cultural_EN": CulturalPromptEN,
+    "JC_Cultural_ZH": CulturalPromptZH,
+    # Commercial
+    "JC_Commercial_EN": CommercialPromptEN,
+    "JC_Commercial_ZH": CommercialPromptZH,
+    # Gaming
+    "JC_Gaming_EN": GamingPromptEN,
+    "JC_Gaming_ZH": GamingPromptZH,
 }
 
 NODE_DISPLAY_NAME_MAPPINGS = {
+    # All Categories Combined
+    "JC_AllCategories_EN": "🌟 JC Prompt - All Categories",
+    "JC_AllCategories_ZH": "🌟 JC 提示詞 - 全部類別",
     # Animation
     "JC_Animation_EN": "🎬 JC Prompt - Animation",
     "JC_Animation_ZH": "🎬 JC 提示詞 - 動畫",
@@ -1775,9 +2135,6 @@ NODE_DISPLAY_NAME_MAPPINGS = {
     # Painting
     "JC_Painting_EN": "🖼️ JC Prompt - Painting",
     "JC_Painting_ZH": "🖼️ JC 提示詞 - 繪畫媒材",
-    # 3D Render
-    "JC_Render3D_EN": "📐 JC Prompt - 3D Render",
-    "JC_Render3D_ZH": "📐 JC 提示詞 - 3D渲染",
     # Photography
     "JC_Photography_EN": "📸 JC Prompt - Photography",
     "JC_Photography_ZH": "📸 JC 提示詞 - 攝影",
@@ -1805,5 +2162,17 @@ NODE_DISPLAY_NAME_MAPPINGS = {
     # Holidays
     "JC_Holidays_EN": "🎄 JC Prompt - Holidays",
     "JC_Holidays_ZH": "🎄 JC 提示詞 - 節日",
+    # Retro
+    "JC_Retro_EN": "🕹️ JC Prompt - Retro",
+    "JC_Retro_ZH": "🕹️ JC 提示詞 - 復古",
+    # Cultural
+    "JC_Cultural_EN": "🌍 JC Prompt - Cultural",
+    "JC_Cultural_ZH": "🌍 JC 提示詞 - 文化",
+    # Commercial
+    "JC_Commercial_EN": "💼 JC Prompt - Commercial",
+    "JC_Commercial_ZH": "💼 JC 提示詞 - 商業",
+    # Gaming
+    "JC_Gaming_EN": "🎮 JC Prompt - Gaming",
+    "JC_Gaming_ZH": "🎮 JC 提示詞 - 遊戲",
 }
 

@@ -1,0 +1,79 @@
+{
+  "turkish": {
+    "subjects": [
+      "Blue Mosque Istanbul",
+      "whirling dervish dancer",
+      "Turkish coffee ceremony",
+      "Ottoman sultan portrait",
+      "Grand Bazaar merchant",
+      "Turkish bath hammam",
+      "Turkish carpet weaver",
+      "Hagia Sophia interior",
+      "Turkish tea service",
+      "belly dancer performance",
+      "Turkish delight sweets",
+      "evil eye nazar charm",
+      "Bosphorus ferry scene",
+      "Cappadocia balloon flight",
+      "Turkish tile artisan"
+    ],
+    "environments": [
+      "Blue Mosque courtyard",
+      "Grand Bazaar covered market",
+      "Cappadocia fairy chimneys",
+      "Bosphorus waterfront palace",
+      "traditional Turkish house",
+      "Ottoman palace topkapi",
+      "Turkish hammam bath",
+      "Ephesus ancient ruins",
+      "Pamukkale white terraces",
+      "Istanbul rooftop view"
+    ],
+    "elements": [
+      "Iznik blue tile patterns",
+      "evil eye nazar amulet",
+      "Turkish carpet kilim",
+      "Ottoman tulip motifs",
+      "calligraphy Arabic script",
+      "copper coffee pot cezve",
+      "Turkish lantern glass",
+      "pomegranate symbol",
+      "Ottoman crescent moon",
+      "mother of pearl inlay",
+      "ceramic pottery Kutahya",
+      "Turkish towel peshtemal"
+    ],
+    "lighting": [
+      "mosque colored glass light",
+      "hammam steam atmosphere",
+      "bazaar lantern warm glow",
+      "Bosphorus sunset golden",
+      "candlelit Sufi ceremony",
+      "Cappadocia sunrise balloon",
+      "palace chandelier ornate",
+      "blue hour mosque silhouette"
+    ],
+    "moods": [
+      "spiritual Sufi mystical",
+      "exotic oriental allure",
+      "imperial Ottoman grandeur",
+      "bustling bazaar energy",
+      "relaxing hammam peace",
+      "romantic Bosphorus evening",
+      "ancient history wonder",
+      "hospitable warm welcome"
+    ],
+    "styles": [
+      "traditional Turkish aesthetic",
+      "Ottoman imperial art",
+      "Iznik tile art style",
+      "Turkish carpet design",
+      "Byzantine influenced",
+      "Sufi mystical art",
+      "Turkish miniature painting",
+      "contemporary Turkish",
+      "Anatolian folk art",
+      "Istanbul modern fusion"
+    ]
+  }
+}

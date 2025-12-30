@@ -27,7 +27,11 @@
     "interior glow",
     "station lights",
     "dramatic space lighting",
-    "starfield backdrop"
+    "starfield backdrop",
+    "cinematic dramatic lighting",
+    "soft diffused natural",
+    "rim light edge glow",
+    "golden hour warmth"
   ],
   "styles": [
     "realistic sci-fi",
@@ -35,7 +39,11 @@
     "luxury futuristic",
     "military installation",
     "research facility",
-    "colony architecture"
+    "colony architecture",
+    "highly detailed realistic",
+    "artistic stylized",
+    "cinematic movie quality",
+    "fine art gallery"
   ],
   "effects": [
     "rotation motion",
@@ -43,7 +51,11 @@
     "atmospheric windows",
     "solar panels",
     "communication arrays",
-    "debris field"
+    "debris field",
+    "volumetric light rays",
+    "atmospheric fog mist",
+    "particle dust sparkle",
+    "motion blur dynamic"
   ],
   "composition_types": [
     "exterior overview",
@@ -51,12 +63,10 @@
     "docking scene",
     "construction progress",
     "Earth backdrop",
-    "detail section"
+    "detail section",
+    "rule of thirds balanced",
+    "centered symmetrical",
+    "diagonal dynamic lines",
+    "framing natural elements"
   ]
 }
-
-
-
-
-
-

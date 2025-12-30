@@ -1,0 +1,62 @@
+{
+  "beverage": {
+    "subjects": [
+      "cocktail with garnish",
+      "coffee latte art",
+      "fresh juice splash",
+      "beer with foam head",
+      "wine glass pour",
+      "smoothie bowl",
+      "iced tea with condensation",
+      "energy drink can",
+      "whiskey on rocks",
+      "milkshake with toppings",
+      "champagne bubbles",
+      "hot chocolate steam"
+    ],
+    "environments": [
+      "bar counter setting",
+      "cafe table",
+      "outdoor summer scene",
+      "dark dramatic background",
+      "kitchen counter",
+      "poolside",
+      "restaurant ambiance",
+      "studio backdrop"
+    ],
+    "lighting": [
+      "backlit liquid glow",
+      "dramatic side lighting",
+      "bright and refreshing",
+      "moody bar atmosphere",
+      "rim light on glass",
+      "natural daylight",
+      "cinematic dramatic lighting",
+      "soft diffused natural",
+      "rim light edge glow",
+      "golden hour warmth"
+    ],
+    "effects": [
+      "liquid splash frozen",
+      "condensation droplets",
+      "ice cubes floating",
+      "pour action shot",
+      "bubbles rising",
+      "steam or mist",
+      "fruit garnish splash",
+      "glass reflection"
+    ],
+    "styles": [
+      "beverage photography",
+      "liquid motion capture",
+      "refreshing summer vibe",
+      "sophisticated drink styling",
+      "action splash photography",
+      "highly detailed realistic",
+      "artistic stylized",
+      "cinematic movie quality",
+      "fine art gallery",
+      "concept art professional"
+    ]
+  }
+}

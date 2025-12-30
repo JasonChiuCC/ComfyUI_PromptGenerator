@@ -27,7 +27,11 @@
     "lightsaber glow",
     "planet atmosphere",
     "dramatic space lighting",
-    "explosion flashes"
+    "explosion flashes",
+    "cinematic dramatic lighting",
+    "soft diffused natural",
+    "rim light edge glow",
+    "golden hour warmth"
   ],
   "styles": [
     "Star Wars inspired",
@@ -35,7 +39,11 @@
     "galactic fantasy",
     "space western",
     "sci-fi epic",
-    "cosmic mythology"
+    "cosmic mythology",
+    "highly detailed realistic",
+    "artistic stylized",
+    "cinematic movie quality",
+    "fine art gallery"
   ],
   "effects": [
     "hyperspace streaks",
@@ -43,7 +51,11 @@
     "shield effects",
     "starfield background",
     "planetary rings",
-    "nebula colors"
+    "nebula colors",
+    "volumetric light rays",
+    "atmospheric fog mist",
+    "particle dust sparkle",
+    "motion blur dynamic"
   ],
   "composition_types": [
     "epic battle scene",
@@ -51,12 +63,10 @@
     "starship action",
     "alien world landscape",
     "dramatic confrontation",
-    "space panorama"
+    "space panorama",
+    "rule of thirds balanced",
+    "centered symmetrical",
+    "diagonal dynamic lines",
+    "framing natural elements"
   ]
 }
-
-
-
-
-
-

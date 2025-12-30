@@ -1,0 +1,79 @@
+{
+  "persian": {
+    "subjects": [
+      "Persian princess portrait",
+      "Sufi whirling dervish",
+      "Persian miniature painting scene",
+      "Isfahan mosque architecture",
+      "Persian carpet weaving",
+      "rose garden gathering",
+      "Persian warrior archer",
+      "calligrapher at work",
+      "tea house musicians",
+      "Persian cat portrait",
+      "pomegranate tree garden",
+      "Persian polo game",
+      "ancient Persepolis ruins",
+      "traditional Nowruz celebration",
+      "Persian silk merchant"
+    ],
+    "environments": [
+      "Isfahan blue mosque interior",
+      "Persian palace garden",
+      "desert caravanserai inn",
+      "ancient Persepolis columns",
+      "traditional Persian bazaar",
+      "rose garden paradise",
+      "Persian tea house",
+      "Yazd wind tower city",
+      "mountain village terraces",
+      "Shiraz wine garden"
+    ],
+    "elements": [
+      "Persian miniature painting style",
+      "blue tile mosaic patterns",
+      "Persian carpet motifs",
+      "arabesque floral scrolls",
+      "poetry calligraphy Hafez",
+      "peacock and rose motifs",
+      "pomegranate symbols",
+      "cypress tree imagery",
+      "Haft-sin Nowruz display",
+      "turquoise stone jewelry",
+      "silk brocade fabrics",
+      "geometric star patterns"
+    ],
+    "lighting": [
+      "mosque stained glass colors",
+      "garden dappled sunlight",
+      "warm lantern glow",
+      "desert golden sunset",
+      "candlelit poetry reading",
+      "blue hour twilight mosque",
+      "incense smoke atmosphere",
+      "morning rose garden mist"
+    ],
+    "moods": [
+      "romantic poetry inspired",
+      "spiritual Sufi mystical",
+      "royal court elegance",
+      "ancient empire grandeur",
+      "garden paradise serenity",
+      "intellectual scholarly",
+      "festive Nowruz celebration",
+      "exotic oriental mystery"
+    ],
+    "styles": [
+      "traditional Persian aesthetic",
+      "Persian miniature painting",
+      "Safavid dynasty art",
+      "Islamic geometric Persian",
+      "Persian carpet art design",
+      "contemporary Iranian art",
+      "Persian poetry illustration",
+      "Achaemenid ancient style",
+      "Persian garden design",
+      "modern Persian fusion"
+    ]
+  }
+}

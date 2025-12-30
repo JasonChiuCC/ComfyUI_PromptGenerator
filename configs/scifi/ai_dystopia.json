@@ -27,7 +27,11 @@
     "sterile white",
     "surveillance glow",
     "warning lights",
-    "machine ambient"
+    "machine ambient",
+    "cinematic dramatic lighting",
+    "soft diffused natural",
+    "rim light edge glow",
+    "golden hour warmth"
   ],
   "styles": [
     "Matrix inspired",
@@ -35,7 +39,11 @@
     "machine nightmare",
     "digital oppression",
     "AI apocalypse",
-    "tech horror"
+    "tech horror",
+    "highly detailed realistic",
+    "artistic stylized",
+    "cinematic movie quality",
+    "fine art gallery"
   ],
   "effects": [
     "digital code rain",
@@ -43,7 +51,11 @@
     "holographic displays",
     "machine precision",
     "glitch effects",
-    "data streams"
+    "data streams",
+    "volumetric light rays",
+    "atmospheric fog mist",
+    "particle dust sparkle",
+    "motion blur dynamic"
   ],
   "composition_types": [
     "oppression scene",
@@ -51,12 +63,10 @@
     "machine landscape",
     "confrontation",
     "surveillance view",
-    "escape sequence"
+    "escape sequence",
+    "rule of thirds balanced",
+    "centered symmetrical",
+    "diagonal dynamic lines",
+    "framing natural elements"
   ]
 }
-
-
-
-
-
-

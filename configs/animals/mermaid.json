@@ -29,7 +29,11 @@
     "playful joy",
     "haunting siren",
     "gentle kindness",
-    "ancient wisdom"
+    "ancient wisdom",
+    "intense focused gaze",
+    "peaceful serene calm",
+    "mysterious enigmatic look",
+    "joyful happy expression"
   ],
   "environments": [
     "coral reef kingdom",
@@ -47,7 +51,11 @@
     "moonlight surface",
     "tropical clear water",
     "deep blue ambient",
-    "mystical ocean light"
+    "mystical ocean light",
+    "cinematic dramatic lighting",
+    "soft diffused natural",
+    "rim light edge glow",
+    "golden hour warmth"
   ],
   "styles": [
     "fantasy art",
@@ -55,7 +63,11 @@
     "underwater fantasy",
     "fairy tale",
     "dark fantasy",
-    "ethereal art"
+    "ethereal art",
+    "highly detailed realistic",
+    "artistic stylized",
+    "cinematic movie quality",
+    "fine art gallery"
   ],
   "tail_types": [
     "iridescent scales",
@@ -71,12 +83,10 @@
     "surface emergence",
     "artistic pose",
     "environmental scene",
-    "dramatic silhouette"
+    "dramatic silhouette",
+    "epic wide establishing",
+    "intimate close portrait",
+    "dynamic action frozen",
+    "dramatic low angle"
   ]
 }
-
-
-
-
-
-

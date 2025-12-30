@@ -31,7 +31,11 @@
     "happy and content",
     "sleepy peaceful",
     "alert and interested",
-    "playful energy"
+    "playful energy",
+    "intense focused gaze",
+    "peaceful serene calm",
+    "mysterious enigmatic look",
+    "joyful happy expression"
   ],
   "environments": [
     "cozy home setting",
@@ -47,7 +51,11 @@
     "studio professional",
     "window light",
     "gentle diffused",
-    "warm golden"
+    "warm golden",
+    "cinematic dramatic lighting",
+    "soft diffused natural",
+    "rim light edge glow",
+    "golden hour warmth"
   ],
   "styles": [
     "pet photography",
@@ -55,7 +63,11 @@
     "lifestyle",
     "professional studio",
     "candid moment",
-    "artistic"
+    "artistic",
+    "highly detailed realistic",
+    "artistic stylized",
+    "cinematic movie quality",
+    "fine art gallery"
   ],
   "shot_types": [
     "adorable close-up",
@@ -63,12 +75,10 @@
     "interaction moment",
     "environmental",
     "macro detail",
-    "candid play"
+    "candid play",
+    "epic wide establishing",
+    "intimate close portrait",
+    "dynamic action frozen",
+    "dramatic low angle"
   ]
 }
-
-
-
-
-
-

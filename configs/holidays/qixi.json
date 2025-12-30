@@ -27,14 +27,24 @@
       "soft romantic glow",
       "twinkling stars",
       "candlelit ambiance",
-      "magical celestial light"
+      "magical celestial light",
+      "cinematic dramatic lighting",
+      "soft diffused natural",
+      "rim light edge glow",
+      "golden hour warmth",
+      "blue hour cool mood"
     ],
     "colors": [
       "night sky deep blue",
       "starlight silver",
       "romantic pink and red",
       "traditional hanfu colors",
-      "celestial purple and gold"
+      "celestial purple and gold",
+      "rich saturated vibrant",
+      "muted subtle tones",
+      "warm golden palette",
+      "cool blue tones",
+      "high contrast dramatic"
     ],
     "elements": [
       "magpies forming bridge",
@@ -52,8 +62,12 @@
       "celestial love story",
       "bittersweet reunion",
       "traditional romance",
-      "hopeful and devoted"
+      "hopeful and devoted",
+      "epic dramatic atmosphere",
+      "peaceful tranquil calm",
+      "mysterious dark enigma",
+      "joyful bright energy",
+      "intense powerful force"
     ]
   }
 }
-

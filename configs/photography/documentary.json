@@ -20,7 +20,10 @@
     "raw authenticity",
     "unposed moment",
     "Sebastião Salgado style",
-    "Steve McCurry aesthetic"
+    "Steve McCurry aesthetic",
+    "highly detailed realistic",
+    "artistic stylized",
+    "cinematic movie quality"
   ],
   "lighting": [
     "natural available light",
@@ -28,7 +31,11 @@
     "window light",
     "mixed ambient",
     "low light conditions",
-    "dramatic natural"
+    "dramatic natural",
+    "cinematic dramatic lighting",
+    "soft diffused natural",
+    "rim light edge glow",
+    "golden hour warmth"
   ],
   "environments": [
     "rural village",
@@ -45,12 +52,9 @@
     "intimate close-up",
     "action sequence",
     "detail shot",
-    "storytelling series"
+    "storytelling series",
+    "epic wide establishing",
+    "intimate close portrait",
+    "dynamic action frozen"
   ]
 }
-
-
-
-
-
-

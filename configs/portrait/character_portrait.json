@@ -1,69 +1,100 @@
 {
   "name": "Character Portrait",
-  "description": "Storytelling character and conceptual portrait photography",
+  "description": "Narrative character driven portrait photography",
   "subjects": [
-    "mysterious character",
-    "fantasy persona",
-    "story protagonist",
-    "conceptual figure",
-    "narrative subject",
-    "theatrical character"
+    "fantasy warrior character",
+    "sci-fi future character",
+    "historical period character",
+    "mythological being portrait",
+    "villain antagonist character",
+    "hero protagonist portrait",
+    "mysterious stranger figure",
+    "supernatural entity portrait",
+    "steampunk inventor character",
+    "post-apocalyptic survivor"
   ],
   "expressions": [
-    "character emotion",
-    "story-driven look",
-    "dramatic intensity",
-    "narrative expression",
-    "theatrical mood",
-    "persona embodiment"
+    "in-character intense emotion",
+    "mysterious enigmatic gaze",
+    "fierce warrior determination",
+    "wise ancient knowing look",
+    "villainous menacing stare",
+    "heroic noble expression",
+    "haunted troubled eyes",
+    "mischievous trickster smile",
+    "stoic warrior calm",
+    "ethereal otherworldly presence"
   ],
   "poses": [
-    "character stance",
-    "narrative gesture",
-    "story-appropriate pose",
-    "dramatic position",
-    "theatrical movement"
+    "heroic power stance",
+    "battle ready combat pose",
+    "regal seated throne",
+    "mysterious cloaked figure",
+    "action mid-movement",
+    "contemplative thoughtful pose",
+    "weapon brandishing ready",
+    "magical casting gesture",
+    "defensive guarded stance",
+    "relaxed character moment"
   ],
   "costumes": [
-    "character costume",
-    "period attire",
-    "fantasy clothing",
-    "story wardrobe",
-    "conceptual outfit",
-    "theatrical dress"
+    "fantasy armor detailed",
+    "medieval period accurate",
+    "sci-fi futuristic suit",
+    "victorian gothic dark",
+    "tribal warrior attire",
+    "wizard robes magical",
+    "steampunk mechanical fashion",
+    "post-apocalyptic survival gear",
+    "royal elegant costume",
+    "creature monster makeup"
   ],
   "shot_types": [
-    "character portrait",
-    "narrative scene",
-    "storytelling image",
-    "conceptual frame",
-    "dramatic capture"
+    "portrait character emotion",
+    "full body costume showcase",
+    "environmental story context",
+    "dramatic silhouette shape",
+    "action pose dynamic",
+    "detail prop close-up",
+    "group character composition",
+    "low angle heroic",
+    "high angle vulnerable",
+    "dutch angle unsettling"
   ],
   "lighting": [
-    "mood-driven lighting",
-    "character-appropriate light",
-    "dramatic shadows",
-    "theatrical illumination",
-    "story lighting"
+    "dramatic cinematic lighting",
+    "practical fire torch light",
+    "magical glow effect",
+    "harsh rim edge light",
+    "moody low key dark",
+    "fantasy colorful gel",
+    "natural golden hour",
+    "studio controlled theatrical",
+    "candlelit period appropriate",
+    "mixed creative sources"
   ],
   "backgrounds": [
-    "narrative setting",
-    "story environment",
-    "conceptual backdrop",
-    "theatrical stage",
-    "character world"
+    "fantasy location setting",
+    "historical period environment",
+    "dark atmospheric void",
+    "nature forest mystical",
+    "castle dungeon stone",
+    "futuristic tech interior",
+    "post-apocalyptic ruins",
+    "magical realm ethereal",
+    "urban dark alley",
+    "studio theatrical backdrop"
   ],
   "styles": [
-    "character photography",
-    "narrative portrait",
-    "storytelling imagery",
-    "conceptual portrait",
-    "theatrical photography"
+    "character portrait photography",
+    "fantasy art portrait",
+    "cinematic character portrait",
+    "theatrical costume portrait",
+    "narrative storytelling portrait",
+    "fine art character",
+    "cosplay inspired character",
+    "historical reenactment",
+    "concept art inspired",
+    "dark fantasy portrait"
   ]
 }
-
-
-
-
-
-

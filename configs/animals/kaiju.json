@@ -31,7 +31,11 @@
     "unstoppable force",
     "godlike presence",
     "primal rage",
-    "mysterious ancient"
+    "mysterious ancient",
+    "intense focused gaze",
+    "peaceful serene calm",
+    "mysterious enigmatic look",
+    "joyful happy expression"
   ],
   "environments": [
     "tokyo cityscape",
@@ -49,7 +53,11 @@
     "city lights",
     "fire and destruction",
     "dramatic moonlight",
-    "atomic energy"
+    "atomic energy",
+    "cinematic dramatic lighting",
+    "soft diffused natural",
+    "rim light edge glow",
+    "golden hour warmth"
   ],
   "styles": [
     "kaiju movie style",
@@ -57,7 +65,11 @@
     "concept art",
     "monster movie",
     "japanese monster",
-    "epic destruction"
+    "epic destruction",
+    "highly detailed realistic",
+    "artistic stylized",
+    "cinematic movie quality",
+    "fine art gallery"
   ],
   "effects": [
     "atomic breath",
@@ -65,7 +77,11 @@
     "military attack",
     "tidal waves",
     "fire explosions",
-    "energy beams"
+    "energy beams",
+    "volumetric light rays",
+    "atmospheric fog mist",
+    "particle dust sparkle",
+    "motion blur dynamic"
   ],
   "shot_types": [
     "towering over city",
@@ -73,12 +89,10 @@
     "battle action",
     "low angle epic",
     "destruction scene",
-    "silhouette dramatic"
+    "silhouette dramatic",
+    "epic wide establishing",
+    "intimate close portrait",
+    "dynamic action frozen",
+    "dramatic low angle"
   ]
 }
-
-
-
-
-
-

@@ -20,7 +20,10 @@
     "editorial food",
     "rustic food styling",
     "modern minimalist food",
-    "dark and moody food"
+    "dark and moody food",
+    "highly detailed realistic",
+    "artistic stylized",
+    "cinematic movie quality"
   ],
   "lighting": [
     "soft natural window",
@@ -28,7 +31,11 @@
     "side light texture",
     "bright and airy",
     "dark moody dramatic",
-    "warm golden light"
+    "warm golden light",
+    "cinematic dramatic lighting",
+    "soft diffused natural",
+    "rim light edge glow",
+    "golden hour warmth"
   ],
   "props": [
     "rustic wooden board",
@@ -44,12 +51,10 @@
     "hero shot straight on",
     "close-up detail",
     "environmental context",
-    "ingredient scatter"
+    "ingredient scatter",
+    "rule of thirds balanced",
+    "centered symmetrical",
+    "diagonal dynamic lines",
+    "framing natural elements"
   ]
 }
-
-
-
-
-
-

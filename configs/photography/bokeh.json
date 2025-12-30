@@ -20,7 +20,10 @@
     "creamy bokeh",
     "swirly bokeh",
     "85mm portrait lens",
-    "dreamy blur"
+    "dreamy blur",
+    "highly detailed realistic",
+    "artistic stylized",
+    "cinematic movie quality"
   ],
   "lighting": [
     "point light sources",
@@ -29,7 +32,10 @@
     "candle light",
     "sunset backlight",
     "neon signs blur",
-    "street lamps"
+    "street lamps",
+    "cinematic dramatic lighting",
+    "soft diffused natural",
+    "rim light edge glow"
   ],
   "bokeh_types": [
     "circular bokeh balls",
@@ -44,12 +50,11 @@
     "detail shot",
     "environmental portrait",
     "over-shoulder foreground",
-    "layered depth"
+    "layered depth",
+    "epic wide establishing",
+    "intimate close portrait",
+    "dynamic action frozen",
+    "dramatic low angle",
+    "atmospheric environmental"
   ]
 }
-
-
-
-
-
-

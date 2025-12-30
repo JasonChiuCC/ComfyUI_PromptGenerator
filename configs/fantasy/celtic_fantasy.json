@@ -27,7 +27,11 @@
     "mystical glow",
     "moonlit stones",
     "forest dappled",
-    "magical twilight"
+    "magical twilight",
+    "cinematic dramatic lighting",
+    "soft diffused natural",
+    "rim light edge glow",
+    "golden hour warmth"
   ],
   "styles": [
     "Celtic fantasy art",
@@ -35,7 +39,11 @@
     "knotwork patterns",
     "Gaelic legends",
     "druidic mysticism",
-    "Celtic aesthetic"
+    "Celtic aesthetic",
+    "highly detailed realistic",
+    "artistic stylized",
+    "cinematic movie quality",
+    "fine art gallery"
   ],
   "effects": [
     "Celtic knotwork",
@@ -43,7 +51,11 @@
     "mist and fog",
     "fairy dust",
     "ancient runes",
-    "shapeshifting"
+    "shapeshifting",
+    "volumetric light rays",
+    "atmospheric fog mist",
+    "particle dust sparkle",
+    "motion blur dynamic"
   ],
   "shot_types": [
     "mystical portrait",
@@ -51,12 +63,10 @@
     "nature harmony",
     "ritual moment",
     "ethereal presence",
-    "legendary pose"
+    "legendary pose",
+    "epic wide establishing",
+    "intimate close portrait",
+    "dynamic action frozen",
+    "dramatic low angle"
   ]
 }
-
-
-
-
-
-

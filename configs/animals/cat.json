@@ -33,7 +33,11 @@
     "alert and attentive",
     "playful expression",
     "regal dignified look",
-    "content and relaxed"
+    "content and relaxed",
+    "intense focused gaze",
+    "peaceful serene calm",
+    "mysterious enigmatic look",
+    "joyful happy expression"
   ],
   "environments": [
     "cozy living room",
@@ -51,7 +55,11 @@
     "studio lighting",
     "dramatic side light",
     "backlit silhouette",
-    "warm indoor lighting"
+    "warm indoor lighting",
+    "cinematic dramatic lighting",
+    "soft diffused natural",
+    "rim light edge glow",
+    "blue hour cool mood"
   ],
   "styles": [
     "pet photography",
@@ -59,7 +67,11 @@
     "lifestyle photography",
     "fine art",
     "realistic",
-    "whimsical"
+    "whimsical",
+    "highly detailed realistic",
+    "artistic stylized",
+    "cinematic movie quality",
+    "fine art gallery"
   ],
   "shot_types": [
     "close-up face portrait",
@@ -67,12 +79,10 @@
     "action shot",
     "environmental portrait",
     "macro detail shot",
-    "candid moment"
+    "candid moment",
+    "epic wide establishing",
+    "intimate close portrait",
+    "dynamic action frozen",
+    "dramatic low angle"
   ]
 }
-
-
-
-
-
-

@@ -27,7 +27,11 @@
     "heavenly light",
     "demonic red",
     "ethereal blue",
-    "divine golden"
+    "divine golden",
+    "cinematic dramatic lighting",
+    "soft diffused natural",
+    "rim light edge glow",
+    "golden hour warmth"
   ],
   "styles": [
     "xianxia art",
@@ -35,7 +39,11 @@
     "cultivation aesthetic",
     "celestial beauty",
     "immortal realm",
-    "donghua inspired"
+    "donghua inspired",
+    "highly detailed realistic",
+    "artistic stylized",
+    "cinematic movie quality",
+    "fine art gallery"
   ],
   "effects": [
     "cultivation energy",
@@ -43,7 +51,11 @@
     "breakthrough lightning",
     "pill cauldron glow",
     "immortal aura",
-    "heavenly tribulation"
+    "heavenly tribulation",
+    "volumetric light rays",
+    "atmospheric fog mist",
+    "particle dust sparkle",
+    "motion blur dynamic"
   ],
   "shot_types": [
     "cultivation pose",
@@ -51,12 +63,10 @@
     "breakthrough moment",
     "celestial portrait",
     "combat action",
-    "transcendent beauty"
+    "transcendent beauty",
+    "epic wide establishing",
+    "intimate close portrait",
+    "dynamic action frozen",
+    "dramatic low angle"
   ]
 }
-
-
-
-
-
-

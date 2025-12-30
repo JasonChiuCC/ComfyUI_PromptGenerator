@@ -27,7 +27,11 @@
     "chrome reflections",
     "neon signage",
     "clean fluorescent",
-    "space age white"
+    "space age white",
+    "cinematic dramatic lighting",
+    "soft diffused natural",
+    "rim light edge glow",
+    "golden hour warmth"
   ],
   "styles": [
     "atompunk aesthetic",
@@ -35,7 +39,11 @@
     "atomic age optimism",
     "googie style",
     "space age design",
-    "mid-century modern sci-fi"
+    "mid-century modern sci-fi",
+    "highly detailed realistic",
+    "artistic stylized",
+    "cinematic movie quality",
+    "fine art gallery"
   ],
   "effects": [
     "atomic particles",
@@ -43,7 +51,11 @@
     "ray gun beams",
     "flying car trails",
     "nuclear glow",
-    "bubble helmets"
+    "bubble helmets",
+    "volumetric light rays",
+    "atmospheric fog mist",
+    "particle dust sparkle",
+    "motion blur dynamic"
   ],
   "composition_types": [
     "optimistic future scene",
@@ -51,12 +63,10 @@
     "domestic future",
     "chrome cityscape",
     "atomic laboratory",
-    "retro advertisement style"
+    "retro advertisement style",
+    "rule of thirds balanced",
+    "centered symmetrical",
+    "diagonal dynamic lines",
+    "framing natural elements"
   ]
 }
-
-
-
-
-
-

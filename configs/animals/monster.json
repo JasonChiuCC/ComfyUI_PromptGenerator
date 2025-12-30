@@ -31,7 +31,11 @@
     "mindless rage",
     "intelligent malice",
     "primal hunger",
-    "ancient evil"
+    "ancient evil",
+    "intense focused gaze",
+    "peaceful serene calm",
+    "mysterious enigmatic look",
+    "joyful happy expression"
   ],
   "environments": [
     "dark forest",
@@ -49,7 +53,11 @@
     "moonlit horror",
     "bioluminescent",
     "fire glow",
-    "lightning flash"
+    "lightning flash",
+    "cinematic dramatic lighting",
+    "soft diffused natural",
+    "rim light edge glow",
+    "golden hour warmth"
   ],
   "styles": [
     "creature design",
@@ -57,7 +65,11 @@
     "horror art",
     "dark fantasy",
     "game art",
-    "monster illustration"
+    "monster illustration",
+    "highly detailed realistic",
+    "artistic stylized",
+    "cinematic movie quality",
+    "fine art gallery"
   ],
   "features": [
     "sharp claws",
@@ -73,12 +85,10 @@
     "action attack",
     "lurking scene",
     "silhouette horror",
-    "detail close-up"
+    "detail close-up",
+    "epic wide establishing",
+    "intimate close portrait",
+    "dynamic action frozen",
+    "dramatic low angle"
   ]
 }
-
-
-
-
-
-

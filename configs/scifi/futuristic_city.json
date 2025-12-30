@@ -27,7 +27,11 @@
     "sunset on towers",
     "night city lights",
     "clean energy glow",
-    "atmospheric haze"
+    "atmospheric haze",
+    "cinematic dramatic lighting",
+    "soft diffused natural",
+    "rim light edge glow",
+    "golden hour warmth"
   ],
   "styles": [
     "utopian future",
@@ -35,7 +39,11 @@
     "vertical urbanism",
     "sustainable megacity",
     "corporate future",
-    "high-tech metropolis"
+    "high-tech metropolis",
+    "highly detailed realistic",
+    "artistic stylized",
+    "cinematic movie quality",
+    "fine art gallery"
   ],
   "effects": [
     "flying vehicles",
@@ -43,7 +51,11 @@
     "transparent materials",
     "energy fields",
     "smart surfaces",
-    "atmospheric effects"
+    "atmospheric effects",
+    "volumetric light rays",
+    "atmospheric fog mist",
+    "particle dust sparkle",
+    "motion blur dynamic"
   ],
   "composition_types": [
     "skyline panorama",
@@ -51,12 +63,10 @@
     "aerial view",
     "architectural detail",
     "transportation hub",
-    "night scene"
+    "night scene",
+    "rule of thirds balanced",
+    "centered symmetrical",
+    "diagonal dynamic lines",
+    "framing natural elements"
   ]
 }
-
-
-
-
-
-

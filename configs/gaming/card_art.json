@@ -1,0 +1,81 @@
+{
+  "card_art": {
+    "subjects": [
+      "legendary creature monster card",
+      "epic spell effect card art",
+      "hero champion character card",
+      "mythical beast creature card",
+      "legendary weapon equipment card",
+      "ancient magic artifact card",
+      "summoned minion creature",
+      "legendary elder dragon",
+      "dark necromancer sorcerer",
+      "holy paladin knight",
+      "nature elemental spirit",
+      "mechanical golem construct",
+      "vampire lord portrait",
+      "phoenix fire bird",
+      "ice queen sorceress"
+    ],
+    "card_frames": [
+      "Hearthstone style golden frame",
+      "Magic the Gathering border style",
+      "Yu-Gi-Oh holographic layout",
+      "custom fantasy ornate frame",
+      "sci-fi tech circuit border",
+      "minimalist modern clean frame",
+      "anime gacha game style",
+      "celtic knot border design",
+      "dark gothic frame",
+      "royal luxury gold border"
+    ],
+    "compositions": [
+      "portrait vertical tight crop",
+      "character centered dynamic",
+      "action scene mid-motion cropped",
+      "dramatic low angle hero",
+      "space reserved for text box",
+      "iconic silhouette readable",
+      "three-quarter view portrait",
+      "full body with effects",
+      "close-up face intense",
+      "environmental scene wide"
+    ],
+    "elements": [
+      "ornate card frame border",
+      "mana cost gem indicator",
+      "attack defense stat icons",
+      "rarity glow indicator",
+      "card name banner scroll",
+      "ability text area box",
+      "faction symbol emblem",
+      "holographic foil effect",
+      "energy cost orbs",
+      "level star indicators"
+    ],
+    "lighting": [
+      "dramatic rim light glow",
+      "magical aura illumination",
+      "cinematic mood lighting",
+      "elemental power glow",
+      "divine light rays",
+      "dark ominous shadows",
+      "fire light flickering",
+      "ice cold blue light",
+      "mystical purple haze",
+      "golden legendary shine"
+    ],
+    "styles": [
+      "trading card game art TCG",
+      "CCG collectible card illustration",
+      "Hearthstone painted art style",
+      "MTG Magic realistic art",
+      "Yu-Gi-Oh anime influenced",
+      "Gwent dark fantasy style",
+      "Legends of Runeterra style",
+      "gacha game illustration",
+      "digital card game art",
+      "hand-painted traditional"
+    ]
+  }
+}

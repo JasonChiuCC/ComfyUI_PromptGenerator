@@ -31,7 +31,11 @@
     "terrifying rage",
     "noble majesty",
     "cunning intelligence",
-    "protective guardian"
+    "protective guardian",
+    "intense focused gaze",
+    "peaceful serene calm",
+    "mysterious enigmatic look",
+    "joyful happy expression"
   ],
   "environments": [
     "volcanic mountain",
@@ -49,7 +53,11 @@
     "volcanic red",
     "mystical glow",
     "storm lightning",
-    "golden treasure light"
+    "golden treasure light",
+    "cinematic dramatic lighting",
+    "soft diffused natural",
+    "rim light edge glow",
+    "golden hour warmth"
   ],
   "styles": [
     "fantasy art",
@@ -57,7 +65,11 @@
     "concept art",
     "realistic fantasy",
     "dark fantasy",
-    "mythological"
+    "mythological",
+    "highly detailed realistic",
+    "artistic stylized",
+    "cinematic movie quality",
+    "fine art gallery"
   ],
   "shot_types": [
     "majestic full body",
@@ -65,12 +77,10 @@
     "action battle",
     "silhouette against sky",
     "detailed close-up",
-    "epic wide scene"
+    "epic wide scene",
+    "epic wide establishing",
+    "intimate close portrait",
+    "dynamic action frozen",
+    "dramatic low angle"
   ]
 }
-
-
-
-
-
-

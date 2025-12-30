@@ -20,7 +20,10 @@
     "high contrast B&W",
     "film noir style",
     "Ansel Adams style",
-    "classic silver gelatin"
+    "classic silver gelatin",
+    "highly detailed realistic",
+    "artistic stylized",
+    "cinematic movie quality"
   ],
   "lighting": [
     "dramatic side light",
@@ -28,7 +31,11 @@
     "soft diffused",
     "rim light",
     "harsh shadows",
-    "window light portrait"
+    "window light portrait",
+    "cinematic dramatic lighting",
+    "soft diffused natural",
+    "rim light edge glow",
+    "golden hour warmth"
   ],
   "tones": [
     "deep blacks",
@@ -44,12 +51,10 @@
     "geometric patterns",
     "texture emphasis",
     "negative space",
-    "dramatic shadows"
+    "dramatic shadows",
+    "rule of thirds balanced",
+    "centered symmetrical",
+    "diagonal dynamic lines",
+    "framing natural elements"
   ]
 }
-
-
-
-
-
-

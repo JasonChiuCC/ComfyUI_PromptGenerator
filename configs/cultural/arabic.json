@@ -1,0 +1,79 @@
+{
+  "arabic": {
+    "subjects": [
+      "mosque dome and minaret",
+      "Arabic calligraphy art",
+      "woman in elegant abaya",
+      "Bedouin desert camp",
+      "whirling dervish dancer",
+      "Arabic coffee ceremony",
+      "Middle Eastern spice souk",
+      "Arabian horse portrait",
+      "sheikh in traditional dress",
+      "belly dancer performance",
+      "camel caravan silhouette",
+      "Islamic geometric art",
+      "henna artist working",
+      "oud musician playing",
+      "date palm oasis scene"
+    ],
+    "environments": [
+      "grand mosque interior",
+      "Arabian palace courtyard",
+      "desert sand dunes sunset",
+      "traditional souk marketplace",
+      "Moroccan riad garden",
+      "Dubai modern and traditional",
+      "oasis palm grove",
+      "Bedouin tent interior",
+      "ancient medina streets",
+      "seaside Arabian port"
+    ],
+    "elements": [
+      "Arabic calligraphy script",
+      "geometric Islamic patterns",
+      "arabesque floral motifs",
+      "ornate brass lanterns",
+      "Persian carpet patterns",
+      "mosaic tilework zellige",
+      "crescent moon star",
+      "date palm trees",
+      "hookah shisha pipe",
+      "ornate jewelry gold",
+      "silk fabric flowing",
+      "incense frankincense smoke"
+    ],
+    "lighting": [
+      "warm lantern golden glow",
+      "mosque window colored light",
+      "desert harsh sun contrast",
+      "sunset orange on dunes",
+      "starry desert night sky",
+      "candlelit tent ambiance",
+      "blue hour twilight",
+      "incense smoke diffused"
+    ],
+    "moods": [
+      "spiritual devotion peace",
+      "exotic mysterious allure",
+      "desert romantic adventure",
+      "royal opulent luxury",
+      "ancient wisdom heritage",
+      "festive celebration Eid",
+      "contemplative prayer calm",
+      "vibrant market energy"
+    ],
+    "styles": [
+      "traditional Arabic aesthetic",
+      "Islamic geometric art",
+      "Moorish architectural style",
+      "Arabian Nights fantasy",
+      "Middle Eastern ornate",
+      "contemporary Arab design",
+      "Mughal influenced Persian",
+      "Arabic calligraphic art",
+      "Gulf modern luxury",
+      "traditional Bedouin style"
+    ]
+  }
+}

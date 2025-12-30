@@ -35,14 +35,22 @@
       "fireplace warm light",
       "starry winter night",
       "cozy ambient lighting",
-      "magical sparkling illumination"
+      "magical sparkling illumination",
+      "cinematic dramatic lighting",
+      "soft diffused natural",
+      "rim light edge glow"
     ],
     "colors": [
       "red and green traditional",
       "gold and silver accents",
       "white and blue winter palette",
       "warm burgundy and cream",
-      "festive red and gold"
+      "festive red and gold",
+      "rich saturated vibrant",
+      "muted subtle tones",
+      "warm golden palette",
+      "cool blue tones",
+      "high contrast dramatic"
     ],
     "elements": [
       "falling snowflakes",
@@ -60,8 +68,12 @@
       "warm and cozy",
       "nostalgic and heartwarming",
       "joyful celebration",
-      "peaceful winter serenity"
+      "peaceful winter serenity",
+      "epic dramatic atmosphere",
+      "peaceful tranquil calm",
+      "mysterious dark enigma",
+      "joyful bright energy",
+      "intense powerful force"
     ]
   }
 }
-

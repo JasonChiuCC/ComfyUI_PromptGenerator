@@ -1,0 +1,60 @@
+{
+  "advertising": {
+    "subjects": [
+      "hero product with lifestyle",
+      "model with product",
+      "creative concept visualization",
+      "brand campaign scene",
+      "emotional storytelling moment",
+      "aspirational lifestyle",
+      "before and after concept",
+      "product benefit demonstration",
+      "celebrity endorsement style",
+      "family using product"
+    ],
+    "environments": [
+      "aspirational setting",
+      "luxury environment",
+      "everyday relatable scene",
+      "outdoor adventure",
+      "modern home interior",
+      "urban cityscape",
+      "nature backdrop",
+      "studio creative set"
+    ],
+    "lighting": [
+      "cinematic dramatic",
+      "bright and optimistic",
+      "golden hour warmth",
+      "studio perfection",
+      "natural authentic",
+      "high contrast impact",
+      "cinematic dramatic lighting",
+      "soft diffused natural",
+      "rim light edge glow",
+      "blue hour cool mood"
+    ],
+    "concepts": [
+      "emotional connection",
+      "problem solution",
+      "lifestyle aspiration",
+      "brand storytelling",
+      "visual metaphor",
+      "call to action",
+      "benefit focused",
+      "target audience appeal"
+    ],
+    "styles": [
+      "advertising campaign",
+      "commercial photography",
+      "brand marketing visual",
+      "creative advertising concept",
+      "magazine advertisement",
+      "highly detailed realistic",
+      "artistic stylized",
+      "cinematic movie quality",
+      "fine art gallery",
+      "concept art professional"
+    ]
+  }
+}

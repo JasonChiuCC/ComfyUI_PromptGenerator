@@ -27,14 +27,24 @@
       "paper lantern warm light",
       "candlelit soft ambiance",
       "moonlight on water reflection",
-      "gentle night illumination"
+      "gentle night illumination",
+      "cinematic dramatic lighting",
+      "soft diffused natural",
+      "rim light edge glow",
+      "golden hour warmth",
+      "blue hour cool mood"
     ],
     "colors": [
       "golden moon yellow",
       "deep autumn orange",
       "soft lantern amber",
       "silver moonlight",
-      "traditional red and gold"
+      "traditional red and gold",
+      "rich saturated vibrant",
+      "muted subtle tones",
+      "warm golden palette",
+      "cool blue tones",
+      "high contrast dramatic"
     ],
     "elements": [
       "full harvest moon",
@@ -52,8 +62,12 @@
       "family reunion warmth",
       "romantic moonlit night",
       "nostalgic and poetic",
-      "harvest celebration"
+      "harvest celebration",
+      "epic dramatic atmosphere",
+      "peaceful tranquil calm",
+      "mysterious dark enigma",
+      "joyful bright energy",
+      "intense powerful force"
     ]
   }
 }
-

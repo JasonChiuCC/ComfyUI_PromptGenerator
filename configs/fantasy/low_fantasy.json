@@ -27,7 +27,11 @@
     "harsh daylight",
     "fire and smoke",
     "cold winter light",
-    "dramatic shadows"
+    "dramatic shadows",
+    "cinematic dramatic lighting",
+    "soft diffused natural",
+    "rim light edge glow",
+    "golden hour warmth"
   ],
   "styles": [
     "low fantasy art",
@@ -35,7 +39,11 @@
     "gritty realism",
     "historical fantasy",
     "grounded fantasy",
-    "realistic medieval"
+    "realistic medieval",
+    "highly detailed realistic",
+    "artistic stylized",
+    "cinematic movie quality",
+    "fine art gallery"
   ],
   "effects": [
     "blood and mud",
@@ -43,7 +51,11 @@
     "battle damage",
     "realistic textures",
     "worn clothing",
-    "practical armor"
+    "practical armor",
+    "volumetric light rays",
+    "atmospheric fog mist",
+    "particle dust sparkle",
+    "motion blur dynamic"
   ],
   "shot_types": [
     "gritty portrait",
@@ -51,12 +63,10 @@
     "dramatic moment",
     "action combat",
     "environmental portrait",
-    "close-up weathered"
+    "close-up weathered",
+    "epic wide establishing",
+    "intimate close portrait",
+    "dynamic action frozen",
+    "dramatic low angle"
   ]
 }
-
-
-
-
-
-

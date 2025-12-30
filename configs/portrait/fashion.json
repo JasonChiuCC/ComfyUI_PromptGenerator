@@ -1,66 +1,100 @@
 {
   "name": "Fashion",
-  "description": "High fashion and editorial style portrait photography",
+  "description": "High fashion editorial and commercial portrait photography",
   "subjects": [
-    "fashion model",
-    "runway model",
-    "editorial model",
-    "high fashion subject",
-    "avant-garde model",
-    "couture figure"
+    "high fashion model runway",
+    "editorial fashion model",
+    "avant-garde fashion subject",
+    "luxury brand ambassador",
+    "street style fashion icon",
+    "couture fashion model",
+    "androgynous fashion model",
+    "plus size fashion model",
+    "mature fashion model",
+    "diverse inclusive model"
   ],
   "expressions": [
-    "fierce model look",
-    "editorial stare",
-    "confident pose",
-    "aloof elegance",
-    "intense fashion gaze",
-    "powerful presence"
+    "fierce runway intensity",
+    "aloof editorial cool",
+    "sultry smoldering gaze",
+    "playful fashion energy",
+    "mysterious editorial look",
+    "powerful confident stare",
+    "soft romantic expression",
+    "edgy rebellious attitude",
+    "elegant poised composure",
+    "dynamic movement expression"
   ],
   "poses": [
-    "dynamic fashion pose",
-    "editorial stance",
-    "runway position",
-    "avant-garde gesture",
-    "angular pose",
-    "dramatic movement"
+    "dynamic editorial stance",
+    "high fashion angular pose",
+    "walking runway movement",
+    "dramatic gesture hands",
+    "curved S-curve body",
+    "strong power pose",
+    "flowing fabric movement",
+    "editorial sitting pose",
+    "jumping action frozen",
+    "wind blown dynamic"
   ],
   "outfits": [
-    "haute couture",
-    "designer fashion",
-    "avant-garde clothing",
-    "editorial styling",
-    "runway look",
-    "high fashion ensemble"
+    "haute couture designer",
+    "avant-garde experimental fashion",
+    "luxury brand campaign",
+    "editorial statement piece",
+    "vintage inspired fashion",
+    "streetwear high fashion",
+    "minimalist designer",
+    "maximalist bold prints",
+    "sustainable eco fashion",
+    "accessory focused styling"
   ],
   "shot_types": [
-    "full body fashion",
-    "three-quarter editorial",
-    "detail close-up",
-    "movement shot",
-    "dramatic angle"
+    "full length fashion shot",
+    "editorial close-up beauty",
+    "movement blur dynamic",
+    "product detail focus",
+    "environmental location",
+    "studio clean backdrop",
+    "street style candid",
+    "multiple look series",
+    "backstage documentary",
+    "abstract body fragment"
   ],
   "lighting": [
-    "fashion studio lighting",
-    "beauty dish key",
-    "dramatic rim lights",
-    "colored gel effects",
-    "high key clean",
-    "mixed creative lighting"
+    "dramatic studio fashion",
+    "natural daylight editorial",
+    "high key bright clean",
+    "colored gel creative",
+    "harsh direct sunlight",
+    "soft beauty flattering",
+    "ring flash distinctive",
+    "mixed ambient studio",
+    "golden hour warmth",
+    "neon urban night"
   ],
   "backgrounds": [
-    "studio seamless",
-    "urban location",
-    "abstract set design",
-    "minimalist backdrop",
-    "dramatic environment"
+    "seamless studio infinite",
+    "urban street location",
+    "architectural modernist",
+    "natural landscape outdoor",
+    "industrial warehouse raw",
+    "colorful painted set",
+    "minimalist white space",
+    "textured wall surface",
+    "iconic landmark location",
+    "abstract graphic design"
   ],
   "styles": [
-    "high fashion photography",
-    "editorial fashion",
-    "Vogue style",
-    "avant-garde fashion",
-    "luxury fashion"
+    "high fashion editorial",
+    "commercial fashion campaign",
+    "avant-garde art fashion",
+    "street style documentary",
+    "luxury brand aesthetic",
+    "minimalist fashion clean",
+    "maximalist bold fashion",
+    "vintage retro fashion",
+    "contemporary modern fashion",
+    "fine art fashion photography"
   ]
 }
-

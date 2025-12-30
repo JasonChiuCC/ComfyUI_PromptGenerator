@@ -27,7 +27,11 @@
     "warm tungsten",
     "diesel engine glow",
     "dramatic spotlight",
-    "sepia-toned"
+    "sepia-toned",
+    "cinematic dramatic lighting",
+    "soft diffused natural",
+    "rim light edge glow",
+    "golden hour warmth"
   ],
   "styles": [
     "dieselpunk aesthetic",
@@ -35,7 +39,11 @@
     "1940s retro-future",
     "industrial noir",
     "wartime technology",
-    "diesel era"
+    "diesel era",
+    "highly detailed realistic",
+    "artistic stylized",
+    "cinematic movie quality",
+    "fine art gallery"
   ],
   "effects": [
     "diesel smoke",
@@ -43,7 +51,11 @@
     "propeller blur",
     "radio static",
     "riveted metal",
-    "worn leather"
+    "worn leather",
+    "volumetric light rays",
+    "atmospheric fog mist",
+    "particle dust sparkle",
+    "motion blur dynamic"
   ],
   "composition_types": [
     "propaganda poster style",
@@ -51,12 +63,10 @@
     "noir portrait",
     "industrial landscape",
     "aircraft showcase",
-    "dramatic war scene"
+    "dramatic war scene",
+    "rule of thirds balanced",
+    "centered symmetrical",
+    "diagonal dynamic lines",
+    "framing natural elements"
   ]
 }
-
-
-
-
-
-

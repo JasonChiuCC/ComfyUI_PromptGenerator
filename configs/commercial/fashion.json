@@ -1,0 +1,61 @@
+{
+  "fashion": {
+    "subjects": [
+      "model in designer outfit",
+      "runway fashion show",
+      "street style photography",
+      "editorial fashion pose",
+      "haute couture gown",
+      "casual wear lookbook",
+      "accessories styling",
+      "fashion detail close-up",
+      "model portfolio shot",
+      "avant-garde fashion",
+      "vintage fashion revival",
+      "sustainable fashion"
+    ],
+    "environments": [
+      "fashion studio backdrop",
+      "urban street location",
+      "luxury interior setting",
+      "outdoor natural light",
+      "industrial warehouse",
+      "rooftop cityscape",
+      "beach resort",
+      "art gallery space"
+    ],
+    "lighting": [
+      "high fashion studio",
+      "natural golden hour",
+      "dramatic rim lighting",
+      "soft beauty lighting",
+      "edgy contrast",
+      "editorial mood lighting",
+      "cinematic dramatic lighting",
+      "soft diffused natural",
+      "rim light edge glow",
+      "golden hour warmth"
+    ],
+    "poses": [
+      "dynamic movement",
+      "elegant stance",
+      "candid moment",
+      "editorial dramatic",
+      "walking runway",
+      "seated relaxed",
+      "action jumping"
+    ],
+    "styles": [
+      "fashion photography",
+      "editorial fashion",
+      "lookbook commercial",
+      "high fashion editorial",
+      "street style photography",
+      "highly detailed realistic",
+      "artistic stylized",
+      "cinematic movie quality",
+      "fine art gallery",
+      "concept art professional"
+    ]
+  }
+}

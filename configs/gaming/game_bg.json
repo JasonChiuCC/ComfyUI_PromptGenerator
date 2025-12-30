@@ -1,0 +1,81 @@
+{
+  "game_bg": {
+    "subjects": [
+      "enchanted fantasy forest",
+      "dark dungeon underground",
+      "sci-fi space station interior",
+      "medieval castle courtyard",
+      "underwater coral kingdom",
+      "volcanic lava hellscape",
+      "ice crystal frozen cave",
+      "cyberpunk neon city street",
+      "peaceful village countryside",
+      "haunted gothic graveyard",
+      "ancient desert temple ruins",
+      "floating sky islands clouds",
+      "magical academy interior",
+      "steampunk factory workshop",
+      "alien planet landscape"
+    ],
+    "game_types": [
+      "platformer side-scrolling level",
+      "RPG turn-based battle arena",
+      "visual novel dialogue scene",
+      "idle clicker game backdrop",
+      "puzzle match-3 environment",
+      "adventure point-click location",
+      "fighting game versus stage",
+      "endless runner environment",
+      "tower defense battlefield",
+      "simulation game world"
+    ],
+    "layers": [
+      "far parallax sky background",
+      "midground scenic elements",
+      "foreground interactive details",
+      "atmospheric sky clouds",
+      "ground platform floor tiles",
+      "decorative environmental props",
+      "distant horizon silhouette",
+      "lighting overlay layer",
+      "particle effects layer",
+      "UI safe frame layer"
+    ],
+    "features": [
+      "seamless horizontal tileable",
+      "parallax depth layers ready",
+      "character space gameplay clear",
+      "UI element safe zones",
+      "atmospheric mood lighting",
+      "environmental visual storytelling",
+      "platform placement areas",
+      "spawn point locations",
+      "interactive object spots",
+      "camera boundary guides"
+    ],
+    "lighting": [
+      "warm sunlit daytime",
+      "cool moonlit night",
+      "dramatic sunset golden",
+      "eerie foggy mysterious",
+      "magical glowing ambient",
+      "stormy dark overcast",
+      "underwater caustics blue",
+      "fire torch flickering",
+      "neon cyberpunk glow",
+      "heavenly divine rays"
+    ],
+    "styles": [
+      "2D game background art",
+      "hand-painted environment",
+      "anime visual novel style",
+      "mobile game casual art",
+      "indie game unique aesthetic",
+      "AAA quality concept art",
+      "pixel art retro style",
+      "watercolor painterly style",
+      "vector clean illustration",
+      "semi-realistic stylized"
+    ]
+  }
+}

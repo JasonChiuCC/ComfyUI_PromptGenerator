@@ -27,7 +27,11 @@
     "torch-lit stone",
     "molten metal",
     "underground warm",
-    "crystalline glow"
+    "crystalline glow",
+    "cinematic dramatic lighting",
+    "soft diffused natural",
+    "rim light edge glow",
+    "golden hour warmth"
   ],
   "styles": [
     "dwarven fantasy art",
@@ -35,7 +39,11 @@
     "sturdy craftsmanship",
     "Norse-inspired dwarf",
     "underground realm",
-    "dwarven aesthetic"
+    "dwarven aesthetic",
+    "highly detailed realistic",
+    "artistic stylized",
+    "cinematic movie quality",
+    "fine art gallery"
   ],
   "effects": [
     "forge sparks",
@@ -43,7 +51,11 @@
     "gem sparkle",
     "steam and smoke",
     "metal gleam",
-    "stone texture"
+    "stone texture",
+    "volumetric light rays",
+    "atmospheric fog mist",
+    "particle dust sparkle",
+    "motion blur dynamic"
   ],
   "shot_types": [
     "proud portrait",
@@ -51,12 +63,10 @@
     "battle stance",
     "crafting detail",
     "throne composition",
-    "fellowship group"
+    "fellowship group",
+    "epic wide establishing",
+    "intimate close portrait",
+    "dynamic action frozen",
+    "dramatic low angle"
   ]
 }
-
-
-
-
-
-

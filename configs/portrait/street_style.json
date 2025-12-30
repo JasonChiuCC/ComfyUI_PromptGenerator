@@ -1,70 +1,100 @@
 {
   "name": "Street Style",
-  "description": "Urban street style and fashion portrait photography",
+  "description": "Urban fashion and street style portrait photography",
   "subjects": [
-    "street fashion model",
-    "urban style icon",
-    "trendsetter",
-    "fashion blogger",
-    "streetwear enthusiast",
-    "style influencer"
+    "street style influencer",
+    "urban fashion model",
+    "subculture style portrait",
+    "everyday street fashion",
+    "fashion week street style",
+    "sneakerhead culture portrait",
+    "vintage thrift style",
+    "designer luxury street",
+    "alternative subculture style",
+    "emerging designer showcase"
   ],
   "expressions": [
-    "cool confidence",
-    "effortless attitude",
-    "street swagger",
-    "casual cool",
-    "authentic edge",
-    "urban vibe"
+    "cool confident attitude",
+    "candid natural moment",
+    "fierce fashion stare",
+    "playful personality energy",
+    "aloof editorial cool",
+    "authentic genuine self",
+    "edgy rebellious look",
+    "relaxed casual comfort",
+    "focused walking purpose",
+    "surprised caught moment"
   ],
   "poses": [
-    "walking motion",
-    "leaning on wall",
-    "casual stance",
-    "street attitude",
-    "urban strut",
-    "relaxed cool"
+    "walking street movement",
+    "leaning wall casual",
+    "standing confident power",
+    "sitting urban furniture",
+    "mid-stride frozen action",
+    "looking back over shoulder",
+    "hands in pockets cool",
+    "adjusting clothing detail",
+    "caught candid natural",
+    "posing aware editorial"
   ],
-  "outfits": [
-    "streetwear fashion",
-    "urban style",
-    "trendy casual",
-    "sneaker culture",
-    "layered street look",
-    "designer street mix"
+  "styling": [
+    "designer luxury flex",
+    "vintage mixed thrift",
+    "sneaker focused outfit",
+    "minimalist clean aesthetic",
+    "maximalist bold layers",
+    "workwear utilitarian",
+    "athleisure sport casual",
+    "subculture punk goth",
+    "preppy classic style",
+    "streetwear hype culture"
   ],
   "shot_types": [
-    "full outfit shot",
-    "street candid",
-    "urban portrait",
-    "sneaker detail",
-    "environmental street"
+    "full body outfit focus",
+    "mid-body three-quarter",
+    "detail accessory close-up",
+    "candid street caught",
+    "environmental urban context",
+    "walking movement action",
+    "portrait personality focus",
+    "shoe sneaker detail",
+    "group style collective",
+    "before during event"
   ],
   "lighting": [
-    "natural street light",
-    "urban shadows",
-    "golden hour urban",
-    "neon night lights",
-    "available city light"
+    "natural street daylight",
+    "harsh direct sunlight contrast",
+    "overcast soft even",
+    "golden hour warm urban",
+    "flash fill street style",
+    "neon urban night color",
+    "shade open soft light",
+    "mixed city lighting",
+    "blue hour twilight cool",
+    "artificial store light"
   ],
   "backgrounds": [
-    "graffiti wall",
-    "urban architecture",
-    "busy street",
-    "industrial backdrop",
-    "city corner"
+    "urban street authentic",
+    "graffiti wall colorful",
+    "architecture modern clean",
+    "industrial raw texture",
+    "fashion week venue",
+    "coffee shop storefront",
+    "subway metro station",
+    "parking garage structure",
+    "pedestrian crossing zebra",
+    "scaffolding construction urban"
   ],
   "styles": [
     "street style photography",
-    "urban fashion",
-    "streetwear editorial",
-    "fashion week street",
-    "lifestyle street"
+    "urban fashion portrait",
+    "candid street fashion",
+    "editorial street style",
+    "documentary fashion week",
+    "influencer content style",
+    "sneaker culture photography",
+    "subculture fashion portrait",
+    "authentic street capture",
+    "commercial street style"
   ]
 }
-
-
-
-
-
-

@@ -1,0 +1,61 @@
+{
+  "jewelry": {
+    "subjects": [
+      "diamond engagement ring",
+      "luxury watch face",
+      "pearl necklace strand",
+      "gold bracelet",
+      "gemstone earrings",
+      "designer pendant",
+      "silver cufflinks",
+      "crystal brooch",
+      "vintage jewelry piece",
+      "modern minimalist ring",
+      "statement necklace",
+      "luxury brand watch"
+    ],
+    "environments": [
+      "black velvet display",
+      "marble surface",
+      "jewelry box presentation",
+      "model wearing jewelry",
+      "reflective mirror surface",
+      "luxury fabric backdrop",
+      "floating on gradient",
+      "lifestyle elegant setting"
+    ],
+    "lighting": [
+      "sparkle highlight lighting",
+      "soft diffused glow",
+      "dramatic single light",
+      "rim light for edges",
+      "natural window light",
+      "studio precision lighting",
+      "cinematic dramatic lighting",
+      "soft diffused natural",
+      "rim light edge glow",
+      "golden hour warmth"
+    ],
+    "details": [
+      "facet reflections",
+      "metal texture",
+      "gemstone clarity",
+      "intricate craftsmanship",
+      "brand engraving",
+      "clasp mechanism",
+      "size reference"
+    ],
+    "styles": [
+      "jewelry photography",
+      "luxury product photography",
+      "fine jewelry commercial",
+      "watch photography",
+      "precious gems showcase",
+      "highly detailed realistic",
+      "artistic stylized",
+      "cinematic movie quality",
+      "fine art gallery",
+      "concept art professional"
+    ]
+  }
+}

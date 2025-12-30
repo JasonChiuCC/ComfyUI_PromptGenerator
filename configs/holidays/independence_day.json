@@ -27,14 +27,24 @@
       "patriotic red white blue lights",
       "sparkler golden glow",
       "sunset to twilight",
-      "dramatic night sky illumination"
+      "dramatic night sky illumination",
+      "cinematic dramatic lighting",
+      "soft diffused natural",
+      "rim light edge glow",
+      "golden hour warmth",
+      "blue hour cool mood"
     ],
     "colors": [
       "red white and blue classic",
       "patriotic Americana",
       "firework multicolor",
       "stars and stripes pattern",
-      "navy and crimson"
+      "navy and crimson",
+      "rich saturated vibrant",
+      "muted subtle tones",
+      "warm golden palette",
+      "cool blue tones",
+      "high contrast dramatic"
     ],
     "elements": [
       "American flags",
@@ -52,8 +62,12 @@
       "celebratory freedom",
       "nostalgic Americana",
       "exciting and explosive",
-      "community celebration"
+      "community celebration",
+      "epic dramatic atmosphere",
+      "peaceful tranquil calm",
+      "mysterious dark enigma",
+      "joyful bright energy",
+      "intense powerful force"
     ]
   }
 }
-

@@ -30,14 +30,23 @@
       "firework illumination",
       "golden prosperity light",
       "candlelit temple",
-      "neon Chinatown signs"
+      "neon Chinatown signs",
+      "cinematic dramatic lighting",
+      "soft diffused natural",
+      "rim light edge glow",
+      "golden hour warmth"
     ],
     "colors": [
       "lucky red and gold",
       "traditional Chinese red",
       "prosperity gold accents",
       "festive crimson and yellow",
-      "imperial red and gold"
+      "imperial red and gold",
+      "rich saturated vibrant",
+      "muted subtle tones",
+      "warm golden palette",
+      "cool blue tones",
+      "high contrast dramatic"
     ],
     "elements": [
       "red lanterns",
@@ -55,8 +64,12 @@
       "festive family celebration",
       "traditional and ceremonial",
       "lucky and auspicious",
-      "vibrant cultural pride"
+      "vibrant cultural pride",
+      "epic dramatic atmosphere",
+      "peaceful tranquil calm",
+      "mysterious dark enigma",
+      "joyful bright energy",
+      "intense powerful force"
     ]
   }
 }
-

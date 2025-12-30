@@ -2,68 +2,99 @@
   "name": "Editorial",
   "description": "Magazine editorial style portrait photography",
   "subjects": [
-    "editorial model",
+    "editorial fashion model",
     "magazine cover subject",
-    "story character",
-    "featured personality",
-    "cover star",
-    "editorial talent"
+    "story narrative character",
+    "conceptual editorial subject",
+    "celebrity style portrait",
+    "avant-garde model",
+    "lifestyle editorial subject",
+    "beauty editorial model",
+    "men's editorial model",
+    "inclusive diverse model"
   ],
   "expressions": [
-    "editorial intensity",
-    "story-driven emotion",
-    "magazine-ready look",
-    "narrative expression",
-    "conceptual gaze",
-    "artistic mood"
+    "editorial cool detached",
+    "intense storytelling emotion",
+    "mysterious narrative look",
+    "fierce powerful presence",
+    "contemplative thoughtful gaze",
+    "playful editorial energy",
+    "dramatic emotional expression",
+    "serene calm poise",
+    "bold confident stare",
+    "vulnerable authentic moment"
   ],
   "poses": [
-    "editorial pose",
-    "magazine layout position",
-    "conceptual gesture",
-    "story-driven stance",
-    "dynamic editorial",
-    "creative positioning"
+    "editorial angular dynamic",
+    "storytelling narrative pose",
+    "high fashion geometric",
+    "natural candid moment",
+    "dramatic exaggerated pose",
+    "movement action blur",
+    "still contemplative pose",
+    "prop interaction creative",
+    "environmental context pose",
+    "group editorial composition"
   ],
-  "outfits": [
-    "editorial styling",
-    "conceptual fashion",
-    "story-appropriate wardrobe",
-    "magazine-worthy look",
-    "curated ensemble"
+  "concepts": [
+    "fashion story narrative",
+    "beauty transformation",
+    "cultural commentary theme",
+    "seasonal collection showcase",
+    "lifestyle aspiration",
+    "artistic experimental concept",
+    "social statement message",
+    "travel destination story",
+    "brand identity campaign",
+    "trend forecast visual"
   ],
   "shot_types": [
-    "magazine cover composition",
-    "double page spread",
-    "editorial series shot",
-    "story moment",
-    "conceptual frame"
+    "full page spread layout",
+    "cover shot vertical",
+    "detail beauty close-up",
+    "environmental wide story",
+    "action movement dynamic",
+    "still life with model",
+    "diptych paired images",
+    "sequence narrative series",
+    "overhead flat lay with subject",
+    "artistic experimental crop"
   ],
   "lighting": [
-    "editorial lighting setup",
-    "magazine-quality light",
-    "creative mixed lighting",
-    "mood-driven illumination",
-    "dramatic editorial light"
+    "editorial studio controlled",
+    "natural daylight editorial",
+    "mixed creative lighting",
+    "harsh direct sunlight",
+    "soft diffused flattering",
+    "colored gel dramatic",
+    "ring flash distinctive",
+    "golden hour cinematic",
+    "blue hour moody",
+    "practical location light"
   ],
   "backgrounds": [
-    "curated location",
-    "set designed backdrop",
-    "story environment",
-    "conceptual setting",
-    "editorial studio"
+    "studio seamless clean",
+    "location environment story",
+    "urban street authentic",
+    "natural outdoor landscape",
+    "architectural interesting space",
+    "abstract graphic set",
+    "colorful painted backdrop",
+    "industrial raw texture",
+    "luxury interior aspirational",
+    "travel exotic destination"
   ],
   "styles": [
-    "editorial photography",
-    "magazine style",
-    "Vogue editorial",
-    "Harper's Bazaar aesthetic",
-    "conceptual editorial"
+    "editorial magazine photography",
+    "high fashion editorial",
+    "beauty editorial polished",
+    "lifestyle editorial aspirational",
+    "conceptual art editorial",
+    "commercial editorial blend",
+    "documentary editorial style",
+    "minimalist editorial clean",
+    "maximalist bold editorial",
+    "cinematic editorial storytelling"
   ]
 }
-
-
-
-
-
-

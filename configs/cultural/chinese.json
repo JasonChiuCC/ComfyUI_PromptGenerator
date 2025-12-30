@@ -1,0 +1,79 @@
+{
+  "chinese": {
+    "subjects": [
+      "traditional Chinese pavilion architecture",
+      "dragon and phoenix imperial motifs",
+      "Chinese calligraphy master writing",
+      "Hanfu traditional elegant clothing",
+      "Chinese tea ceremony ritual",
+      "kung fu martial artist training",
+      "Chinese opera performer makeup",
+      "bamboo forest misty scene",
+      "Chinese ink landscape painting",
+      "Ming dynasty antique furniture",
+      "Chinese blue porcelain vase",
+      "red paper lantern festival",
+      "Chinese scholar at desk",
+      "Terracotta warriors display",
+      "Chinese dragon boat racing"
+    ],
+    "environments": [
+      "Forbidden City imperial palace",
+      "traditional Chinese garden suzhou",
+      "ancient Buddhist temple courtyard",
+      "misty mountain landscape guilin",
+      "Suzhou canal water town",
+      "Great Wall mountain scenery",
+      "traditional teahouse interior",
+      "Chinese scholar private study",
+      "Silk Road trading post",
+      "imperial throne room"
+    ],
+    "elements": [
+      "auspicious red and gold colors",
+      "imperial dragon motifs",
+      "phoenix rising symbols",
+      "Chinese calligraphy characters",
+      "bamboo and plum blossoms four seasons",
+      "koi fish swimming lotus pond",
+      "jade carved ornaments",
+      "silk brocade fabrics",
+      "paper red lanterns",
+      "cloud and wave patterns",
+      "Chinese knots decorative",
+      "bronze ritual vessels"
+    ],
+    "lighting": [
+      "soft lantern warm glow",
+      "misty mountain morning light",
+      "golden sunset imperial",
+      "incense smoke diffused",
+      "moonlight on pavilion",
+      "candlelit interior warm",
+      "overcast ink painting mood",
+      "festival firework illumination"
+    ],
+    "moods": [
+      "serene scholarly contemplation",
+      "imperial majestic grandeur",
+      "harmonious natural balance",
+      "festive celebratory joy",
+      "ancient mysterious wisdom",
+      "romantic moonlit poetry",
+      "martial heroic spirit",
+      "peaceful zen tranquility"
+    ],
+    "styles": [
+      "traditional Chinese aesthetic",
+      "Chinese ink wash gongbi painting",
+      "Tang dynasty golden elegance",
+      "Qing dynasty imperial ornate",
+      "Chinese artistic scholarly tradition",
+      "Song dynasty minimalist refinement",
+      "Ming dynasty classic elegance",
+      "Chinese folk art vibrant",
+      "wuxia martial arts fantasy",
+      "contemporary Chinese fusion"
+    ]
+  }
+}

@@ -27,7 +27,11 @@
     "starlight glow",
     "magical aurora",
     "soft elven radiance",
-    "bioluminescent"
+    "bioluminescent",
+    "cinematic dramatic lighting",
+    "soft diffused natural",
+    "rim light edge glow",
+    "golden hour warmth"
   ],
   "styles": [
     "elven fantasy art",
@@ -35,7 +39,11 @@
     "graceful elegance",
     "Tolkien inspired",
     "elven aesthetic",
-    "otherworldly grace"
+    "otherworldly grace",
+    "highly detailed realistic",
+    "artistic stylized",
+    "cinematic movie quality",
+    "fine art gallery"
   ],
   "effects": [
     "leaf and nature magic",
@@ -43,7 +51,11 @@
     "delicate patterns",
     "elvish script",
     "nature harmony",
-    "timeless beauty"
+    "timeless beauty",
+    "volumetric light rays",
+    "atmospheric fog mist",
+    "particle dust sparkle",
+    "motion blur dynamic"
   ],
   "shot_types": [
     "elegant portrait",
@@ -51,12 +63,10 @@
     "nature harmony",
     "action archery",
     "royal composition",
-    "ethereal beauty"
+    "ethereal beauty",
+    "epic wide establishing",
+    "intimate close portrait",
+    "dynamic action frozen",
+    "dramatic low angle"
   ]
 }
-
-
-
-
-
-

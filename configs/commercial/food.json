@@ -1,0 +1,62 @@
+{
+  "food": {
+    "subjects": [
+      "gourmet burger with toppings",
+      "artisan pizza fresh from oven",
+      "elegant dessert plating",
+      "sushi arrangement",
+      "steak with sides",
+      "colorful salad bowl",
+      "pasta dish with sauce",
+      "breakfast spread",
+      "chocolate cake slice",
+      "seafood platter",
+      "tacos with garnish",
+      "ice cream sundae"
+    ],
+    "environments": [
+      "rustic wooden table",
+      "marble countertop",
+      "restaurant table setting",
+      "dark moody background",
+      "bright kitchen scene",
+      "outdoor picnic setting",
+      "cafe table",
+      "food truck window"
+    ],
+    "lighting": [
+      "natural window light",
+      "soft diffused lighting",
+      "dramatic dark and moody",
+      "bright and airy",
+      "warm golden hour",
+      "overhead flat lay light",
+      "side light with shadows",
+      "cinematic dramatic lighting",
+      "soft diffused natural",
+      "rim light edge glow"
+    ],
+    "props": [
+      "vintage cutlery",
+      "linen napkins",
+      "fresh herbs garnish",
+      "scattered ingredients",
+      "sauce drizzle",
+      "steam rising",
+      "crumbs and texture",
+      "chef hands"
+    ],
+    "styles": [
+      "food photography professional",
+      "dark and moody food",
+      "bright editorial food",
+      "rustic farmhouse style",
+      "modern minimalist plating",
+      "highly detailed realistic",
+      "artistic stylized",
+      "cinematic movie quality",
+      "fine art gallery",
+      "concept art professional"
+    ]
+  }
+}

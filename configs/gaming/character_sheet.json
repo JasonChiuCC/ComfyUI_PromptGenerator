@@ -1,0 +1,81 @@
+{
+  "character_sheet": {
+    "subjects": [
+      "character turnaround all views",
+      "expression sheet all emotions",
+      "costume variation design set",
+      "weapon equipment accessory sheet",
+      "character pose action studies",
+      "age progression timeline",
+      "color palette reference chart",
+      "chibi SD version design",
+      "action pose dynamic set",
+      "character with signature props",
+      "hairstyle variation designs",
+      "outfit accessory details",
+      "hand and gesture references",
+      "character transformation states",
+      "muscle and anatomy study"
+    ],
+    "views": [
+      "front view standing",
+      "side profile left right",
+      "back view detailed",
+      "three-quarter dynamic angle",
+      "full body 360 turnaround",
+      "head close-up expressions",
+      "hand and feet detail study",
+      "action pose silhouettes",
+      "sitting and crouching poses",
+      "running walking cycle"
+    ],
+    "expressions": [
+      "neutral relaxed default",
+      "happy joyful smiling",
+      "angry rage intense",
+      "sad melancholy crying",
+      "surprised shocked wide-eyed",
+      "confused puzzled questioning",
+      "determined focused serious",
+      "mischievous smirking playful",
+      "embarrassed blushing shy",
+      "exhausted tired drained"
+    ],
+    "layout": [
+      "organized clean grid layout",
+      "pure white background",
+      "labeled text annotations",
+      "scale height reference",
+      "color palette swatches",
+      "design notes callouts",
+      "proportions guide grid",
+      "turntable view sequence",
+      "modular component breakdown",
+      "layered clothing states"
+    ],
+    "elements": [
+      "signature weapon props",
+      "clothing fabric details",
+      "hair physics reference",
+      "eye and mouth details",
+      "jewelry accessories",
+      "armor components breakdown",
+      "color code hex values",
+      "material texture notes",
+      "special ability effects",
+      "transformation forms"
+    ],
+    "styles": [
+      "professional character sheet",
+      "game development reference art",
+      "animation model sheet standard",
+      "concept art character design",
+      "character bible production art",
+      "anime character settei",
+      "western animation model",
+      "video game concept art",
+      "visual development art",
+      "IP style guide reference"
+    ]
+  }
+}

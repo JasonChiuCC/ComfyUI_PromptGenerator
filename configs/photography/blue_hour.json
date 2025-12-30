@@ -20,7 +20,10 @@
     "cool tone evening",
     "magical twilight",
     "serene blue moment",
-    "city lights beginning"
+    "city lights beginning",
+    "highly detailed realistic",
+    "artistic stylized",
+    "cinematic movie quality"
   ],
   "lighting": [
     "deep blue sky",
@@ -28,7 +31,11 @@
     "ambient twilight",
     "mixed natural artificial",
     "cool shadows",
-    "balanced exposure"
+    "balanced exposure",
+    "cinematic dramatic lighting",
+    "soft diffused natural",
+    "rim light edge glow",
+    "golden hour warmth"
   ],
   "colors": [
     "deep blue tones",
@@ -36,7 +43,11 @@
     "warm city light contrast",
     "cool shadows",
     "pink cloud accents",
-    "navy to orange gradient"
+    "navy to orange gradient",
+    "rich saturated vibrant",
+    "muted subtle tones",
+    "warm golden palette",
+    "cool blue tones"
   ],
   "shot_types": [
     "cityscape panorama",
@@ -44,12 +55,10 @@
     "reflection water",
     "long exposure",
     "layered composition",
-    "silhouette with lights"
+    "silhouette with lights",
+    "epic wide establishing",
+    "intimate close portrait",
+    "dynamic action frozen",
+    "dramatic low angle"
   ]
 }
-
-
-
-
-
-

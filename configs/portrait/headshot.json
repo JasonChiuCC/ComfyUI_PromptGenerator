@@ -1,69 +1,100 @@
 {
   "name": "Headshot",
-  "description": "Professional headshot and actor portrait photography",
+  "description": "Professional headshot portrait for various industries",
   "subjects": [
-    "actor headshot",
-    "professional talent",
-    "model comp card",
-    "speaker portrait",
-    "author photo",
-    "professional headshot"
+    "actor theatrical headshot",
+    "model portfolio headshot",
+    "corporate professional headshot",
+    "speaker author headshot",
+    "entrepreneur founder headshot",
+    "real estate agent headshot",
+    "medical professional headshot",
+    "creative artist headshot",
+    "musician performer headshot",
+    "academic professor headshot"
   ],
   "expressions": [
-    "approachable smile",
-    "serious dramatic",
-    "friendly warmth",
-    "confident neutral",
-    "casting-ready range",
-    "engaging eyes"
+    "confident approachable smile",
+    "serious dramatic actor",
+    "friendly warm inviting",
+    "professional trustworthy",
+    "creative unique personality",
+    "energetic dynamic presence",
+    "calm composed professional",
+    "mysterious intriguing actor",
+    "authentic genuine self",
+    "powerful commanding presence"
   ],
   "poses": [
-    "straight on shoulders",
-    "slight angle",
-    "head tilt subtle",
-    "shoulders turned",
-    "chin forward",
-    "natural position"
+    "straight-on symmetrical direct",
+    "slight angle three-quarter",
+    "head tilt engaging",
+    "chin down approachable",
+    "chin up confident",
+    "shoulder turn classic",
+    "leaning forward engaged",
+    "relaxed natural stance",
+    "looking off camera dramatic",
+    "direct eye contact powerful"
   ],
-  "outfits": [
-    "solid color top",
-    "professional attire",
-    "casting appropriate",
-    "neutral clothing",
-    "character wardrobe"
+  "attire": [
+    "solid color professional",
+    "business formal suit",
+    "creative casual stylish",
+    "industry appropriate dress",
+    "character costume theatrical",
+    "smart casual versatile",
+    "layered texture interest",
+    "branded personal style",
+    "minimalist clean simple",
+    "role specific wardrobe"
   ],
   "shot_types": [
-    "tight headshot",
-    "head and shoulders",
-    "commercial headshot",
-    "theatrical headshot",
-    "three-quarter crop"
+    "tight head shoulders crop",
+    "chest up traditional",
+    "face only close-up",
+    "theatrical expressive",
+    "commercial friendly smile",
+    "editorial artistic",
+    "LinkedIn optimized crop",
+    "print ready resolution",
+    "horizontal vertical options",
+    "multiple expression series"
   ],
   "lighting": [
-    "clean even lighting",
-    "soft flattering",
-    "subtle shadows",
-    "catch light in eyes",
-    "professional studio"
+    "soft flattering key light",
+    "butterfly beauty classic",
+    "loop light natural",
+    "Rembrandt dramatic sculpting",
+    "broad light flattering",
+    "short light slimming",
+    "natural window indirect",
+    "studio strobe controlled",
+    "ring light even",
+    "clamshell beauty flattering"
   ],
   "backgrounds": [
-    "neutral grey",
-    "white seamless",
-    "subtle gradient",
-    "environmental blur",
-    "solid color"
+    "solid neutral grey",
+    "white clean bright",
+    "textured subtle interest",
+    "gradient smooth transition",
+    "outdoor blur bokeh",
+    "environmental context hint",
+    "black dramatic contrast",
+    "colored creative theme",
+    "natural outdoor soft",
+    "studio paper seamless"
   ],
   "styles": [
-    "professional headshot",
-    "actor headshot",
-    "commercial photography",
-    "casting portfolio",
-    "personal branding"
+    "professional headshot classic",
+    "theatrical actor headshot",
+    "commercial friendly headshot",
+    "editorial artistic headshot",
+    "corporate business headshot",
+    "creative unique headshot",
+    "natural authentic headshot",
+    "modern contemporary headshot",
+    "high-end premium headshot",
+    "approachable personal brand"
   ]
 }
-
-
-
-
-
-

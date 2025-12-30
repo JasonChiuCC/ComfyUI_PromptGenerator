@@ -31,7 +31,11 @@
     "fierce predator",
     "curious observer",
     "calm dignity",
-    "playful youth"
+    "playful youth",
+    "intense focused gaze",
+    "peaceful serene calm",
+    "mysterious enigmatic look",
+    "joyful happy expression"
   ],
   "environments": [
     "african savanna",
@@ -49,7 +53,11 @@
     "soft jungle filtered",
     "harsh midday",
     "sunset silhouette",
-    "misty morning"
+    "misty morning",
+    "cinematic dramatic lighting",
+    "soft diffused natural",
+    "rim light edge glow",
+    "golden hour warmth"
   ],
   "styles": [
     "national geographic style",
@@ -57,7 +65,11 @@
     "fine art wildlife",
     "conservation photography",
     "artistic portrait",
-    "nature photography"
+    "nature photography",
+    "highly detailed realistic",
+    "artistic stylized",
+    "cinematic movie quality",
+    "fine art gallery"
   ],
   "shot_types": [
     "portrait close-up",
@@ -65,12 +77,10 @@
     "action sequence",
     "behavioral moment",
     "artistic composition",
-    "documentary style"
+    "documentary style",
+    "epic wide establishing",
+    "intimate close portrait",
+    "dynamic action frozen",
+    "dramatic low angle"
   ]
 }
-
-
-
-
-
-

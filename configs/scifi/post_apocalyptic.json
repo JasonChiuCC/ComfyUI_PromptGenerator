@@ -27,7 +27,11 @@
     "sunset on ruins",
     "fire light",
     "dusty haze",
-    "nuclear glow"
+    "nuclear glow",
+    "cinematic dramatic lighting",
+    "soft diffused natural",
+    "rim light edge glow",
+    "golden hour warmth"
   ],
   "styles": [
     "Mad Max inspired",
@@ -35,7 +39,11 @@
     "nuclear wasteland",
     "survival horror",
     "post-nuclear",
-    "collapse aftermath"
+    "collapse aftermath",
+    "highly detailed realistic",
+    "artistic stylized",
+    "cinematic movie quality",
+    "fine art gallery"
   ],
   "effects": [
     "dust storms",
@@ -43,7 +51,11 @@
     "rust and decay",
     "makeshift repairs",
     "scavenged gear",
-    "survival wear"
+    "survival wear",
+    "volumetric light rays",
+    "atmospheric fog mist",
+    "particle dust sparkle",
+    "motion blur dynamic"
   ],
   "composition_types": [
     "wasteland panorama",
@@ -51,12 +63,10 @@
     "ruined landmark",
     "settlement scene",
     "journey shot",
-    "confrontation"
+    "confrontation",
+    "rule of thirds balanced",
+    "centered symmetrical",
+    "diagonal dynamic lines",
+    "framing natural elements"
   ]
 }
-
-
-
-
-
-

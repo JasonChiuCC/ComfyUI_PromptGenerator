@@ -1,0 +1,79 @@
+{
+  "moroccan": {
+    "subjects": [
+      "Marrakech medina scene",
+      "Moroccan riad courtyard",
+      "Berber tent desert camp",
+      "Moroccan spice merchant",
+      "henna artist working",
+      "Fez tannery workers",
+      "Moroccan tea ceremony",
+      "snake charmer performer",
+      "Moroccan wedding ceremony",
+      "camel trek Sahara",
+      "Moroccan tile artisan",
+      "Atlas mountain shepherd",
+      "Moroccan lantern craftsman",
+      "blue city Chefchaouen",
+      "Moroccan market souk"
+    ],
+    "environments": [
+      "Marrakech medina streets",
+      "Moroccan riad garden",
+      "Sahara desert dunes",
+      "Fez ancient medina",
+      "Chefchaouen blue streets",
+      "Atlas Mountains village",
+      "Casablanca coastal city",
+      "Moroccan hammam interior",
+      "traditional dar house",
+      "Essaouira port town"
+    ],
+    "elements": [
+      "zellige mosaic tiles",
+      "carved cedar woodwork",
+      "Moroccan brass lanterns",
+      "Berber carpet patterns",
+      "tagine cooking pot",
+      "mint tea glasses",
+      "leather poufs seats",
+      "argan oil products",
+      "henna patterns",
+      "Star of Morocco pattern",
+      "Moroccan door ornate",
+      "brass tea pot service"
+    ],
+    "lighting": [
+      "Moroccan lantern colored glow",
+      "riad courtyard sunlight",
+      "desert sunset orange",
+      "medina shadow contrast",
+      "hammam steam diffused",
+      "blue city soft light",
+      "candlelit dinner ambiance",
+      "desert starry night"
+    ],
+    "moods": [
+      "exotic mysterious allure",
+      "vibrant market energy",
+      "peaceful riad retreat",
+      "desert adventure spirit",
+      "romantic Moroccan nights",
+      "spiritual Sufi harmony",
+      "artisan craft tradition",
+      "warm hospitality welcome"
+    ],
+    "styles": [
+      "traditional Moroccan aesthetic",
+      "Moroccan zellige tile art",
+      "Berber tribal design",
+      "Moorish architectural style",
+      "Moroccan bohemian modern",
+      "Marrakech maximalist",
+      "desert nomadic style",
+      "contemporary Moroccan",
+      "Moroccan textile pattern",
+      "riad interior design"
+    ]
+  }
+}

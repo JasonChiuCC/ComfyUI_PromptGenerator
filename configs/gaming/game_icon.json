@@ -1,0 +1,79 @@
+{
+  "game_icon": {
+    "subjects": [
+      "app store game icon design",
+      "skill ability spell icon",
+      "item inventory loot icon",
+      "buff debuff status effect",
+      "achievement unlock badge",
+      "currency gold coin icon",
+      "weapon sword axe icon",
+      "potion health bottle icon",
+      "character portrait avatar",
+      "resource material ore icon",
+      "quest objective marker",
+      "social guild feature icon",
+      "treasure chest loot icon",
+      "shield armor defense icon",
+      "magic scroll spell icon"
+    ],
+    "styles": [
+      "mobile casual game style",
+      "fantasy RPG ornate detailed",
+      "sci-fi futuristic tech",
+      "cartoon cute casual",
+      "realistic rendered detailed",
+      "flat design minimalist modern",
+      "hand-painted traditional",
+      "isometric 3D rendered",
+      "anime game influenced",
+      "western AAA quality"
+    ],
+    "requirements": [
+      "readable at 32x32 pixels",
+      "high contrast silhouette",
+      "simple recognizable shape",
+      "consistent style guide",
+      "square 1:1 aspect ratio",
+      "rounded corners optional",
+      "no small text elements",
+      "works on dark and light BG",
+      "color blind friendly",
+      "brand style consistent"
+    ],
+    "sizes": [
+      "512x512 app store icon",
+      "256x256 large display",
+      "128x128 inventory slot",
+      "64x64 skill bar button",
+      "32x32 minimap marker",
+      "16x16 favicon tiny",
+      "multiple resolution export",
+      "retina 2x versions"
+    ],
+    "elements": [
+      "glow effect aura",
+      "drop shadow depth",
+      "border frame outline",
+      "rarity color coding",
+      "quantity badge number",
+      "cooldown overlay state",
+      "locked disabled state",
+      "selected highlight state",
+      "new notification dot",
+      "upgrade plus symbol"
+    ],
+    "themes": [
+      "game icon design set",
+      "mobile app icon pack",
+      "skill ability icon set",
+      "inventory item icons",
+      "UI icon consistent pack",
+      "status effect indicators",
+      "achievement badge set",
+      "currency resource icons",
+      "navigation menu icons",
+      "action button icons"
+    ]
+  }
+}

@@ -1,76 +1,100 @@
 {
   "name": "Classic Portrait",
-  "description": "Traditional portrait photography with classic lighting and composition",
+  "description": "Timeless traditional portrait photography",
   "subjects": [
-    "elegant woman",
-    "distinguished gentleman",
-    "young professional",
-    "mature woman",
-    "handsome man",
-    "graceful lady",
-    "sophisticated person"
+    "distinguished gentleman portrait",
+    "elegant lady portrait",
+    "family generational portrait",
+    "professional formal portrait",
+    "graduation milestone portrait",
+    "wedding formal portrait",
+    "child innocence portrait",
+    "elderly wisdom portrait",
+    "couple anniversary portrait",
+    "individual character portrait"
   ],
   "expressions": [
-    "gentle smile",
-    "confident gaze",
-    "serene expression",
-    "thoughtful look",
-    "warm smile",
-    "dignified expression",
-    "subtle smile"
+    "pleasant natural smile",
+    "dignified composed expression",
+    "warm genuine happiness",
+    "professional confident look",
+    "serene peaceful calm",
+    "thoughtful contemplative gaze",
+    "proud accomplished expression",
+    "gentle kind eyes",
+    "subtle Mona Lisa smile",
+    "relaxed authentic moment"
   ],
   "poses": [
-    "three-quarter pose",
-    "slight head tilt",
-    "chin slightly raised",
-    "relaxed shoulders",
-    "hands gently clasped",
-    "profile view",
-    "looking over shoulder"
+    "classic three-quarter turn",
+    "formal straight-on seated",
+    "gentle head tilt elegant",
+    "hands clasped dignified",
+    "leaning slightly relaxed",
+    "looking away thoughtful",
+    "chin on hand contemplative",
+    "arms folded confident",
+    "natural standing relaxed",
+    "seated traditional pose"
   ],
   "outfits": [
-    "elegant attire",
-    "classic dress",
-    "tailored suit",
-    "timeless fashion",
-    "refined clothing",
-    "sophisticated outfit"
+    "formal business attire",
+    "elegant dress or gown",
+    "professional suit tailored",
+    "casual smart clothing",
+    "traditional cultural dress",
+    "graduation cap and gown",
+    "military dress uniform",
+    "wedding formal attire",
+    "timeless classic fashion",
+    "neutral solid colors"
   ],
   "shot_types": [
-    "head and shoulders",
-    "upper body portrait",
-    "close-up face",
-    "three-quarter body",
-    "classic headshot",
-    "bust portrait"
+    "head and shoulders classic",
+    "half body seated",
+    "full length standing",
+    "close-up face portrait",
+    "environmental context portrait",
+    "formal group arrangement",
+    "three-quarter body angle",
+    "profile elegant side",
+    "bust portrait traditional",
+    "hands included composition"
   ],
   "lighting": [
-    "Rembrandt lighting",
-    "butterfly lighting",
-    "loop lighting",
-    "split lighting",
-    "broad lighting",
-    "short lighting",
-    "classic three-point"
+    "soft flattering studio light",
+    "classic Rembrandt lighting",
+    "gentle loop lighting",
+    "natural window north light",
+    "broad lighting flattering",
+    "short lighting slimming",
+    "butterfly Paramount beauty",
+    "fill light balanced ratio",
+    "hairlight separation",
+    "soft diffused wraparound"
   ],
   "backgrounds": [
-    "studio grey seamless",
-    "dark neutral backdrop",
-    "painterly background",
-    "subtle gradient",
-    "classic portrait backdrop"
+    "classic neutral grey",
+    "mottled painted canvas",
+    "solid professional dark",
+    "elegant draped fabric",
+    "environmental meaningful",
+    "graduated smooth tone",
+    "traditional studio painted",
+    "library bookshelf scholarly",
+    "garden natural outdoor",
+    "architecture grand columns"
   ],
   "styles": [
     "classic portrait photography",
-    "timeless portrait",
-    "traditional portrait style",
+    "timeless traditional portrait",
+    "formal studio portrait",
+    "professional headshot style",
     "fine art portrait",
-    "professional portrait"
+    "editorial classic beauty",
+    "oil painting inspired",
+    "old master influenced",
+    "contemporary classic fusion",
+    "elegant refined portrait"
   ]
 }
-
-
-
-
-
-

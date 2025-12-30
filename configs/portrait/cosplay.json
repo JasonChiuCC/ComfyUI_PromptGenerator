@@ -1,65 +1,100 @@
 {
   "name": "Cosplay",
-  "description": "Character cosplay and costume portrait photography",
+  "description": "Costume play and character recreation portrait photography",
   "subjects": [
     "anime character cosplay",
-    "video game character",
-    "fantasy warrior",
-    "sci-fi character",
-    "superhero cosplay",
-    "historical character"
+    "video game character recreation",
+    "movie superhero costume",
+    "fantasy warrior character",
+    "sci-fi futuristic cosplay",
+    "historical period costume",
+    "original character design",
+    "gender-bent character version",
+    "group team cosplay",
+    "armor and prop showcase"
   ],
   "expressions": [
-    "character expression",
-    "in-character emotion",
-    "dramatic performance",
-    "fierce warrior look",
-    "heroic determination",
-    "villainous menace"
+    "in-character fierce expression",
+    "heroic determined pose",
+    "cute kawaii expression",
+    "villainous menacing look",
+    "action battle ready",
+    "emotional character moment",
+    "playful character personality",
+    "serious stoic character",
+    "shy innocent character",
+    "confident power pose"
   ],
   "poses": [
-    "character signature pose",
-    "action stance",
-    "weapon ready position",
-    "dramatic gesture",
-    "iconic pose recreation",
-    "battle ready"
+    "signature character pose",
+    "action attack stance",
+    "weapon brandishing pose",
+    "cute kawaii pose",
+    "dramatic cape flow",
+    "power stance heroic",
+    "running action frozen",
+    "magic casting gesture",
+    "transformation moment",
+    "group formation pose"
   ],
   "costumes": [
-    "detailed costume",
-    "armor and weapons",
-    "elaborate outfit",
-    "character-accurate attire",
-    "handcrafted props",
-    "full transformation"
+    "intricate detailed armor",
+    "flowing fantasy robes",
+    "skin-tight superhero suit",
+    "elaborate princess gown",
+    "military uniform precise",
+    "cute maid or butler",
+    "dark gothic vampire",
+    "futuristic sci-fi armor",
+    "traditional Japanese attire",
+    "custom original design"
   ],
   "shot_types": [
-    "full costume showcase",
-    "action shot",
-    "character portrait",
-    "detail close-up",
-    "dramatic scene"
+    "full body costume showcase",
+    "action pose dynamic",
+    "detail close-up craftsmanship",
+    "environmental character scene",
+    "portrait character emotion",
+    "group composition shot",
+    "weapon prop focus",
+    "transformation sequence",
+    "behind scenes process",
+    "dramatic silhouette"
   ],
   "lighting": [
-    "dramatic character lighting",
-    "colored gels for mood",
-    "rim light heroic",
-    "ambient character-appropriate",
-    "theatrical lighting"
+    "dramatic rim edge light",
+    "colored gel character theme",
+    "natural convention hall",
+    "studio controlled precise",
+    "golden hour outdoor",
+    "neon cyberpunk style",
+    "fantasy magical glow",
+    "harsh dramatic contrast",
+    "soft flattering beauty",
+    "mixed creative lighting"
   ],
   "backgrounds": [
-    "themed backdrop",
-    "convention setting",
-    "fantasy environment",
-    "studio with effects",
-    "location matching character"
+    "matching character environment",
+    "convention hall floor",
+    "studio seamless backdrop",
+    "outdoor location themed",
+    "urban city location",
+    "natural forest fantasy",
+    "abandoned industrial edgy",
+    "Japanese shrine temple",
+    "studio green screen",
+    "event location candid"
   ],
   "styles": [
-    "cosplay photography",
-    "character portrait",
-    "costume showcase",
+    "cosplay portrait photography",
+    "character recreation accurate",
+    "fantasy cosplay art",
+    "anime manga style photo",
     "convention photography",
-    "fantasy portraiture"
+    "cinematic character portrait",
+    "action cosplay dynamic",
+    "glamour cosplay beauty",
+    "editorial cosplay fashion",
+    "documentary cosplay event"
   ]
 }
-

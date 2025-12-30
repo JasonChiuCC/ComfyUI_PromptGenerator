@@ -20,7 +20,10 @@
     "high contrast silhouette",
     "minimalist silhouette",
     "romantic silhouette",
-    "action silhouette"
+    "action silhouette",
+    "highly detailed realistic",
+    "artistic stylized",
+    "cinematic movie quality"
   ],
   "lighting": [
     "strong backlight",
@@ -28,7 +31,11 @@
     "sunrise glow",
     "studio backlight",
     "window light behind",
-    "dramatic sky"
+    "dramatic sky",
+    "cinematic dramatic lighting",
+    "soft diffused natural",
+    "rim light edge glow",
+    "golden hour warmth"
   ],
   "backgrounds": [
     "vibrant sunset sky",
@@ -44,12 +51,10 @@
     "symmetrical reflection",
     "dynamic action pose",
     "environmental context",
-    "minimalist negative space"
+    "minimalist negative space",
+    "rule of thirds balanced",
+    "centered symmetrical",
+    "diagonal dynamic lines",
+    "framing natural elements"
   ]
 }
-
-
-
-
-
-

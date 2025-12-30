@@ -27,7 +27,11 @@
     "laboratory sterile",
     "pulsing bio-light",
     "mutation glow",
-    "organic ambient"
+    "organic ambient",
+    "cinematic dramatic lighting",
+    "soft diffused natural",
+    "rim light edge glow",
+    "golden hour warmth"
   ],
   "styles": [
     "biopunk aesthetic",
@@ -35,7 +39,11 @@
     "biological horror",
     "living machinery",
     "genetic mutation",
-    "bio-mechanical"
+    "bio-mechanical",
+    "highly detailed realistic",
+    "artistic stylized",
+    "cinematic movie quality",
+    "fine art gallery"
   ],
   "effects": [
     "organic pulsing",
@@ -43,7 +51,11 @@
     "bioluminescence",
     "living tissue",
     "plant tendrils",
-    "organic growth"
+    "organic growth",
+    "volumetric light rays",
+    "atmospheric fog mist",
+    "particle dust sparkle",
+    "motion blur dynamic"
   ],
   "composition_types": [
     "laboratory scene",
@@ -51,12 +63,10 @@
     "organic landscape",
     "bio-tech close-up",
     "creature design",
-    "environmental horror"
+    "environmental horror",
+    "rule of thirds balanced",
+    "centered symmetrical",
+    "diagonal dynamic lines",
+    "framing natural elements"
   ]
 }
-
-
-
-
-
-

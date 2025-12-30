@@ -27,14 +27,24 @@
       "water reflection sparkle",
       "dynamic action lighting",
       "warm afternoon sun",
-      "festive outdoor light"
+      "festive outdoor light",
+      "cinematic dramatic lighting",
+      "soft diffused natural",
+      "rim light edge glow",
+      "golden hour warmth",
+      "blue hour cool mood"
     ],
     "colors": [
       "vibrant boat colors",
       "dragon gold and red",
       "team uniform colors",
       "river blue and green",
-      "traditional Chinese palette"
+      "traditional Chinese palette",
+      "rich saturated vibrant",
+      "muted subtle tones",
+      "warm golden palette",
+      "cool blue tones",
+      "high contrast dramatic"
     ],
     "elements": [
       "dragon boat decorations",
@@ -51,8 +61,12 @@
       "team spirit and unity",
       "cultural pride",
       "energetic celebration",
-      "traditional festivity"
+      "traditional festivity",
+      "epic dramatic atmosphere",
+      "peaceful tranquil calm",
+      "mysterious dark enigma",
+      "joyful bright energy",
+      "intense powerful force"
     ]
   }
 }
-

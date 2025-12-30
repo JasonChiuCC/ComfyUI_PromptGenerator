@@ -27,7 +27,11 @@
     "torch-lit adventure",
     "sunset battle",
     "mystical glow",
-    "intense combat"
+    "intense combat",
+    "cinematic dramatic lighting",
+    "soft diffused natural",
+    "rim light edge glow",
+    "golden hour warmth"
   ],
   "styles": [
     "sword and sorcery art",
@@ -35,7 +39,11 @@
     "pulp fantasy",
     "action fantasy",
     "adventure illustration",
-    "heroic barbarian"
+    "heroic barbarian",
+    "highly detailed realistic",
+    "artistic stylized",
+    "cinematic movie quality",
+    "fine art gallery"
   ],
   "effects": [
     "magical sword glow",
@@ -43,7 +51,11 @@
     "monster blood",
     "battle fury",
     "ancient magic",
-    "primal power"
+    "primal power",
+    "volumetric light rays",
+    "atmospheric fog mist",
+    "particle dust sparkle",
+    "motion blur dynamic"
   ],
   "shot_types": [
     "action pose",
@@ -51,12 +63,10 @@
     "heroic portrait",
     "dynamic angle",
     "monster confrontation",
-    "victory moment"
+    "victory moment",
+    "epic wide establishing",
+    "intimate close portrait",
+    "dynamic action frozen",
+    "dramatic low angle"
   ]
 }
-
-
-
-
-
-

@@ -1,70 +1,100 @@
 {
   "name": "Lifestyle",
-  "description": "Natural and authentic lifestyle portrait photography",
+  "description": "Natural authentic lifestyle portrait photography",
   "subjects": [
-    "everyday person",
-    "authentic individual",
-    "natural beauty",
-    "real person",
-    "genuine subject",
-    "relatable figure"
+    "family at home candid",
+    "couple daily life moment",
+    "individual morning routine",
+    "friends gathering socializing",
+    "parent with children",
+    "professional at work",
+    "hobby enthusiast passion",
+    "travel adventure lifestyle",
+    "wellness self-care moment",
+    "foodie culinary lifestyle"
   ],
   "expressions": [
-    "genuine smile",
-    "natural laughter",
-    "authentic joy",
-    "real emotion",
-    "candid happiness",
-    "relaxed contentment"
+    "genuine natural smile",
+    "authentic candid laughter",
+    "relaxed comfortable at ease",
+    "engaged in activity focused",
+    "loving tender moment",
+    "joyful happy expression",
+    "thoughtful quiet contemplation",
+    "playful fun interaction",
+    "peaceful serene calm",
+    "excited enthusiastic energy"
   ],
   "poses": [
-    "natural movement",
-    "unposed moment",
-    "relaxed position",
-    "everyday gesture",
-    "authentic action",
-    "casual stance"
+    "natural unposed candid",
+    "interacting with each other",
+    "engaged in activity",
+    "relaxed at home comfortable",
+    "walking movement casual",
+    "sitting together close",
+    "playing having fun",
+    "cooking preparing food",
+    "working on hobby",
+    "travel exploring discovery"
   ],
   "activities": [
-    "coffee morning",
-    "reading book",
-    "walking outdoors",
-    "cooking at home",
-    "relaxing moment",
-    "casual interaction"
+    "cooking meal preparation",
+    "reading relaxing together",
+    "playing games outdoor",
+    "coffee morning routine",
+    "exercise wellness activity",
+    "travel sightseeing adventure",
+    "hobby craft creative",
+    "shopping market browsing",
+    "dining restaurant meal",
+    "celebration gathering party"
   ],
   "shot_types": [
-    "candid moment",
-    "lifestyle scene",
-    "environmental casual",
-    "natural portrait",
-    "authentic capture"
+    "environmental wide scene",
+    "candid moment captured",
+    "interaction between people",
+    "detail lifestyle element",
+    "portrait within lifestyle",
+    "action activity movement",
+    "establishing location shot",
+    "intimate close moment",
+    "overhead flat lay scene",
+    "through window voyeuristic"
   ],
   "lighting": [
-    "natural daylight",
-    "window light",
-    "golden hour outdoor",
-    "soft ambient",
-    "available light"
+    "natural available light",
+    "window light soft indoor",
+    "outdoor daylight varied",
+    "golden hour warm glow",
+    "overcast soft diffused",
+    "interior ambient mixed",
+    "kitchen bright morning",
+    "evening warm lamp light",
+    "restaurant ambient mood",
+    "outdoor shade open"
   ],
   "backgrounds": [
-    "home environment",
-    "cafe setting",
-    "outdoor nature",
-    "urban casual",
-    "everyday location"
+    "home interior authentic",
+    "kitchen domestic space",
+    "living room comfortable",
+    "outdoor park nature",
+    "cafe coffee shop public",
+    "restaurant dining scene",
+    "travel destination location",
+    "beach vacation coastal",
+    "urban street city life",
+    "garden outdoor home"
   ],
   "styles": [
-    "lifestyle photography",
-    "authentic portrait",
-    "natural moments",
-    "real life capture",
-    "genuine imagery"
+    "lifestyle photography natural",
+    "documentary family style",
+    "commercial lifestyle brand",
+    "editorial lifestyle aspirational",
+    "authentic real life capture",
+    "candid unposed moments",
+    "storytelling lifestyle series",
+    "warm inviting lifestyle",
+    "modern lifestyle contemporary",
+    "brand lifestyle commercial"
   ]
 }
-
-
-
-
-
-

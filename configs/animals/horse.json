@@ -29,7 +29,11 @@
     "wild and free spirit",
     "calm and peaceful",
     "powerful and strong",
-    "intelligent gaze"
+    "intelligent gaze",
+    "intense focused gaze",
+    "peaceful serene calm",
+    "mysterious enigmatic look",
+    "joyful happy expression"
   ],
   "environments": [
     "open prairie",
@@ -47,7 +51,11 @@
     "soft morning mist",
     "backlit silhouette",
     "studio dramatic",
-    "natural daylight"
+    "natural daylight",
+    "cinematic dramatic lighting",
+    "soft diffused natural",
+    "rim light edge glow",
+    "golden hour warmth"
   ],
   "styles": [
     "equine photography",
@@ -55,7 +63,11 @@
     "action photography",
     "portrait",
     "romantic",
-    "dramatic"
+    "dramatic",
+    "highly detailed realistic",
+    "artistic stylized",
+    "cinematic movie quality",
+    "fine art gallery"
   ],
   "shot_types": [
     "majestic portrait",
@@ -63,12 +75,10 @@
     "running gallop",
     "close-up face",
     "silhouette",
-    "environmental wide"
+    "environmental wide",
+    "epic wide establishing",
+    "intimate close portrait",
+    "dynamic action frozen",
+    "dramatic low angle"
   ]
 }
-
-
-
-
-
-

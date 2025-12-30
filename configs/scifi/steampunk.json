@@ -27,7 +27,11 @@
     "steam-diffused lighting",
     "copper reflections",
     "dramatic sunset through gears",
-    "firelight and brass"
+    "firelight and brass",
+    "cinematic dramatic lighting",
+    "soft diffused natural",
+    "rim light edge glow",
+    "golden hour warmth"
   ],
   "styles": [
     "steampunk aesthetic",
@@ -35,7 +39,11 @@
     "brass and copper design",
     "clockwork fantasy",
     "retro-futuristic Victorian",
-    "mechanical romanticism"
+    "mechanical romanticism",
+    "highly detailed realistic",
+    "artistic stylized",
+    "cinematic movie quality",
+    "fine art gallery"
   ],
   "effects": [
     "steam clouds",
@@ -43,7 +51,11 @@
     "clockwork gears",
     "copper patina",
     "leather and rivets",
-    "mechanical movement"
+    "mechanical movement",
+    "volumetric light rays",
+    "atmospheric fog mist",
+    "particle dust sparkle",
+    "motion blur dynamic"
   ],
   "composition_types": [
     "invention showcase",
@@ -51,12 +63,10 @@
     "mechanical detail",
     "airship scene",
     "workshop interior",
-    "dramatic action"
+    "dramatic action",
+    "rule of thirds balanced",
+    "centered symmetrical",
+    "diagonal dynamic lines",
+    "framing natural elements"
   ]
 }
-
-
-
-
-
-

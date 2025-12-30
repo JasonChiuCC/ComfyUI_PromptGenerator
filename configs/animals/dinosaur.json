@@ -31,7 +31,11 @@
     "alert and watchful",
     "aggressive attack",
     "curious exploration",
-    "powerful dominance"
+    "powerful dominance",
+    "intense focused gaze",
+    "peaceful serene calm",
+    "mysterious enigmatic look",
+    "joyful happy expression"
   ],
   "environments": [
     "prehistoric jungle",
@@ -49,7 +53,11 @@
     "jungle filtered",
     "volcanic glow",
     "golden ancient light",
-    "misty atmospheric"
+    "misty atmospheric",
+    "cinematic dramatic lighting",
+    "soft diffused natural",
+    "rim light edge glow",
+    "golden hour warmth"
   ],
   "styles": [
     "paleoart",
@@ -57,7 +65,11 @@
     "realistic dinosaur",
     "jurassic style",
     "documentary",
-    "concept art"
+    "concept art",
+    "highly detailed realistic",
+    "artistic stylized",
+    "cinematic movie quality",
+    "fine art gallery"
   ],
   "shot_types": [
     "dramatic portrait",
@@ -65,12 +77,10 @@
     "battle scene",
     "environmental wide",
     "close-up detail",
-    "herd scene"
+    "herd scene",
+    "epic wide establishing",
+    "intimate close portrait",
+    "dynamic action frozen",
+    "dramatic low angle"
   ]
 }
-
-
-
-
-
-

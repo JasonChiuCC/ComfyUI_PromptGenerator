@@ -27,7 +27,11 @@
     "sun reflecting",
     "dramatic space lighting",
     "weapon fire",
-    "atmospheric entry"
+    "atmospheric entry",
+    "cinematic dramatic lighting",
+    "soft diffused natural",
+    "rim light edge glow",
+    "golden hour warmth"
   ],
   "styles": [
     "hard sci-fi design",
@@ -35,7 +39,11 @@
     "industrial spacecraft",
     "alien organic ship",
     "military vessel",
-    "exploration craft"
+    "exploration craft",
+    "highly detailed realistic",
+    "artistic stylized",
+    "cinematic movie quality",
+    "fine art gallery"
   ],
   "effects": [
     "engine trails",
@@ -43,7 +51,11 @@
     "weapon fire",
     "hull details",
     "atmospheric wake",
-    "FTL jump"
+    "FTL jump",
+    "volumetric light rays",
+    "atmospheric fog mist",
+    "particle dust sparkle",
+    "motion blur dynamic"
   ],
   "composition_types": [
     "beauty shot",
@@ -51,12 +63,10 @@
     "scale comparison",
     "interior view",
     "fleet formation",
-    "dramatic angle"
+    "dramatic angle",
+    "rule of thirds balanced",
+    "centered symmetrical",
+    "diagonal dynamic lines",
+    "framing natural elements"
   ]
 }
-
-
-
-
-
-

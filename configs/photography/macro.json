@@ -20,7 +20,10 @@
     "super macro",
     "focus stacking",
     "scientific detail",
-    "nature macro"
+    "nature macro",
+    "highly detailed realistic",
+    "artistic stylized",
+    "cinematic movie quality"
   ],
   "lighting": [
     "ring flash",
@@ -28,7 +31,11 @@
     "backlit translucent",
     "side lighting texture",
     "natural sunlight",
-    "LED macro light"
+    "LED macro light",
+    "cinematic dramatic lighting",
+    "soft diffused natural",
+    "rim light edge glow",
+    "golden hour warmth"
   ],
   "backgrounds": [
     "smooth bokeh blur",
@@ -43,12 +50,10 @@
     "diagonal composition",
     "symmetrical pattern",
     "negative space",
-    "filling the frame"
+    "filling the frame",
+    "rule of thirds balanced",
+    "centered symmetrical",
+    "diagonal dynamic lines",
+    "framing natural elements"
   ]
 }
-
-
-
-
-
-

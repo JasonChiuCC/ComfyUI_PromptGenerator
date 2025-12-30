@@ -1,70 +1,100 @@
 {
   "name": "Glamour",
-  "description": "Glamorous and alluring portrait photography",
+  "description": "Glamorous beauty and allure portrait photography",
   "subjects": [
-    "glamorous model",
-    "stunning beauty",
-    "alluring figure",
-    "captivating subject",
-    "gorgeous model",
-    "striking beauty"
+    "glamour model alluring",
+    "pin-up style beauty",
+    "Hollywood starlet classic",
+    "bombshell beauty portrait",
+    "luxury lifestyle model",
+    "elegant sophisticate woman",
+    "sensual beauty portrait",
+    "vintage glamour revival",
+    "modern glamour contemporary",
+    "red carpet celebrity style"
   ],
   "expressions": [
-    "seductive gaze",
-    "confident allure",
-    "sultry look",
-    "playful flirtation",
-    "glamorous smile",
-    "captivating eyes"
+    "sultry seductive gaze",
+    "confident alluring smile",
+    "mysterious enigmatic look",
+    "playful flirtatious expression",
+    "powerful sensual presence",
+    "elegant poised composure",
+    "smoldering intense stare",
+    "soft romantic glance",
+    "dramatic bold expression",
+    "classic Hollywood grace"
   ],
   "poses": [
-    "glamorous pose",
-    "sensual position",
-    "curves emphasized",
-    "elegant recline",
-    "confident stance",
-    "alluring angle"
+    "classic S-curve body",
+    "over shoulder glamour",
+    "reclining elegant pose",
+    "standing confident powerful",
+    "seated sophisticated grace",
+    "wind blown dynamic",
+    "hand on hip confident",
+    "lying down sensual",
+    "arched back dramatic",
+    "pin-up pose classic"
   ],
-  "outfits": [
-    "glamorous dress",
-    "elegant lingerie",
-    "luxury fashion",
-    "sequined attire",
-    "revealing elegance",
-    "statement outfit"
+  "styling": [
+    "glamorous evening gown",
+    "luxury lingerie elegant",
+    "vintage Hollywood costume",
+    "high fashion designer",
+    "pin-up retro style",
+    "elegant jewelry accessories",
+    "fur and feathers glam",
+    "sequin sparkle shine",
+    "silk satin flowing",
+    "bold statement pieces"
   ],
   "shot_types": [
-    "full body glamour",
-    "curves highlight",
-    "beauty close-up",
-    "pin-up style",
-    "elegant portrait"
+    "full body glamour pose",
+    "beauty close-up alluring",
+    "three-quarter body elegant",
+    "dramatic silhouette shape",
+    "intimate boudoir style",
+    "editorial fashion glamour",
+    "classic portrait headshot",
+    "body curve emphasis",
+    "detail jewelry accessory",
+    "environmental luxury setting"
   ],
   "lighting": [
-    "glamour lighting",
-    "flattering soft light",
-    "rim light accents",
-    "beauty key light",
-    "dramatic highlights"
+    "glamour butterfly beauty",
+    "dramatic rim highlight",
+    "soft flattering diffused",
+    "high key bright clean",
+    "low key dramatic mood",
+    "Hollywood classic lighting",
+    "colored gel creative",
+    "ring light modern",
+    "natural golden hour",
+    "studio strobe controlled"
   ],
   "backgrounds": [
-    "luxury setting",
-    "elegant backdrop",
-    "studio glamour",
-    "rich textures",
-    "sophisticated environment"
+    "luxury interior setting",
+    "bedroom boudoir elegant",
+    "studio glamour backdrop",
+    "velvet fabric rich",
+    "outdoor golden sunset",
+    "urban city glamour",
+    "classic car vintage",
+    "hotel luxury suite",
+    "silk sheets romantic",
+    "dramatic dark contrast"
   ],
   "styles": [
-    "glamour photography",
-    "pin-up inspired",
-    "luxury portrait",
-    "sensual elegance",
-    "Hollywood glamour"
+    "glamour photography classic",
+    "pin-up retro style",
+    "boudoir elegant sensual",
+    "Hollywood glamour vintage",
+    "modern glamour contemporary",
+    "luxury lifestyle glamour",
+    "editorial glamour fashion",
+    "fine art glamour",
+    "commercial glamour beauty",
+    "cinematic glamour portrait"
   ]
 }
-
-
-
-
-
-

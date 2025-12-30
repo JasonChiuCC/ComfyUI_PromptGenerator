@@ -27,7 +27,11 @@
     "moonlit romance",
     "warm cottage glow",
     "ethereal fairy light",
-    "dramatic tale moment"
+    "dramatic tale moment",
+    "cinematic dramatic lighting",
+    "soft diffused natural",
+    "rim light edge glow",
+    "golden hour warmth"
   ],
   "styles": [
     "fairy tale illustration",
@@ -35,7 +39,11 @@
     "storybook art",
     "romantic fantasy",
     "children's book style",
-    "magical realism"
+    "magical realism",
+    "highly detailed realistic",
+    "artistic stylized",
+    "cinematic movie quality",
+    "fine art gallery"
   ],
   "effects": [
     "sparkle dust",
@@ -43,7 +51,11 @@
     "enchanted objects",
     "fairy wings glow",
     "spell effects",
-    "true love's magic"
+    "true love's magic",
+    "volumetric light rays",
+    "atmospheric fog mist",
+    "particle dust sparkle",
+    "motion blur dynamic"
   ],
   "shot_types": [
     "romantic portrait",
@@ -51,12 +63,10 @@
     "dramatic moment",
     "wide establishing",
     "magical transformation",
-    "happy ending"
+    "happy ending",
+    "epic wide establishing",
+    "intimate close portrait",
+    "dynamic action frozen",
+    "dramatic low angle"
   ]
 }
-
-
-
-
-
-

@@ -27,7 +27,11 @@
     "alien sky colors",
     "laboratory sparks",
     "rocket flame",
-    "mysterious shadows"
+    "mysterious shadows",
+    "cinematic dramatic lighting",
+    "soft diffused natural",
+    "rim light edge glow",
+    "golden hour warmth"
   ],
   "styles": [
     "pulp magazine cover",
@@ -35,7 +39,11 @@
     "vintage sci-fi illustration",
     "Golden Age sci-fi",
     "retro adventure",
-    "classic space opera"
+    "classic space opera",
+    "highly detailed realistic",
+    "artistic stylized",
+    "cinematic movie quality",
+    "fine art gallery"
   ],
   "effects": [
     "ray gun beams",
@@ -43,7 +51,11 @@
     "alien glow",
     "dramatic action lines",
     "explosion effects",
-    "energy shields"
+    "energy shields",
+    "volumetric light rays",
+    "atmospheric fog mist",
+    "particle dust sparkle",
+    "motion blur dynamic"
   ],
   "composition_types": [
     "magazine cover composition",
@@ -51,12 +63,10 @@
     "peril moment",
     "heroic pose",
     "alien encounter",
-    "dramatic rescue"
+    "dramatic rescue",
+    "rule of thirds balanced",
+    "centered symmetrical",
+    "diagonal dynamic lines",
+    "framing natural elements"
   ]
 }
-
-
-
-
-
-

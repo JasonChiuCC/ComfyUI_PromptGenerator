@@ -27,7 +27,11 @@
     "hot magenta",
     "cyan glow",
     "purple haze",
-    "multi-color neon"
+    "multi-color neon",
+    "cinematic dramatic lighting",
+    "soft diffused natural",
+    "rim light edge glow",
+    "golden hour warmth"
   ],
   "styles": [
     "synthwave aesthetic",
@@ -35,7 +39,11 @@
     "outrun style",
     "retrowave",
     "vaporwave",
-    "neon futurism"
+    "neon futurism",
+    "highly detailed realistic",
+    "artistic stylized",
+    "cinematic movie quality",
+    "fine art gallery"
   ],
   "effects": [
     "neon reflections",
@@ -43,7 +51,11 @@
     "holographic overlay",
     "lens flares",
     "glow effects",
-    "chromatic aberration"
+    "chromatic aberration",
+    "volumetric light rays",
+    "atmospheric fog mist",
+    "particle dust sparkle",
+    "motion blur dynamic"
   ],
   "composition_types": [
     "portrait with neon",
@@ -51,12 +63,10 @@
     "action shot",
     "abstract neon",
     "silhouette",
-    "dramatic pose"
+    "dramatic pose",
+    "rule of thirds balanced",
+    "centered symmetrical",
+    "diagonal dynamic lines",
+    "framing natural elements"
   ]
 }
-
-
-
-
-
-

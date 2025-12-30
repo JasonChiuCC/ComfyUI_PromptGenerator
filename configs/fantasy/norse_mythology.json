@@ -27,7 +27,11 @@
     "cold nordic",
     "fire and ice",
     "divine Asgard",
-    "dramatic viking"
+    "dramatic viking",
+    "cinematic dramatic lighting",
+    "soft diffused natural",
+    "rim light edge glow",
+    "golden hour warmth"
   ],
   "styles": [
     "Norse mythology art",
@@ -35,7 +39,11 @@
     "Nordic legends",
     "Ragnarok epic",
     "Norse gods",
-    "Viking age fantasy"
+    "Viking age fantasy",
+    "highly detailed realistic",
+    "artistic stylized",
+    "cinematic movie quality",
+    "fine art gallery"
   ],
   "effects": [
     "lightning crackling",
@@ -43,7 +51,11 @@
     "runic magic",
     "ravens flying",
     "battle fury",
-    "divine power"
+    "divine power",
+    "volumetric light rays",
+    "atmospheric fog mist",
+    "particle dust sparkle",
+    "motion blur dynamic"
   ],
   "shot_types": [
     "godly portrait",
@@ -51,12 +63,10 @@
     "epic wide shot",
     "dramatic power",
     "warrior pose",
-    "mythical moment"
+    "mythical moment",
+    "epic wide establishing",
+    "intimate close portrait",
+    "dynamic action frozen",
+    "dramatic low angle"
   ]
 }
-
-
-
-
-
-

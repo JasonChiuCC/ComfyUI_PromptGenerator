@@ -28,14 +28,23 @@
       "torch-lit parade",
       "dramatic theatrical lighting",
       "colorful carnival lights",
-      "golden evening light"
+      "golden evening light",
+      "cinematic dramatic lighting",
+      "soft diffused natural",
+      "rim light edge glow",
+      "golden hour warmth"
     ],
     "colors": [
       "purple gold and green traditional",
       "vibrant carnival colors",
       "rich jewel tones",
       "metallic gold accents",
-      "bold saturated hues"
+      "bold saturated hues",
+      "rich saturated vibrant",
+      "muted subtle tones",
+      "warm golden palette",
+      "cool blue tones",
+      "high contrast dramatic"
     ],
     "elements": [
       "elaborate feather headdresses",
@@ -52,8 +61,12 @@
       "mysterious and theatrical",
       "joyful celebration",
       "decadent and indulgent",
-      "New Orleans jazz spirit"
+      "New Orleans jazz spirit",
+      "epic dramatic atmosphere",
+      "peaceful tranquil calm",
+      "mysterious dark enigma",
+      "joyful bright energy",
+      "intense powerful force"
     ]
   }
 }
-

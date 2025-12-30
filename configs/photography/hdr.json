@@ -20,7 +20,10 @@
     "dramatic HDR",
     "natural HDR",
     "surreal HDR",
-    "architectural HDR"
+    "architectural HDR",
+    "highly detailed realistic",
+    "artistic stylized",
+    "cinematic movie quality"
   ],
   "lighting": [
     "high contrast scene",
@@ -28,7 +31,11 @@
     "mixed interior exterior",
     "dramatic sky",
     "backlit subject",
-    "complex lighting"
+    "complex lighting",
+    "cinematic dramatic lighting",
+    "soft diffused natural",
+    "rim light edge glow",
+    "golden hour warmth"
   ],
   "effects": [
     "enhanced details",
@@ -36,7 +43,11 @@
     "vivid colors",
     "glow highlights",
     "local contrast",
-    "texture emphasis"
+    "texture emphasis",
+    "volumetric light rays",
+    "atmospheric fog mist",
+    "particle dust sparkle",
+    "motion blur dynamic"
   ],
   "composition_types": [
     "wide landscape",
@@ -44,12 +55,10 @@
     "dramatic sky focus",
     "balanced exposure",
     "detail emphasis",
-    "panoramic view"
+    "panoramic view",
+    "rule of thirds balanced",
+    "centered symmetrical",
+    "diagonal dynamic lines",
+    "framing natural elements"
   ]
 }
-
-
-
-
-
-

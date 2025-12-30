@@ -2,69 +2,99 @@
   "name": "Dramatic Portrait",
   "description": "High-impact portrait with bold lighting and powerful presence",
   "subjects": [
-    "powerful figure",
-    "commanding presence",
-    "striking model",
-    "intense subject",
-    "bold personality",
-    "theatrical figure"
+    "powerful commanding figure",
+    "striking intense model",
+    "bold personality subject",
+    "theatrical dramatic figure",
+    "mysterious dark character",
+    "warrior hero portrait",
+    "villain antagonist character",
+    "powerful executive leader",
+    "artistic dramatic subject",
+    "emotional storytelling portrait"
   ],
   "expressions": [
-    "fierce determination",
-    "powerful stare",
-    "commanding look",
-    "bold confidence",
-    "intense emotion",
-    "dramatic intensity"
+    "fierce burning determination",
+    "powerful penetrating stare",
+    "commanding authoritative look",
+    "bold unwavering confidence",
+    "intense raw emotion",
+    "dramatic theatrical intensity",
+    "brooding mysterious gaze",
+    "defiant rebellious look",
+    "contemplative deep thought",
+    "passionate emotional expression"
   ],
   "poses": [
-    "power pose",
-    "confrontational stance",
-    "dramatic angle",
-    "imposing position",
-    "theatrical gesture",
-    "strong silhouette"
+    "power confident pose",
+    "confrontational direct stance",
+    "dramatic angular position",
+    "imposing dominant presence",
+    "theatrical expressive gesture",
+    "strong iconic silhouette",
+    "arms crossed powerful",
+    "leaning forward intense",
+    "looking away mysterious",
+    "dynamic action frozen"
   ],
   "outfits": [
-    "bold fashion",
-    "statement pieces",
-    "high contrast clothing",
-    "dramatic costume",
-    "theatrical attire"
+    "bold statement fashion",
+    "high contrast black white",
+    "dramatic flowing costume",
+    "theatrical elaborate attire",
+    "leather and edge style",
+    "formal powerful suit",
+    "artistic avant-garde fashion",
+    "warrior armor inspired",
+    "minimalist stark clothing",
+    "vintage dramatic period"
   ],
   "shot_types": [
-    "hero shot",
-    "low angle power shot",
-    "extreme close-up",
-    "full body dramatic",
-    "Dutch angle portrait"
+    "heroic low angle shot",
+    "intense extreme close-up",
+    "full body power stance",
+    "Dutch angle dramatic tilt",
+    "silhouette profile shot",
+    "overhead high angle",
+    "three-quarter dramatic",
+    "environmental dramatic portrait",
+    "negative space composition",
+    "tight crop intense"
   ],
   "lighting": [
-    "hard dramatic light",
-    "strong side light",
-    "rim light emphasis",
-    "high contrast lighting",
-    "theatrical spots",
-    "colored gel accents"
+    "hard dramatic key light",
+    "strong directional side light",
+    "rim light edge emphasis",
+    "high contrast chiaroscuro",
+    "theatrical spotlight pool",
+    "colored gel mood accent",
+    "harsh shadow dramatic",
+    "low key dark mood",
+    "split lighting half face",
+    "Rembrandt triangle light"
   ],
   "backgrounds": [
-    "pure black void",
-    "smoke and atmosphere",
-    "dramatic clouds",
-    "textured industrial",
-    "theatrical backdrop"
+    "pure black void infinite",
+    "atmospheric smoke and fog",
+    "dramatic storm clouds",
+    "textured industrial grit",
+    "theatrical painted backdrop",
+    "urban concrete stark",
+    "fire and flame effect",
+    "abstract color splash",
+    "minimalist solid dark",
+    "projected pattern dramatic"
   ],
   "styles": [
-    "dramatic portrait",
-    "high-impact photography",
-    "theatrical portrait",
-    "bold artistic",
-    "cinematic drama"
+    "dramatic portrait photography",
+    "high-impact commercial",
+    "theatrical cinematic portrait",
+    "bold artistic expression",
+    "cinematic drama movie",
+    "fine art dramatic",
+    "editorial high fashion dramatic",
+    "character portrait storytelling",
+    "noir inspired portrait",
+    "contemporary dramatic art"
   ]
 }
-
-
-
-
-
-

@@ -1,77 +1,100 @@
 {
   "name": "Moody Portrait",
-  "description": "Atmospheric portrait with emotional depth and dramatic shadows",
+  "description": "Atmospheric emotionally evocative portrait photography",
   "subjects": [
-    "mysterious figure",
-    "brooding subject",
-    "contemplative person",
-    "enigmatic beauty",
-    "introspective soul",
-    "melancholic figure"
+    "brooding mysterious figure",
+    "melancholy contemplative subject",
+    "emotionally complex portrait",
+    "introspective deep character",
+    "atmospheric moody model",
+    "film noir inspired subject",
+    "romantic dark beauty",
+    "tortured artist type",
+    "mysterious stranger portrait",
+    "emotional depth character"
   ],
   "expressions": [
-    "intense gaze",
-    "brooding look",
-    "distant stare",
-    "vulnerable expression",
-    "pensive mood",
-    "haunting eyes"
+    "brooding intense stare",
+    "melancholy sad gaze",
+    "pensive deep thought",
+    "mysterious enigmatic look",
+    "vulnerable emotional moment",
+    "longing distant yearning",
+    "wistful nostalgic expression",
+    "haunted troubled eyes",
+    "subtle hidden emotion",
+    "quiet internal struggle"
   ],
   "poses": [
-    "turned away partially",
-    "shadowed face",
-    "hidden features",
-    "contemplative stance",
-    "mysterious angle",
-    "dramatic tilt"
+    "looking away distant",
+    "hunched contemplative",
+    "hand on face emotional",
+    "turned away mysterious",
+    "curled introspective",
+    "leaning against surface",
+    "sitting alone isolated",
+    "standing in shadows",
+    "wrapped in arms protected",
+    "gazing out window"
   ],
-  "outfits": [
-    "dark clothing",
-    "textured fabrics",
-    "layers and shadows",
-    "monochromatic outfit",
-    "noir-inspired attire"
+  "atmospheres": [
+    "foggy misty mysterious",
+    "rainy melancholy weather",
+    "dark shadowy noir",
+    "twilight blue hour",
+    "smoky atmospheric haze",
+    "stormy dramatic clouds",
+    "winter cold isolation",
+    "autumn nostalgic decay",
+    "night time darkness",
+    "overcast grey mood"
   ],
   "shot_types": [
-    "close-up with shadows",
-    "partial face",
-    "silhouette portrait",
-    "negative space emphasis",
-    "dramatic crop"
+    "intimate close emotional",
+    "silhouette mysterious profile",
+    "environmental isolation wide",
+    "negative space lonely",
+    "tight crop intense",
+    "dutch angle unsettling",
+    "through glass separated",
+    "reflection mirror contemplation",
+    "backlit rim mysterious",
+    "motion blur emotional"
   ],
   "lighting": [
-    "low-key lighting",
-    "single source dramatic",
-    "harsh shadows",
-    "rim light only",
-    "underexposed mood",
-    "chiaroscuro effect"
+    "low key dramatic shadow",
+    "single source harsh",
+    "blue hour natural cool",
+    "overcast soft diffused",
+    "practical lamp ambient",
+    "window light directional",
+    "neon colored urban",
+    "candlelight warm intimate",
+    "backlit silhouette rim",
+    "harsh contrast chiaroscuro"
   ],
   "backgrounds": [
-    "deep black",
-    "dark textured",
-    "moody atmosphere",
-    "fog and haze",
-    "urban dark"
+    "dark moody void",
+    "rain on window glass",
+    "urban decay texture",
+    "foggy misty nature",
+    "abandoned building ruins",
+    "dimly lit interior",
+    "night city lights blur",
+    "ocean stormy weather",
+    "forest dark mysterious",
+    "empty room isolation"
   ],
   "styles": [
-    "moody portrait",
-    "dark and atmospheric",
-    "emotional photography",
-    "noir-inspired",
-    "cinematic mood"
-  ],
-  "color_tones": [
-    "desaturated",
-    "cool shadows",
-    "muted colors",
-    "selective color",
-    "monochromatic"
+    "moody atmospheric portrait",
+    "emotional fine art",
+    "film noir inspired",
+    "dark romantic portrait",
+    "melancholy art photography",
+    "cinematic moody style",
+    "editorial dark beauty",
+    "contemporary dark art",
+    "psychological portrait depth",
+    "evocative emotional photography"
   ]
 }
-
-
-
-
-
-

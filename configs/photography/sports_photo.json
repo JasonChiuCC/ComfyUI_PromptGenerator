@@ -20,7 +20,10 @@
     "freeze frame",
     "motion capture",
     "editorial sports",
-    "dynamic action"
+    "dynamic action",
+    "highly detailed realistic",
+    "artistic stylized",
+    "cinematic movie quality"
   ],
   "lighting": [
     "stadium lights",
@@ -28,7 +31,11 @@
     "dramatic spotlight",
     "mixed arena lighting",
     "flash freeze",
-    "golden hour outdoor"
+    "golden hour outdoor",
+    "cinematic dramatic lighting",
+    "soft diffused natural",
+    "rim light edge glow",
+    "golden hour warmth"
   ],
   "effects": [
     "frozen motion",
@@ -36,7 +43,11 @@
     "panning blur",
     "water splash freeze",
     "dust particles",
-    "sweat droplets"
+    "sweat droplets",
+    "volumetric light rays",
+    "atmospheric fog mist",
+    "particle dust sparkle",
+    "motion blur dynamic"
   ],
   "shot_types": [
     "peak action moment",
@@ -44,12 +55,10 @@
     "tight action crop",
     "celebration emotion",
     "panning motion",
-    "silhouette dramatic"
+    "silhouette dramatic",
+    "epic wide establishing",
+    "intimate close portrait",
+    "dynamic action frozen",
+    "dramatic low angle"
   ]
 }
-
-
-
-
-
-

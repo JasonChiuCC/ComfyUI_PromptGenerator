@@ -27,7 +27,11 @@
     "industrial lighting",
     "dramatic shadows",
     "scan line effect",
-    "power core glow"
+    "power core glow",
+    "cinematic dramatic lighting",
+    "soft diffused natural",
+    "rim light edge glow",
+    "golden hour warmth"
   ],
   "styles": [
     "robot design",
@@ -35,7 +39,11 @@
     "mechanical aesthetic",
     "synthetic humanity",
     "machine life",
-    "artificial being"
+    "artificial being",
+    "highly detailed realistic",
+    "artistic stylized",
+    "cinematic movie quality",
+    "fine art gallery"
   ],
   "effects": [
     "mechanical joints",
@@ -43,7 +51,11 @@
     "chrome surfaces",
     "power indicators",
     "holographic interface",
-    "cable connections"
+    "cable connections",
+    "volumetric light rays",
+    "atmospheric fog mist",
+    "particle dust sparkle",
+    "motion blur dynamic"
   ],
   "composition_types": [
     "character portrait",
@@ -51,12 +63,10 @@
     "action pose",
     "detail study",
     "human interaction",
-    "dramatic scene"
+    "dramatic scene",
+    "rule of thirds balanced",
+    "centered symmetrical",
+    "diagonal dynamic lines",
+    "framing natural elements"
   ]
 }
-
-
-
-
-
-

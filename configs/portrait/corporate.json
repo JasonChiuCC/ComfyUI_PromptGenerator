@@ -1,70 +1,100 @@
 {
-  "name": "Corporate Headshot",
-  "description": "Professional business portrait photography",
+  "name": "Corporate",
+  "description": "Professional business and executive portrait photography",
   "subjects": [
-    "business professional",
-    "corporate executive",
-    "entrepreneur",
-    "team member",
-    "CEO portrait",
-    "professional leader"
+    "CEO executive portrait",
+    "professional headshot business",
+    "team member portrait",
+    "entrepreneur founder portrait",
+    "lawyer attorney professional",
+    "doctor medical professional",
+    "financial advisor portrait",
+    "tech startup founder",
+    "consultant professional",
+    "board member executive"
   ],
   "expressions": [
-    "confident smile",
-    "approachable warmth",
-    "professional demeanor",
-    "trustworthy look",
-    "friendly competence",
-    "executive presence"
+    "confident professional smile",
+    "approachable friendly warmth",
+    "authoritative commanding presence",
+    "trustworthy reliable look",
+    "competent capable expression",
+    "thoughtful strategic thinker",
+    "dynamic energetic leader",
+    "calm composed executive",
+    "innovative creative vision",
+    "warm personable connection"
   ],
   "poses": [
-    "professional stance",
+    "classic headshot shoulders",
     "arms crossed confident",
-    "hands clasped professional",
-    "slight angle",
-    "straight on approachable",
-    "relaxed professional"
+    "hand on chin thoughtful",
+    "seated executive desk",
+    "standing full body professional",
+    "leaning forward engaged",
+    "relaxed natural stance",
+    "three-quarter business angle",
+    "walking movement dynamic",
+    "team interaction collaborative"
   ],
   "outfits": [
-    "business suit",
-    "professional attire",
-    "smart casual",
-    "executive wear",
-    "corporate dress code",
-    "polished business look"
+    "formal business suit tailored",
+    "business casual smart",
+    "creative professional stylish",
+    "medical white coat uniform",
+    "legal formal conservative",
+    "tech casual startup",
+    "executive luxury designer",
+    "traditional conservative business",
+    "modern contemporary professional",
+    "industry appropriate attire"
   ],
   "shot_types": [
-    "professional headshot",
-    "LinkedIn profile",
-    "website about photo",
-    "team page portrait",
-    "business card image"
+    "professional headshot classic",
+    "half body executive",
+    "environmental office context",
+    "team group professional",
+    "candid working moment",
+    "LinkedIn profile optimized",
+    "website about page",
+    "annual report portrait",
+    "press media kit",
+    "personal branding series"
   ],
   "lighting": [
-    "clean professional lighting",
-    "soft flattering light",
-    "even illumination",
-    "subtle shadows",
-    "corporate studio light"
+    "professional studio controlled",
+    "soft flattering portrait light",
+    "natural window office light",
+    "Rembrandt classic professional",
+    "broad light flattering",
+    "butterfly beauty light",
+    "ring light modern tech",
+    "split light dramatic",
+    "high key bright clean",
+    "environmental office ambient"
   ],
   "backgrounds": [
-    "neutral grey",
-    "white seamless",
-    "office environment",
-    "professional backdrop",
-    "corporate blue"
+    "neutral professional grey",
+    "office environment context",
+    "conference room professional",
+    "city skyline impressive",
+    "minimalist clean modern",
+    "gradient smooth corporate",
+    "outdoor urban professional",
+    "branded company office",
+    "white clean simple",
+    "environmental workplace"
   ],
   "styles": [
-    "corporate photography",
-    "professional headshot",
-    "business portrait",
-    "executive photography",
-    "LinkedIn professional"
+    "professional corporate portrait",
+    "executive headshot photography",
+    "business portrait traditional",
+    "modern corporate contemporary",
+    "personal branding photography",
+    "LinkedIn profile professional",
+    "team about page photography",
+    "editorial business portrait",
+    "approachable professional style",
+    "premium executive photography"
   ]
 }
-
-
-
-
-
-

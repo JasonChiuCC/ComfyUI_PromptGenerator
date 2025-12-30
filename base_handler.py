@@ -12,10 +12,10 @@ import random
 # Standard keys that handlers look for in configs
 STANDARD_KEYS = {
     "subject": ["subjects", "characters", "entities", "creatures", "scenes"],
-    "shot": ["shot_types", "view_types", "composition_types", "angles", "perspectives"],
-    "environment": ["environments", "locations", "settings", "backgrounds", "scenes"],
-    "lighting": ["lighting", "light_types", "atmospheres", "weather", "times"],
-    "style": ["styles", "aesthetics", "techniques", "art_styles"],
+    "shot": ["shot_types", "view_types", "composition_types", "compositions", "angles", "perspectives", "views"],
+    "environment": ["environments", "locations", "settings", "backgrounds"],
+    "lighting": ["lighting", "light_types", "weather", "times"],
+    "style": ["styles", "aesthetics", "techniques", "art_styles", "themes"],
     "mood": ["moods", "tones", "feelings", "atmospheres"],
     "effect": ["effects", "visual_effects", "special_effects", "post_effects"],
     "color": ["colors", "color_palette", "palettes", "color_schemes"],

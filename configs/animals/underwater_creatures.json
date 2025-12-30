@@ -31,7 +31,11 @@
     "otherworldly presence",
     "eerie beauty",
     "fascinating strangeness",
-    "deep sea wonder"
+    "deep sea wonder",
+    "intense focused gaze",
+    "peaceful serene calm",
+    "mysterious enigmatic look",
+    "joyful happy expression"
   ],
   "environments": [
     "abyssal depths",
@@ -49,7 +53,11 @@
     "spotlight in darkness",
     "ethereal blue",
     "mysterious ambient",
-    "submarine lights"
+    "submarine lights",
+    "cinematic dramatic lighting",
+    "soft diffused natural",
+    "rim light edge glow",
+    "golden hour warmth"
   ],
   "styles": [
     "deep sea photography",
@@ -57,7 +65,11 @@
     "mysterious art",
     "documentary style",
     "fantasy underwater",
-    "surreal ocean"
+    "surreal ocean",
+    "highly detailed realistic",
+    "artistic stylized",
+    "cinematic movie quality",
+    "fine art gallery"
   ],
   "shot_types": [
     "creature portrait",
@@ -65,12 +77,10 @@
     "dramatic emergence",
     "bioluminescent display",
     "mysterious silhouette",
-    "scientific detail"
+    "scientific detail",
+    "epic wide establishing",
+    "intimate close portrait",
+    "dynamic action frozen",
+    "dramatic low angle"
   ]
 }
-
-
-
-
-
-

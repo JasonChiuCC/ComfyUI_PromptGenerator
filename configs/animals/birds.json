@@ -31,7 +31,11 @@
     "majestic and proud",
     "curious head tilt",
     "alert and watchful",
-    "peaceful resting"
+    "peaceful resting",
+    "intense focused gaze",
+    "peaceful serene calm",
+    "mysterious enigmatic look",
+    "joyful happy expression"
   ],
   "environments": [
     "blue sky flight",
@@ -49,7 +53,11 @@
     "soft overcast",
     "backlit wings",
     "dramatic sunset",
-    "studio lighting"
+    "studio lighting",
+    "cinematic dramatic lighting",
+    "soft diffused natural",
+    "rim light edge glow",
+    "golden hour warmth"
   ],
   "styles": [
     "bird photography",
@@ -57,7 +65,11 @@
     "nature documentary",
     "artistic portrait",
     "action photography",
-    "fine art"
+    "fine art",
+    "highly detailed realistic",
+    "artistic stylized",
+    "cinematic movie quality",
+    "fine art gallery"
   ],
   "shot_types": [
     "flight action",
@@ -65,12 +77,10 @@
     "close-up detail",
     "environmental scene",
     "wing spread",
-    "behavioral moment"
+    "behavioral moment",
+    "epic wide establishing",
+    "intimate close portrait",
+    "dynamic action frozen",
+    "dramatic low angle"
   ]
 }
-
-
-
-
-
-

@@ -20,7 +20,10 @@
     "warm backlight",
     "romantic golden",
     "dreamy sunset",
-    "soft golden glow"
+    "soft golden glow",
+    "highly detailed realistic",
+    "artistic stylized",
+    "cinematic movie quality"
   ],
   "lighting": [
     "warm orange backlight",
@@ -28,7 +31,11 @@
     "lens flare",
     "soft warm fill",
     "silhouette backlit",
-    "golden side light"
+    "golden side light",
+    "cinematic dramatic lighting",
+    "soft diffused natural",
+    "rim light edge glow",
+    "golden hour warmth"
   ],
   "colors": [
     "warm orange tones",
@@ -36,7 +43,11 @@
     "pink sky",
     "purple clouds",
     "warm highlights",
-    "soft shadows"
+    "soft shadows",
+    "rich saturated vibrant",
+    "muted subtle tones",
+    "warm golden palette",
+    "cool blue tones"
   ],
   "shot_types": [
     "backlit portrait",
@@ -44,12 +55,10 @@
     "landscape wide",
     "sun flare creative",
     "rim light close-up",
-    "environmental golden"
+    "environmental golden",
+    "epic wide establishing",
+    "intimate close portrait",
+    "dynamic action frozen",
+    "dramatic low angle"
   ]
 }
-
-
-
-
-
-

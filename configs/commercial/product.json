@@ -1,0 +1,59 @@
+{
+  "product": {
+    "subjects": [
+      "sleek electronic gadget",
+      "luxury watch display",
+      "premium headphones",
+      "designer sunglasses",
+      "high-end speaker",
+      "smartphone floating",
+      "tablet on stand",
+      "wireless earbuds case",
+      "gaming controller",
+      "smart home device",
+      "perfume bottle",
+      "premium pen"
+    ],
+    "environments": [
+      "clean white studio",
+      "gradient background",
+      "reflective surface",
+      "minimalist pedestal",
+      "floating in space",
+      "lifestyle setting",
+      "textured backdrop",
+      "geometric shapes background"
+    ],
+    "lighting": [
+      "soft studio lighting",
+      "dramatic side light",
+      "rim light highlighting edges",
+      "gradient lighting",
+      "spotlight focus",
+      "natural window light",
+      "multi-point studio setup",
+      "cinematic dramatic lighting",
+      "soft diffused natural",
+      "rim light edge glow"
+    ],
+    "styles": [
+      "professional product photography",
+      "commercial advertising style",
+      "minimalist product shot",
+      "hero shot dramatic",
+      "lifestyle product integration",
+      "highly detailed realistic",
+      "artistic stylized",
+      "cinematic movie quality",
+      "fine art gallery",
+      "concept art professional"
+    ],
+    "compositions": [
+      "centered hero shot",
+      "45-degree angle",
+      "floating product",
+      "macro detail shot",
+      "product in context"
+    ]
+  }
+}

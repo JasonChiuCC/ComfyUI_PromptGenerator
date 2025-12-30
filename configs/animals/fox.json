@@ -27,7 +27,11 @@
     "playful mischief",
     "gentle and soft",
     "wise ancient eyes",
-    "happy and content"
+    "happy and content",
+    "intense focused gaze",
+    "peaceful serene calm",
+    "mysterious enigmatic look",
+    "joyful happy expression"
   ],
   "environments": [
     "snowy winter field",
@@ -45,7 +49,11 @@
     "misty morning light",
     "dramatic sunset",
     "soft overcast",
-    "backlit glow"
+    "backlit glow",
+    "cinematic dramatic lighting",
+    "soft diffused natural",
+    "rim light edge glow",
+    "golden hour warmth"
   ],
   "styles": [
     "wildlife photography",
@@ -53,7 +61,11 @@
     "whimsical",
     "realistic",
     "fantasy",
-    "fine art"
+    "fine art",
+    "highly detailed realistic",
+    "artistic stylized",
+    "cinematic movie quality",
+    "fine art gallery"
   ],
   "shot_types": [
     "portrait close-up",
@@ -61,12 +73,10 @@
     "action pounce",
     "environmental",
     "artistic portrait",
-    "candid wildlife"
+    "candid wildlife",
+    "epic wide establishing",
+    "intimate close portrait",
+    "dynamic action frozen",
+    "dramatic low angle"
   ]
 }
-
-
-
-
-
-

@@ -28,14 +28,23 @@
       "crescent moon glow",
       "candlelit ambiance",
       "golden festive lighting",
-      "warm family gathering light"
+      "warm family gathering light",
+      "cinematic dramatic lighting",
+      "soft diffused natural",
+      "rim light edge glow",
+      "golden hour warmth"
     ],
     "colors": [
       "green and gold Islamic",
       "rich jewel tones",
       "white and gold elegant",
       "traditional regional colors",
-      "festive emerald and crimson"
+      "festive emerald and crimson",
+      "rich saturated vibrant",
+      "muted subtle tones",
+      "warm golden palette",
+      "cool blue tones",
+      "high contrast dramatic"
     ],
     "elements": [
       "crescent moon and star",
@@ -53,8 +62,12 @@
       "spiritual gratitude",
       "family reunion warmth",
       "generous and giving",
-      "peaceful blessing"
+      "peaceful blessing",
+      "epic dramatic atmosphere",
+      "peaceful tranquil calm",
+      "mysterious dark enigma",
+      "joyful bright energy",
+      "intense powerful force"
     ]
   }
 }
-

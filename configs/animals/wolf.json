@@ -28,7 +28,11 @@
     "alert and watchful",
     "calm wisdom",
     "aggressive snarl",
-    "gentle curiosity"
+    "gentle curiosity",
+    "intense focused gaze",
+    "peaceful serene calm",
+    "mysterious enigmatic look",
+    "joyful happy expression"
   ],
   "environments": [
     "snowy mountain",
@@ -46,7 +50,11 @@
     "misty atmospheric",
     "cold winter light",
     "golden sunset",
-    "blue hour"
+    "blue hour",
+    "cinematic dramatic lighting",
+    "soft diffused natural",
+    "rim light edge glow",
+    "golden hour warmth"
   ],
   "styles": [
     "wildlife photography",
@@ -54,7 +62,11 @@
     "fantasy art",
     "realistic portrait",
     "dramatic",
-    "artistic"
+    "artistic",
+    "highly detailed realistic",
+    "artistic stylized",
+    "cinematic movie quality",
+    "fine art gallery"
   ],
   "shot_types": [
     "majestic portrait",
@@ -62,12 +74,10 @@
     "pack scene",
     "action hunting",
     "close-up face",
-    "environmental wide"
+    "environmental wide",
+    "epic wide establishing",
+    "intimate close portrait",
+    "dynamic action frozen",
+    "dramatic low angle"
   ]
 }
-
-
-
-
-
-

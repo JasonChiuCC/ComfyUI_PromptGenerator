@@ -27,7 +27,11 @@
     "cold blue shadows",
     "hellfire orange",
     "pale moonlight",
-    "ominous darkness"
+    "ominous darkness",
+    "cinematic dramatic lighting",
+    "soft diffused natural",
+    "rim light edge glow",
+    "golden hour warmth"
   ],
   "styles": [
     "dark fantasy art",
@@ -35,7 +39,11 @@
     "gothic fantasy",
     "grim illustration",
     "nightmare aesthetic",
-    "macabre beauty"
+    "macabre beauty",
+    "highly detailed realistic",
+    "artistic stylized",
+    "cinematic movie quality",
+    "fine art gallery"
   ],
   "effects": [
     "dark magic swirls",
@@ -43,7 +51,11 @@
     "soul essence",
     "blood mist",
     "shadowy tendrils",
-    "cursed aura"
+    "cursed aura",
+    "volumetric light rays",
+    "atmospheric fog mist",
+    "particle dust sparkle",
+    "motion blur dynamic"
   ],
   "shot_types": [
     "dramatic portrait",
@@ -51,12 +63,10 @@
     "atmospheric wide shot",
     "action combat",
     "silhouette in darkness",
-    "close-up intensity"
+    "close-up intensity",
+    "epic wide establishing",
+    "intimate close portrait",
+    "dynamic action frozen",
+    "dramatic low angle"
   ]
 }
-
-
-
-
-
-

@@ -1,0 +1,79 @@
+{
+  "egyptian": {
+    "subjects": [
+      "Egyptian pharaoh portrait",
+      "Queen Cleopatra royal",
+      "Sphinx and pyramids",
+      "Anubis jackal god",
+      "Egyptian mummy tomb",
+      "Nile river felucca boat",
+      "hieroglyphic wall carving",
+      "Egyptian dancer belly",
+      "ancient scribe writing",
+      "Tutankhamun golden mask",
+      "Egyptian cat Bastet",
+      "temple priest ceremony",
+      "Isis goddess wings",
+      "Egyptian chariot warrior",
+      "papyrus scroll painting"
+    ],
+    "environments": [
+      "Giza pyramids desert",
+      "Karnak temple columns",
+      "Nile river valley",
+      "pharaoh tomb interior",
+      "Alexandria lighthouse harbor",
+      "Valley of Kings burial",
+      "Abu Simbel statues",
+      "Cairo Khan bazaar",
+      "Luxor temple night",
+      "desert oasis palm"
+    ],
+    "elements": [
+      "hieroglyphic symbols writing",
+      "Eye of Horus wadjet",
+      "scarab beetle amulet",
+      "ankh life symbol",
+      "lotus flower papyrus",
+      "cobra uraeus crown",
+      "gold and lapis lazuli",
+      "pyramid shape motif",
+      "Egyptian cartouche name",
+      "feathered maat crown",
+      "crook and flail royal",
+      "Egyptian collar necklace"
+    ],
+    "lighting": [
+      "harsh desert sunlight",
+      "torch-lit tomb interior",
+      "golden sunset Nile",
+      "moonlight on pyramids",
+      "temple column shadows",
+      "golden artifact glow",
+      "dramatic archaeological",
+      "blue hour ancient ruins"
+    ],
+    "moods": [
+      "ancient mysterious power",
+      "royal pharaonic grandeur",
+      "spiritual afterlife journey",
+      "archaeological discovery wonder",
+      "exotic Orientalist fantasy",
+      "sacred temple reverence",
+      "desert survival harsh",
+      "mythological epic scale"
+    ],
+    "styles": [
+      "ancient Egyptian aesthetic",
+      "pharaonic hieroglyphic art",
+      "Art Deco Egyptian revival",
+      "Egyptology documentary",
+      "Egyptian mythology fantasy",
+      "Coptic Christian Egyptian",
+      "Orientalist painting style",
+      "contemporary Egyptian art",
+      "Egyptian textile pattern",
+      "Hollywood Egypt cinematic"
+    ]
+  }
+}

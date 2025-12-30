@@ -33,7 +33,11 @@
     "excited and playful",
     "calm and peaceful",
     "alert and focused",
-    "goofy smile"
+    "goofy smile",
+    "intense focused gaze",
+    "peaceful serene calm",
+    "mysterious enigmatic look",
+    "joyful happy expression"
   ],
   "environments": [
     "grassy park",
@@ -51,7 +55,11 @@
     "soft overcast",
     "studio lighting",
     "dramatic sunset",
-    "natural daylight"
+    "natural daylight",
+    "cinematic dramatic lighting",
+    "soft diffused natural",
+    "rim light edge glow",
+    "golden hour warmth"
   ],
   "styles": [
     "pet photography",
@@ -59,7 +67,11 @@
     "portrait photography",
     "lifestyle",
     "fine art",
-    "documentary"
+    "documentary",
+    "highly detailed realistic",
+    "artistic stylized",
+    "cinematic movie quality",
+    "fine art gallery"
   ],
   "shot_types": [
     "close-up portrait",
@@ -67,12 +79,10 @@
     "environmental wide",
     "candid moment",
     "artistic portrait",
-    "playful action shot"
+    "playful action shot",
+    "epic wide establishing",
+    "intimate close portrait",
+    "dynamic action frozen",
+    "dramatic low angle"
   ]
 }
-
-
-
-
-
-

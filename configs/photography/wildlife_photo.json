@@ -20,7 +20,10 @@
     "animal portrait",
     "action wildlife",
     "intimate animal moment",
-    "environmental wildlife"
+    "environmental wildlife",
+    "highly detailed realistic",
+    "artistic stylized",
+    "cinematic movie quality"
   ],
   "lighting": [
     "golden hour safari",
@@ -28,7 +31,11 @@
     "soft overcast",
     "dappled forest light",
     "rim light silhouette",
-    "early morning mist"
+    "early morning mist",
+    "cinematic dramatic lighting",
+    "soft diffused natural",
+    "rim light edge glow",
+    "golden hour warmth"
   ],
   "environments": [
     "African savanna",
@@ -44,12 +51,10 @@
     "environmental context",
     "behavior moment",
     "eyes close-up",
-    "herd wide shot"
+    "herd wide shot",
+    "epic wide establishing",
+    "intimate close portrait",
+    "dynamic action frozen",
+    "dramatic low angle"
   ]
 }
-
-
-
-
-
-

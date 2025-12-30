@@ -1,79 +1,100 @@
 {
   "name": "Fine Art Portrait",
-  "description": "Artistic portrait photography emphasizing aesthetic expression",
+  "description": "Artistic and conceptual fine art portrait photography",
   "subjects": [
-    "ethereal model",
-    "artistic subject",
-    "expressive figure",
-    "sculptural beauty",
-    "painterly subject",
-    "muse-like figure"
+    "conceptual art subject",
+    "abstract artistic portrait",
+    "surreal dream figure",
+    "gallery exhibition subject",
+    "nude artistic form",
+    "symbolic narrative figure",
+    "metamorphosis transformation",
+    "identity exploration subject",
+    "environmental art portrait",
+    "performance art captured"
   ],
   "expressions": [
-    "contemplative gaze",
-    "dreamy expression",
-    "intense stare",
-    "vulnerable look",
-    "mysterious expression",
-    "emotional depth"
+    "contemplative inner thought",
+    "emotionally raw vulnerable",
+    "mysterious ambiguous expression",
+    "transcendent spiritual gaze",
+    "performative artistic expression",
+    "vulnerable exposed emotion",
+    "fierce primal intensity",
+    "serene peaceful calm",
+    "fragmented disjointed emotion",
+    "powerful commanding presence"
   ],
   "poses": [
-    "sculptural pose",
-    "flowing gesture",
-    "dramatic position",
-    "artistic body language",
-    "unconventional angle",
-    "expressive hands"
+    "sculptural body form",
+    "conceptual symbolic pose",
+    "movement blur dynamic",
+    "static still meditation",
+    "twisted contorted shape",
+    "reaching extending gesture",
+    "curled fetal protective",
+    "floating suspended weightless",
+    "falling surrendering gravity",
+    "interaction with elements"
   ],
-  "outfits": [
-    "flowing fabric",
-    "draped cloth",
-    "minimal clothing",
-    "artistic costume",
-    "textured garments",
-    "period-inspired dress"
+  "concepts": [
+    "identity and self exploration",
+    "nature and human connection",
+    "time passage mortality",
+    "emotion and psychology",
+    "body and form abstraction",
+    "light and shadow play",
+    "metamorphosis transformation",
+    "isolation and connection",
+    "memory and nostalgia",
+    "social cultural commentary"
   ],
   "shot_types": [
-    "artistic composition",
-    "unconventional framing",
-    "negative space portrait",
-    "abstract crop",
-    "full body artistic",
-    "detail study"
+    "gallery print large format",
+    "abstract body fragment",
+    "environmental installation",
+    "double exposure layered",
+    "long exposure motion blur",
+    "macro intimate detail",
+    "wide conceptual space",
+    "experimental alternative process",
+    "multiple exposure composite",
+    "high contrast graphic"
   ],
   "lighting": [
-    "chiaroscuro lighting",
-    "Renaissance-style light",
-    "dramatic shadow play",
-    "painterly illumination",
-    "natural window light",
-    "golden hour glow"
+    "dramatic chiaroscuro contrast",
+    "soft diffused painterly",
+    "harsh conceptual shadows",
+    "natural window Vermeer",
+    "colored gel emotional",
+    "rim light sculptural",
+    "mixed experimental sources",
+    "minimal low key dark",
+    "bright high key pure",
+    "projected pattern creative"
   ],
   "backgrounds": [
-    "painted backdrop",
-    "textured wall",
-    "fine art studio",
-    "nature elements",
-    "abstract background"
+    "void infinite black",
+    "white pure minimalist",
+    "textured painterly surface",
+    "nature organic environment",
+    "water underwater floating",
+    "abstract projected patterns",
+    "studio controlled neutral",
+    "environmental meaningful space",
+    "deconstructed set pieces",
+    "sky clouds ethereal"
   ],
   "styles": [
     "fine art photography",
-    "gallery-quality portrait",
-    "museum-worthy image",
-    "painterly photograph",
-    "artistic expression"
-  ],
-  "moods": [
-    "evocative",
-    "timeless",
-    "poetic",
-    "profound",
-    "transcendent"
+    "conceptual art portrait",
+    "gallery exhibition quality",
+    "artistic experimental portrait",
+    "painterly photography art",
+    "surrealist influenced portrait",
+    "minimalist fine art",
+    "narrative art photography",
+    "contemporary art portrait",
+    "collected museum quality"
   ]
 }
-
-
-
-
-
-

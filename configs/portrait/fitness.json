@@ -2,64 +2,99 @@
   "name": "Fitness",
   "description": "Athletic and fitness focused portrait photography",
   "subjects": [
-    "athletic model",
-    "fitness enthusiast",
-    "bodybuilder",
-    "yoga practitioner",
-    "sports athlete",
-    "CrossFit athlete"
+    "bodybuilder muscular physique",
+    "fitness athlete in action",
+    "yoga practitioner pose",
+    "crossfit athlete training",
+    "runner athlete portrait",
+    "swimmer athletic form",
+    "martial artist fighter",
+    "dancer athletic grace",
+    "gym workout action",
+    "sports athlete portrait"
   ],
   "expressions": [
-    "determined focus",
-    "powerful intensity",
-    "confident strength",
-    "athletic concentration",
-    "victorious pride",
-    "workout intensity"
+    "determined focused intensity",
+    "powerful confident strength",
+    "in the zone concentration",
+    "victorious triumphant achievement",
+    "pushing limits strain",
+    "calm centered breathing",
+    "fierce competitive spirit",
+    "joyful movement expression",
+    "serious athletic dedication",
+    "natural genuine effort"
   ],
   "poses": [
-    "flexing muscles",
-    "athletic stance",
-    "action pose",
-    "yoga position",
-    "power pose",
-    "dynamic movement"
+    "flexing muscle display",
+    "action workout movement",
+    "yoga asana pose",
+    "running stride frozen",
+    "lifting weights power",
+    "stretching extension reach",
+    "fighting stance ready",
+    "jumping explosive power",
+    "resting recovery moment",
+    "competition ready pose"
   ],
-  "outfits": [
-    "athletic wear",
-    "sports bra and leggings",
-    "minimal workout attire",
-    "competition bodybuilding",
-    "yoga clothing",
-    "gym outfit"
+  "attire": [
+    "athletic workout gear",
+    "competition sport uniform",
+    "minimal physique showcase",
+    "yoga activewear",
+    "boxing gloves wraps",
+    "running shoes apparel",
+    "swimwear athletic",
+    "martial arts gi uniform",
+    "crossfit competition",
+    "dance practice wear"
   ],
   "shot_types": [
-    "full body athletic",
-    "muscle detail",
-    "action movement",
-    "power portrait",
-    "physique showcase"
+    "action movement dynamic",
+    "physique full body",
+    "muscle detail close-up",
+    "environmental gym context",
+    "studio clean backdrop",
+    "dramatic lighting emphasis",
+    "silhouette shape form",
+    "motion blur energy",
+    "portrait headshot athlete",
+    "before after transformation"
   ],
   "lighting": [
-    "hard light for definition",
-    "dramatic side lighting",
-    "rim light muscles",
-    "gym ambient",
-    "contrast lighting"
+    "dramatic side light sculpting",
+    "hard light muscle definition",
+    "rim light edge emphasis",
+    "natural outdoor training",
+    "gym ambient practical",
+    "high contrast dramatic",
+    "studio controlled precise",
+    "golden hour outdoor",
+    "flash freeze motion",
+    "low key dark moody"
   ],
   "backgrounds": [
-    "gym environment",
-    "industrial setting",
-    "outdoor athletic",
-    "dark dramatic",
-    "sports facility"
+    "gym equipment environment",
+    "outdoor training ground",
+    "studio clean minimal",
+    "athletic field track",
+    "pool water athletic",
+    "urban outdoor workout",
+    "boxing ring arena",
+    "yoga studio peaceful",
+    "competition venue stage",
+    "home gym personal"
   ],
   "styles": [
-    "fitness photography",
-    "athletic portrait",
-    "bodybuilding style",
-    "sports imagery",
-    "health and wellness"
+    "fitness photography athletic",
+    "bodybuilding physique",
+    "sports action photography",
+    "yoga wellness portrait",
+    "commercial fitness advertising",
+    "editorial athletic fashion",
+    "documentary training style",
+    "fine art athletic body",
+    "competition sport photography",
+    "lifestyle fitness brand"
   ]
 }
-

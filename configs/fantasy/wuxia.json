@@ -27,7 +27,11 @@
     "moonlit combat",
     "dramatic shadows",
     "ethereal glow",
-    "ink wash style"
+    "ink wash style",
+    "cinematic dramatic lighting",
+    "soft diffused natural",
+    "rim light edge glow",
+    "golden hour warmth"
   ],
   "styles": [
     "wuxia art",
@@ -35,7 +39,11 @@
     "jianghu aesthetic",
     "Crouching Tiger inspired",
     "wu xia pian style",
-    "martial fantasy"
+    "martial fantasy",
+    "highly detailed realistic",
+    "artistic stylized",
+    "cinematic movie quality",
+    "fine art gallery"
   ],
   "effects": [
     "qi energy flow",
@@ -43,7 +51,11 @@
     "sword slash trails",
     "cherry blossoms",
     "bamboo leaves",
-    "water splash combat"
+    "water splash combat",
+    "volumetric light rays",
+    "atmospheric fog mist",
+    "particle dust sparkle",
+    "motion blur dynamic"
   ],
   "shot_types": [
     "martial pose",
@@ -51,12 +63,10 @@
     "dramatic standoff",
     "training moment",
     "rooftop action",
-    "serene master"
+    "serene master",
+    "epic wide establishing",
+    "intimate close portrait",
+    "dynamic action frozen",
+    "dramatic low angle"
   ]
 }
-
-
-
-
-
-

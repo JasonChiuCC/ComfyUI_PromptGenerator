@@ -29,7 +29,11 @@
     "gentle and kind",
     "majestic and proud",
     "mystical presence",
-    "ethereal beauty"
+    "ethereal beauty",
+    "intense focused gaze",
+    "peaceful serene calm",
+    "mysterious enigmatic look",
+    "joyful happy expression"
   ],
   "environments": [
     "enchanted forest",
@@ -47,7 +51,11 @@
     "rainbow light",
     "golden sunrise",
     "ethereal sparkle",
-    "starlight shimmer"
+    "starlight shimmer",
+    "cinematic dramatic lighting",
+    "soft diffused natural",
+    "rim light edge glow",
+    "golden hour warmth"
   ],
   "styles": [
     "fantasy art",
@@ -55,7 +63,11 @@
     "fairytale illustration",
     "ethereal art",
     "children's book style",
-    "romantic fantasy"
+    "romantic fantasy",
+    "highly detailed realistic",
+    "artistic stylized",
+    "cinematic movie quality",
+    "fine art gallery"
   ],
   "effects": [
     "sparkles and stars",
@@ -63,7 +75,11 @@
     "magical particles",
     "soft glow aura",
     "flower petals floating",
-    "stardust shimmer"
+    "stardust shimmer",
+    "volumetric light rays",
+    "atmospheric fog mist",
+    "particle dust sparkle",
+    "motion blur dynamic"
   ],
   "shot_types": [
     "majestic portrait",
@@ -71,12 +87,10 @@
     "action running",
     "dreamy scene",
     "close-up face",
-    "silhouette moonlight"
+    "silhouette moonlight",
+    "epic wide establishing",
+    "intimate close portrait",
+    "dynamic action frozen",
+    "dramatic low angle"
   ]
 }
-
-
-
-
-
-

@@ -1,0 +1,83 @@
+{
+  "game_ui": {
+    "subjects": [
+      "health bar mana bar HUD",
+      "inventory bag grid interface",
+      "skill ability hotbar",
+      "minimap radar display",
+      "dialog box character portrait",
+      "main menu screen layout",
+      "quest log tracker panel",
+      "character stats attributes screen",
+      "settings options menu",
+      "achievement popup notification",
+      "loading screen progress bar",
+      "notification toast message",
+      "shop store purchase interface",
+      "crafting recipe interface",
+      "party team member frames"
+    ],
+    "ui_styles": [
+      "fantasy RPG ornate medieval",
+      "sci-fi futuristic holographic",
+      "minimalist modern clean",
+      "cartoon casual colorful",
+      "dark souls gothic inspired",
+      "mobile game polished clean",
+      "retro arcade pixel style",
+      "steampunk mechanical gears",
+      "eastern MMO elaborate",
+      "western AAA realistic"
+    ],
+    "elements": [
+      "buttons and clickable icons",
+      "progress loading bars",
+      "health hearts or bar meters",
+      "currency gold display counter",
+      "item equipment slots grid",
+      "tooltip information boxes",
+      "scrollbars and sliders",
+      "tabs and panel containers",
+      "dropdown select menus",
+      "checkbox radio toggles",
+      "input text fields",
+      "modal popup dialogs"
+    ],
+    "features": [
+      "transparent alpha background",
+      "consistent style guide design",
+      "readable clear typography",
+      "visual hierarchy clear",
+      "responsive scaling design",
+      "animation hover states",
+      "disabled inactive states",
+      "loading skeleton states",
+      "error warning states",
+      "success confirmation states"
+    ],
+    "colors": [
+      "health red warning",
+      "mana blue magic",
+      "stamina yellow energy",
+      "experience purple growth",
+      "gold currency warm",
+      "legendary orange rare",
+      "epic purple quality",
+      "rare blue quality",
+      "common gray normal",
+      "error red alert"
+    ],
+    "themes": [
+      "complete game UI kit",
+      "HUD interface elements pack",
+      "video game menu system",
+      "mobile game UI components",
+      "RPG interface design set",
+      "MOBA game HUD elements",
+      "card game interface",
+      "battle royale HUD",
+      "strategy game interface",
+      "casual game UI pack"
+    ]
+  }
+}

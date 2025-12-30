@@ -1,0 +1,79 @@
+{
+  "mediterranean": {
+    "subjects": [
+      "Greek island village scene",
+      "Italian vineyard harvest",
+      "Spanish flamenco dancer",
+      "Mediterranean fishing boat",
+      "olive grove countryside",
+      "outdoor cafe terrace",
+      "coastal sunset dining",
+      "fruit market vendor",
+      "woman in sundress",
+      "ancient ruins tourist",
+      "wine tasting scene",
+      "Mediterranean chef cooking",
+      "seaside wedding ceremony",
+      "yacht harbor marina",
+      "beach umbrella relaxation"
+    ],
+    "environments": [
+      "Santorini white blue village",
+      "Tuscan rolling hills",
+      "Spanish plaza fountain",
+      "French Riviera coastline",
+      "Croatian coastal town",
+      "Amalfi cliff houses",
+      "Moroccan beach resort",
+      "Portuguese tiled street",
+      "Greek temple ruins",
+      "Turkish coastal resort"
+    ],
+    "elements": [
+      "whitewashed blue dome buildings",
+      "terracotta roof tiles",
+      "bougainvillea purple flowers",
+      "olive branches wreaths",
+      "lemon and citrus fruits",
+      "ceramic painted tiles",
+      "wrought iron balconies",
+      "wooden fishing boats",
+      "grapevines and wine",
+      "ancient stone walls",
+      "outdoor dining tables",
+      "blue shuttered windows"
+    ],
+    "lighting": [
+      "warm Mediterranean sunlight",
+      "golden hour coastal glow",
+      "harsh midday sun shadows",
+      "sunset over sea pink",
+      "candlelit outdoor dinner",
+      "blue sky reflected water",
+      "morning market light",
+      "twilight harbor lights"
+    ],
+    "moods": [
+      "relaxed coastal lifestyle",
+      "romantic sunset escape",
+      "rustic authentic charm",
+      "festive celebration fiesta",
+      "leisurely afternoon siesta",
+      "sun-kissed vacation bliss",
+      "ancient history wonder",
+      "culinary pleasure delight"
+    ],
+    "styles": [
+      "Mediterranean coastal aesthetic",
+      "Greek island style",
+      "Italian rustic charm",
+      "Spanish vibrant colorful",
+      "French Provence pastoral",
+      "contemporary Mediterranean",
+      "classical antiquity inspired",
+      "bohemian coastal style",
+      "Mediterranean fusion modern",
+      "traditional village vernacular"
+    ]
+  }
+}

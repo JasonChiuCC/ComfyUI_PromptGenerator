@@ -27,7 +27,11 @@
     "game-like effects",
     "magical summoning",
     "adventure lighting",
-    "dramatic reveal"
+    "dramatic reveal",
+    "cinematic dramatic lighting",
+    "soft diffused natural",
+    "rim light edge glow",
+    "golden hour warmth"
   ],
   "styles": [
     "isekai anime art",
@@ -35,7 +39,11 @@
     "fantasy anime",
     "game world aesthetic",
     "transported hero",
-    "reincarnation fantasy"
+    "reincarnation fantasy",
+    "highly detailed realistic",
+    "artistic stylized",
+    "cinematic movie quality",
+    "fine art gallery"
   ],
   "effects": [
     "status window UI",
@@ -43,7 +51,11 @@
     "skill activation",
     "summoning circles",
     "power awakening",
-    "cheat ability"
+    "cheat ability",
+    "volumetric light rays",
+    "atmospheric fog mist",
+    "particle dust sparkle",
+    "motion blur dynamic"
   ],
   "shot_types": [
     "hero pose",
@@ -51,12 +63,10 @@
     "adventure group",
     "power reveal",
     "dramatic action",
-    "comedy moment"
+    "comedy moment",
+    "epic wide establishing",
+    "intimate close portrait",
+    "dynamic action frozen",
+    "dramatic low angle"
   ]
 }
-
-
-
-
-
-

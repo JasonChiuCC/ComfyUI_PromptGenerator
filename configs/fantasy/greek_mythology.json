@@ -27,7 +27,11 @@
     "godly glow",
     "dramatic greek",
     "temple light",
-    "heroic golden"
+    "heroic golden",
+    "cinematic dramatic lighting",
+    "soft diffused natural",
+    "rim light edge glow",
+    "golden hour warmth"
   ],
   "styles": [
     "Greek mythology art",
@@ -35,7 +39,11 @@
     "heroic Greek",
     "Olympian gods",
     "ancient epic",
-    "mythological illustration"
+    "mythological illustration",
+    "highly detailed realistic",
+    "artistic stylized",
+    "cinematic movie quality",
+    "fine art gallery"
   ],
   "effects": [
     "divine power",
@@ -43,7 +51,11 @@
     "godly aura",
     "marble texture",
     "olive branches",
-    "mythical creatures"
+    "mythical creatures",
+    "volumetric light rays",
+    "atmospheric fog mist",
+    "particle dust sparkle",
+    "motion blur dynamic"
   ],
   "shot_types": [
     "divine portrait",
@@ -51,12 +63,10 @@
     "epic scene",
     "temple composition",
     "mythical confrontation",
-    "godly reveal"
+    "godly reveal",
+    "epic wide establishing",
+    "intimate close portrait",
+    "dynamic action frozen",
+    "dramatic low angle"
   ]
 }
-
-
-
-
-
-

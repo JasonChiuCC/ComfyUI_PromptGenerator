@@ -28,14 +28,23 @@
       "mysterious fog light",
       "golden palace illumination",
       "romantic evening ambiance",
-      "theatrical dramatic lighting"
+      "theatrical dramatic lighting",
+      "cinematic dramatic lighting",
+      "soft diffused natural",
+      "rim light edge glow",
+      "golden hour warmth"
     ],
     "colors": [
       "gold and black elegant",
       "deep jewel tones",
       "white and gold baroque",
       "rich burgundy and purple",
-      "Venetian red and gold"
+      "Venetian red and gold",
+      "rich saturated vibrant",
+      "muted subtle tones",
+      "warm golden palette",
+      "cool blue tones",
+      "high contrast dramatic"
     ],
     "elements": [
       "ornate Venetian masks",
@@ -53,8 +62,12 @@
       "theatrical and dramatic",
       "romantic intrigue",
       "Renaissance splendor",
-      "anonymous fantasy"
+      "anonymous fantasy",
+      "epic dramatic atmosphere",
+      "peaceful tranquil calm",
+      "mysterious dark enigma",
+      "joyful bright energy",
+      "intense powerful force"
     ]
   }
 }
-

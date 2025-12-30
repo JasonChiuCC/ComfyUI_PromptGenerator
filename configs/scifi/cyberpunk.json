@@ -27,7 +27,11 @@
     "holographic glow",
     "harsh fluorescent",
     "dramatic noir lighting",
-    "LED ambient"
+    "LED ambient",
+    "cinematic dramatic lighting",
+    "soft diffused natural",
+    "rim light edge glow",
+    "golden hour warmth"
   ],
   "styles": [
     "cyberpunk aesthetic",
@@ -35,7 +39,11 @@
     "Ghost in the Shell style",
     "neo-noir",
     "high tech dystopia",
-    "cyber noir"
+    "cyber noir",
+    "highly detailed realistic",
+    "artistic stylized",
+    "cinematic movie quality",
+    "fine art gallery"
   ],
   "effects": [
     "rain and neon reflections",
@@ -43,7 +51,11 @@
     "digital glitches",
     "lens flares",
     "smoke and haze",
-    "chromatic aberration"
+    "chromatic aberration",
+    "volumetric light rays",
+    "atmospheric fog mist",
+    "particle dust sparkle",
+    "motion blur dynamic"
   ],
   "composition_types": [
     "street level perspective",
@@ -51,12 +63,10 @@
     "close-up with city backdrop",
     "action shot",
     "moody portrait",
-    "wide establishing shot"
+    "wide establishing shot",
+    "rule of thirds balanced",
+    "centered symmetrical",
+    "diagonal dynamic lines",
+    "framing natural elements"
   ]
 }
-
-
-
-
-
-
