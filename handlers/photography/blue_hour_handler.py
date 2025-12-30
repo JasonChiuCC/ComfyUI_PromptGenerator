@@ -1,39 +1,53 @@
-import random
+"""Blue hour photography theme handler."""
+
+from typing import Dict
 from ...base_handler import BaseThemeHandler
 
+
 class BlueHourHandler(BaseThemeHandler):
-    """Handler for Blue Hour photography style"""
+    """Handler for blue hour photography style."""
     
-    def get_theme_name(self) -> str:
-        return "blue_hour"
-    
-    def generate_prompt(self, config: dict, seed: int = None) -> str:
-        if seed is not None:
-            random.seed(seed)
+    def generate(
+        self,
+        custom_subject: str = "",
+        custom_location: str = "",
+        include_environment: bool = True,
+        include_style: bool = True,
+        include_effects: bool = True
+    ) -> Dict[str, str]:
+        """Generate blue hour photography prompt components."""
+        components = {}
         
-        subject = random.choice(config.get("subjects", ["twilight cityscape"]))
-        style = random.choice(config.get("styles", ["blue hour photography"]))
-        lighting = random.choice(config.get("lighting", ["deep blue sky"]))
-        color = random.choice(config.get("colors", ["deep blue tones"]))
-        shot_type = random.choice(config.get("shot_types", ["cityscape panorama"]))
+        if custom_subject:
+            subject = custom_subject
+        else:
+            subject = self._get_random_choice("blue_hour.subjects", "cityscape at dusk")
         
-        prompt_parts = [
-            f"{subject}",
-            f"{style}",
-            f"{shot_type}",
-            f"{lighting}",
-            f"{color}",
-            "blue hour, twilight, dusk",
-            "cool tones, city lights, serene, magical"
-        ]
+        composition = self._get_random_choice("blue_hour.composition_types", "twilight scene")
         
-        return ", ".join(prompt_parts)
-    
-    def get_negative_prompt(self) -> str:
-        return "midday, harsh sun, warm tones, orange, daytime"
-
-
-
-
-
-
+        components["subject"] = (
+            f"((blue hour photography)) {subject}, "
+            f"{composition}, cool twilight tones"
+        )
+        
+        if include_environment:
+            if custom_location:
+                location = custom_location
+            else:
+                location = self._get_random_choice("blue_hour.locations", "urban skyline")
+            components["environment"] = f"in {location}, dusk atmosphere"
+        else:
+            components["environment"] = ""
+        
+        if include_style:
+            style = self._get_random_choice("blue_hour.styles", "twilight photography")
+            components["style"] = f"{style}, cool blue tones, city lights emerging"
+        else:
+            components["style"] = ""
+        
+        if include_effects:
+            components["effects"] = "blue twilight, city lights, serene atmosphere, dusk magic"
+        else:
+            components["effects"] = ""
+        
+        return components

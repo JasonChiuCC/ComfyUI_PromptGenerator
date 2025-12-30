@@ -1,39 +1,53 @@
-import random
+"""Golden hour photography theme handler."""
+
+from typing import Dict
 from ...base_handler import BaseThemeHandler
 
+
 class GoldenHourHandler(BaseThemeHandler):
-    """Handler for Golden Hour photography style"""
+    """Handler for golden hour photography style."""
     
-    def get_theme_name(self) -> str:
-        return "golden_hour"
-    
-    def generate_prompt(self, config: dict, seed: int = None) -> str:
-        if seed is not None:
-            random.seed(seed)
+    def generate(
+        self,
+        custom_subject: str = "",
+        custom_location: str = "",
+        include_environment: bool = True,
+        include_style: bool = True,
+        include_effects: bool = True
+    ) -> Dict[str, str]:
+        """Generate golden hour photography prompt components."""
+        components = {}
         
-        subject = random.choice(config.get("subjects", ["sunset scene"]))
-        style = random.choice(config.get("styles", ["golden hour photography"]))
-        lighting = random.choice(config.get("lighting", ["warm orange backlight"]))
-        color = random.choice(config.get("colors", ["warm orange tones"]))
-        shot_type = random.choice(config.get("shot_types", ["backlit portrait"]))
+        if custom_subject:
+            subject = custom_subject
+        else:
+            subject = self._get_random_choice("golden_hour.subjects", "portrait in sunlight")
         
-        prompt_parts = [
-            f"{subject}",
-            f"{style}",
-            f"{shot_type}",
-            f"{lighting}",
-            f"{color}",
-            "golden hour, magic hour, sunset",
-            "warm light, dreamy, romantic, lens flare"
-        ]
+        composition = self._get_random_choice("golden_hour.composition_types", "backlit golden glow")
         
-        return ", ".join(prompt_parts)
-    
-    def get_negative_prompt(self) -> str:
-        return "midday harsh light, overcast, cold tones, blue light, night"
-
-
-
-
-
-
+        components["subject"] = (
+            f"((golden hour photography)) {subject}, "
+            f"{composition}, warm sunset light"
+        )
+        
+        if include_environment:
+            if custom_location:
+                location = custom_location
+            else:
+                location = self._get_random_choice("golden_hour.locations", "open field")
+            components["environment"] = f"in {location}, magical hour lighting"
+        else:
+            components["environment"] = ""
+        
+        if include_style:
+            style = self._get_random_choice("golden_hour.styles", "natural light portrait")
+            components["style"] = f"{style}, warm tones, sun flare"
+        else:
+            components["style"] = ""
+        
+        if include_effects:
+            components["effects"] = "golden light, warm glow, lens flare, magical atmosphere"
+        else:
+            components["effects"] = ""
+        
+        return components

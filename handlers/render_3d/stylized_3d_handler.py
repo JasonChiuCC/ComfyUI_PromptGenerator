@@ -1,36 +1,50 @@
-import random
+"""Stylized 3D theme handler."""
+
+from typing import Dict
 from ...base_handler import BaseThemeHandler
 
-class Stylized3DHandler(BaseThemeHandler):
-    """Handler for Stylized cartoon 3D art style"""
-    
-    def get_theme_name(self) -> str:
-        return "stylized_3d"
-    
-    def generate_prompt(self, config: dict, seed: int = None) -> str:
-        if seed is not None:
-            random.seed(seed)
-        
-        subject = random.choice(config.get("subjects", ["cartoon character"]))
-        style = random.choice(config.get("styles", ["stylized 3D"]))
-        environment = random.choice(config.get("environments", ["colorful fantasy world"]))
-        lighting = random.choice(config.get("lighting", ["bright cheerful lighting"]))
-        composition = random.choice(config.get("composition_types", ["character showcase"]))
-        detail = random.choice(config.get("details", ["exaggerated features"]))
-        
-        prompt_parts = [
-            f"{subject}",
-            f"{style}",
-            f"{detail}",
-            f"{composition}",
-            f"{lighting}",
-            f"{environment}",
-            "stylized 3D, cartoon 3D render, Fortnite style",
-            "vibrant colors, playful, high quality 3D"
-        ]
-        
-        return ", ".join(prompt_parts)
-    
-    def get_negative_prompt(self) -> str:
-        return "realistic, photorealistic, dark, gritty, horror, low poly, ugly, deformed"
 
+class Stylized3DHandler(BaseThemeHandler):
+    """Handler for stylized 3D style."""
+    
+    def generate(
+        self,
+        custom_subject: str = "",
+        custom_location: str = "",
+        include_environment: bool = True,
+        include_style: bool = True,
+        include_effects: bool = True
+    ) -> Dict[str, str]:
+        """Generate stylized 3D prompt components."""
+        components = {}
+        
+        if custom_subject:
+            subject = custom_subject
+        else:
+            subject = self._get_random_choice("stylized_3d.subjects", "stylized character")
+        
+        view = self._get_random_choice("stylized_3d.view_types", "character render")
+        
+        components["subject"] = (
+            f"((stylized 3D art)) {subject}, "
+            f"{view}, artistic 3D design"
+        )
+        
+        if include_environment:
+            scene = self._get_random_choice("stylized_3d.scenes", "colorful environment")
+            components["environment"] = f"in {scene}, vibrant world"
+        else:
+            components["environment"] = ""
+        
+        if include_style:
+            style = self._get_random_choice("stylized_3d.styles", "Pixar style")
+            components["style"] = f"{style}, exaggerated proportions, appealing design"
+        else:
+            components["style"] = ""
+        
+        if include_effects:
+            components["effects"] = "cartoon shading, vibrant colors, charming aesthetic"
+        else:
+            components["effects"] = ""
+        
+        return components

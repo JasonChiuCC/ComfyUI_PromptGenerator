@@ -1,0 +1,106 @@
+{
+    "witch": {
+        "shot_types": [
+            "cauldron brewing close-up",
+            "silhouette against full moon",
+            "coven ritual wide shot",
+            "flying on broomstick",
+            "dramatic portrait with familiar",
+            "spell casting action shot",
+            "forest clearing ritual",
+            "emerging from shadows",
+            "burning at stake historical",
+            "sabbath gathering aerial",
+            "potion making detail shot",
+            "witch trial courtroom",
+            "transformation sequence",
+            "cursing victim dramatic shot",
+            "ancient grimoire reading"
+        ],
+        "witch_types": [
+            "classic crone witch",
+            "beautiful enchantress",
+            "forest hedge witch",
+            "sea witch",
+            "coven high priestess",
+            "young apprentice witch",
+            "dark sorceress",
+            "healing white witch",
+            "swamp witch",
+            "kitchen witch"
+        ],
+        "attire": [
+            "flowing black robes",
+            "pointed witch hat",
+            "tattered ancient dress",
+            "nature-woven garments",
+            "Victorian black dress",
+            "ritual ceremonial robes",
+            "peasant witch clothes",
+            "bone and feather accessories",
+            "mystical jewelry and amulets",
+            "hooded dark cloak"
+        ],
+        "environments": [
+            "cottage in dark woods",
+            "bubbling cauldron room",
+            "moonlit forest clearing",
+            "ancient stone circle",
+            "herb garden at night",
+            "candlelit ritual chamber",
+            "swamp dwelling",
+            "mountain cave",
+            "cemetery at midnight",
+            "crossroads at witching hour"
+        ],
+        "lighting": [
+            "cauldron fire glow",
+            "candlelight and shadow",
+            "full moon silver light",
+            "firefly and magical glow",
+            "bonfire illumination",
+            "storm lightning",
+            "green magical light",
+            "twilight purple haze",
+            "torchlight procession",
+            "bioluminescent fungi"
+        ],
+        "elements": [
+            "bubbling cauldron",
+            "black cat familiar",
+            "flying broomstick",
+            "ancient grimoire",
+            "crystal ball",
+            "herb bundles",
+            "animal bones and skulls",
+            "magic wand",
+            "pentagram symbol",
+            "raven or crow companion"
+        ],
+        "effects": [
+            "magical energy swirls",
+            "potion smoke and steam",
+            "spell sparkles",
+            "dark magic tendrils",
+            "transformation particles",
+            "mystical fog",
+            "floating objects",
+            "glowing runes",
+            "nature spirits",
+            "curse manifestation"
+        ],
+        "moods": [
+            "mysterious power",
+            "nature magic connection",
+            "dark temptation",
+            "ancient wisdom",
+            "vengeful fury",
+            "seductive danger",
+            "healing kindness",
+            "forbidden knowledge",
+            "persecution and fear",
+            "wild freedom"
+        ]
+    }
+}
+

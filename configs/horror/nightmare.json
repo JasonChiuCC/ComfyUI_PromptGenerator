@@ -1,0 +1,106 @@
+{
+    "nightmare": {
+        "shot_types": [
+            "surreal landscape wide",
+            "falling perspective",
+            "chase through impossible space",
+            "teeth falling out close-up",
+            "paralysis POV",
+            "familiar place distorted",
+            "looming figure approach",
+            "endless loop scene",
+            "underwater drowning",
+            "flying then falling",
+            "naked in public",
+            "exam unprepared",
+            "loved one as monster",
+            "waking within dream",
+            "creature in darkness"
+        ],
+        "nightmare_types": [
+            "chase nightmare",
+            "falling dream",
+            "paralysis nightmare",
+            "teeth falling",
+            "public embarrassment",
+            "loved ones in danger",
+            "being late or lost",
+            "drowning or suffocating",
+            "being watched",
+            "transformation nightmare"
+        ],
+        "subjects": [
+            "dreamer victim",
+            "nightmare creature",
+            "distorted loved one",
+            "shadow pursuer",
+            "childhood fear manifest",
+            "abstract threat",
+            "doppelganger",
+            "authority figure warped",
+            "the thing in darkness",
+            "memory gone wrong"
+        ],
+        "environments": [
+            "childhood home distorted",
+            "school but wrong",
+            "endless corridor",
+            "impossible geometry space",
+            "sinking floor",
+            "dark forest maze",
+            "underwater void",
+            "falling through clouds",
+            "familiar but alien",
+            "memory fragment world"
+        ],
+        "lighting": [
+            "dreamy soft glow",
+            "harsh spotlight isolation",
+            "red emergency nightmare",
+            "bioluminescent surreal",
+            "shifting impossible light",
+            "total darkness with shapes",
+            "overexposed blown out",
+            "underwater murky",
+            "fire and destruction",
+            "aurora strange colors"
+        ],
+        "elements": [
+            "melting objects",
+            "impossible physics",
+            "repeating patterns",
+            "size distortion",
+            "time loops",
+            "missing body parts",
+            "unable to run",
+            "unable to scream",
+            "wrong faces",
+            "familiar unfamiliar"
+        ],
+        "effects": [
+            "reality warping",
+            "surreal distortion",
+            "slow motion trapped",
+            "fisheye perspective",
+            "chromatic aberration",
+            "double exposure",
+            "dreamy blur",
+            "color shifting",
+            "impossible shadows",
+            "Escher-like geometry"
+        ],
+        "moods": [
+            "dreaming dread",
+            "helpless terror",
+            "surreal unease",
+            "childhood fears",
+            "anxiety manifest",
+            "inescapable pursuit",
+            "reality breakdown",
+            "primal fear",
+            "subconscious horror",
+            "waking relief denied"
+        ]
+    }
+}
+

@@ -1,0 +1,106 @@
+{
+    "vampire": {
+        "shot_types": [
+            "dramatic portrait in candlelight",
+            "full body silhouette against moon",
+            "menacing low angle shot",
+            "intimate feeding scene",
+            "emerging from shadows",
+            "mirror-less reflection shot",
+            "aristocratic throne pose",
+            "hunting in darkness",
+            "gothic window silhouette",
+            "transformation sequence",
+            "rising from coffin",
+            "seductive close-up",
+            "pack of vampires group shot",
+            "ancient vampire establishing shot",
+            "victim's POV looking up"
+        ],
+        "characters": [
+            "ancient vampire lord",
+            "seductive vampiress",
+            "feral nosferatu",
+            "elegant count",
+            "vampire hunter turned vampire",
+            "young newly-turned vampire",
+            "vampire queen",
+            "savage vampire beast",
+            "aristocratic bloodsucker",
+            "mysterious stranger"
+        ],
+        "attire": [
+            "flowing black cape",
+            "Victorian noble attire",
+            "bloodstained white shirt",
+            "elegant ball gown",
+            "leather and lace",
+            "antique jewelry with ruby",
+            "high collar coat",
+            "modern gothic fashion",
+            "medieval nobleman clothes",
+            "tattered ancient robes"
+        ],
+        "environments": [
+            "gothic castle interior",
+            "candlelit crypt",
+            "Victorian mansion",
+            "fog-shrouded cemetery",
+            "abandoned cathedral",
+            "opulent ballroom",
+            "moonlit rooftop",
+            "dark alleyway",
+            "ancient tomb",
+            "blood-red throne room"
+        ],
+        "lighting": [
+            "candlelight and shadow",
+            "pale moonlight",
+            "blood red ambient glow",
+            "single shaft of moonlight",
+            "fireplace flickering",
+            "torch-lit dungeon",
+            "blue hour twilight",
+            "lightning flash",
+            "stained glass filtered light",
+            "complete darkness with glowing eyes"
+        ],
+        "elements": [
+            "exposed fangs",
+            "blood dripping from lips",
+            "glowing red eyes",
+            "pale porcelain skin",
+            "long sharp nails",
+            "bat transformation",
+            "hypnotic gaze",
+            "ancient signet ring",
+            "coffin in background",
+            "victim in embrace"
+        ],
+        "effects": [
+            "blood mist",
+            "shadow tendrils",
+            "bat swarm",
+            "supernatural speed blur",
+            "crimson aura",
+            "fog rolling in",
+            "dust particles in moonlight",
+            "dark magic wisps",
+            "unholy glow",
+            "time-worn film grain"
+        ],
+        "moods": [
+            "seductive danger",
+            "aristocratic menace",
+            "eternal hunger",
+            "tragic immortality",
+            "predatory elegance",
+            "ancient power",
+            "romantic darkness",
+            "feral savagery",
+            "melancholic loneliness",
+            "sinister charm"
+        ]
+    }
+}
+

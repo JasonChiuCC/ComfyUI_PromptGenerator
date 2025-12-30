@@ -1,39 +1,50 @@
-import random
+"""Bokeh photography theme handler."""
+
+from typing import Dict
 from ...base_handler import BaseThemeHandler
 
+
 class BokehHandler(BaseThemeHandler):
-    """Handler for Bokeh photography style"""
+    """Handler for bokeh photography style."""
     
-    def get_theme_name(self) -> str:
-        return "bokeh"
-    
-    def generate_prompt(self, config: dict, seed: int = None) -> str:
-        if seed is not None:
-            random.seed(seed)
+    def generate(
+        self,
+        custom_subject: str = "",
+        custom_location: str = "",
+        include_environment: bool = True,
+        include_style: bool = True,
+        include_effects: bool = True
+    ) -> Dict[str, str]:
+        """Generate bokeh photography prompt components."""
+        components = {}
         
-        subject = random.choice(config.get("subjects", ["portrait"]))
-        style = random.choice(config.get("styles", ["bokeh photography"]))
-        lighting = random.choice(config.get("lighting", ["point light sources"]))
-        bokeh_type = random.choice(config.get("bokeh_types", ["circular bokeh balls"]))
-        shot_type = random.choice(config.get("shot_types", ["portrait close-up"]))
+        if custom_subject:
+            subject = custom_subject
+        else:
+            subject = self._get_random_choice("bokeh.subjects", "portrait with bokeh")
         
-        prompt_parts = [
-            f"{subject}",
-            f"{style}",
-            f"{shot_type}",
-            f"{bokeh_type}",
-            f"{lighting}",
-            "bokeh, shallow depth of field, f/1.4",
-            "creamy background blur, 85mm lens, dreamy"
-        ]
+        composition = self._get_random_choice("bokeh.composition_types", "shallow depth portrait")
         
-        return ", ".join(prompt_parts)
-    
-    def get_negative_prompt(self) -> str:
-        return "deep focus, everything sharp, small aperture, flat background"
-
-
-
-
-
-
+        components["subject"] = (
+            f"((bokeh photography)) {subject}, "
+            f"{composition}, beautiful background blur"
+        )
+        
+        if include_environment:
+            background = self._get_random_choice("bokeh.backgrounds", "colorful lights")
+            components["environment"] = f"with {background} bokeh, dreamy background"
+        else:
+            components["environment"] = ""
+        
+        if include_style:
+            style = self._get_random_choice("bokeh.styles", "artistic bokeh")
+            components["style"] = f"{style}, f/1.4 aperture, creamy bokeh balls"
+        else:
+            components["style"] = ""
+        
+        if include_effects:
+            components["effects"] = "beautiful bokeh, shallow DOF, light orbs, dreamy blur"
+        else:
+            components["effects"] = ""
+        
+        return components

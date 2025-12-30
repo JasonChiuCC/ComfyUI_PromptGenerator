@@ -1,0 +1,106 @@
+{
+    "j_horror": {
+        "shot_types": [
+            "static wide shot long tension",
+            "ghost emerging from TV",
+            "crawling toward camera",
+            "hair covering face close-up",
+            "mirror reflection horror",
+            "figure at end of hallway",
+            "ceiling corner ghost shot",
+            "underwater ghost appearance",
+            "slow approach from darkness",
+            "sudden face in window",
+            "child ghost standing still",
+            "distorted limb movement",
+            "eye peeking through crack",
+            "ghost behind character",
+            "empty room with presence"
+        ],
+        "spirits": [
+            "onryo vengeful spirit",
+            "yurei female ghost",
+            "cursed video ghost",
+            "drowned spirit",
+            "child ghost",
+            "long-haired woman ghost",
+            "contorted limb specter",
+            "faceless apparition",
+            "possessed person",
+            "curse manifestation"
+        ],
+        "appearances": [
+            "white funeral dress",
+            "long black hair covering face",
+            "pale grey-blue skin",
+            "sunken dark eyes",
+            "broken twisted limbs",
+            "wet dripping appearance",
+            "unnaturally still posture",
+            "jerky unnatural movement",
+            "floating hair",
+            "distorted proportions"
+        ],
+        "environments": [
+            "Japanese apartment",
+            "traditional tatami room",
+            "school at night",
+            "hospital corridor",
+            "abandoned building",
+            "well or water source",
+            "stairwell darkness",
+            "bathroom mirror",
+            "closet or storage space",
+            "rooftop at dusk"
+        ],
+        "lighting": [
+            "blue-grey cold light",
+            "TV static glow",
+            "fluorescent flicker",
+            "minimal ambient light",
+            "overcast diffused",
+            "single light source",
+            "darkness with shape",
+            "moonlight blue tint",
+            "harsh daylight horror",
+            "underwater murky light"
+        ],
+        "elements": [
+            "CRT television",
+            "rotary phone",
+            "cursed videotape",
+            "old photograph",
+            "diary or journal",
+            "water stains",
+            "scratching sounds",
+            "newspaper clipping",
+            "missing person poster",
+            "numbered curse countdown"
+        ],
+        "effects": [
+            "VHS distortion",
+            "static and noise",
+            "blue color grading",
+            "slow motion approach",
+            "minimal score silence",
+            "practical effects",
+            "subtle background change",
+            "reflection inconsistency",
+            "time loop repetition",
+            "film grain texture"
+        ],
+        "moods": [
+            "creeping dread",
+            "inevitable curse",
+            "quiet terror",
+            "psychological unease",
+            "supernatural tragedy",
+            "urban legend fear",
+            "isolation and loneliness",
+            "mystery and investigation",
+            "spreading infection of fear",
+            "inescapable fate"
+        ]
+    }
+}
+

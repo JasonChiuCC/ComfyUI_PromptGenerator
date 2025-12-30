@@ -1,0 +1,106 @@
+{
+    "lovecraftian": {
+        "shot_types": [
+            "cosmic entity dwarfing human",
+            "non-Euclidean architecture wide",
+            "tentacle mass filling frame",
+            "cultist ritual circle",
+            "rising from ocean depths",
+            "portal to void",
+            "sanity breaking POV",
+            "R'lyeh cityscape",
+            "ancient tome close-up",
+            "Deep One emerging",
+            "star-spawn descending",
+            "witness going mad",
+            "impossible geometry interior",
+            "cosmic void expanse",
+            "Arkham investigation scene"
+        ],
+        "entities": [
+            "Cthulhu-like Great Old One",
+            "Shoggoth protoplasmic mass",
+            "Deep One hybrid",
+            "Mi-Go fungoid",
+            "Elder Thing",
+            "Star-spawn of Cthulhu",
+            "Nyarlathotep avatar",
+            "Yog-Sothoth manifestation",
+            "Night-gaunt",
+            "Colour Out of Space"
+        ],
+        "cultists": [
+            "hooded worshipper",
+            "Innsmouth native",
+            "degenerate cultist",
+            "scholarly occultist",
+            "mad prophet",
+            "hybrid offspring",
+            "possessed victim",
+            "willing sacrifice",
+            "ancient priesthood",
+            "secret society member"
+        ],
+        "environments": [
+            "sunken R'lyeh",
+            "non-Euclidean city",
+            "Antarctic ruins",
+            "Innsmouth village",
+            "Arkham streets",
+            "Miskatonic University",
+            "oceanic abyss",
+            "alien planet surface",
+            "cyclopean ruins",
+            "cosmic void between stars"
+        ],
+        "lighting": [
+            "eldritch bioluminescence",
+            "cosmic nebula glow",
+            "sickly phosphorescence",
+            "lightning in storm",
+            "alien star light",
+            "abyssal darkness",
+            "ritual candles",
+            "aurora strange colors",
+            "moonlight through clouds",
+            "otherworldly radiance"
+        ],
+        "elements": [
+            "countless tentacles",
+            "too many eyes",
+            "impossible angles",
+            "cyclopean architecture",
+            "eldritch symbols",
+            "Necronomicon",
+            "cosmic scale",
+            "hybrid features",
+            "ancient artifacts",
+            "dimensional rifts"
+        ],
+        "effects": [
+            "sanity distortion",
+            "reality warping",
+            "scale-breaking perspective",
+            "cosmic color palette",
+            "geometric impossibility",
+            "depth of void",
+            "fog and mist",
+            "underwater murk",
+            "ancient patina",
+            "mind-bending patterns"
+        ],
+        "moods": [
+            "cosmic insignificance",
+            "sanity erosion",
+            "forbidden knowledge",
+            "existential dread",
+            "ancient awakening",
+            "inevitable doom",
+            "reality is a lie",
+            "mankind is nothing",
+            "the stars are right",
+            "things man was not meant to know"
+        ]
+    }
+}
+

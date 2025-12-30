@@ -1,0 +1,106 @@
+{
+    "occult": {
+        "shot_types": [
+            "ritual circle wide shot",
+            "grimoire reading close-up",
+            "seance table gathering",
+            "summoning portal opening",
+            "occult library establishing",
+            "tarot reading scene",
+            "crystal ball gazing",
+            "secret society meeting",
+            "altar preparation",
+            "symbolic carving detail",
+            "blood ritual",
+            "astral projection",
+            "necromancy scene",
+            "forbidden experiment",
+            "consequence manifestation"
+        ],
+        "practitioners": [
+            "ceremonial magician",
+            "chaos magician",
+            "necromancer",
+            "secret society member",
+            "occult scholar",
+            "medium or psychic",
+            "cult leader",
+            "cursed bloodline heir",
+            "amateur dabbler",
+            "ancient sorcerer"
+        ],
+        "practices": [
+            "ritual summoning",
+            "divination and scrying",
+            "necromancy",
+            "blood magic",
+            "sigil crafting",
+            "spirit communication",
+            "astral travel",
+            "curse casting",
+            "binding rituals",
+            "forbidden knowledge seeking"
+        ],
+        "environments": [
+            "occult library",
+            "ritual chamber",
+            "secret temple",
+            "Victorian séance room",
+            "underground crypt",
+            "modern apartment altar",
+            "ancient ruins",
+            "crossroads at midnight",
+            "forbidden archive",
+            "sacred geometry space"
+        ],
+        "lighting": [
+            "candlelight only",
+            "ritual fire glow",
+            "moonlight through skylight",
+            "phosphorescent symbols",
+            "black light ultraviolet",
+            "oil lamp antique",
+            "portal energy glow",
+            "lightning during ritual",
+            "darkness with flame spots",
+            "supernatural manifestation light"
+        ],
+        "elements": [
+            "ancient grimoire",
+            "ritual dagger athame",
+            "pentagram symbol",
+            "candles in formation",
+            "chalice and offerings",
+            "crystal ball or mirror",
+            "tarot cards",
+            "planetary symbols",
+            "skull and bones",
+            "incense smoke"
+        ],
+        "effects": [
+            "incense smoke swirls",
+            "candlelight flicker",
+            "symbol glow activation",
+            "portal manifestation",
+            "spirit materialization",
+            "energy visualization",
+            "ritual circle barrier",
+            "astral overlay",
+            "consequence horror",
+            "reality thin spots"
+        ],
+        "moods": [
+            "forbidden knowledge",
+            "power beyond mortal",
+            "ancient secrets",
+            "danger of dabbling",
+            "things not meant to know",
+            "price of power",
+            "secret world beneath",
+            "ritual precision",
+            "consequence of hubris",
+            "thin veil between worlds"
+        ]
+    }
+}
+

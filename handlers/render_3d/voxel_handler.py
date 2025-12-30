@@ -1,36 +1,50 @@
-import random
+"""Voxel 3D theme handler."""
+
+from typing import Dict
 from ...base_handler import BaseThemeHandler
 
-class VoxelHandler(BaseThemeHandler):
-    """Handler for Voxel 3D art style"""
-    
-    def get_theme_name(self) -> str:
-        return "voxel"
-    
-    def generate_prompt(self, config: dict, seed: int = None) -> str:
-        if seed is not None:
-            random.seed(seed)
-        
-        subject = random.choice(config.get("subjects", ["voxel scene"]))
-        style = random.choice(config.get("styles", ["voxel art"]))
-        environment = random.choice(config.get("environments", ["simple background"]))
-        lighting = random.choice(config.get("lighting", ["soft ambient occlusion"]))
-        composition = random.choice(config.get("composition_types", ["isometric voxel view"]))
-        detail = random.choice(config.get("details", ["detailed small voxels"]))
-        
-        prompt_parts = [
-            f"{subject}",
-            f"{style}",
-            f"{detail}",
-            f"{composition}",
-            f"{lighting}",
-            f"{environment}",
-            "voxel art, cubic blocks, blocky 3D",
-            "MagicaVoxel style, clean render"
-        ]
-        
-        return ", ".join(prompt_parts)
-    
-    def get_negative_prompt(self) -> str:
-        return "smooth curves, high poly, realistic, organic shapes, photographic, 2D pixel art"
 
+class VoxelHandler(BaseThemeHandler):
+    """Handler for voxel 3D style."""
+    
+    def generate(
+        self,
+        custom_subject: str = "",
+        custom_location: str = "",
+        include_environment: bool = True,
+        include_style: bool = True,
+        include_effects: bool = True
+    ) -> Dict[str, str]:
+        """Generate voxel 3D prompt components."""
+        components = {}
+        
+        if custom_subject:
+            subject = custom_subject
+        else:
+            subject = self._get_random_choice("voxel.subjects", "voxel character")
+        
+        view = self._get_random_choice("voxel.view_types", "voxel art view")
+        
+        components["subject"] = (
+            f"((voxel art 3D)) {subject}, "
+            f"{view}, cubic pixel style"
+        )
+        
+        if include_environment:
+            scene = self._get_random_choice("voxel.scenes", "voxel world")
+            components["environment"] = f"in {scene}, blocky environment"
+        else:
+            components["environment"] = ""
+        
+        if include_style:
+            style = self._get_random_choice("voxel.styles", "MagicaVoxel style")
+            components["style"] = f"{style}, 3D pixel art, Minecraft aesthetic"
+        else:
+            components["style"] = ""
+        
+        if include_effects:
+            components["effects"] = "cubic voxels, blocky charm, retro 3D pixels"
+        else:
+            components["effects"] = ""
+        
+        return components

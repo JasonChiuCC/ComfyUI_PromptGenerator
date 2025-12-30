@@ -1,39 +1,51 @@
-import random
+"""Macro photography theme handler."""
+
+from typing import Dict
 from ...base_handler import BaseThemeHandler
 
+
 class MacroHandler(BaseThemeHandler):
-    """Handler for Macro photography style"""
+    """Handler for macro photography style."""
     
-    def get_theme_name(self) -> str:
-        return "macro"
-    
-    def generate_prompt(self, config: dict, seed: int = None) -> str:
-        if seed is not None:
-            random.seed(seed)
+    def generate(
+        self,
+        custom_subject: str = "",
+        custom_location: str = "",
+        include_environment: bool = True,
+        include_style: bool = True,
+        include_effects: bool = True
+    ) -> Dict[str, str]:
+        """Generate macro photography prompt components."""
+        components = {}
         
-        subject = random.choice(config.get("subjects", ["macro detail"]))
-        style = random.choice(config.get("styles", ["macro photography"]))
-        lighting = random.choice(config.get("lighting", ["soft diffused"]))
-        background = random.choice(config.get("backgrounds", ["smooth bokeh blur"]))
-        composition = random.choice(config.get("composition_types", ["centered subject"]))
+        if custom_subject:
+            subject = custom_subject
+        else:
+            subject = self._get_random_choice("macro.subjects", "tiny insect")
         
-        prompt_parts = [
-            f"{subject}",
-            f"{style}",
-            f"{composition}",
-            f"{lighting}",
-            f"{background}",
-            "macro photography, extreme close-up, 1:1 magnification",
-            "sharp focus, incredible detail, 100mm macro lens"
-        ]
+        composition = self._get_random_choice("macro.composition_types", "extreme close-up")
         
-        return ", ".join(prompt_parts)
-    
-    def get_negative_prompt(self) -> str:
-        return "wide angle, blurry subject, low detail, distant, out of focus"
-
-
-
-
-
-
+        components["subject"] = (
+            f"((macro photography)) {subject}, "
+            f"{composition}, incredible detail"
+        )
+        
+        if include_environment:
+            background = self._get_random_choice("macro.backgrounds", "soft bokeh")
+            lighting = self._get_random_choice("macro.lighting", "natural diffused light")
+            components["environment"] = f"{background}, {lighting}"
+        else:
+            components["environment"] = ""
+        
+        if include_style:
+            style = self._get_random_choice("macro.styles", "nature macro")
+            components["style"] = f"{style}, 1:1 magnification, tack sharp focus"
+        else:
+            components["style"] = ""
+        
+        if include_effects:
+            components["effects"] = "extreme detail, shallow depth of field, macro lens quality"
+        else:
+            components["effects"] = ""
+        
+        return components

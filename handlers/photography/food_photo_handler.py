@@ -1,39 +1,51 @@
-import random
+"""Food photography theme handler."""
+
+from typing import Dict
 from ...base_handler import BaseThemeHandler
 
+
 class FoodPhotoHandler(BaseThemeHandler):
-    """Handler for Food Photography style"""
+    """Handler for food photography style."""
     
-    def get_theme_name(self) -> str:
-        return "food_photo"
-    
-    def generate_prompt(self, config: dict, seed: int = None) -> str:
-        if seed is not None:
-            random.seed(seed)
+    def generate(
+        self,
+        custom_subject: str = "",
+        custom_location: str = "",
+        include_environment: bool = True,
+        include_style: bool = True,
+        include_effects: bool = True
+    ) -> Dict[str, str]:
+        """Generate food photography prompt components."""
+        components = {}
         
-        subject = random.choice(config.get("subjects", ["gourmet dish"]))
-        style = random.choice(config.get("styles", ["food photography"]))
-        lighting = random.choice(config.get("lighting", ["soft natural window"]))
-        prop = random.choice(config.get("props", ["rustic wooden board"]))
-        composition = random.choice(config.get("composition_types", ["overhead flat lay"]))
+        if custom_subject:
+            subject = custom_subject
+        else:
+            subject = self._get_random_choice("food_photo.subjects", "gourmet dish")
         
-        prompt_parts = [
-            f"{subject}",
-            f"{style}",
-            f"{composition}",
-            f"{lighting}",
-            f"{prop}",
-            "food photography, culinary art, delicious",
-            "appetizing, restaurant quality, food styling"
-        ]
+        composition = self._get_random_choice("food_photo.composition_types", "overhead flat lay")
         
-        return ", ".join(prompt_parts)
-    
-    def get_negative_prompt(self) -> str:
-        return "unappetizing, messy, bad lighting, amateur, unappetizing colors"
-
-
-
-
-
-
+        components["subject"] = (
+            f"((food photography)) {subject}, "
+            f"{composition}, appetizing presentation"
+        )
+        
+        if include_environment:
+            styling = self._get_random_choice("food_photo.styling", "rustic table setting")
+            lighting = self._get_random_choice("food_photo.lighting", "natural window light")
+            components["environment"] = f"{styling}, {lighting}"
+        else:
+            components["environment"] = ""
+        
+        if include_style:
+            style = self._get_random_choice("food_photo.styles", "editorial food")
+            components["style"] = f"{style}, magazine quality, mouthwatering"
+        else:
+            components["style"] = ""
+        
+        if include_effects:
+            components["effects"] = "fresh and delicious, perfect styling, culinary art"
+        else:
+            components["effects"] = ""
+        
+        return components

@@ -1,0 +1,106 @@
+{
+    "psychological": {
+        "shot_types": [
+            "distorted perspective wide shot",
+            "claustrophobic close-up",
+            "mirror confrontation",
+            "split personality dual frame",
+            "endless corridor shot",
+            "unreliable POV sequence",
+            "paranoid over-shoulder",
+            "isolation wide shot",
+            "face half in shadow",
+            "reality breaking shot",
+            "nightmare sequence",
+            "memory fragment montage",
+            "surveillance camera angle",
+            "trapped in room shot",
+            "doppelganger reveal"
+        ],
+        "subjects": [
+            "unreliable narrator",
+            "paranoid protagonist",
+            "split personality",
+            "trauma survivor",
+            "obsessive stalker",
+            "gaslighting victim",
+            "mental patient",
+            "isolated individual",
+            "guilt-ridden character",
+            "conspiracy theorist"
+        ],
+        "mental_states": [
+            "paranoid delusion",
+            "dissociative episode",
+            "anxiety spiral",
+            "trauma flashback",
+            "obsessive thoughts",
+            "hallucination blur",
+            "depersonalization",
+            "sleep deprivation madness",
+            "claustrophobic panic",
+            "identity crisis"
+        ],
+        "environments": [
+            "empty apartment",
+            "psychiatric ward",
+            "endless hotel corridor",
+            "childhood home distorted",
+            "isolated cabin",
+            "interrogation room",
+            "therapy office",
+            "maze-like building",
+            "liminal space",
+            "memory reconstruction"
+        ],
+        "lighting": [
+            "harsh interrogation light",
+            "flickering unstable",
+            "deep shadows on face",
+            "overexposed blown out",
+            "sickly fluorescent",
+            "single light source",
+            "strobing effect",
+            "natural but wrong",
+            "noir high contrast",
+            "dreamy soft haze"
+        ],
+        "elements": [
+            "mirrors everywhere",
+            "medication bottles",
+            "obsessive notes on wall",
+            "missing time clocks",
+            "distorted reflections",
+            "childhood photographs",
+            "locked doors",
+            "surveillance cameras",
+            "journal with madness",
+            "dead phone lines"
+        ],
+        "effects": [
+            "visual distortion",
+            "double exposure",
+            "tilt shift reality",
+            "color desaturation",
+            "time skip editing",
+            "perspective warping",
+            "focus pulling anxiety",
+            "grain and noise",
+            "dutch angle unease",
+            "slow motion dread"
+        ],
+        "moods": [
+            "creeping paranoia",
+            "unreliable reality",
+            "gaslighting confusion",
+            "isolation madness",
+            "repressed trauma",
+            "obsessive fixation",
+            "identity dissolution",
+            "quiet desperation",
+            "mounting anxiety",
+            "inescapable dread"
+        ]
+    }
+}
+

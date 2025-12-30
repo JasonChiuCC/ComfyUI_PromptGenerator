@@ -1,39 +1,49 @@
-import random
+"""Double exposure photography theme handler."""
+
+from typing import Dict
 from ...base_handler import BaseThemeHandler
 
+
 class DoubleExposureHandler(BaseThemeHandler):
-    """Handler for Double Exposure photography style"""
+    """Handler for double exposure photography style."""
     
-    def get_theme_name(self) -> str:
-        return "double_exposure"
-    
-    def generate_prompt(self, config: dict, seed: int = None) -> str:
-        if seed is not None:
-            random.seed(seed)
+    def generate(
+        self,
+        custom_subject: str = "",
+        custom_location: str = "",
+        include_environment: bool = True,
+        include_style: bool = True,
+        include_effects: bool = True
+    ) -> Dict[str, str]:
+        """Generate double exposure photography prompt components."""
+        components = {}
         
-        subject = random.choice(config.get("subjects", ["portrait with nature"]))
-        style = random.choice(config.get("styles", ["double exposure"]))
-        blend_element = random.choice(config.get("blend_elements", ["forest trees"]))
-        technique = random.choice(config.get("techniques", ["silhouette base"]))
-        composition = random.choice(config.get("composition_types", ["profile silhouette"]))
+        if custom_subject:
+            subject = custom_subject
+        else:
+            subject = self._get_random_choice("double_exposure.subjects", "portrait silhouette")
         
-        prompt_parts = [
-            f"{subject}",
-            f"{style}",
-            f"{composition}",
-            f"blended with {blend_element}",
-            f"{technique}",
-            "double exposure, multiple exposure, overlay",
-            "surreal, dreamlike, artistic photography"
-        ]
+        overlay = self._get_random_choice("double_exposure.overlays", "forest trees")
         
-        return ", ".join(prompt_parts)
-    
-    def get_negative_prompt(self) -> str:
-        return "single exposure, normal photo, no overlay, simple, plain"
-
-
-
-
-
-
+        components["subject"] = (
+            f"((double exposure photography)) {subject}, "
+            f"merged with {overlay}, artistic blend"
+        )
+        
+        if include_environment:
+            components["environment"] = "surreal overlay effect, multiple exposure blend"
+        else:
+            components["environment"] = ""
+        
+        if include_style:
+            style = self._get_random_choice("double_exposure.styles", "artistic double exposure")
+            components["style"] = f"{style}, film technique, creative composite"
+        else:
+            components["style"] = ""
+        
+        if include_effects:
+            components["effects"] = "overlay blend, silhouette fusion, dreamy composite, artistic merge"
+        else:
+            components["effects"] = ""
+        
+        return components

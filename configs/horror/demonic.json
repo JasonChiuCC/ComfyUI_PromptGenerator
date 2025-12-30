@@ -1,0 +1,106 @@
+{
+    "demonic": {
+        "shot_types": [
+            "possessed victim contortion",
+            "exorcism ritual wide",
+            "demon face reveal",
+            "levitation scene",
+            "priest confrontation",
+            "possession beginning",
+            "wall crawling shot",
+            "head rotation horror",
+            "crucifix burning",
+            "holy water splash",
+            "demon emerging from host",
+            "church desecration",
+            "innocent before possession",
+            "final exorcism climax",
+            "aftermath exhaustion"
+        ],
+        "demons": [
+            "possession demon",
+            "incubus or succubus",
+            "legion of demons",
+            "ancient evil entity",
+            "fallen angel",
+            "archdemon",
+            "trickster demon",
+            "shadow demon",
+            "beast demon",
+            "named biblical demon"
+        ],
+        "possessed_states": [
+            "subtle personality change",
+            "knowledge of secrets",
+            "speaking in tongues",
+            "inhuman strength",
+            "contorted body",
+            "voice change",
+            "aversion to holy",
+            "levitation",
+            "physical transformation",
+            "multiple entity possession"
+        ],
+        "environments": [
+            "bedroom of possessed",
+            "church interior",
+            "abandoned cathedral",
+            "basement ritual space",
+            "hospital psychiatric ward",
+            "Vatican archives",
+            "portal location",
+            "cursed house",
+            "graveyard desecration",
+            "monastery"
+        ],
+        "lighting": [
+            "candle flicker chaos",
+            "window cross shadow",
+            "hellfire red glow",
+            "lightning storm",
+            "blacklight ultraviolet",
+            "power failure darkness",
+            "holy light rays",
+            "fire and brimstone",
+            "cold blue possession",
+            "strobing malfunction"
+        ],
+        "elements": [
+            "crucifix and rosary",
+            "holy water vial",
+            "Roman Ritual book",
+            "religious icons",
+            "salt barriers",
+            "binding symbols",
+            "candles in circle",
+            "Latin inscriptions",
+            "priest's vestments",
+            "possessed artifacts"
+        ],
+        "effects": [
+            "practical contortion",
+            "projectile vomit",
+            "wall crawling",
+            "object levitation",
+            "temperature extreme",
+            "voice layering",
+            "skin manifestation",
+            "stigmata wounds",
+            "smoke and incense",
+            "holy light versus darkness"
+        ],
+        "moods": [
+            "religious terror",
+            "good versus evil",
+            "faith tested",
+            "innocence corrupted",
+            "battle for soul",
+            "ancient evil awakened",
+            "sacrifice and devotion",
+            "ultimate confrontation",
+            "salvation or damnation",
+            "power of belief"
+        ]
+    }
+}
+

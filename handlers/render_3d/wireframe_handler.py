@@ -1,36 +1,50 @@
-import random
+"""Wireframe 3D theme handler."""
+
+from typing import Dict
 from ...base_handler import BaseThemeHandler
 
-class WireframeHandler(BaseThemeHandler):
-    """Handler for Wireframe 3D visualization style"""
-    
-    def get_theme_name(self) -> str:
-        return "wireframe"
-    
-    def generate_prompt(self, config: dict, seed: int = None) -> str:
-        if seed is not None:
-            random.seed(seed)
-        
-        subject = random.choice(config.get("subjects", ["3D model"]))
-        style = random.choice(config.get("styles", ["wireframe render"]))
-        environment = random.choice(config.get("environments", ["dark background"]))
-        lighting = random.choice(config.get("lighting", ["edge glow lighting"]))
-        composition = random.choice(config.get("composition_types", ["three-quarter view"]))
-        line_style = random.choice(config.get("line_styles", ["thin white lines"]))
-        
-        prompt_parts = [
-            f"{subject}",
-            f"{style}",
-            f"{line_style}",
-            f"{composition}",
-            f"{lighting}",
-            f"{environment}",
-            "wireframe mesh, polygon edges visible, topology",
-            "technical visualization, 3D model showcase"
-        ]
-        
-        return ", ".join(prompt_parts)
-    
-    def get_negative_prompt(self) -> str:
-        return "solid surfaces, filled polygons, textured, colorful, realistic, photographic"
 
+class WireframeHandler(BaseThemeHandler):
+    """Handler for wireframe 3D style."""
+    
+    def generate(
+        self,
+        custom_subject: str = "",
+        custom_location: str = "",
+        include_environment: bool = True,
+        include_style: bool = True,
+        include_effects: bool = True
+    ) -> Dict[str, str]:
+        """Generate wireframe 3D prompt components."""
+        components = {}
+        
+        if custom_subject:
+            subject = custom_subject
+        else:
+            subject = self._get_random_choice("wireframe.subjects", "wireframe model")
+        
+        view = self._get_random_choice("wireframe.view_types", "3D wireframe view")
+        
+        components["subject"] = (
+            f"((wireframe 3D)) {subject}, "
+            f"{view}, visible polygon mesh"
+        )
+        
+        if include_environment:
+            background = self._get_random_choice("wireframe.backgrounds", "dark background")
+            components["environment"] = f"on {background}, technical visualization"
+        else:
+            components["environment"] = ""
+        
+        if include_style:
+            style = self._get_random_choice("wireframe.styles", "technical wireframe")
+            components["style"] = f"{style}, edge lines visible, mesh topology, 3D modeling"
+        else:
+            components["style"] = ""
+        
+        if include_effects:
+            components["effects"] = "glowing edges, mesh structure, polygon lines visible"
+        else:
+            components["effects"] = ""
+        
+        return components

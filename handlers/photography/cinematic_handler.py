@@ -1,39 +1,51 @@
-import random
+"""Cinematic photography theme handler."""
+
+from typing import Dict
 from ...base_handler import BaseThemeHandler
 
+
 class CinematicHandler(BaseThemeHandler):
-    """Handler for Cinematic photography style"""
+    """Handler for cinematic photography style."""
     
-    def get_theme_name(self) -> str:
-        return "cinematic"
-    
-    def generate_prompt(self, config: dict, seed: int = None) -> str:
-        if seed is not None:
-            random.seed(seed)
+    def generate(
+        self,
+        custom_subject: str = "",
+        custom_location: str = "",
+        include_environment: bool = True,
+        include_style: bool = True,
+        include_effects: bool = True
+    ) -> Dict[str, str]:
+        """Generate cinematic photography prompt components."""
+        components = {}
         
-        subject = random.choice(config.get("subjects", ["dramatic scene"]))
-        style = random.choice(config.get("styles", ["cinematic photography"]))
-        lighting = random.choice(config.get("lighting", ["dramatic lighting"]))
-        color_grade = random.choice(config.get("color_grades", ["teal and orange"]))
-        shot_type = random.choice(config.get("shot_types", ["wide shot"]))
+        if custom_subject:
+            subject = custom_subject
+        else:
+            subject = self._get_random_choice("cinematic.subjects", "dramatic portrait")
         
-        prompt_parts = [
-            f"{subject}",
-            f"{style}",
-            f"{shot_type}",
-            f"{lighting}",
-            f"{color_grade} color grading",
-            "cinematic, movie still, film photography",
-            "35mm film, anamorphic, high production value"
-        ]
+        shot_type = self._get_random_choice("cinematic.shot_types", "wide establishing shot")
         
-        return ", ".join(prompt_parts)
-    
-    def get_negative_prompt(self) -> str:
-        return "amateur, low quality, smartphone photo, oversaturated, flat lighting"
-
-
-
-
-
-
+        components["subject"] = (
+            f"((cinematic photography)) {subject}, "
+            f"{shot_type}, movie still quality"
+        )
+        
+        if include_environment:
+            lighting = self._get_random_choice("cinematic.lighting", "dramatic chiaroscuro")
+            components["environment"] = f"{lighting}, atmospheric scene"
+        else:
+            components["environment"] = ""
+        
+        if include_style:
+            style = self._get_random_choice("cinematic.styles", "cinematic photography")
+            color_grade = self._get_random_choice("cinematic.color_grades", "teal and orange")
+            components["style"] = f"{style}, {color_grade} color grading, 35mm film, anamorphic"
+        else:
+            components["style"] = ""
+        
+        if include_effects:
+            components["effects"] = "cinematic lighting, film grain, high production value"
+        else:
+            components["effects"] = ""
+        
+        return components

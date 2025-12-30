@@ -1,0 +1,106 @@
+{
+    "folk_horror": {
+        "shot_types": [
+            "isolated village wide shot",
+            "ritual gathering aerial view",
+            "outsider discovering secret",
+            "ancient stones establishing",
+            "procession through fields",
+            "mask ceremony close-up",
+            "burning effigy dramatic",
+            "pastoral horror landscape",
+            "village elder portrait",
+            "corn field stalking",
+            "pagan altar reveal",
+            "harvest celebration",
+            "midnight ritual",
+            "nature worship scene",
+            "sacrifice preparation"
+        ],
+        "communities": [
+            "isolated village cult",
+            "ancient pagan sect",
+            "rural farming community",
+            "forest dwelling tribe",
+            "island population",
+            "mountain village",
+            "coastal fishing town",
+            "commune in wilderness",
+            "ancestral family clan",
+            "seasonal festival group"
+        ],
+        "rituals": [
+            "harvest sacrifice",
+            "fertility rite",
+            "solstice celebration",
+            "animal sacrifice",
+            "burning wicker structure",
+            "maypole dance",
+            "mask wearing ceremony",
+            "nature worship",
+            "ancestor communion",
+            "seasonal renewal ritual"
+        ],
+        "environments": [
+            "pastoral countryside",
+            "ancient stone circle",
+            "dark forest edge",
+            "isolated farm",
+            "misty moorland",
+            "overgrown churchyard",
+            "corn or wheat field",
+            "rural village green",
+            "prehistoric monument",
+            "sacred grove"
+        ],
+        "lighting": [
+            "overcast grey sky",
+            "bonfire flickering",
+            "golden hour pastoral",
+            "torch procession",
+            "midsummer bright",
+            "autumn afternoon",
+            "foggy morning",
+            "candlelit interior",
+            "storm approaching",
+            "moonlit ritual"
+        ],
+        "elements": [
+            "wicker man effigy",
+            "animal masks",
+            "flower crowns",
+            "ancient symbols carved",
+            "standing stones",
+            "harvest offerings",
+            "folk costumes",
+            "ritual objects",
+            "nature imagery",
+            "hand-crafted dolls"
+        ],
+        "effects": [
+            "pastoral color grading",
+            "70s film grain",
+            "natural lighting",
+            "minimal score dread",
+            "wide landscape shots",
+            "slow building tension",
+            "isolated framing",
+            "folk song audio",
+            "seasonal atmosphere",
+            "daylight horror"
+        ],
+        "moods": [
+            "creeping unease",
+            "outsider dread",
+            "ancient tradition",
+            "nature worship horror",
+            "community pressure",
+            "pastoral nightmare",
+            "inevitable sacrifice",
+            "pagan mystery",
+            "isolation and paranoia",
+            "the old ways return"
+        ]
+    }
+}
+

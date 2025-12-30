@@ -1,39 +1,53 @@
-import random
+"""Silhouette photography theme handler."""
+
+from typing import Dict
 from ...base_handler import BaseThemeHandler
 
+
 class SilhouetteHandler(BaseThemeHandler):
-    """Handler for Silhouette photography style"""
+    """Handler for silhouette photography style."""
     
-    def get_theme_name(self) -> str:
-        return "silhouette"
-    
-    def generate_prompt(self, config: dict, seed: int = None) -> str:
-        if seed is not None:
-            random.seed(seed)
+    def generate(
+        self,
+        custom_subject: str = "",
+        custom_location: str = "",
+        include_environment: bool = True,
+        include_style: bool = True,
+        include_effects: bool = True
+    ) -> Dict[str, str]:
+        """Generate silhouette photography prompt components."""
+        components = {}
         
-        subject = random.choice(config.get("subjects", ["silhouette figure"]))
-        style = random.choice(config.get("styles", ["silhouette photography"]))
-        lighting = random.choice(config.get("lighting", ["strong backlight"]))
-        background = random.choice(config.get("backgrounds", ["vibrant sunset sky"]))
-        composition = random.choice(config.get("composition_types", ["centered figure"]))
+        if custom_subject:
+            subject = custom_subject
+        else:
+            subject = self._get_random_choice("silhouette.subjects", "person silhouette")
         
-        prompt_parts = [
-            f"{subject}",
-            f"{style}",
-            f"{composition}",
-            f"{lighting}",
-            f"{background}",
-            "silhouette, backlit, dramatic contrast",
-            "shadow art, high contrast, stunning sky"
-        ]
+        composition = self._get_random_choice("silhouette.composition_types", "dramatic backlit")
         
-        return ", ".join(prompt_parts)
-    
-    def get_negative_prompt(self) -> str:
-        return "front lit, fully visible, detailed face, no backlight, flat"
-
-
-
-
-
-
+        components["subject"] = (
+            f"((silhouette photography)) {subject}, "
+            f"{composition}, strong contrast"
+        )
+        
+        if include_environment:
+            if custom_location:
+                location = custom_location
+            else:
+                location = self._get_random_choice("silhouette.locations", "sunset horizon")
+            components["environment"] = f"against {location}, dramatic backdrop"
+        else:
+            components["environment"] = ""
+        
+        if include_style:
+            style = self._get_random_choice("silhouette.styles", "artistic silhouette")
+            components["style"] = f"{style}, high contrast, minimalist drama"
+        else:
+            components["style"] = ""
+        
+        if include_effects:
+            components["effects"] = "backlit silhouette, dramatic contrast, bold shapes"
+        else:
+            components["effects"] = ""
+        
+        return components

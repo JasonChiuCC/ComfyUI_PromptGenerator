@@ -41,7 +41,6 @@ class ConfigManager:
         self.configs = {}
         
         if not os.path.exists(self._config_dir):
-            print(f"[WARNING] Config directory not found: {self._config_dir}")
             return
         
         # Walk through all subdirectories
@@ -56,15 +55,12 @@ class ConfigManager:
                     try:
                         with open(filepath, 'r', encoding='utf-8') as f:
                             config_data = json.load(f)
-                            # Store with theme name as key (e.g., "classic_portrait": {...})
                             self.configs[config_name] = config_data
-                            print(f"[INFO] Loaded config: {config_name} from {rel_path}")
-                    except Exception as e:
-                        print(f"[ERROR] Failed to load {rel_path}: {e}")
+                    except Exception:
+                        pass  # Silently skip failed configs
     
     def reload(self):
         """Reload all configurations from disk (hot reload)."""
-        print("[INFO] Reloading configurations...")
         self._load_configs()
     
     def set_seed(self, seed: int):
@@ -153,18 +149,16 @@ class ThemeRegistry:
                 try:
                     self.handlers[theme_name] = handler_class(self.config_manager)
                     self._debug_print(f"Initialized handler: {theme_name}")
-                except Exception as e:
-                    print(f"[ERROR] Failed to initialize {theme_name} handler: {e}")
+                except Exception:
+                    pass  # Silently skip failed handlers
             
             self._debug_print(f"Loaded {len(self.handlers)} handlers")
             
-        except ImportError as e:
-            print(f"[ERROR] Failed to import handlers: {e}")
+        except ImportError:
+            pass  # Silently handle import errors
     
     def reload_handlers(self):
         """Hot reload all handlers (reimport Python modules)."""
-        print("[INFO] Reloading handlers...")
-        
         try:
             # Reload the handlers module
             from . import handlers
@@ -172,10 +166,9 @@ class ThemeRegistry:
             
             # Re-initialize handlers
             self._init_handlers()
-            print("[INFO] Handlers reloaded successfully")
             
-        except Exception as e:
-            print(f"[ERROR] Failed to reload handlers: {e}")
+        except Exception:
+            pass  # Silently handle reload errors
     
     def get_handler(self, theme: str) -> Optional[BaseThemeHandler]:
         """Get handler for a specific theme.
@@ -341,7 +334,6 @@ class PromptGeneratorNode:
         
         if not handler:
             error_msg = f"Error: Handler not found for theme '{internal_theme}'"
-            print(error_msg)
             return (error_msg, theme, "", "", "", seed)
         
         # Set debug mode on handler
@@ -358,7 +350,6 @@ class PromptGeneratorNode:
             )
         except Exception as e:
             error_msg = f"Error generating prompt: {e}"
-            print(error_msg)
             return (error_msg, theme, "", "", "", seed)
         
         # Extract components
@@ -1335,6 +1326,92 @@ class FantasyPromptZH(CategoryPromptBase):
 
 
 # =============================================================================
+# Horror & Dark Category Nodes
+# =============================================================================
+
+class HorrorPromptEN(CategoryPromptBase):
+    """English Horror & Dark prompt generator."""
+    
+    SELECT_ALL_LABEL = "✅ Select All Horror"
+    
+    AVAILABLE_THEMES = [
+        # Classic Monsters
+        ("      Vampire", "vampire"),
+        ("      Werewolf", "werewolf"),
+        ("      Zombie", "zombie"),
+        ("      Witch", "witch"),
+        # Horror Types
+        ("      Slasher", "slasher"),
+        ("      J-Horror", "j_horror"),
+        ("      Psychological", "psychological"),
+        ("      Body Horror", "body_horror"),
+        ("      Folk Horror", "folk_horror"),
+        ("      Survival Horror", "survival_horror"),
+        # Gothic & Atmosphere
+        ("      Victorian Gothic", "victorian_gothic"),
+        ("      Southern Gothic", "southern_gothic"),
+        ("      Haunted", "haunted"),
+        ("      Nightmare", "nightmare"),
+        # Supernatural & Occult
+        ("      Lovecraftian", "lovecraftian"),
+        ("      Demonic", "demonic"),
+        ("      Occult", "occult"),
+        ("      Creepypasta", "creepypasta"),
+    ]
+    
+    ALL_THEMES = [
+        "vampire", "werewolf", "zombie", "witch",
+        "slasher", "j_horror", "psychological", "body_horror",
+        "folk_horror", "survival_horror",
+        "victorian_gothic", "southern_gothic", "haunted", "nightmare",
+        "lovecraftian", "demonic", "occult", "creepypasta"
+    ]
+    
+    CATEGORY = "JC Prompt Generator/Horror 恐怖"
+
+
+class HorrorPromptZH(CategoryPromptBase):
+    """Chinese Horror & Dark prompt generator."""
+    
+    SELECT_ALL_LABEL = "✅ 全選恐怖"
+    
+    AVAILABLE_THEMES = [
+        # 經典怪物
+        ("      吸血鬼", "vampire"),
+        ("      狼人", "werewolf"),
+        ("      殭屍", "zombie"),
+        ("      女巫", "witch"),
+        # 恐怖類型
+        ("      砍殺片", "slasher"),
+        ("      日式恐怖", "j_horror"),
+        ("      心理恐怖", "psychological"),
+        ("      身體恐怖", "body_horror"),
+        ("      民俗恐怖", "folk_horror"),
+        ("      生存恐怖", "survival_horror"),
+        # 氛圍美學
+        ("      維多利亞哥德", "victorian_gothic"),
+        ("      南方哥德", "southern_gothic"),
+        ("      鬧鬼", "haunted"),
+        ("      夢魘", "nightmare"),
+        # 超自然神秘
+        ("      克蘇魯", "lovecraftian"),
+        ("      惡魔附身", "demonic"),
+        ("      神秘學", "occult"),
+        ("      網路怪談", "creepypasta"),
+    ]
+    
+    ALL_THEMES = [
+        "vampire", "werewolf", "zombie", "witch",
+        "slasher", "j_horror", "psychological", "body_horror",
+        "folk_horror", "survival_horror",
+        "victorian_gothic", "southern_gothic", "haunted", "nightmare",
+        "lovecraftian", "demonic", "occult", "creepypasta"
+    ]
+    
+    CATEGORY = "JC Prompt Generator/Horror 恐怖"
+
+
+# =============================================================================
 # Node Registration
 # =============================================================================
 
@@ -1369,6 +1446,9 @@ NODE_CLASS_MAPPINGS = {
     # Fantasy
     "JC_Fantasy_EN": FantasyPromptEN,
     "JC_Fantasy_ZH": FantasyPromptZH,
+    # Horror
+    "JC_Horror_EN": HorrorPromptEN,
+    "JC_Horror_ZH": HorrorPromptZH,
 }
 
 NODE_DISPLAY_NAME_MAPPINGS = {
@@ -1402,5 +1482,8 @@ NODE_DISPLAY_NAME_MAPPINGS = {
     # Fantasy
     "JC_Fantasy_EN": "⚔️ JC Prompt - Fantasy",
     "JC_Fantasy_ZH": "⚔️ JC 提示詞 - 奇幻",
+    # Horror
+    "JC_Horror_EN": "👻 JC Prompt - Horror",
+    "JC_Horror_ZH": "👻 JC 提示詞 - 恐怖",
 }
 

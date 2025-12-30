@@ -1,0 +1,118 @@
+{
+    "slasher": {
+        "shot_types": [
+            "killer's POV stalking victim",
+            "victim running through corridor",
+            "killer silhouette in doorway",
+            "close-up of masked face",
+            "chase through woods",
+            "final girl confrontation",
+            "killer emerging from darkness",
+            "weapon raised dramatic shot",
+            "victim hiding in closet",
+            "jump scare reveal",
+            "aftermath crime scene",
+            "group of teens wide shot",
+            "isolated location establishing",
+            "car breakdown scene",
+            "phone call terror"
+        ],
+        "killers": [
+            "masked slasher",
+            "deformed killer",
+            "supernatural stalker",
+            "revenge-driven murderer",
+            "escaped mental patient",
+            "urban legend killer",
+            "copycat killer",
+            "family of killers",
+            "silent pursuer",
+            "unstoppable force"
+        ],
+        "masks_and_looks": [
+            "hockey mask",
+            "white expressionless mask",
+            "burlap sack mask",
+            "clown mask",
+            "ghostface hood",
+            "pig mask",
+            "burned disfigured face",
+            "stitched leather mask",
+            "porcelain doll mask",
+            "no mask just shadows"
+        ],
+        "weapons": [
+            "large kitchen knife",
+            "machete",
+            "chainsaw",
+            "axe",
+            "meat hook",
+            "hedge clippers",
+            "straight razor",
+            "power drill",
+            "hammer",
+            "bare hands"
+        ],
+        "environments": [
+            "summer camp at night",
+            "isolated cabin",
+            "suburban house",
+            "abandoned hospital",
+            "high school after hours",
+            "cornfield maze",
+            "old factory",
+            "sorority house",
+            "deserted motel",
+            "underground tunnels"
+        ],
+        "lighting": [
+            "flickering lights",
+            "lightning flashes",
+            "moonlight through window",
+            "flashlight beam",
+            "power outage darkness",
+            "neon sign glow",
+            "TV static illumination",
+            "single swinging bulb",
+            "car headlights",
+            "fire and flames"
+        ],
+        "elements": [
+            "bloody footprints",
+            "creaking doors",
+            "shattered glass",
+            "ringing phone",
+            "running shower",
+            "broken down car",
+            "dead phone battery",
+            "locked doors",
+            "hidden basement",
+            "wall of photos"
+        ],
+        "effects": [
+            "blood splatter",
+            "lens flare from flashlight",
+            "motion blur chase",
+            "handheld camera shake",
+            "grain and noise",
+            "desaturated color grading",
+            "shadow play",
+            "fog machine effect",
+            "rain and storm",
+            "80s film aesthetic"
+        ],
+        "moods": [
+            "mounting tension",
+            "jump scare terror",
+            "cat and mouse",
+            "survival desperation",
+            "isolation and helplessness",
+            "false sense of safety",
+            "inevitable doom",
+            "final girl strength",
+            "retro horror nostalgia",
+            "visceral fear"
+        ]
+    }
+}
+

@@ -1,0 +1,106 @@
+{
+    "haunted": {
+        "shot_types": [
+            "empty room with presence",
+            "figure at end of hallway",
+            "mirror reflection different",
+            "stairs looking up",
+            "door slowly opening",
+            "window figure outside",
+            "bed with something under",
+            "attic discovery scene",
+            "basement descent",
+            "child's room at night",
+            "photograph that moved",
+            "chandelier swinging",
+            "shadow on wall",
+            "ghost in background",
+            "paranormal investigation POV"
+        ],
+        "ghosts": [
+            "transparent apparition",
+            "solid-looking spirit",
+            "shadow figure",
+            "residual haunting loop",
+            "intelligent spirit",
+            "poltergeist activity",
+            "child ghost",
+            "lady in white",
+            "faceless specter",
+            "demonic haunting"
+        ],
+        "haunting_types": [
+            "residual energy replay",
+            "intelligent interaction",
+            "poltergeist activity",
+            "demonic infestation",
+            "portal haunting",
+            "attachment to person",
+            "object possession",
+            "location bound",
+            "anniversary manifestation",
+            "death echo"
+        ],
+        "environments": [
+            "Victorian haunted house",
+            "abandoned hospital",
+            "old hotel",
+            "former asylum",
+            "childhood home",
+            "antique-filled manor",
+            "haunted apartment",
+            "old church",
+            "historic prison",
+            "murder house"
+        ],
+        "lighting": [
+            "moonlight through curtains",
+            "single candle flame",
+            "flashlight investigation",
+            "power outage darkness",
+            "TV static glow",
+            "streetlight from outside",
+            "nightlight in hallway",
+            "lightning flash reveal",
+            "cold blue ambiance",
+            "fireplace dying embers"
+        ],
+        "elements": [
+            "cold spots",
+            "moving objects",
+            "disembodied voices",
+            "doors opening closing",
+            "footsteps above",
+            "writing on walls",
+            "antique music box",
+            "old rocking chair",
+            "children's toys",
+            "flickering electronics"
+        ],
+        "effects": [
+            "cold breath visible",
+            "EMF interference",
+            "transparency layers",
+            "motion blur ghost",
+            "orb manifestation",
+            "ectoplasmic mist",
+            "photo anomaly",
+            "audio distortion",
+            "temperature visual",
+            "night vision aesthetic"
+        ],
+        "moods": [
+            "supernatural dread",
+            "unfinished business",
+            "tragic backstory",
+            "investigation tension",
+            "escalating activity",
+            "trapped spirits",
+            "portal to beyond",
+            "family secrets revealed",
+            "living with the dead",
+            "crossing over closure"
+        ]
+    }
+}
+

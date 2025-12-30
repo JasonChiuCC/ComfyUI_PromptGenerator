@@ -1,39 +1,53 @@
-import random
+"""Sports photography theme handler."""
+
+from typing import Dict
 from ...base_handler import BaseThemeHandler
 
+
 class SportsPhotoHandler(BaseThemeHandler):
-    """Handler for Sports Photography style"""
+    """Handler for sports photography style."""
     
-    def get_theme_name(self) -> str:
-        return "sports_photo"
-    
-    def generate_prompt(self, config: dict, seed: int = None) -> str:
-        if seed is not None:
-            random.seed(seed)
+    def generate(
+        self,
+        custom_subject: str = "",
+        custom_location: str = "",
+        include_environment: bool = True,
+        include_style: bool = True,
+        include_effects: bool = True
+    ) -> Dict[str, str]:
+        """Generate sports photography prompt components."""
+        components = {}
         
-        subject = random.choice(config.get("subjects", ["athlete action"]))
-        style = random.choice(config.get("styles", ["sports photography"]))
-        lighting = random.choice(config.get("lighting", ["stadium lights"]))
-        effect = random.choice(config.get("effects", ["frozen motion"]))
-        shot_type = random.choice(config.get("shot_types", ["peak action moment"]))
+        if custom_subject:
+            subject = custom_subject
+        else:
+            subject = self._get_random_choice("sports_photo.subjects", "athlete in action")
         
-        prompt_parts = [
-            f"{subject}",
-            f"{style}",
-            f"{shot_type}",
-            f"{lighting}",
-            f"{effect}",
-            "sports photography, action shot, dynamic",
-            "high speed, peak moment, athletic"
-        ]
+        composition = self._get_random_choice("sports_photo.composition_types", "peak action moment")
         
-        return ", ".join(prompt_parts)
-    
-    def get_negative_prompt(self) -> str:
-        return "static, posed, motion blur, out of focus, slow shutter"
-
-
-
-
-
-
+        components["subject"] = (
+            f"((sports photography)) {subject}, "
+            f"{composition}, frozen motion"
+        )
+        
+        if include_environment:
+            if custom_location:
+                location = custom_location
+            else:
+                location = self._get_random_choice("sports_photo.locations", "stadium")
+            components["environment"] = f"at {location}, intense competition"
+        else:
+            components["environment"] = ""
+        
+        if include_style:
+            style = self._get_random_choice("sports_photo.styles", "action photography")
+            components["style"] = f"{style}, fast shutter speed, telephoto lens"
+        else:
+            components["style"] = ""
+        
+        if include_effects:
+            components["effects"] = "frozen action, sharp focus, dynamic energy, peak moment"
+        else:
+            components["effects"] = ""
+        
+        return components

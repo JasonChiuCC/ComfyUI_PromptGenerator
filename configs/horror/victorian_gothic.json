@@ -1,0 +1,106 @@
+{
+    "victorian_gothic": {
+        "shot_types": [
+            "grand staircase portrait",
+            "candlelit study scene",
+            "window silhouette",
+            "ballroom wide shot",
+            "mirror vanity reflection",
+            "cemetery mourning scene",
+            "secret passage reveal",
+            "attic discovery",
+            "garden at twilight",
+            "carriage arrival",
+            "letter reading close-up",
+            "deathbed scene",
+            "portrait gallery",
+            "séance circle",
+            "foggy moor landscape"
+        ],
+        "characters": [
+            "brooding aristocrat",
+            "mysterious governess",
+            "grieving widow",
+            "mad scientist",
+            "innocent ingenue",
+            "dark romantic hero",
+            "family patriarch",
+            "sinister servant",
+            "occult investigator",
+            "doomed lover"
+        ],
+        "attire": [
+            "mourning black dress",
+            "corseted ball gown",
+            "gentleman's evening wear",
+            "servant's uniform",
+            "traveling cloak",
+            "nightgown and robe",
+            "widow's veil",
+            "top hat and cape",
+            "elaborate jewelry",
+            "period appropriate layers"
+        ],
+        "environments": [
+            "crumbling manor house",
+            "candlelit library",
+            "fog-shrouded moor",
+            "overgrown cemetery",
+            "secret laboratory",
+            "dusty attic",
+            "grand ballroom",
+            "hidden passage",
+            "London streets at night",
+            "seaside cliff manor"
+        ],
+        "lighting": [
+            "candlelight and shadow",
+            "gas lamp glow",
+            "fireplace warmth",
+            "pale moonlight",
+            "overcast grey daylight",
+            "lightning flash",
+            "single window shaft",
+            "oil lamp flicker",
+            "foggy diffused",
+            "dying ember glow"
+        ],
+        "elements": [
+            "candelabra",
+            "ornate mirrors",
+            "velvet drapes",
+            "antique furniture",
+            "family portraits",
+            "handwritten letters",
+            "pocket watches",
+            "mourning jewelry",
+            "vintage photographs",
+            "dusty books"
+        ],
+        "effects": [
+            "sepia toning",
+            "vignette darkening",
+            "film grain texture",
+            "soft focus romance",
+            "candlelight flicker",
+            "fog and mist",
+            "dust particles",
+            "vintage color grading",
+            "daguerreotype style",
+            "gothic illustration"
+        ],
+        "moods": [
+            "romantic melancholy",
+            "dark secrets",
+            "repressed desire",
+            "family curse",
+            "atmospheric dread",
+            "tragic love",
+            "supernatural mystery",
+            "decaying grandeur",
+            "isolation and madness",
+            "Victorian propriety hiding darkness"
+        ]
+    }
+}
+

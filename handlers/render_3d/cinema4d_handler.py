@@ -1,36 +1,50 @@
-import random
+"""Cinema 4D 3D theme handler."""
+
+from typing import Dict
 from ...base_handler import BaseThemeHandler
 
-class Cinema4DHandler(BaseThemeHandler):
-    """Handler for Cinema 4D motion graphics render style"""
-    
-    def get_theme_name(self) -> str:
-        return "cinema4d"
-    
-    def generate_prompt(self, config: dict, seed: int = None) -> str:
-        if seed is not None:
-            random.seed(seed)
-        
-        subject = random.choice(config.get("subjects", ["abstract 3D"]))
-        style = random.choice(config.get("styles", ["Cinema 4D render"]))
-        environment = random.choice(config.get("environments", ["infinite backdrop"]))
-        lighting = random.choice(config.get("lighting", ["global illumination"]))
-        composition = random.choice(config.get("composition_types", ["centered symmetrical"]))
-        effect = random.choice(config.get("effects", ["depth of field bokeh"]))
-        
-        prompt_parts = [
-            f"{subject}",
-            f"{style}",
-            f"{composition}",
-            f"{effect}",
-            f"{lighting}",
-            f"{environment}",
-            "Cinema 4D, C4D, motion graphics, abstract 3D",
-            "Redshift render, commercial quality, smooth modern"
-        ]
-        
-        return ", ".join(prompt_parts)
-    
-    def get_negative_prompt(self) -> str:
-        return "low quality, 2D, flat design, hand drawn, sketch, rough, amateur"
 
+class Cinema4DHandler(BaseThemeHandler):
+    """Handler for Cinema 4D 3D style."""
+    
+    def generate(
+        self,
+        custom_subject: str = "",
+        custom_location: str = "",
+        include_environment: bool = True,
+        include_style: bool = True,
+        include_effects: bool = True
+    ) -> Dict[str, str]:
+        """Generate Cinema 4D 3D prompt components."""
+        components = {}
+        
+        if custom_subject:
+            subject = custom_subject
+        else:
+            subject = self._get_random_choice("cinema4d.subjects", "abstract 3D")
+        
+        composition = self._get_random_choice("cinema4d.composition_types", "motion graphics")
+        
+        components["subject"] = (
+            f"((Cinema 4D render)) {subject}, "
+            f"{composition}, professional 3D design"
+        )
+        
+        if include_environment:
+            scene = self._get_random_choice("cinema4d.scenes", "studio setup")
+            components["environment"] = f"in {scene}, clean backdrop"
+        else:
+            components["environment"] = ""
+        
+        if include_style:
+            style = self._get_random_choice("cinema4d.styles", "C4D aesthetic")
+            components["style"] = f"{style}, Redshift render, motion design quality"
+        else:
+            components["style"] = ""
+        
+        if include_effects:
+            components["effects"] = "smooth geometry, dynamic simulation, professional lighting"
+        else:
+            components["effects"] = ""
+        
+        return components

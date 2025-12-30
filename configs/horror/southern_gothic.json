@@ -1,0 +1,106 @@
+{
+    "southern_gothic": {
+        "shot_types": [
+            "plantation house establishing",
+            "porch sitting portrait",
+            "swamp bayou wide shot",
+            "church revival scene",
+            "dusty road perspective",
+            "decay and ruin detail",
+            "family portrait formal",
+            "graveyard Spanish moss",
+            "small town main street",
+            "revival tent gathering",
+            "cotton field landscape",
+            "abandoned mansion interior",
+            "river bottom scene",
+            "crossroads at dusk",
+            "front porch confession"
+        ],
+        "characters": [
+            "decaying aristocrat",
+            "eccentric matriarch",
+            "fallen preacher",
+            "mysterious stranger",
+            "cursed family member",
+            "local legend figure",
+            "haunted veteran",
+            "voodoo practitioner",
+            "small town outcast",
+            "corrupt politician"
+        ],
+        "themes": [
+            "family secrets",
+            "racial history",
+            "religious hypocrisy",
+            "decaying wealth",
+            "generational curse",
+            "small town darkness",
+            "the past returning",
+            "moral corruption",
+            "supernatural beliefs",
+            "isolation and madness"
+        ],
+        "environments": [
+            "antebellum mansion",
+            "Louisiana bayou",
+            "small town square",
+            "Baptist church",
+            "overgrown cemetery",
+            "cotton plantation",
+            "swamp cabin",
+            "roadside motel",
+            "river delta",
+            "abandoned farmhouse"
+        ],
+        "lighting": [
+            "humid hazy sunlight",
+            "golden hour heat",
+            "thunderstorm dramatic",
+            "kerosene lamp glow",
+            "porch light bugs",
+            "oppressive overcast",
+            "moonlit Spanish moss",
+            "sunset blood orange",
+            "fluorescent diner",
+            "bonfire in darkness"
+        ],
+        "elements": [
+            "Spanish moss trees",
+            "peeling paint",
+            "creaking porch swing",
+            "old family photos",
+            "rusted vehicles",
+            "church steeple",
+            "ceiling fans turning",
+            "sweet tea glasses",
+            "hunting trophies",
+            "religious iconography"
+        ],
+        "effects": [
+            "humid atmosphere",
+            "heat distortion",
+            "sepia warmth",
+            "film grain nostalgia",
+            "slow pacing",
+            "cicada ambient",
+            "sweat and grime",
+            "faded colors",
+            "dust and decay",
+            "time standing still"
+        ],
+        "moods": [
+            "oppressive heat",
+            "family dysfunction",
+            "small town secrets",
+            "decaying grandeur",
+            "religious fervor",
+            "supernatural folklore",
+            "racial tension history",
+            "eccentric characters",
+            "humid dread",
+            "sins of the past"
+        ]
+    }
+}
+

@@ -1,36 +1,50 @@
-import random
+"""Holographic 3D theme handler."""
+
+from typing import Dict
 from ...base_handler import BaseThemeHandler
 
-class HolographicHandler(BaseThemeHandler):
-    """Handler for Holographic effect render style"""
-    
-    def get_theme_name(self) -> str:
-        return "holographic"
-    
-    def generate_prompt(self, config: dict, seed: int = None) -> str:
-        if seed is not None:
-            random.seed(seed)
-        
-        subject = random.choice(config.get("subjects", ["hologram"]))
-        style = random.choice(config.get("styles", ["holographic effect"]))
-        environment = random.choice(config.get("environments", ["dark futuristic room"]))
-        lighting = random.choice(config.get("lighting", ["hologram glow"]))
-        composition = random.choice(config.get("composition_types", ["floating hologram"]))
-        effect = random.choice(config.get("effects", ["scan lines"]))
-        
-        prompt_parts = [
-            f"{subject}",
-            f"{style}",
-            f"{effect}",
-            f"{composition}",
-            f"{lighting}",
-            f"{environment}",
-            "holographic, hologram projection, sci-fi",
-            "futuristic display, glowing, cyan and magenta, cyberpunk"
-        ]
-        
-        return ", ".join(prompt_parts)
-    
-    def get_negative_prompt(self) -> str:
-        return "solid, opaque, realistic, non-glowing, daytime, bright background, vintage"
 
+class HolographicHandler(BaseThemeHandler):
+    """Handler for holographic 3D style."""
+    
+    def generate(
+        self,
+        custom_subject: str = "",
+        custom_location: str = "",
+        include_environment: bool = True,
+        include_style: bool = True,
+        include_effects: bool = True
+    ) -> Dict[str, str]:
+        """Generate holographic 3D prompt components."""
+        components = {}
+        
+        if custom_subject:
+            subject = custom_subject
+        else:
+            subject = self._get_random_choice("holographic.subjects", "hologram")
+        
+        view = self._get_random_choice("holographic.view_types", "floating display")
+        
+        components["subject"] = (
+            f"((holographic 3D)) {subject}, "
+            f"{view}, futuristic projection"
+        )
+        
+        if include_environment:
+            scene = self._get_random_choice("holographic.scenes", "dark room")
+            components["environment"] = f"in {scene}, hologram display"
+        else:
+            components["environment"] = ""
+        
+        if include_style:
+            style = self._get_random_choice("holographic.styles", "sci-fi hologram")
+            components["style"] = f"{style}, iridescent material, Star Wars hologram"
+        else:
+            components["style"] = ""
+        
+        if include_effects:
+            components["effects"] = "chromatic aberration, scan lines, transparency, glow effect"
+        else:
+            components["effects"] = ""
+        
+        return components

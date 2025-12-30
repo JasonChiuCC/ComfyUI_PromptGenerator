@@ -1,0 +1,106 @@
+{
+    "survival_horror": {
+        "shot_types": [
+            "over-shoulder third person",
+            "flashlight illuminating darkness",
+            "hiding from monster POV",
+            "inventory management shot",
+            "safe room relief",
+            "corridor exploration",
+            "puzzle solving scene",
+            "monster chase sequence",
+            "first encounter shock",
+            "low ammo tension",
+            "boss creature reveal",
+            "environmental storytelling",
+            "jump scare moment",
+            "escape sequence",
+            "final confrontation"
+        ],
+        "protagonists": [
+            "unprepared survivor",
+            "police officer rookie",
+            "investigating journalist",
+            "returning to hometown",
+            "stranded tourist",
+            "amnesiac protagonist",
+            "rescue team member",
+            "escaped test subject",
+            "searching for family",
+            "lone survivor"
+        ],
+        "monsters": [
+            "zombie variants",
+            "mutated creatures",
+            "stalker enemy",
+            "boss monster",
+            "infected humans",
+            "biological weapons",
+            "supernatural entities",
+            "psychological manifestations",
+            "parasitic organisms",
+            "ancient evil"
+        ],
+        "environments": [
+            "abandoned mansion",
+            "underground facility",
+            "police station",
+            "hospital complex",
+            "village in mountains",
+            "research laboratory",
+            "shopping mall",
+            "cruise ship",
+            "isolated town",
+            "prison complex"
+        ],
+        "lighting": [
+            "flashlight cone",
+            "emergency lighting",
+            "flickering fluorescent",
+            "moonlight through windows",
+            "fire and destruction",
+            "generator power failing",
+            "lightning storm",
+            "darkness with shapes",
+            "industrial harsh",
+            "bioluminescent glow"
+        ],
+        "elements": [
+            "limited ammunition",
+            "locked doors and keys",
+            "puzzle mechanisms",
+            "save room typewriter",
+            "health items",
+            "journal entries",
+            "security cameras",
+            "barricaded areas",
+            "item boxes",
+            "map exploration"
+        ],
+        "effects": [
+            "grain and noise",
+            "limited visibility",
+            "fog of war",
+            "tank controls aesthetic",
+            "fixed camera angles",
+            "inventory UI overlay",
+            "blood and damage",
+            "environmental destruction",
+            "creature sounds",
+            "resource scarcity tension"
+        ],
+        "moods": [
+            "resource anxiety",
+            "constant tension",
+            "puzzle satisfaction",
+            "exploration dread",
+            "monster encounters",
+            "safe room relief",
+            "growing power",
+            "mystery unraveling",
+            "survival instinct",
+            "horror game nostalgia"
+        ]
+    }
+}
+

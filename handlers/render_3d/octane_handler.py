@@ -1,36 +1,50 @@
-import random
+"""Octane Render 3D theme handler."""
+
+from typing import Dict
 from ...base_handler import BaseThemeHandler
 
-class OctaneHandler(BaseThemeHandler):
-    """Handler for Octane high-end GPU render style"""
-    
-    def get_theme_name(self) -> str:
-        return "octane"
-    
-    def generate_prompt(self, config: dict, seed: int = None) -> str:
-        if seed is not None:
-            random.seed(seed)
-        
-        subject = random.choice(config.get("subjects", ["3D object"]))
-        style = random.choice(config.get("styles", ["Octane render"]))
-        environment = random.choice(config.get("environments", ["studio HDRI"]))
-        lighting = random.choice(config.get("lighting", ["HDRI environment lighting"]))
-        composition = random.choice(config.get("composition_types", ["product hero shot"]))
-        material = random.choice(config.get("materials", ["glossy metal"]))
-        
-        prompt_parts = [
-            f"{subject}",
-            f"{style}",
-            f"{material}",
-            f"{composition}",
-            f"{lighting}",
-            f"{environment}",
-            "Octane render, photorealistic 3D, ultra high detail",
-            "8K, physically based rendering, commercial quality"
-        ]
-        
-        return ", ".join(prompt_parts)
-    
-    def get_negative_prompt(self) -> str:
-        return "low quality, blurry, noisy, flat lighting, 2D, cartoon, stylized, amateur"
 
+class OctaneHandler(BaseThemeHandler):
+    """Handler for Octane Render 3D style."""
+    
+    def generate(
+        self,
+        custom_subject: str = "",
+        custom_location: str = "",
+        include_environment: bool = True,
+        include_style: bool = True,
+        include_effects: bool = True
+    ) -> Dict[str, str]:
+        """Generate Octane Render 3D prompt components."""
+        components = {}
+        
+        if custom_subject:
+            subject = custom_subject
+        else:
+            subject = self._get_random_choice("octane.subjects", "3D render subject")
+        
+        shot = self._get_random_choice("octane.shot_types", "beauty render")
+        
+        components["subject"] = (
+            f"((Octane Render)) {subject}, "
+            f"{shot}, photorealistic quality"
+        )
+        
+        if include_environment:
+            lighting = self._get_random_choice("octane.lighting", "HDRI lighting")
+            components["environment"] = f"{lighting}, studio environment"
+        else:
+            components["environment"] = ""
+        
+        if include_style:
+            style = self._get_random_choice("octane.styles", "photorealistic render")
+            components["style"] = f"{style}, path tracing, physically based materials"
+        else:
+            components["style"] = ""
+        
+        if include_effects:
+            components["effects"] = "ray tracing, realistic materials, subsurface scattering, 8K"
+        else:
+            components["effects"] = ""
+        
+        return components

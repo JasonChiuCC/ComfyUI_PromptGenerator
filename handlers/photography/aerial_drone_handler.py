@@ -1,39 +1,53 @@
-import random
+"""Aerial drone photography theme handler."""
+
+from typing import Dict
 from ...base_handler import BaseThemeHandler
 
+
 class AerialDroneHandler(BaseThemeHandler):
-    """Handler for Aerial Drone photography style"""
+    """Handler for aerial drone photography style."""
     
-    def get_theme_name(self) -> str:
-        return "aerial_drone"
-    
-    def generate_prompt(self, config: dict, seed: int = None) -> str:
-        if seed is not None:
-            random.seed(seed)
+    def generate(
+        self,
+        custom_subject: str = "",
+        custom_location: str = "",
+        include_environment: bool = True,
+        include_style: bool = True,
+        include_effects: bool = True
+    ) -> Dict[str, str]:
+        """Generate aerial drone photography prompt components."""
+        components = {}
         
-        subject = random.choice(config.get("subjects", ["aerial landscape"]))
-        style = random.choice(config.get("styles", ["aerial photography"]))
-        lighting = random.choice(config.get("lighting", ["golden hour aerial"]))
-        environment = random.choice(config.get("environments", ["landscape"]))
-        composition = random.choice(config.get("composition_types", ["straight down top-down"]))
+        if custom_subject:
+            subject = custom_subject
+        else:
+            subject = self._get_random_choice("aerial_drone.subjects", "landscape from above")
         
-        prompt_parts = [
-            f"{subject}",
-            f"{style}",
-            f"{composition}",
-            f"{lighting}",
-            f"{environment}",
-            "aerial photography, drone shot, bird's eye view",
-            "DJI quality, high altitude, stunning perspective"
-        ]
+        composition = self._get_random_choice("aerial_drone.composition_types", "bird's eye view")
         
-        return ", ".join(prompt_parts)
-    
-    def get_negative_prompt(self) -> str:
-        return "ground level, eye level, indoor, low altitude, fisheye distortion"
-
-
-
-
-
-
+        components["subject"] = (
+            f"((aerial drone photography)) {subject}, "
+            f"{composition}, stunning perspective"
+        )
+        
+        if include_environment:
+            if custom_location:
+                location = custom_location
+            else:
+                location = self._get_random_choice("aerial_drone.locations", "scenic landscape")
+            components["environment"] = f"aerial view of {location}, high altitude shot"
+        else:
+            components["environment"] = ""
+        
+        if include_style:
+            style = self._get_random_choice("aerial_drone.styles", "professional drone footage")
+            components["style"] = f"{style}, DJI quality, cinematic aerial"
+        else:
+            components["style"] = ""
+        
+        if include_effects:
+            components["effects"] = "bird's eye perspective, vast scale, drone cinematography"
+        else:
+            components["effects"] = ""
+        
+        return components

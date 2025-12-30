@@ -1,36 +1,54 @@
-import random
+"""Architectural visualization 3D theme handler."""
+
+from typing import Dict
 from ...base_handler import BaseThemeHandler
 
-class ArchVizHandler(BaseThemeHandler):
-    """Handler for Architectural Visualization render style"""
-    
-    def get_theme_name(self) -> str:
-        return "arch_viz"
-    
-    def generate_prompt(self, config: dict, seed: int = None) -> str:
-        if seed is not None:
-            random.seed(seed)
-        
-        subject = random.choice(config.get("subjects", ["modern building"]))
-        style = random.choice(config.get("styles", ["architectural visualization"]))
-        environment = random.choice(config.get("environments", ["realistic context"]))
-        lighting = random.choice(config.get("lighting", ["natural daylight"]))
-        view_type = random.choice(config.get("view_types", ["exterior front view"]))
-        detail = random.choice(config.get("details", ["furniture and decor"]))
-        
-        prompt_parts = [
-            f"{subject}",
-            f"{style}",
-            f"{view_type}",
-            f"{detail}",
-            f"{lighting}",
-            f"{environment}",
-            "architectural visualization, arch viz, photorealistic",
-            "V-Ray quality, Corona render, real estate visualization, 8K"
-        ]
-        
-        return ", ".join(prompt_parts)
-    
-    def get_negative_prompt(self) -> str:
-        return "cartoon, stylized, low quality, blurry, unrealistic, sketch, blueprint only"
 
+class ArchVizHandler(BaseThemeHandler):
+    """Handler for architectural visualization 3D style."""
+    
+    def generate(
+        self,
+        custom_subject: str = "",
+        custom_location: str = "",
+        include_environment: bool = True,
+        include_style: bool = True,
+        include_effects: bool = True
+    ) -> Dict[str, str]:
+        """Generate architectural visualization 3D prompt components."""
+        components = {}
+        
+        if custom_subject:
+            subject = custom_subject
+        else:
+            subject = self._get_random_choice("arch_viz.subjects", "modern building")
+        
+        view = self._get_random_choice("arch_viz.view_types", "exterior perspective")
+        
+        components["subject"] = (
+            f"((architectural visualization)) {subject}, "
+            f"{view}, photorealistic archviz"
+        )
+        
+        if include_environment:
+            if custom_location:
+                location = custom_location
+            else:
+                location = self._get_random_choice("arch_viz.environments", "urban context")
+            lighting = self._get_random_choice("arch_viz.lighting", "natural daylight")
+            components["environment"] = f"in {location}, {lighting}"
+        else:
+            components["environment"] = ""
+        
+        if include_style:
+            style = self._get_random_choice("arch_viz.styles", "high-end archviz")
+            components["style"] = f"{style}, V-Ray quality, architectural photography style"
+        else:
+            components["style"] = ""
+        
+        if include_effects:
+            components["effects"] = "realistic materials, professional lighting, real estate quality"
+        else:
+            components["effects"] = ""
+        
+        return components

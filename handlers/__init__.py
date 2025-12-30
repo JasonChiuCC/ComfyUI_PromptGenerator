@@ -255,6 +255,31 @@ from .fantasy import (
     FANTASY_HANDLERS,
 )
 
+# ============================================
+# Horror & Dark Handlers
+# ============================================
+from .horror import (
+    VampireHandler,
+    WerewolfHandler,
+    ZombieHandler,
+    WitchHandler,
+    SlasherHandler,
+    JHorrorHandler,
+    PsychologicalHandler,
+    BodyHorrorHandler,
+    FolkHorrorHandler,
+    SurvivalHorrorHandler,
+    VictorianGothicHandler,
+    SouthernGothicHandler,
+    HauntedHandler,
+    NightmareHandler,
+    LovecraftianHandler,
+    DemonicHandler,
+    OccultHandler,
+    CreepypastaHandler,
+    HORROR_HANDLERS,
+)
+
 
 # Export all handlers
 __all__ = [
@@ -449,6 +474,25 @@ __all__ = [
     'WuxiaHandler',
     'XianxiaHandler',
     'IsekaiHandler',
+    # Horror & Dark
+    'VampireHandler',
+    'WerewolfHandler',
+    'ZombieHandler',
+    'WitchHandler',
+    'SlasherHandler',
+    'JHorrorHandler',
+    'PsychologicalHandler',
+    'BodyHorrorHandler',
+    'FolkHorrorHandler',
+    'SurvivalHorrorHandler',
+    'VictorianGothicHandler',
+    'SouthernGothicHandler',
+    'HauntedHandler',
+    'NightmareHandler',
+    'LovecraftianHandler',
+    'DemonicHandler',
+    'OccultHandler',
+    'CreepypastaHandler',
 ]
 
 # Combined handler class mapping for ThemeRegistry
@@ -463,4 +507,5 @@ HANDLER_CLASSES = {
     **ANIMALS_HANDLERS,
     **SCIFI_HANDLERS,
     **FANTASY_HANDLERS,
+    **HORROR_HANDLERS,
 }

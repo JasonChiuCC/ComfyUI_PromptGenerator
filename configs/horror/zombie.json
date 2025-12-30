@@ -1,0 +1,106 @@
+{
+    "zombie": {
+        "shot_types": [
+            "horde approaching wide shot",
+            "single zombie close-up portrait",
+            "survivor's POV surrounded",
+            "zombie reaching through window",
+            "mass outbreak aerial view",
+            "feeding frenzy scene",
+            "slow shambling approach",
+            "zombie emerging from grave",
+            "running infected chase shot",
+            "bite moment dramatic shot",
+            "horde breaking through barrier",
+            "lone zombie in empty street",
+            "zombie silhouette at dawn",
+            "first reanimation close-up",
+            "last stand survivor shot"
+        ],
+        "zombie_types": [
+            "freshly turned zombie",
+            "decayed shambler",
+            "fast infected runner",
+            "bloated corpse",
+            "skeletal ancient zombie",
+            "military zombie in uniform",
+            "child zombie",
+            "crawler zombie",
+            "special infected mutant",
+            "intelligent zombie leader"
+        ],
+        "decay_levels": [
+            "fresh with pale skin",
+            "early decay with wounds",
+            "advanced rot with exposed bone",
+            "heavily decomposed",
+            "mummified ancient",
+            "bloated and discolored",
+            "partially skeletal",
+            "covered in dried blood",
+            "fungal growth infected",
+            "almost skeletal remains"
+        ],
+        "environments": [
+            "abandoned city streets",
+            "shopping mall interior",
+            "hospital corridors",
+            "suburban neighborhood",
+            "rural farmland",
+            "military base",
+            "underground bunker",
+            "cemetery at night",
+            "school hallways",
+            "office building"
+        ],
+        "lighting": [
+            "overcast apocalypse sky",
+            "emergency red lights",
+            "flickering fluorescent",
+            "burning buildings glow",
+            "flashlight beam",
+            "moonlit night",
+            "dawn of the dead golden hour",
+            "stormy dark sky",
+            "harsh daylight decay",
+            "neon signs in darkness"
+        ],
+        "elements": [
+            "rotting flesh",
+            "exposed bones and muscle",
+            "milky dead eyes",
+            "bloody wounds",
+            "missing limbs",
+            "torn clothing",
+            "bite marks",
+            "reaching hands",
+            "shambling gait",
+            "groaning expression"
+        ],
+        "effects": [
+            "blood and gore",
+            "fog and haze",
+            "fire and smoke",
+            "rain and storm",
+            "dust and debris",
+            "flies and insects",
+            "decay particles",
+            "motion blur of horde",
+            "gritty film grain",
+            "desaturated colors"
+        ],
+        "moods": [
+            "apocalyptic dread",
+            "survival horror",
+            "overwhelming numbers",
+            "societal collapse",
+            "desperate hope",
+            "relentless pursuit",
+            "human tragedy",
+            "visceral terror",
+            "isolation and fear",
+            "last days of humanity"
+        ]
+    }
+}
+

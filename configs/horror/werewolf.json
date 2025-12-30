@@ -1,0 +1,106 @@
+{
+    "werewolf": {
+        "shot_types": [
+            "full body howling at moon",
+            "mid-transformation close-up",
+            "hunting pack wide shot",
+            "stalking through forest",
+            "dramatic silhouette against full moon",
+            "attack leap action shot",
+            "human form portrait with wolf eyes",
+            "beast emerging from shadows",
+            "confrontation low angle",
+            "running through woods dynamic shot",
+            "painful transformation sequence",
+            "alpha wolf commanding pose",
+            "lurking in darkness",
+            "victim's terrified POV",
+            "werewolf vs hunter standoff"
+        ],
+        "characters": [
+            "alpha werewolf",
+            "newly cursed victim",
+            "ancient lycanthrope",
+            "werewolf pack leader",
+            "half-transformed human",
+            "feral beast",
+            "cursed nobleman",
+            "tribal werewolf shaman",
+            "lone wolf outcast",
+            "werewolf hunter who became one"
+        ],
+        "transformation_stages": [
+            "human with glowing eyes",
+            "bones cracking and shifting",
+            "fur sprouting from skin",
+            "elongating snout",
+            "full wolf-human hybrid",
+            "complete wolf form",
+            "mid-change agony",
+            "claws extending",
+            "muscles bulging",
+            "clothes tearing"
+        ],
+        "environments": [
+            "dark forest under full moon",
+            "misty moors",
+            "abandoned village",
+            "gothic manor grounds",
+            "mountain wilderness",
+            "foggy graveyard",
+            "medieval village at night",
+            "dense woodland",
+            "moonlit clearing",
+            "ruined castle courtyard"
+        ],
+        "lighting": [
+            "bright full moon",
+            "blue moonlight filtering through trees",
+            "torch and firelight",
+            "lightning storm",
+            "silver moonbeam",
+            "fog-diffused moonlight",
+            "campfire in distance",
+            "streetlamp in fog",
+            "blood moon glow",
+            "pre-dawn twilight"
+        ],
+        "elements": [
+            "massive clawed hands",
+            "glowing yellow eyes",
+            "elongated fangs",
+            "thick fur coat",
+            "muscular beast form",
+            "torn clothing remnants",
+            "bloody muzzle",
+            "pointed ears",
+            "wolf-like snout",
+            "silver burn marks"
+        ],
+        "effects": [
+            "motion blur of speed",
+            "fog and mist",
+            "breath visible in cold",
+            "blood splatter",
+            "moonlight aura",
+            "dust and debris from landing",
+            "rain and storm",
+            "falling leaves",
+            "snow in fur",
+            "primal energy wisps"
+        ],
+        "moods": [
+            "primal rage",
+            "hunting instinct",
+            "tragic curse",
+            "bestial power",
+            "pack loyalty",
+            "feral freedom",
+            "tormented soul",
+            "savage hunger",
+            "wild abandon",
+            "monstrous strength"
+        ]
+    }
+}
+

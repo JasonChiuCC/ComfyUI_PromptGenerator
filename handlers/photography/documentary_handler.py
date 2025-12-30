@@ -1,39 +1,54 @@
-import random
+"""Documentary photography theme handler."""
+
+from typing import Dict
 from ...base_handler import BaseThemeHandler
 
+
 class DocumentaryHandler(BaseThemeHandler):
-    """Handler for Documentary photography style"""
+    """Handler for documentary photography style."""
     
-    def get_theme_name(self) -> str:
-        return "documentary"
-    
-    def generate_prompt(self, config: dict, seed: int = None) -> str:
-        if seed is not None:
-            random.seed(seed)
+    def generate(
+        self,
+        custom_subject: str = "",
+        custom_location: str = "",
+        include_environment: bool = True,
+        include_style: bool = True,
+        include_effects: bool = True
+    ) -> Dict[str, str]:
+        """Generate documentary photography prompt components."""
+        components = {}
         
-        subject = random.choice(config.get("subjects", ["documentary moment"]))
-        style = random.choice(config.get("styles", ["documentary photography"]))
-        lighting = random.choice(config.get("lighting", ["natural available light"]))
-        environment = random.choice(config.get("environments", ["real world setting"]))
-        shot_type = random.choice(config.get("shot_types", ["environmental portrait"]))
+        if custom_subject:
+            subject = custom_subject
+        else:
+            subject = self._get_random_choice("documentary.subjects", "documentary moment")
         
-        prompt_parts = [
-            f"{subject}",
-            f"{style}",
-            f"{shot_type}",
-            f"{environment}",
-            f"{lighting}",
-            "documentary, photojournalism, authentic",
-            "raw emotion, storytelling, unposed"
-        ]
+        composition = self._get_random_choice("documentary.composition_types", "candid shot")
         
-        return ", ".join(prompt_parts)
-    
-    def get_negative_prompt(self) -> str:
-        return "posed, artificial, studio, glamorous, over-processed, fake"
-
-
-
-
-
-
+        components["subject"] = (
+            f"((documentary photography)) {subject}, "
+            f"{composition}, authentic unposed moment"
+        )
+        
+        if include_environment:
+            if custom_location:
+                location = custom_location
+            else:
+                location = self._get_random_choice("documentary.locations", "real world setting")
+            lighting = self._get_random_choice("documentary.lighting", "available light")
+            components["environment"] = f"in {location}, {lighting}"
+        else:
+            components["environment"] = ""
+        
+        if include_style:
+            style = self._get_random_choice("documentary.styles", "photojournalism")
+            components["style"] = f"{style}, truth in photography, raw authenticity"
+        else:
+            components["style"] = ""
+        
+        if include_effects:
+            components["effects"] = "unfiltered reality, natural moments, storytelling"
+        else:
+            components["effects"] = ""
+        
+        return components

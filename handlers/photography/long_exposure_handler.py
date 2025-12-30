@@ -1,39 +1,53 @@
-import random
+"""Long exposure photography theme handler."""
+
+from typing import Dict
 from ...base_handler import BaseThemeHandler
 
+
 class LongExposureHandler(BaseThemeHandler):
-    """Handler for Long Exposure photography style"""
+    """Handler for long exposure photography style."""
     
-    def get_theme_name(self) -> str:
-        return "long_exposure"
-    
-    def generate_prompt(self, config: dict, seed: int = None) -> str:
-        if seed is not None:
-            random.seed(seed)
+    def generate(
+        self,
+        custom_subject: str = "",
+        custom_location: str = "",
+        include_environment: bool = True,
+        include_style: bool = True,
+        include_effects: bool = True
+    ) -> Dict[str, str]:
+        """Generate long exposure photography prompt components."""
+        components = {}
         
-        subject = random.choice(config.get("subjects", ["light trails"]))
-        style = random.choice(config.get("styles", ["long exposure photography"]))
-        lighting = random.choice(config.get("lighting", ["city lights"]))
-        environment = random.choice(config.get("environments", ["night scene"]))
-        composition = random.choice(config.get("composition_types", ["leading lines"]))
+        if custom_subject:
+            subject = custom_subject
+        else:
+            subject = self._get_random_choice("long_exposure.subjects", "light trails")
         
-        prompt_parts = [
-            f"{subject}",
-            f"{style}",
-            f"{composition}",
-            f"{lighting}",
-            f"{environment}",
-            "long exposure, light trails, motion blur",
-            "tripod shot, smooth motion, night photography"
-        ]
+        composition = self._get_random_choice("long_exposure.composition_types", "flowing motion")
         
-        return ", ".join(prompt_parts)
-    
-    def get_negative_prompt(self) -> str:
-        return "frozen motion, fast shutter, handheld blur, noisy, daylight snapshot"
-
-
-
-
-
-
+        components["subject"] = (
+            f"((long exposure photography)) {subject}, "
+            f"{composition}, time-lapse effect"
+        )
+        
+        if include_environment:
+            if custom_location:
+                location = custom_location
+            else:
+                location = self._get_random_choice("long_exposure.locations", "urban night scene")
+            components["environment"] = f"in {location}, motion blur trails"
+        else:
+            components["environment"] = ""
+        
+        if include_style:
+            style = self._get_random_choice("long_exposure.styles", "artistic long exposure")
+            components["style"] = f"{style}, silky smooth water, light painting"
+        else:
+            components["style"] = ""
+        
+        if include_effects:
+            components["effects"] = "motion blur, light streaks, ethereal movement, tripod shot"
+        else:
+            components["effects"] = ""
+        
+        return components
