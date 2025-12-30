@@ -1,3 +1,5 @@
+[English](README.md) | **中文**
+
 # ComfyUI 提示詞生成器
 
 一個全面的 ComfyUI 提示詞生成器，包含 17 個大類和 297 個主題。

@@ -1,3 +1,5 @@
+**English** | [中文](README_ZH.md)
+
 # ComfyUI Prompt Generator
 
 A comprehensive prompt generator for ComfyUI with 17 categories and 297 themes.
