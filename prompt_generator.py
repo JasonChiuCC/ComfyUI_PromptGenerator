@@ -492,10 +492,11 @@ class CategoryPromptBase:
             
             # Generate multiple prompts per theme
             for j in range(batch_count):
-                # Use larger seed spacing to ensure different random sequences
-                # Different themes: prompt_index * 10000
-                # Different batches within same theme: j * 1000
-                theme_seed = (seed + prompt_index * 10000 + j * 1000) % 0xffffffffffffffff
+                # Use hash to ensure completely different random sequences for each batch
+                # This guarantees different results even for adjacent seed values
+                import hashlib
+                hash_input = f"{seed}_{internal_name}_{j}".encode()
+                theme_seed = int(hashlib.md5(hash_input).hexdigest(), 16) % 0xffffffffffffffff
                 self.config_manager.set_seed(theme_seed)
                 prompt_index += 1
                 
@@ -1979,10 +1980,10 @@ class AllCategoriesBase:
                 continue
             
             for j in range(batch_count):
-                # Use larger seed spacing to ensure different random sequences
-                # Different themes: prompt_index * 10000
-                # Different batches within same theme: j * 1000
-                unique_seed = (seed + prompt_index * 10000 + j * 1000) % 0xffffffffffffffff
+                # Use hash to ensure completely different random sequences for each batch
+                import hashlib
+                hash_input = f"{seed}_{theme_name}_{j}".encode()
+                unique_seed = int(hashlib.md5(hash_input).hexdigest(), 16) % 0xffffffffffffffff
                 self.config_manager.set_seed(unique_seed)
                 
                 try:
