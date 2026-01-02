@@ -55,8 +55,9 @@ class ConfigManager:
                     try:
                         with open(filepath, 'r', encoding='utf-8') as f:
                             config_data = json.load(f)
-                            # Merge config data directly (JSON already has theme_name as key)
-                            self.configs.update(config_data)
+                            # Use filename (without .json) as the config key
+                            # This allows get_config("classic_portrait.subjects") to work
+                            self.configs[config_name] = config_data
                     except Exception:
                         pass  # Silently skip failed configs
     
