@@ -53,3 +53,5 @@ class NightSkyHandler(BaseThemeHandler):
 
         return components
 
+
+

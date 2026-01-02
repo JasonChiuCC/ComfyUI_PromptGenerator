@@ -60,3 +60,5 @@ class VampireHandler(BaseThemeHandler):
         
         return components
 
+
+

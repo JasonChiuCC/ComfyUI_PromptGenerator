@@ -53,3 +53,5 @@ class RainbowHandler(BaseThemeHandler):
 
         return components
 
+
+

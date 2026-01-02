@@ -58,3 +58,5 @@ class VillageHandler(BaseThemeHandler):
 
         return components
 
+
+

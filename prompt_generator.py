@@ -492,7 +492,10 @@ class CategoryPromptBase:
             
             # Generate multiple prompts per theme
             for j in range(batch_count):
-                theme_seed = (seed + prompt_index) % 0xffffffffffffffff
+                # Use larger seed spacing to ensure different random sequences
+                # Different themes: prompt_index * 10000
+                # Different batches within same theme: j * 1000
+                theme_seed = (seed + prompt_index * 10000 + j * 1000) % 0xffffffffffffffff
                 self.config_manager.set_seed(theme_seed)
                 prompt_index += 1
                 
@@ -1976,7 +1979,10 @@ class AllCategoriesBase:
                 continue
             
             for j in range(batch_count):
-                unique_seed = seed + prompt_index * 1000 + j
+                # Use larger seed spacing to ensure different random sequences
+                # Different themes: prompt_index * 10000
+                # Different batches within same theme: j * 1000
+                unique_seed = (seed + prompt_index * 10000 + j * 1000) % 0xffffffffffffffff
                 self.config_manager.set_seed(unique_seed)
                 
                 try:

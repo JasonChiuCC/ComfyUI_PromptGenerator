@@ -60,3 +60,5 @@ class LovecraftianHandler(BaseThemeHandler):
         
         return components
 
+
+

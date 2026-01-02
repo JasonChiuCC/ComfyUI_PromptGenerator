@@ -58,3 +58,5 @@ class GothicCathedralHandler(BaseThemeHandler):
 
         return components
 
+
+

@@ -58,3 +58,5 @@ class MediterraneanArchHandler(BaseThemeHandler):
 
         return components
 
+
+

@@ -58,3 +58,5 @@ class JapaneseArchHandler(BaseThemeHandler):
 
         return components
 
+
+

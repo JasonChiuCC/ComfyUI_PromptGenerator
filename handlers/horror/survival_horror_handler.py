@@ -60,3 +60,5 @@ class SurvivalHorrorHandler(BaseThemeHandler):
         
         return components
 
+
+

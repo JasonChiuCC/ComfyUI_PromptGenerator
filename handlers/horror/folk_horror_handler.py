@@ -60,3 +60,5 @@ class FolkHorrorHandler(BaseThemeHandler):
         
         return components
 
+
+

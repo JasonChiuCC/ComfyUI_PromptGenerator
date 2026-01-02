@@ -60,3 +60,5 @@ class PsychologicalHandler(BaseThemeHandler):
         
         return components
 
+
+

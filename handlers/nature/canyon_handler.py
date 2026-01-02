@@ -53,3 +53,5 @@ class CanyonHandler(BaseThemeHandler):
 
         return components
 
+
+

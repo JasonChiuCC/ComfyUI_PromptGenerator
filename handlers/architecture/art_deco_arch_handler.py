@@ -59,3 +59,5 @@ class ArtDecoArchHandler(BaseThemeHandler):
 
         return components
 
+
+

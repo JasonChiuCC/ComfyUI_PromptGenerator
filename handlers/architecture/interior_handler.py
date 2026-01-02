@@ -59,3 +59,5 @@ class InteriorHandler(BaseThemeHandler):
 
         return components
 
+
+

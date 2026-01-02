@@ -58,3 +58,5 @@ class TempleHandler(BaseThemeHandler):
 
         return components
 
+
+

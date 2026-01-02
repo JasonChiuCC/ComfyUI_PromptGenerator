@@ -58,3 +58,5 @@ class IndustrialArchHandler(BaseThemeHandler):
 
         return components
 
+
+

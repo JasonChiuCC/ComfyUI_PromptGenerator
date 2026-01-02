@@ -60,3 +60,5 @@ class JHorrorHandler(BaseThemeHandler):
         
         return components
 
+
+

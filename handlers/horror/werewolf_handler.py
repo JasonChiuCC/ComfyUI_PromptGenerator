@@ -60,3 +60,5 @@ class WerewolfHandler(BaseThemeHandler):
         
         return components
 
+
+

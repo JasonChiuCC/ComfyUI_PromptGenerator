@@ -53,3 +53,5 @@ class AutumnFoliageHandler(BaseThemeHandler):
 
         return components
 
+
+

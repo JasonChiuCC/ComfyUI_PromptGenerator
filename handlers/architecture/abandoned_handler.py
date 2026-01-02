@@ -58,3 +58,5 @@ class AbandonedHandler(BaseThemeHandler):
 
         return components
 
+
+

@@ -60,3 +60,5 @@ class WitchHandler(BaseThemeHandler):
         
         return components
 
+
+

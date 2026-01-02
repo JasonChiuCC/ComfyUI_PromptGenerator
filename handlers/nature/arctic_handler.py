@@ -53,3 +53,5 @@ class ArcticHandler(BaseThemeHandler):
 
         return components
 
+
+

@@ -53,3 +53,5 @@ class FogHandler(BaseThemeHandler):
 
         return components
 
+
+

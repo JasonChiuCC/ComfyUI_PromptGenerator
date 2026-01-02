@@ -60,3 +60,5 @@ class HauntedHandler(BaseThemeHandler):
         
         return components
 
+
+
